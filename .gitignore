@@ -1,0 +1,23 @@
+# Downloaded asset bytes — large, regenerable from manifest.
+files/pdfs/*
+files/videos/*
+files/images/*
+!files/pdfs/.gitkeep
+!files/videos/.gitkeep
+!files/images/.gitkeep
+
+# Extracted text — regenerable from PDFs.
+extracted/*
+!extracted/.gitkeep
+
+# Logs — local-only.
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Vercel deployment credentials
+.vercel/

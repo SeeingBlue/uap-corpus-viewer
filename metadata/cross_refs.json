@@ -1,0 +1,372 @@
+{
+  "pair_codes": {
+    "DOW-UAP-D10": [
+      "dow-010-dow-uap-d10-mission-report-middle-east-may-2022"
+    ],
+    "DOW-UAP-D12": [
+      "dow-011-dow-uap-d12-mission-report-iraq-may-2022"
+    ],
+    "DOW-UAP-D14": [
+      "dow-012-dow-uap-d14-mission-report-iraq-may-2022"
+    ],
+    "DOW-UAP-D16": [
+      "dow-013-dow-uap-d16-mission-report-syria-july-2022"
+    ],
+    "DOW-UAP-D18": [
+      "dow-014-dow-uap-d18-mission-report-iraq-december-2022"
+    ],
+    "DOW-UAP-D19": [
+      "dow-015-dow-uap-d19-mission-report-syria-february-21-2023"
+    ],
+    "DOW-UAP-D20": [
+      "dow-016-dow-uap-d20-mission-report-iraq-2023"
+    ],
+    "DOW-UAP-D23": [
+      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
+      "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
+    ],
+    "DOW-UAP-D25": [
+      "dow-019-dow-uap-d25-mission-report-greece-january-2024"
+    ],
+    "DOW-UAP-D27": [
+      "dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023"
+    ],
+    "DOW-UAP-D28": [
+      "dow-021-dow-uap-d28-mission-report-iraq-september-2024"
+    ],
+    "DOW-UAP-D3": [
+      "dow-022-dow-uap-d3-mission-report-arabian-gulf-2020"
+    ],
+    "DOW-UAP-D32": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024"
+    ],
+    "DOW-UAP-D33": [
+      "dow-026-dow-uap-d33-mission-report-greece-october-2023"
+    ],
+    "DOW-UAP-D35": [
+      "dow-027-dow-uap-d35-mission-report-greece-october-2023"
+    ],
+    "DOW-UAP-D38": [
+      "dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020"
+    ],
+    "DOW-UAP-D4": [
+      "dow-029-dow-uap-d4-mission-report-arabian-gulf-2020"
+    ],
+    "DOW-UAP-D42": [
+      "dow-030-dow-uap-d42-range-fouler-debrief-japan-2023"
+    ],
+    "DOW-UAP-D44": [
+      "dow-031-dow-uap-d44-range-fouler-reporting-form-gulf-of-aden-october"
+    ],
+    "DOW-UAP-D48": [
+      "dow-032-dow-uap-d48-department-of-the-air-force-report-1996"
+    ],
+    "DOW-UAP-D49": [
+      "dow-033-dow-uap-d49-launch-summary-vandenberg-afb-2000"
+    ],
+    "DOW-UAP-D5": [
+      "dow-034-dow-uap-d5-mission-report-arabian-gulf-2020"
+    ],
+    "DOW-UAP-D50": [
+      "dow-035-dow-uap-d50-email-correspondence-indopacom-april-2025"
+    ],
+    "DOW-UAP-D51": [
+      "dow-036-dow-uap-d51-email-correspondence-pacific-time-zone-march-202"
+    ],
+    "DOW-UAP-D52": [
+      "dow-037-dow-uap-d52-email-correspondance-na-august-2024"
+    ],
+    "DOW-UAP-D54": [
+      "dow-038-dow-uap-d54-mission-report-mediterranean-sea-na"
+    ],
+    "DOW-UAP-D55": [
+      "dow-039-dow-uap-d55-mission-report-syria-november-2016"
+    ],
+    "DOW-UAP-D56": [
+      "dow-040-dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020"
+    ],
+    "DOW-UAP-D57": [
+      "dow-041-dow-uap-d57-range-fouler-reporting-form-gulf-of-aden-septemb"
+    ],
+    "DOW-UAP-D58": [
+      "dow-042-dow-uap-d58-range-fouler-debrief-na-october-2020"
+    ],
+    "DOW-UAP-D6": [
+      "dow-043-dow-uap-d6-mission-report-arabian-gulf-2020"
+    ],
+    "DOW-UAP-D60": [
+      "dow-044-dow-uap-d60-mission-report-persian-gulf-august-2020"
+    ],
+    "DOW-UAP-D61": [
+      "dow-045-dow-uap-d61-mission-report-persian-gulf-august-2020"
+    ],
+    "DOW-UAP-D62": [
+      "dow-046-dow-uap-d62-mission-report-strait-of-hormuz-september-2020"
+    ],
+    "DOW-UAP-D63": [
+      "dow-047-dow-uap-d63-mission-report-strait-of-hormuz-october-2020"
+    ],
+    "DOW-UAP-D64": [
+      "dow-048-dow-uap-d64-mission-report-iran-november-2020"
+    ],
+    "DOW-UAP-D65": [
+      "dow-049-dow-uap-d65-mission-report-persian-gulf-july-2020"
+    ],
+    "DOW-UAP-D7": [
+      "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020"
+    ],
+    "DOW-UAP-D74": [
+      "dow-051-dow-uap-d74-mission-report-syria-november-2023"
+    ],
+    "DOW-UAP-D75": [
+      "dow-052-dow-uap-d75-mission-report-gulf-of-aden-july-2024"
+    ],
+    "DOW-UAP-D8": [
+      "dow-053-dow-uap-d8-mission-report-djibouti-2025"
+    ],
+    "DOW-UAP-PR19": [
+      "dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022"
+    ],
+    "DOW-UAP-PR20": [
+      "dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022"
+    ],
+    "DOW-UAP-PR21": [
+      "dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022"
+    ],
+    "DOW-UAP-PR22": [
+      "dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022"
+    ],
+    "DOW-UAP-PR23": [
+      "dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022"
+    ],
+    "DOW-UAP-PR26": [
+      "dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo"
+    ],
+    "DOW-UAP-PR27": [
+      "dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo"
+    ],
+    "DOW-UAP-PR28": [
+      "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024"
+    ],
+    "DOW-UAP-PR29": [
+      "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june"
+    ],
+    "DOW-UAP-PR31": [
+      "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024"
+    ],
+    "DOW-UAP-PR32": [
+      "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024"
+    ],
+    "DOW-UAP-PR33": [
+      "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024"
+    ],
+    "DOW-UAP-PR34": [
+      "dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023"
+    ],
+    "DOW-UAP-PR35": [
+      "dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023"
+    ],
+    "DOW-UAP-PR36": [
+      "dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020"
+    ],
+    "DOW-UAP-PR37": [
+      "dow-069-dow-uap-pr37-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR38": [
+      "dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013"
+    ],
+    "DOW-UAP-PR39": [
+      "dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR40": [
+      "dow-072-dow-uap-pr40-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR41": [
+      "dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR42": [
+      "dow-074-dow-uap-pr42-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR43": [
+      "dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025"
+    ],
+    "DOW-UAP-PR44": [
+      "dow-076-dow-uap-pr44-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR45": [
+      "dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020"
+    ],
+    "DOW-UAP-PR46": [
+      "dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024"
+    ],
+    "DOW-UAP-PR47": [
+      "dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023"
+    ],
+    "DOW-UAP-PR48": [
+      "dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024"
+    ],
+    "DOW-UAP-PR49": [
+      "dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20"
+    ],
+    "NASA-UAP-D3": [
+      "nasa-002-nasa-uap-d3-gemini-7-transcript-1965"
+    ],
+    "NASA-UAP-D3A": [
+      "nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965"
+    ],
+    "NASA-UAP-D1": [
+      "nasa-004-nasa-uap-d1-apollo-12-transcript-1969"
+    ],
+    "NASA-UAP-D2": [
+      "nasa-005-nasa-uap-d2-apollo-17-transcript-1972"
+    ],
+    "NASA-UAP-D4": [
+      "nasa-006-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969"
+    ],
+    "NASA-UAP-D5": [
+      "nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973"
+    ],
+    "NASA-UAP-D6": [
+      "nasa-008-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973"
+    ],
+    "NASA-UAP-D7": [
+      "nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973"
+    ],
+    "NASA-UAP-VM1": [
+      "nasa-010-nasa-uap-vm1-apollo-12-1969"
+    ],
+    "NASA-UAP-VM2": [
+      "nasa-011-nasa-uap-vm2-apollo-12-1969"
+    ],
+    "NASA-UAP-VM3": [
+      "nasa-012-nasa-uap-vm3-apollo-12-1969"
+    ],
+    "NASA-UAP-VM4": [
+      "nasa-013-nasa-uap-vm4-apollo-12-1969"
+    ],
+    "NASA-UAP-VM5": [
+      "nasa-014-nasa-uap-vm5-apollo-12-1969"
+    ],
+    "NASA-UAP-VM6": [
+      "nasa-015-nasa-uap-vm6-apollo-17-1972"
+    ]
+  },
+  "cross_refs": {
+    "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023": [
+      "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
+      "dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo",
+      "dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo"
+    ],
+    "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023": [
+      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
+      "dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo",
+      "dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo"
+    ],
+    "dow-023-dow-uap-d32-mission-report-syria-october-2024": [
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024",
+      "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024",
+      "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024"
+    ],
+    "dow-024-dow-uap-d32-mission-report-syria-october-2024": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024",
+      "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024",
+      "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024"
+    ],
+    "dow-025-dow-uap-d32-mission-report-syria-october-2024": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024",
+      "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024",
+      "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024"
+    ],
+    "dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022": [
+      "dow-010-dow-uap-d10-mission-report-middle-east-may-2022"
+    ],
+    "dow-010-dow-uap-d10-mission-report-middle-east-may-2022": [
+      "dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022"
+    ],
+    "dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022": [
+      "dow-011-dow-uap-d12-mission-report-iraq-may-2022"
+    ],
+    "dow-011-dow-uap-d12-mission-report-iraq-may-2022": [
+      "dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022"
+    ],
+    "dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022": [
+      "dow-012-dow-uap-d14-mission-report-iraq-may-2022"
+    ],
+    "dow-012-dow-uap-d14-mission-report-iraq-may-2022": [
+      "dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022"
+    ],
+    "dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022": [
+      "dow-013-dow-uap-d16-mission-report-syria-july-2022"
+    ],
+    "dow-013-dow-uap-d16-mission-report-syria-july-2022": [
+      "dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022"
+    ],
+    "dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022": [
+      "dow-014-dow-uap-d18-mission-report-iraq-december-2022"
+    ],
+    "dow-014-dow-uap-d18-mission-report-iraq-december-2022": [
+      "dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022"
+    ],
+    "dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo": [
+      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
+      "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
+    ],
+    "dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo": [
+      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
+      "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
+    ],
+    "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024": [
+      "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020"
+    ],
+    "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020": [
+      "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024"
+    ],
+    "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june": [
+      "dow-053-dow-uap-d8-mission-report-djibouti-2025"
+    ],
+    "dow-053-dow-uap-d8-mission-report-djibouti-2025": [
+      "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june"
+    ],
+    "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024"
+    ],
+    "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024"
+    ],
+    "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-024-dow-uap-d32-mission-report-syria-october-2024",
+      "dow-025-dow-uap-d32-mission-report-syria-october-2024"
+    ],
+    "dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023": [
+      "dow-026-dow-uap-d33-mission-report-greece-october-2023"
+    ],
+    "dow-026-dow-uap-d33-mission-report-greece-october-2023": [
+      "dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023"
+    ],
+    "dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023": [
+      "dow-027-dow-uap-d35-mission-report-greece-october-2023"
+    ],
+    "dow-027-dow-uap-d35-mission-report-greece-october-2023": [
+      "dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023"
+    ],
+    "dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020": [
+      "dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020"
+    ],
+    "dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020": [
+      "dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020"
+    ]
+  }
+}

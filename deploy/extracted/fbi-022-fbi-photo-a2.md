@@ -1,0 +1,46 @@
+---
+id: "fbi-022-fbi-photo-a2"
+title: "FBI Photo A2"
+agency: "FBI"
+agency_raw: "FBI"
+type: "image"
+type_code: "IMG"
+page_section: "Release 01"
+release_date: "5/8/26"
+incident_date: "Late 2025"
+incident_location: "N/A"
+source_url: "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a2.png"
+modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/fbi-photo-a2.jpg"
+sha256: "7f7133940153eee809eb6389316bbd1b17bcb29059685c3f2d0e2ef67c4e33b8"
+bytes: 98192
+image_size: "538x321"
+image_mode: "RGBA"
+extraction_method: "tesseract-ocr"
+redaction: "TRUE"
+description: >
+  The Federal Bureau of Investigation (FBI) submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from a U.S. government system. The date and location of the event have not been provided.  The original imagery was altered with redactions before being submitted to AARO. An accompanying mission report was not provided. The operator reported that they were unable to positively identify the UAP.
+  
+  Narrative Description: The monochrome image displays a mottled background with a central crosshair reticle. A dark, circular object is located at the center of the reticle. The background has a textured, uneven appearance suggesting a varied landscape or surface. This narrative description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+---
+
+# FBI Photo A2
+
+> The Federal Bureau of Investigation (FBI) submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from a U.S. government system. The date and location of the event have not been provided.  The original imagery was altered with redactions before being submitted to AARO. An accompanying mission report was not provided. The operator reported that they were unable to positively identify the UAP.
+> 
+> Narrative Description: The monochrome image displays a mottled background with a central crosshair reticle. A dark, circular object is located at the center of the reticle. The background has a textured, uneven appearance suggesting a varied landscape or surface. This narrative description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+**Agency:** FBI  
+**Release date:** 5/8/26  
+**Incident date:** Late 2025  
+**Incident location:** N/A  
+**Source:** [fbi-photo-a2.png](https://www.war.gov/medialink/ufo/release_1/fbi-photo-a2.png)  
+**Image size:** 538x321 (RGBA)  
+**SHA-256:** `7f7133940153eee809eb6389316bbd1b17bcb29059685c3f2d0e2ef67c4e33b8`
+
+> **Redaction notice:** Per the war.gov release page, redactions in this file protect eyewitness identities, government facility locations, or sensitive information about military sites unrelated to UAP. No redactions were applied to material released under President Trump's directive concerning the nature or existence of UAP encounters.
+
+---
+
+## OCR text
+
+_(no text extracted by OCR — image is likely diagrammatic / no readable text)_
