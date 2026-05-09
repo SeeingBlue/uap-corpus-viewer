@@ -206,6 +206,47 @@
   .globe-status { position: absolute; top: 12px; left: 12px; z-index: 5;
     background: var(--bg2); border: 1px solid var(--border); border-radius: 4px;
     padding: 6px 10px; font-size: 11px; color: var(--muted); }
+  /* Year-range slider at bottom of globe */
+  .globe-time { position: absolute; left: 12px; right: 12px; bottom: 38px; z-index: 5;
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 4px;
+    padding: 8px 12px; display: flex; gap: 12px; align-items: center; font-size: 11px; color: var(--muted); }
+  .globe-time .gt-row { display: flex; align-items: center; gap: 6px; flex: 1; min-width: 0; }
+  .globe-time .gt-row label { white-space: nowrap; }
+  .globe-time .gt-track { position: relative; flex: 1; height: 22px; }
+  .globe-time .gt-track input[type=range] {
+    -webkit-appearance: none; appearance: none;
+    position: absolute; top: 8px; left: 0; right: 0; width: 100%; height: 6px;
+    background: transparent; pointer-events: none; margin: 0; padding: 0;
+  }
+  .globe-time .gt-track::before {
+    content: ""; position: absolute; top: 8px; left: 0; right: 0; height: 6px;
+    background: var(--bg3); border-radius: 3px; border: 1px solid var(--border);
+  }
+  .globe-time .gt-track .gt-fill {
+    position: absolute; top: 8px; height: 6px; background: var(--accent);
+    border-radius: 3px; pointer-events: none; opacity: 0.55;
+  }
+  .globe-time .gt-track input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 14px; height: 14px; border-radius: 50%;
+    background: var(--fg); border: 2px solid var(--accent); cursor: grab;
+    pointer-events: auto; margin-top: -4px;
+  }
+  .globe-time .gt-track input[type=range]::-moz-range-thumb {
+    width: 14px; height: 14px; border-radius: 50%;
+    background: var(--fg); border: 2px solid var(--accent); cursor: grab;
+    pointer-events: auto;
+  }
+  .globe-time .gt-num { color: var(--fg); font-variant-numeric: tabular-nums; min-width: 40px; text-align: center; }
+  .globe-time .gt-controls { display: flex; gap: 6px; align-items: center; }
+  .globe-time .gt-controls button { background: var(--bg3); border: 1px solid var(--border);
+    color: var(--fg); border-radius: 3px; padding: 3px 8px; font: inherit; cursor: pointer; font-size: 11px; }
+  .globe-time .gt-controls button:hover { border-color: var(--accent); color: var(--accent); }
+  .globe-time .gt-controls button.gt-playing { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .globe-time .gt-unknown { display: flex; gap: 4px; align-items: center; cursor: pointer; user-select: none; }
+  .globe-time .gt-unknown input { margin: 0; }
+  /* When the slider exists, scoot the legend up so they don't overlap */
+  #view.globe .globe-legend { bottom: 92px; }
 
 </style>
 </head>
@@ -615,6 +656,25 @@
           <button id="globe-spin">Auto-spin</button>
           <button id="globe-reset">Reset view</button>
         </div>
+        <div class="globe-time" id="globe-time">
+          <span class="gt-row">
+            <label>Years:</label>
+            <span class="gt-num" id="gt-min-label">—</span>
+            <span class="gt-track">
+              <span class="gt-fill" id="gt-fill"></span>
+              <input type="range" id="gt-min" />
+              <input type="range" id="gt-max" />
+            </span>
+            <span class="gt-num" id="gt-max-label">—</span>
+          </span>
+          <span class="gt-controls">
+            <button id="gt-play" title="Sweep upper thumb across the timeline">▶</button>
+            <button id="gt-reset" title="Reset to full range">↺</button>
+            <label class="gt-unknown" title="Records with no inferable date">
+              <input type="checkbox" id="gt-include-unknown" checked /> include undated
+            </label>
+          </span>
+        </div>
         <div class="globe-legend" id="globe-legend">
           <b>0</b> sightings plotted · <b>0</b> hidden (no location data)
         </div>
@@ -638,40 +698,148 @@
     const landGroup = svg.append("g").attr("class", "globe-land-g");
     const pointsGroup = svg.append("g").attr("class", "globe-points");
 
+    // Year extraction. Prefer the audited inferred date, else fall back to
+    // the raw csv field. Returns an integer year or null if none can be parsed.
+    function recYear(r) {
+      const candidates = [r.incident_date_inferred, r.incident_date, r.year];
+      for (const c of candidates) {
+        if (!c) continue;
+        const s = String(c);
+        const isoY = s.match(/^(\d{4})/);
+        if (isoY) return parseInt(isoY[1]);
+        const slashY = s.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+        if (slashY) {
+          let yy = parseInt(slashY[3]);
+          if (yy < 100) yy = (yy >= 27) ? 1900 + yy : 2000 + yy;
+          return yy;
+        }
+        const anyY = s.match(/(19|20)\d{2}/);
+        if (anyY) return parseInt(anyY[0]);
+      }
+      return null;
+    }
+
     // Plot data: only rows with coords
     const plotted = rows.filter(r => RECORD_COORDS[r.id]);
     const hidden = rows.length - plotted.length;
-    document.getElementById("globe-legend").innerHTML =
-      `<b>${plotted.length}</b> sightings plotted · <b>${hidden}</b> hidden (no location data)`;
 
-    const pts = pointsGroup.selectAll("circle")
-      .data(plotted, d => d.id)
-      .join("circle")
-      .attr("class", d => "globe-pt" + (d.id === selectedId ? " selected" : ""))
-      .attr("r", 4)
-      .style("cursor", "pointer");
+    // Year range for slider
+    const years = plotted.map(recYear).filter(y => y != null);
+    const yearMin = years.length ? Math.min(...years) : 1940;
+    const yearMax = years.length ? Math.max(...years) : 2026;
+    const undatedCount = plotted.length - years.length;
 
-    pts.on("click", (ev, d) => {
-      selectRecord(d.id);
-      // re-style without rerender
-      pointsGroup.selectAll("circle").attr("class", x => "globe-pt" + (x.id === selectedId ? " selected" : ""));
-    });
+    // Wire up the slider once we have bounds
+    const $min = document.getElementById("gt-min");
+    const $max = document.getElementById("gt-max");
+    const $minLbl = document.getElementById("gt-min-label");
+    const $maxLbl = document.getElementById("gt-max-label");
+    const $fill = document.getElementById("gt-fill");
+    const $unk = document.getElementById("gt-include-unknown");
+    $min.min = $max.min = String(yearMin);
+    $min.max = $max.max = String(yearMax);
+    $min.value = String(yearMin);
+    $max.value = String(yearMax);
 
-    // Tooltip
+    function syncSlider() {
+      let lo = parseInt($min.value), hi = parseInt($max.value);
+      if (lo > hi) { if (this === $min) hi = lo, $max.value = hi; else lo = hi, $min.value = lo; }
+      $minLbl.textContent = lo;
+      $maxLbl.textContent = hi;
+      const span = yearMax - yearMin || 1;
+      const lpct = ((lo - yearMin) / span) * 100;
+      const rpct = ((hi - yearMin) / span) * 100;
+      $fill.style.left = lpct + "%";
+      $fill.style.width = (rpct - lpct) + "%";
+    }
+
+    function applyTimeFilter() {
+      const lo = parseInt($min.value), hi = parseInt($max.value);
+      const includeUnk = $unk.checked;
+      const filtered = plotted.filter(r => {
+        const y = recYear(r);
+        if (y == null) return includeUnk;
+        return y >= lo && y <= hi;
+      });
+      const undatedShown = includeUnk ? undatedCount : 0;
+      const datedShown = filtered.length - undatedShown;
+      document.getElementById("globe-legend").innerHTML =
+        `<b>${filtered.length}</b> on globe · <b>${datedShown}</b> in range (${lo}–${hi})` +
+        (undatedCount ? ` · <b>${undatedShown}/${undatedCount}</b> undated` : "") +
+        ` · <b>${hidden}</b> off-globe`;
+
+      pointsGroup.selectAll("circle")
+        .data(filtered, d => d.id)
+        .join(
+          enter => enter.append("circle")
+            .attr("class", d => "globe-pt" + (d.id === selectedId ? " selected" : ""))
+            .attr("r", 4)
+            .style("cursor", "pointer")
+            .on("click", (ev, d) => {
+              selectRecord(d.id);
+              pointsGroup.selectAll("circle").attr("class", x => "globe-pt" + (x.id === selectedId ? " selected" : ""));
+            })
+            .on("mousemove", (ev, d) => {
+              if (!tip) {
+                tip = document.createElement("div");
+                tip.className = "globe-tooltip";
+                wrap.appendChild(tip);
+              }
+              const r = wrap.getBoundingClientRect();
+              tip.innerHTML = `<div class="tt-title">${escapeHtml(d.title)}</div>
+                               <div class="tt-meta">${escapeHtml(d.agency||'')} · ${escapeHtml(d.incident_date_inferred || d.incident_date || 'N/A')} · ${escapeHtml(d.incident_location_inferred || d.incident_location || 'N/A')}</div>`;
+              tip.style.left = (ev.clientX - r.left + 14) + "px";
+              tip.style.top = (ev.clientY - r.top + 14) + "px";
+            })
+            .on("mouseleave", () => { if (tip) { tip.remove(); tip = null; } }),
+          upd => upd,
+          ex => ex.remove()
+        );
+      // Position the (possibly new) circles
+      update();
+    }
+
     let tip = null;
-    pts.on("mousemove", (ev, d) => {
-      if (!tip) {
-        tip = document.createElement("div");
-        tip.className = "globe-tooltip";
-        wrap.appendChild(tip);
+
+    $min.addEventListener("input", function() { syncSlider.call(this); applyTimeFilter(); });
+    $max.addEventListener("input", function() { syncSlider.call(this); applyTimeFilter(); });
+    $unk.addEventListener("change", applyTimeFilter);
+
+    document.getElementById("gt-reset").onclick = () => {
+      $min.value = String(yearMin); $max.value = String(yearMax); $unk.checked = true;
+      syncSlider(); applyTimeFilter();
+    };
+
+    let timePlaying = false, timeTimer = null;
+    document.getElementById("gt-play").onclick = function() {
+      timePlaying = !timePlaying;
+      this.textContent = timePlaying ? "■" : "▶";
+      this.classList.toggle("gt-playing", timePlaying);
+      if (timePlaying) {
+        // Animate the upper thumb from current value back to yearMax, sliding
+        // through history. If it's already at max, reset to min first.
+        if (parseInt($max.value) >= yearMax) $max.value = String(yearMin);
+        const tickMs = 250;
+        const tick = () => {
+          if (!timePlaying) return;
+          let v = parseInt($max.value);
+          if (v >= yearMax) {
+            timePlaying = false;
+            this.textContent = "▶"; this.classList.remove("gt-playing");
+            return;
+          }
+          $max.value = String(v + 1);
+          syncSlider(); applyTimeFilter();
+          timeTimer = setTimeout(tick, tickMs);
+        };
+        tick();
+      } else if (timeTimer) {
+        clearTimeout(timeTimer);
       }
-      const r = wrap.getBoundingClientRect();
-      tip.innerHTML = `<div class="tt-title">${escapeHtml(d.title)}</div>
-                       <div class="tt-meta">${escapeHtml(d.agency||'')} · ${escapeHtml(d.incident_date||'N/A')} · ${escapeHtml(d.incident_location||'N/A')}</div>`;
-      tip.style.left = (ev.clientX - r.left + 14) + "px";
-      tip.style.top = (ev.clientY - r.top + 14) + "px";
-    });
-    pts.on("mouseleave", () => { if (tip) { tip.remove(); tip = null; } });
+    };
+
+    syncSlider();
+    applyTimeFilter();
 
     function update() {
       const w = W(), h = H();
