@@ -29,8 +29,10 @@ from _common import (  # noqa: E402
     SNAPSHOTS_DIR,
     USER_AGENT,
     dest_dir_for_type,
+    http_get,
     load_json,
     log_line,
+    needs_tls_impersonation,
     now_iso,
     save_json,
 )
@@ -41,7 +43,8 @@ CSV_FIELDS = [
     "id", "type", "title", "agency", "agency_raw", "type_code", "page_section",
     "release_date", "incident_date", "incident_location", "summary", "redaction",
     "video_pairing", "pdf_pairing", "video_title", "dvids_video_id",
-    "modal_image_url", "source_url", "discovered_on", "fetched_on", "local_path",
+    "modal_image_url", "image_alt_text", "image_virin",
+    "source_url", "discovered_on", "fetched_on", "local_path",
     "bytes", "sha256", "http_status", "content_type", "etag", "last_modified",
     "extracted_text_path", "status", "notes",
 ]
@@ -52,25 +55,62 @@ DVIDS_API = "https://api.dvidshub.net/asset"
 DVIDS_API_KEY = "key-68bb60d16b35e"
 
 
+def _dvids_request(asset_kind: str, asset_id: str):
+    """Hit the DVIDS asset endpoint. asset_kind is 'video' or 'audio'.
+
+    DVIDS validates the Origin/Referer against the api key now; without a
+    war.gov referer the public read key returns 403.
+    """
+    r = requests.get(
+        DVIDS_API,
+        params={"api_key": DVIDS_API_KEY, "id": f"{asset_kind}:{asset_id}"},
+        headers={"User-Agent": USER_AGENT,
+                 "Referer": "https://www.war.gov/UFO/",
+                 "Origin": "https://www.war.gov"},
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    r.raise_for_status()
+    data = r.json()
+    return data.get("results") or data.get("data") or data
+
+
 def resolve_dvids_video(video_id: str) -> tuple[str, str] | None:
     """Return (best_mp4_url, video_title) for a DVIDS video id, or None."""
     if not video_id:
         return None
     try:
-        r = requests.get(
-            DVIDS_API,
-            params={"api_key": DVIDS_API_KEY, "id": f"video:{video_id}"},
-            headers={"User-Agent": USER_AGENT},
-            timeout=REQUEST_TIMEOUT_SECONDS,
-        )
-        r.raise_for_status()
-        data = r.json()
-        d = data.get("results") or data.get("data") or data
+        d = _dvids_request("video", video_id)
         files = d.get("files") or []
         mp4s = [f for f in files if f.get("type") == "video/mp4"]
         if not mp4s:
             return None
         best = max(mp4s, key=lambda f: f.get("height", 0) or 0)
+        return best.get("src", ""), d.get("title", "") or ""
+    except (requests.RequestException, ValueError, KeyError):
+        return None
+
+
+def resolve_dvids_audio(audio_id: str) -> tuple[str, str] | None:
+    """Return (best_audio_url, title) for a DVIDS audio asset, or None.
+
+    Quirk: the war.gov CSV marks NASA Apollo/Mercury debriefing recordings
+    as Type=AUD, but DVIDS hosts them under the `video:` type (an mp4
+    container that's just audio + a still image). The DVIDS public read
+    key on the page is not authorized for `audio:` queries (returns 403),
+    so we always query as `video:` and prefer the smallest mp4 (those
+    files have no real video to scale up).
+    """
+    if not audio_id:
+        return None
+    try:
+        d = _dvids_request("video", audio_id)
+        files = d.get("files") or []
+        mp4s = [f for f in files if f.get("type") == "video/mp4"]
+        if not mp4s:
+            return None
+        # Audio-only mp4s tend to be the smallest variant - any quality
+        # works since there's no real video content.
+        best = min(mp4s, key=lambda f: f.get("size", 0) or f.get("height", 1) or 1)
         return best.get("src", ""), d.get("title", "") or ""
     except (requests.RequestException, ValueError, KeyError):
         return None
@@ -125,16 +165,19 @@ def write_per_file(record: dict) -> None:
 
 # ---- Fetch with backoff -------------------------------------------------
 
-def fetch_with_backoff(url: str, dest: Path) -> tuple[requests.Response, int]:
-    """Return (response, bytes_written). Streams to disk to avoid RAM blowup."""
-    headers = {"User-Agent": USER_AGENT}
+def fetch_with_backoff(url: str, dest: Path):
+    """Return (response, bytes_written). Streams to disk to avoid RAM blowup.
+
+    Routes war.gov through curl_cffi via `http_get` (Akamai blocks plain
+    `requests` based on the TLS handshake fingerprint); everything else
+    goes through plain `requests`.
+    """
     backoff = [4, 8, 16, 32, 60]
     attempt = 0
     while True:
         try:
-            with requests.get(
-                url, headers=headers, timeout=REQUEST_TIMEOUT_SECONDS, stream=True
-            ) as r:
+            r = http_get(url, stream=True, timeout=REQUEST_TIMEOUT_SECONDS)
+            try:
                 if r.status_code in (429, 503) and attempt < len(backoff):
                     wait = backoff[attempt]
                     log_line(FETCH_LOG, f"02_fetch\tBACKOFF\t{url}\t{r.status_code}\t{wait}s")
@@ -158,7 +201,19 @@ def fetch_with_backoff(url: str, dest: Path) -> tuple[requests.Response, int]:
                     )
                 tmp.replace(dest)
                 return r, bytes_written
-        except requests.RequestException as e:
+            finally:
+                # Both clients support context-style use; we used a raw get,
+                # so close explicitly.
+                try:
+                    r.close()
+                except Exception:  # noqa: BLE001
+                    pass
+        except Exception as e:  # noqa: BLE001 — includes requests + curl_cffi errors
+            # HTTPError carries the response; re-raise immediately on 4xx (except 429).
+            resp = getattr(e, "response", None)
+            code = getattr(resp, "status_code", 0)
+            if code and 400 <= code < 500 and code != 429:
+                raise
             if attempt < len(backoff):
                 wait = backoff[attempt]
                 log_line(FETCH_LOG, f"02_fetch\tRETRY\t{url}\t{e}\t{wait}s")
@@ -190,6 +245,8 @@ def merge_record(existing: dict | None, asset: dict) -> dict:
         "video_title": asset.get("video_title", ""),
         "dvids_video_id": asset.get("dvids_video_id", ""),
         "modal_image_url": asset.get("modal_image_url", ""),
+        "image_alt_text": asset.get("image_alt_text", ""),
+        "image_virin": asset.get("image_virin", ""),
         "source_url": asset["source_url"],
         "discovered_on": asset["discovered_on"],
         "fetched_on": "",
@@ -243,16 +300,18 @@ def main() -> int:
             skipped += 1
             continue
 
-        # Videos are referenced by DVIDS asset id rather than direct URL.
-        # Resolve the highest-resolution mp4 URL via the DVIDS API on demand.
-        if rec["type"] == "video" and not rec["source_url"]:
-            resolved = resolve_dvids_video(rec["dvids_video_id"])
+        # Videos and audio are referenced by DVIDS asset id rather than a
+        # direct URL. Resolve via the DVIDS API on demand.
+        if rec["type"] in ("video", "audio") and not rec["source_url"]:
+            resolver = resolve_dvids_video if rec["type"] == "video" else resolve_dvids_audio
+            resolved = resolver(rec["dvids_video_id"])
             if resolved is None:
                 rec["status"] = "fetch_error"
-                rec["notes"] = f"DVIDS resolve failed for id={rec['dvids_video_id']}"
+                rec["notes"] = (f"DVIDS {rec['type']} resolve failed for "
+                                f"id={rec['dvids_video_id']}")
                 failed += 1
                 log_line(ERROR_LOG,
-                         f"02_fetch\tDVIDS_RESOLVE_FAIL\t{rec['dvids_video_id']}")
+                         f"02_fetch\tDVIDS_RESOLVE_FAIL\t{rec['type']}:{rec['dvids_video_id']}")
                 write_per_file(rec)
                 time.sleep(REQUEST_DELAY_SECONDS)
                 continue
@@ -261,7 +320,7 @@ def main() -> int:
                 rec["video_title"] = dvids_title
 
         ext = Path(rec["source_url"].split("?")[0]).suffix.lower() or {
-            "pdf": ".pdf", "video": ".mp4", "image": ".jpg",
+            "pdf": ".pdf", "video": ".mp4", "image": ".jpg", "audio": ".mp3",
         }[rec["type"]]
         local = dest_dir_for_type(rec["type"]) / f"{rec['id']}{ext}"
 
@@ -280,18 +339,14 @@ def main() -> int:
             })
             fetched += 1
             log_line(FETCH_LOG, f"02_fetch\tOK\t{rec['source_url']}\t{n}")
-        except requests.HTTPError as e:
-            code = e.response.status_code if e.response is not None else 0
+        except Exception as e:  # noqa: BLE001 - keep run going (requests + curl_cffi)
+            resp = getattr(e, "response", None)
+            code = getattr(resp, "status_code", 0) or 0
             rec["http_status"] = code
             rec["status"] = "missing" if code == 404 else "fetch_error"
-            rec["notes"] = f"HTTPError: {e}"
+            rec["notes"] = f"{type(e).__name__}: {e}"
             failed += 1
-            log_line(ERROR_LOG, f"02_fetch\t{rec['status'].upper()}\t{rec['source_url']}\t{e}")
-        except Exception as e:  # noqa: BLE001 - keep run going
-            rec["status"] = "fetch_error"
-            rec["notes"] = repr(e)
-            failed += 1
-            log_line(ERROR_LOG, f"02_fetch\tEXCEPTION\t{rec['source_url']}\t{e!r}")
+            log_line(ERROR_LOG, f"02_fetch\t{rec['status'].upper()}\t{rec['source_url']}\t{e!r}")
 
         write_per_file(rec)
         time.sleep(REQUEST_DELAY_SECONDS)

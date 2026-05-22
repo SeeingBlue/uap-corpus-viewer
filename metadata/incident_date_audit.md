@@ -1,19 +1,44 @@
 # Incident Date audit (v2)
 
-Records audited: **161**
+Records audited: **227**
 
 Verdict counts:
 
-- `confirmed`: 93
-- `single-source`: 40
-- `confirmed-by-sequence`: 26
-- `no-evidence`: 1
-- `disagree`: 1
+- `confirmed`: 148
+- `single-source`: 49
+- `confirmed-by-sequence`: 23
+- `disagree`: 5
+- `no-evidence`: 2
 
 **Confirmation rules.** A date is `confirmed` when 2+ of {csv, title, summary, body} agree at year+month precision or better (year-only matches don't count). A date is `confirmed-by-sequence` when the record sits in a numbered title family (e.g. DOW-UAP-D{N}) and one of its candidates fits the date range implied by the nearest confirmed prev/next neighbors.
 
 
-## Disagreements (multiple sources, none corroborate) (1)
+## Disagreements (multiple sources, none corroborate) (5)
+
+### `dow-084-dow-uap-pr051-syrian-uap-instant-acceleration`
+- **family:** `DOW-UAP-PR51`
+- **title:** DOW-UAP-PR051, "Syrian UAP instant acceleration"
+- **csv:** `2021` -> `2021`
+- **summary dates:** 2026-03-06; 2024-06
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (50=(2022, 8, 26), 53=(2022, 6, 15))
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-095-dow-uap-pr059-nag-uap-1-jun-20`
+- **family:** `DOW-UAP-PR59`
+- **title:** DOW-UAP-PR059, "NAG UAP 1 Jun 20"
+- **csv:** `2020` -> `2020`
+- **summary dates:** 2026-03-06; 2024-06
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (57=(2023, 1, 15), 60=(2021, 6, 15))
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-103-dow-uap-pr067-multiple-spherical-uap-uso-near-sub-callsign-2`
+- **family:** `DOW-UAP-PR67`
+- **title:** DOW-UAP-PR067, "Multiple Spherical UAP USO near Sub. [CALLSIGN] 2022/03/25 in and out of water"
+- **csv:** `` -> `-`
+- **title dates:** 2022
+- **summary dates:** 2026-03-06; 2024-05
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (66=(2024, 4, 24), 68=(2023, 6, 15))
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
 ### `fbi-018-65-hs1-101634279-100-de-26505`
 - **title:** 65_HS1-101634279_100-DE-26505
@@ -21,8 +46,14 @@ Verdict counts:
 - **body dates (filtered):** 1951-05-02; 1966-10-02; 1966-10-11
 - **summary:** An FBI report from 1957 detailing the interview with Wladyslaw Krasuski, who recounted seeing a large, circular, vertically-rising vehicle in 1944 Germany near a German military compound.
 
+### `odni-001-odni-uap-d001-usper-narrative-senior-usic-official`
+- **title:** ODNI-UAP-D001, USPER Narrative, Senior USIC Official
+- **csv:** `2025` -> `2025`
+- **summary dates:** 2026-05-08
+- **summary:** This document is a first-hand account written by a currently serving (May 2026) senior U.S. intelligence official. The official was part of a team investigating reports of unusual noises and sighting…
 
-## Single-source (no corroboration) (40)
+
+## Single-source (no corroboration) (49)
 
 ### `dow-007-38-143685-box-incident-summaries-101-172`
 - **title:** 38_143685_box_Incident_Summaries_101-172
@@ -55,13 +86,85 @@ Verdict counts:
 - **title:** DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013
 - **csv:** `N/A` -> `-`
 - **title dates:** 2013
-- **sequence:** all candidates fall outside DOW-UAP-PR36..None range [(2020, 5, 15)..None]
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 46 seconds of video footag…
+
+### `dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025`
+- **family:** `DOW-UAP-PR43`
+- **title:** DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025
+- **csv:** `N/A` -> `-`
+- **title dates:** 2025
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
+- **summary:** The United States Africa Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of two seconds of video footage from an infra…
+
+### `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024`
+- **family:** `DOW-UAP-PR46`
+- **title:** DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024
+- **csv:** `N/A` -> `-`
+- **title dates:** 2024
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of nine seconds of video footage from a…
+
+### `dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023`
+- **family:** `DOW-UAP-PR47`
+- **title:** DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023
+- **csv:** `N/A` -> `-`
+- **title dates:** 2023
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 59 seconds of video f…
+
+### `dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024`
+- **family:** `DOW-UAP-PR48`
+- **title:** DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024
+- **csv:** `N/A` -> `-`
+- **title dates:** 2024
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 39 seconds of video f…
+
+### `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20`
+- **family:** `DOW-UAP-PR49`
+- **title:** DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026
+- **csv:** `N/A` -> `-`
+- **title dates:** 2026
+- **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
+- **summary:** The Department of the Army submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 49 seconds of video from an infra…
 
 ### `dow-082-western-us-event`
 - **title:** Western US Event
 - **csv:** `2023` -> `2023`
 - **summary:** This document is a summary of statements by seven US PERSONs employed by the federal government who separately reported observing several unidentified anomalous phenomena in the western United States…
+
+### `dow-087-dow-uap-pr052-uap-uso-formation-callsign-mission`
+- **family:** `DOW-UAP-PR52`
+- **title:** DOW-UAP-PR052, "UAP USO Formation [CALLSIGN] (Mission)"
+- **csv:** `` -> `-`
+- **summary dates:** 2026-03-06; 2024-06
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (50=(2022, 8, 26), 53=(2022, 6, 15))
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-091-dow-uap-pr056-spherical-uap-pulsing-over-water-callsign`
+- **family:** `DOW-UAP-PR56`
+- **title:** DOW-UAP-PR056, "Spherical UAP pulsing over water [CALLSIGN]"
+- **csv:** `` -> `-`
+- **summary dates:** 2026-03-06; 2024-06
+- **sequence:** all candidates fall outside DOW-UAP-PR55..57 range [(2020, 11, 23)..(2023, 6, 15)]
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-094-dow-uap-pr058-callsign-mission-uap`
+- **family:** `DOW-UAP-PR58`
+- **title:** DOW-UAP-PR058, "[CALLSIGN] (Mission) UAP"
+- **csv:** `` -> `-`
+- **summary dates:** 2026-03-06; 2024-06
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (57=(2023, 1, 15), 60=(2021, 6, 15))
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-105-dow-uap-pr069-f-a-18-flir-uap`
+- **family:** `DOW-UAP-PR69`
+- **title:** DOW-UAP-PR069, "F/A-18 FLIR UAP"
+- **csv:** `` -> `-`
+- **summary dates:** 2026-03-06; 2023-07
+- **sequence:** all candidates fall outside DOW-UAP-PR68..70 range [(2023, 6, 15)..(2023, 6, 15)]
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
 ### `fbi-021-fbi-photo-a1`
 - **title:** FBI Photo A1
@@ -235,7 +338,12 @@ Verdict counts:
 - **summary:** This file contains an independent report on UFOs written by the French association COMETA (previously published in the French magazine VDS in 1999), which details the results of a study by the Instit…
 
 
-## No evidence anywhere (1)
+## No evidence anywhere (2)
+
+### `doe-001-doe-uap-d001-enhanced-pantex-imagery`
+- **title:** DOE-UAP-D001, Enhanced PANTEX Imagery
+- **csv:** `` -> `-`
+- **summary:** A Pantex Unidentified Object Incident Report that includes an enhanced image from ground surveillance radar tower.
 
 ### `dow-038-dow-uap-d54-mission-report-mediterranean-sea-na`
 - **family:** `DOW-UAP-D54`
@@ -245,7 +353,7 @@ Verdict counts:
 - **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. Military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
 
 
-## Confirmed by sequence (sole source fits neighbor range) (26)
+## Confirmed by sequence (sole source fits neighbor range) (23)
 
 ### `dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023`
 - **family:** `DOW-UAP-D27`
@@ -318,7 +426,7 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of nine seconds of video footage from an inf…
 
 ### `dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020`
@@ -327,7 +435,7 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of five seconds of video footage from an inf…
 
 ### `dow-072-dow-uap-pr40-unresolved-uap-report-middle-east-2020`
@@ -336,7 +444,7 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and three seconds of video foo…
 
 ### `dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020`
@@ -345,7 +453,7 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 34 seconds of video footag…
 
 ### `dow-074-dow-uap-pr42-unresolved-uap-report-middle-east-2020`
@@ -354,17 +462,8 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of four minutes and 53 seconds of video foot…
-
-### `dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025`
-- **family:** `DOW-UAP-PR43`
-- **title:** DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025
-- **csv:** `N/A` -> `-`
-- **title dates:** 2025
-- **confirmed date:** `2025` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
-- **summary:** The United States Africa Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of two seconds of video footage from an infra…
 
 ### `dow-076-dow-uap-pr44-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR44`
@@ -372,7 +471,7 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of five minutes and 11 seconds of vide…
 
 ### `dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020`
@@ -381,44 +480,26 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
+- **sequence:** prev=DOW-UAP-PR36@2020-05; next=DOW-UAP-PR50@2022-08-26
 - **summary:** The Department of the Air Force submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 58 seconds of video footage from an infrare…
 
-### `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024`
-- **family:** `DOW-UAP-PR46`
-- **title:** DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024
-- **csv:** `N/A` -> `-`
-- **title dates:** 2024
-- **confirmed date:** `2024` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
-- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of nine seconds of video footage from a…
+### `dow-134-dow-uap-pr098-ufos-in-formation-over-persian-gulf`
+- **family:** `DOW-UAP-PR98`
+- **title:** DOW-UAP-PR098, "UFOs in formation over Persian Gulf?"
+- **csv:** `` -> `-`
+- **summary dates:** 2026-03-06; 2019-10
+- **confirmed date:** `2026-03-06` (via sequence, summary)
+- **sequence:** prev=DOW-UAP-PR97@2019
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
-### `dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023`
-- **family:** `DOW-UAP-PR47`
-- **title:** DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023
-- **csv:** `N/A` -> `-`
-- **title dates:** 2023
-- **confirmed date:** `2023` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
-- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 59 seconds of video f…
-
-### `dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024`
-- **family:** `DOW-UAP-PR48`
-- **title:** DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024
-- **csv:** `N/A` -> `-`
-- **title dates:** 2024
-- **confirmed date:** `2024` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
-- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 39 seconds of video f…
-
-### `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20`
-- **family:** `DOW-UAP-PR49`
-- **title:** DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026
-- **csv:** `N/A` -> `-`
-- **title dates:** 2026
-- **confirmed date:** `2026` (via sequence, title)
-- **sequence:** prev=DOW-UAP-PR36@2020-05
-- **summary:** The Department of the Army submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 49 seconds of video from an infra…
+### `dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171`
+- **family:** `DOW-UAP-PR99`
+- **title:** DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"
+- **csv:** `2023` -> `2023`
+- **summary dates:** 2026-03-06; 2019-11
+- **confirmed date:** `2026-03-06` (via sequence, summary)
+- **sequence:** prev=DOW-UAP-PR97@2019
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
 ### `fbi-005-65-hs1-834228961-62-hq-83894-section-5`
 - **family:** `FBI-Section5`
@@ -490,7 +571,28 @@ Verdict counts:
 - **summary:** The FBI's 62-HQ-83894 case file includes investigative records, eyewitness testimonies, and public reports concerning Unidentified Flying Objects and flying discs documented between June 1947 and Jul…
 
 
-## Confirmed (>=2 sources agree) (93)
+## Confirmed (>=2 sources agree) (148)
+
+### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
+- **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
+- **csv:** `12/20/73` -> `1973-12-20`
+- **title dates:** 1973
+- **confirmed date:** `1973` (via csv, title)
+- **summary:** This document is a Central Intelligence Agency (CIA) intelligence information report (IIR) that describes human intelligence gathering activities in the Union of Soviet Socialist Republics (USSR). Th…
+
+### `doe-002-doe-uap-d002-james-tuck-correspondence-1970s`
+- **title:** DOE-UAP-D002, James Tuck Correspondence, 1970s
+- **csv:** `1970s` -> `1970`
+- **title dates:** 1970
+- **confirmed date:** `1970` (via csv, title)
+- **summary:** Personal correspondence to and from James Tuck, a Los Alamos National Laboratory-affiliated physicist, regarding his interest in unidentified anomalous phenomena circa 1970s.
+
+### `doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986`
+- **title:** DOE-UAP-D003, Pajarito Astronomers Invitation, 1986
+- **csv:** `5/20/86` -> `1986-05-20`
+- **title dates:** 1986
+- **confirmed date:** `1986` (via csv, title)
+- **summary:** A letter to the members of the Pajarito Astronomers club regarding an upcoming meeting featuring a presentation from a Los Alamos National Laboratory-affiliated physicist, Dr. John Warren, titled “Wh…
 
 ### `dow-001-18-100754-general-1946-7-vol-2`
 - **title:** 18_100754_ General 1946-7_Vol_2
@@ -986,6 +1088,412 @@ Verdict counts:
 - **confirmed date:** `2020-05` (via body, title)
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of two minutes and 17 seconds of video…
 
+### `dow-083-dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-ca`
+- **family:** `DOW-UAP-PR50`
+- **title:** DOW-UAP-PR050, "4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]"
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022-08-26
+- **summary dates:** 2026-03-06; 2022-08-26; 2024-06
+- **confirmed date:** `2022-08-26` (via summary, title)
+- **note:** csv `2022` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`
+- **family:** `DOW-UAP-D17`
+- **title:** DOW-UAP-D017, UAP Reported at Sandia Base, 1948-1950
+- **csv:** `1948-1950` -> `1948`
+- **title dates:** 1948; 1950
+- **confirmed date:** `1948` (via csv, title)
+- **summary:** This file contains 116 pages of documentation from the Armed Forces Special Weapons Program (AFSWP) – the direct, post-World War II successor to the Manhattan Project – and from the U.S. Air Force – …
+
+### `dow-086-dow-uap-d020-mission-report-iraq-2023`
+- **family:** `DOW-UAP-D20`
+- **title:** DOW-UAP-D020, Mission Report, Iraq, 2023
+- **csv:** `3/31/23` -> `2023-03-31`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. Military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct`
+- **family:** `DOW-UAP-PR53`
+- **title:** DOW-UAP-PR053, "Cigar Shaped or Fast Sherical UAP clip 15 OCT 22"
+- **csv:** `2022` -> `2022`
+- **summary dates:** 2026-03-06; 2022-10; 2024-06
+- **confirmed date:** `2022` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-089-dow-uap-pr054-spherical-uap-erratic-movement-callsign-missio`
+- **family:** `DOW-UAP-PR54`
+- **title:** DOW-UAP-PR054, "Spherical UAP Erratic movement [CALLSIGN] (Mission) 2022"
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **summary dates:** 2026-03-06; 2022-08; 2024-06
+- **confirmed date:** `2022` (via csv, summary, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-090-dow-uap-pr055-spherical-uap-over-afg-in-and-out-of-clouds-23`
+- **family:** `DOW-UAP-PR55`
+- **title:** DOW-UAP-PR055, "Spherical UAP over AFG in and out of clouds 23 Nov 2020"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-11-23
+- **summary dates:** 2026-03-06; 2020-11-23; 2024-06
+- **confirmed date:** `2020-11-23` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`
+- **family:** `DOW-UAP-PR57`
+- **title:** DOW-UAP-PR057a, "Spherical UAP in clouds"
+- **csv:** `2023` -> `2023`
+- **summary dates:** 2026-03-06; 2023-01-05; 2024-06
+- **confirmed date:** `2023` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`
+- **family:** `DOW-UAP-PR57`
+- **title:** DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023-01-05
+- **summary dates:** 2026-03-06; 2023-01; 2024-06
+- **confirmed date:** `2023-01` (via summary, title)
+- **note:** csv `2023` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-096-dow-uap-pr060-spherical-uap-callsign-2021-04-12-obj-2`
+- **family:** `DOW-UAP-PR60`
+- **title:** DOW-UAP-PR060, "Spherical UAP [CALLSIGN] 2021/04/12 obj 2"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021
+- **summary dates:** 2026-03-06; 2024-06
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-097-dow-uap-pr061-spherical-uap-callsign-2021-04-12-vid-0`
+- **family:** `DOW-UAP-PR61`
+- **title:** DOW-UAP-PR061, "Spherical UAP [CALLSIGN] 2021/04/12 vid 0"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021
+- **summary dates:** 2026-03-06; 2024-06
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-098-dow-uap-pr062-spherical-uap-callsign-2021-04-12-vid-1`
+- **family:** `DOW-UAP-PR62`
+- **title:** DOW-UAP-PR062, "Spherical UAP [CALLSIGN] 2021/04/12 vid 1"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021
+- **summary dates:** 2026-03-06; 2024-05
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-099-dow-uap-pr063-spherical-uap-callsign-2021-04-12-vid-2`
+- **family:** `DOW-UAP-PR63`
+- **title:** DOW-UAP-PR063, "Spherical UAP [CALLSIGN] 2021/04/12 vid 2"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021
+- **summary dates:** 2026-03-06; 2024-05
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-100-dow-uap-pr064-afsoc-kabul-uap-jul-2017`
+- **family:** `DOW-UAP-PR64`
+- **title:** DOW-UAP-PR064, "AFSOC Kabul UAP Jul 2017"
+- **csv:** `` -> `-`
+- **title dates:** 2017-07
+- **summary dates:** 2026-03-06; 2017-07; 2024-06
+- **confirmed date:** `2017-07` (via summary, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-101-dow-uap-pr065-uscg-c-144-tyndall-uap-2-tic-tac-ir-hot-24-apr`
+- **family:** `DOW-UAP-PR65`
+- **title:** DOW-UAP-PR065, "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024"
+- **csv:** `2024` -> `2024`
+- **title dates:** 2024-04-24
+- **summary dates:** 2026-03-06; 2024-04-24; 2024-06
+- **confirmed date:** `2024-04-24` (via summary, title)
+- **note:** csv `2024` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr`
+- **family:** `DOW-UAP-PR66`
+- **title:** DOW-UAP-PR066, "USCG C-144 Tyndall UAP 1 TIC TAC IR hot 24 April 2024"
+- **csv:** `2024` -> `2024`
+- **title dates:** 2024-04-24
+- **summary dates:** 2026-03-06; 2024-04-24; 2024-06
+- **confirmed date:** `2024-04-24` (via summary, title)
+- **note:** csv `2024` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-104-dow-uap-pr068-iir-1-666-s0151-23-video-footage-of-unidentifi`
+- **family:** `DOW-UAP-PR68`
+- **title:** DOW-UAP-PR068, "IIR 1 666 S0151 23/Video Footage of Unidentified Aerial Phenomenon (UAP) captured by fifth generation aircraft on 20 Jan 23"
+- **csv:** `2023` -> `2023`
+- **summary dates:** 2026-03-06; 2023-07
+- **confirmed date:** `2023` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed`
+- **family:** `DOW-UAP-PR70`
+- **title:** DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"
+- **csv:** `2023` -> `2023`
+- **summary dates:** 2026-03-06; 2023-03
+- **confirmed date:** `2023` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u`
+- **family:** `DOW-UAP-PR71`
+- **title:** DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023-02-12
+- **summary dates:** 2026-03-06; 2023-02-12
+- **confirmed date:** `2023-02-12` (via summary, title)
+- **note:** csv `2023` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-108-dow-uap-pr072-administrative-revision-iir-1777-j0032-22-kaza`
+- **family:** `DOW-UAP-PR72`
+- **title:** DOW-UAP-PR072, "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan - UAP in the vicinity of Karaganda International Airport"
+- **csv:** `2022` -> `2022`
+- **summary dates:** 2026-03-06; 2022-03; 2023-04
+- **confirmed date:** `2022` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-109-dow-uap-pr073-iir-1-655-s0053-23-several-unidentified-aerial`
+- **family:** `DOW-UAP-PR73`
+- **title:** DOW-UAP-PR073, IIR 1 655 S0053 23/Several Unidentified Aerial Phenomenon Encountered In The Vicinity of Columbus OH"
+- **csv:** `2022` -> `2022`
+- **summary dates:** 2026-03-06; 2022-11; 2023-03
+- **confirmed date:** `2022` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-110-dow-uap-pr074-callsign-mission-hd-20220613`
+- **family:** `DOW-UAP-PR74`
+- **title:** DOW-UAP-PR074, "[CALLSIGN] (Mission)HD_20220613"
+- **csv:** `2022` -> `2022`
+- **summary dates:** 2026-03-06; 2022-06
+- **confirmed date:** `2022` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs`
+- **family:** `DOW-UAP-PR75`
+- **title:** DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021
+- **summary dates:** 2026-03-06; 2021-06
+- **confirmed date:** `2021` (via csv, summary, title)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-112-dow-uap-pr076-03-january-2021-callsign-mission-observes-uap`
+- **family:** `DOW-UAP-PR76`
+- **title:** DOW-UAP-PR076, "03 January 2021 [CALLSIGN] (Mission) observes UAP"
+- **csv:** `2021` -> `2021`
+- **title dates:** 2021-01-03
+- **summary dates:** 2026-03-06; 2021-01-03
+- **confirmed date:** `2021-01-03` (via summary, title)
+- **note:** csv `2021` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and`
+- **family:** `DOW-UAP-PR77`
+- **title:** DOW-UAP-PR077, "2 November 2020 [CALLSIGN] [CALLSIGN] Observes and tracks UAP 1 of 2"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-11-02
+- **summary dates:** 2026-03-06; 2020-11-02
+- **confirmed date:** `2020-11-02` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and`
+- **family:** `DOW-UAP-PR78`
+- **title:** DOW-UAP-PR078, "2 November 2020 [CALLSIGN] [CALLSIGN] Observes and tracks UAP 2 of 2"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-11-02
+- **summary dates:** 2026-03-06; 2020-11-02
+- **confirmed date:** `2020-11-02` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-115-dow-uap-pr079-29-october-2020-callsign-mission-observes-3-fa`
+- **family:** `DOW-UAP-PR79`
+- **title:** DOW-UAP-PR079, "29 October 2020 [CALLSIGN] (Mission) observes 3 fast moving UAP's"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-10-29
+- **summary dates:** 2026-03-06; 2020-10-29
+- **confirmed date:** `2020-10-29` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-116-dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap`
+- **family:** `DOW-UAP-PR80`
+- **title:** DOW-UAP-PR080, "20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-10-20
+- **summary dates:** 2026-03-06; 2020-10-20
+- **confirmed date:** `2020-10-20` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-117-dow-uap-pr081-18-oct-2020-callsign-observes-uap`
+- **family:** `DOW-UAP-PR81`
+- **title:** DOW-UAP-PR081, "18 Oct 2020 [CALLSIGN] observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-10-18
+- **summary dates:** 2026-03-06; 2020-10-18
+- **confirmed date:** `2020-10-18` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-118-dow-uap-pr082-16-oct-2020-callsign-views-uap`
+- **family:** `DOW-UAP-PR82`
+- **title:** DOW-UAP-PR082, "16 OCT 2020 [CALLSIGN] views UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-10-16
+- **summary dates:** 2026-03-06; 2020-10-16
+- **confirmed date:** `2020-10-16` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-119-dow-uap-pr083-7-october-2020-callsign-observes-uap`
+- **family:** `DOW-UAP-PR83`
+- **title:** DOW-UAP-PR083, "7 October 2020 [CALLSIGN] observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-10-07
+- **summary dates:** 2026-03-06; 2020-10-07
+- **confirmed date:** `2020-10-07` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-120-dow-uap-pr084-17-sept-2020-callsign-observes-uap`
+- **family:** `DOW-UAP-PR84`
+- **title:** DOW-UAP-PR084, "17 Sept 2020 [CALLSIGN] observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-09-17
+- **summary dates:** 2026-03-06; 2020-09-17
+- **confirmed date:** `2020-09-17` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-121-dow-uap-pr085-16-sept-2020-callsign-callsign-observes-uap`
+- **family:** `DOW-UAP-PR85`
+- **title:** DOW-UAP-PR085, "16 Sept 2020 [CALLSIGN] [CALLSIGN] observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-09-16
+- **summary dates:** 2026-03-06; 2020-09-16
+- **confirmed date:** `2020-09-16` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast`
+- **family:** `DOW-UAP-PR86`
+- **title:** DOW-UAP-PR086, "UAP from Dec 2019 (East Coast)"
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019-12
+- **summary dates:** 2026-03-06; 2019-12; 2020-09
+- **confirmed date:** `2019-12` (via summary, title)
+- **note:** csv `2019` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-123-dow-uap-pr087-05-september-2020-callsign-uap`
+- **family:** `DOW-UAP-PR87`
+- **title:** DOW-UAP-PR087, "05 September 2020 [CALLSIGN] UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-09-05
+- **summary dates:** 2026-03-06; 2020-09-05
+- **confirmed date:** `2020-09-05` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-124-dow-uap-pr088-31-aug-callsign-callsign-observes-uap`
+- **family:** `DOW-UAP-PR88`
+- **title:** DOW-UAP-PR088, "31 AUG [CALLSIGN] [CALLSIGN] Observes UAP"
+- **csv:** `2020` -> `2020`
+- **summary dates:** 2026-03-06; 2020-08-31
+- **confirmed date:** `2020` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-125-dow-uap-pr089-31-aug-callsign-callsign-observes-uap-part2`
+- **family:** `DOW-UAP-PR89`
+- **title:** DOW-UAP-PR089, "31 AUG [CALLSIGN] [CALLSIGN] Observes UAP part2"
+- **csv:** `2020` -> `2020`
+- **summary dates:** 2026-03-06; 2020-08-31
+- **confirmed date:** `2020` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-126-dow-uap-pr090-24-aug-2020-callsign-mission-observes-uap`
+- **family:** `DOW-UAP-PR90`
+- **title:** DOW-UAP-PR090, "24 AUG 2020 [CALLSIGN] (Mission) Observes UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-08-24
+- **summary dates:** 2026-03-06; 2020-08-24
+- **confirmed date:** `2020-08-24` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-127-dow-uap-pr091-21-aug-callsign-observes-uap-in-persian-gulf`
+- **family:** `DOW-UAP-PR91`
+- **title:** DOW-UAP-PR091, "21 AUG [CALLSIGN] Observes UAP in Persian Gulf"
+- **csv:** `2020` -> `2020`
+- **summary dates:** 2026-03-06; 2020-08-21
+- **confirmed date:** `2020` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-128-dow-uap-pr092-08-aug-2020-callsign-callsign-uap-observation`
+- **family:** `DOW-UAP-PR92`
+- **title:** DOW-UAP-PR092, "08 AUG 2020 [CALLSIGN] [CALLSIGN] UAP observation"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-08-08
+- **summary dates:** 2026-03-06; 2020-08-08
+- **confirmed date:** `2020-08-08` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d`
+- **family:** `DOW-UAP-PR93`
+- **title:** DOW-UAP-PR093, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-05-05
+- **summary dates:** 2026-03-06; 2020-05-05; 2020-07
+- **confirmed date:** `2020-05-05` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-130-dow-uap-pr094-callsign-mission-hd-2020-02-13`
+- **family:** `DOW-UAP-PR94`
+- **title:** DOW-UAP-PR094, "[CALLSIGN] (Mission) - HD 2020-02-13"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **summary dates:** 2020-02-13; 2026-03-06
+- **confirmed date:** `2020` (via csv, summary, title)
+- **summary:** 46. DOW-UAP-PR094, “[CALLSIGN] (Mission) - HD 2020-02-13” On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by…
+
+### `dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d`
+- **family:** `DOW-UAP-PR95`
+- **title:** DOW-UAP-PR095, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020-05-05
+- **summary dates:** 2026-03-06; 2020-05-05
+- **confirmed date:** `2020-05-05` (via summary, title)
+- **note:** csv `2020` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-132-dow-uap-pr096-hh11-03-july-2018-uaps`
+- **family:** `DOW-UAP-PR96`
+- **title:** DOW-UAP-PR096, "HH11 03 July 2018 UAPs"
+- **csv:** `2018` -> `2018`
+- **title dates:** 2018-07-03
+- **summary dates:** 2026-03-06; 2018-07-03; 2020-07
+- **confirmed date:** `2018-07-03` (via summary, title)
+- **note:** csv `2018` disagrees
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
+### `dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213`
+- **family:** `DOW-UAP-PR97`
+- **title:** DOW-UAP-PR097, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z"
+- **csv:** `2019` -> `2019`
+- **summary dates:** 2026-03-06; 2019-10
+- **confirmed date:** `2019` (via csv, summary)
+- **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
+
 ### `fbi-001-65-hs1-834228961-62-hq-83894-section-10`
 - **family:** `FBI-Section10`
 - **title:** 65_HS1-834228961_62-HQ-83894_Section_10
@@ -1133,7 +1641,7 @@ Verdict counts:
 
 ### `nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965`
 - **family:** `NASA-UAP-D3`
-- **title:** NASA-UAP-D3A, Gemini 7 Audio Excerpt, 1965
+- **title:** NASA-UAP-D003A, Gemini 7 Audio Excerpt, 1965
 - **csv:** `12/5/65` -> `1965-12-05`
 - **title dates:** 1965
 - **summary dates:** 1965-12-05
@@ -1246,6 +1754,62 @@ Verdict counts:
 - **confirmed date:** `1972` (via csv, summary, title)
 - **summary:** As part of the review of historical UAP materials under PURSUE, DOW has opened a case to investigate the accompanying NASA photograph from the Apollo 17 mission, taken December 1972. The image contai…
 
+### `nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969`
+- **family:** `NASA-UAP-D8`
+- **title:** NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969
+- **csv:** `1969` -> `1969`
+- **title dates:** 1969
+- **confirmed date:** `1969` (via csv, title)
+- **summary:** During a medical debriefing of the crew of the Apollo 12 mission, Commander Charles “Pete” Conrad, Command Module Pilot Richard “Dick” F. Gordon, and Lunar Module Pilot Alan L. Bean describe their ob…
+
+### `nasa-017-nasa-uap-d009-apollo-17-audio-excerpt-december-7-1972`
+- **family:** `NASA-UAP-D9`
+- **title:** NASA-UAP-D009, Apollo 17 Audio Excerpt, December 7, 1972
+- **csv:** `12/7/72` -> `1972-12-07`
+- **title dates:** 1972-12-07
+- **confirmed date:** `1972-12-07` (via csv, title)
+- **summary:** During the eleventh and final crewed mission in the Apollo program, Apollo 17 Commander Gene Cernan, Lunar Module Pilot Harrison Schmitt, and Command Module Pilot Ronald Evans report seeing small lig…
+
+### `nasa-018-nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963`
+- **family:** `NASA-UAP-D10`
+- **title:** NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+- **csv:** `5/15/63` -> `1963-05-15`
+- **title dates:** 1963-05-15
+- **confirmed date:** `1963-05-15` (via csv, title)
+- **summary:** Approximately one hour and 41 minutes into the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. notes that he sees “John’s fireflies,” re…
+
+### `nasa-019-nasa-uap-d011-mercury-atlas-9-audio-excerpt-may-15-1963`
+- **family:** `NASA-UAP-D11`
+- **title:** NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+- **csv:** `5/15/63` -> `1963-05-15`
+- **title dates:** 1963-05-15
+- **confirmed date:** `1963-05-15` (via csv, title)
+- **summary:** During the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. describes the brilliant blue of sunrise beneath the haze layer of the Earth’s…
+
+### `nasa-020-nasa-uap-d012-mercury-atlas-8-audio-excerpt-october-3-1962`
+- **family:** `NASA-UAP-D12`
+- **title:** NASA-UAP-D012, Mercury Atlas 8 Audio Excerpt, October 3, 1962
+- **csv:** `10/3/62` -> `1962-10-03`
+- **title dates:** 1962-10-03
+- **confirmed date:** `1962-10-03` (via csv, title)
+- **summary:** During the Mercury Atlas 8 mission, Sigma 7 pilot Walter M. “Wally” Schirra Jr. describes observing “little white objects that tend to come from the capsule itself and drift off.” Schirra later also …
+
+### `nasa-021-nasa-uap-d013-mercury-atlas-7-may-24-1962`
+- **family:** `NASA-UAP-D13`
+- **title:** NASA-UAP-D013, Mercury Atlas 7, May 24, 1962
+- **csv:** `5/24/62` -> `1962-05-24`
+- **title dates:** 1962-05-24
+- **confirmed date:** `1962-05-24` (via csv, title)
+- **summary:** During the fourth crewed spaceflight and second orbital flight of Project Mercury, Mercury-Atlas 7 (MA-7), Aurora 7 pilot Scott Carpenter describes white particles in view that appear to move at “ran…
+
+### `nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961`
+- **family:** `NASA-UAP-D14`
+- **title:** NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961
+- **csv:** `7/21/61` -> `1961-07-21`
+- **title dates:** 1961-07-21
+- **confirmed date:** `1961-07-21` (via csv, title)
+- **summary:** During the recovery of the fourth launch and second crewed spaceflight of Project Mercury, Mercury-Redstone 4 (MR-4) Liberty Bell 7, the recovery team discusses a dye pack in the water that did not a…
+
 ### `state-001-59-214434-sp-16-7-18-1963`
 - **title:** 59_214434_SP 16 [7.18.1963]
 - **csv:** `7/18/63` -> `1963-07-18`
@@ -1312,3 +1876,10 @@ Verdict counts:
 - **confirmed date:** `2003-09` (via csv, title)
 - **note:** csv day 12 differs from title day 16
 - **summary:** On September 12, 20023 the Mexican Congress heard testimony on UAP from experts related to the debate about an Aerial Space Protection Law, which, if approved, would make Mexico the first country to …
+
+### `state-008-59-64634-711-5612-7-2852`
+- **title:** 59_64634_711.5612[7-2852
+- **csv:** `7/28/52` -> `1952-07-28`
+- **summary dates:** 1952-07-28
+- **confirmed date:** `1952-07-28` (via csv, summary)
+- **summary:** This two page memorandum, dated July 28, 1952, relates to increased reports of unidentified flying objects (UFOs). Included in the record are possible explanations of increased sightings, such as tec…

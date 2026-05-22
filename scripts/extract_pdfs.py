@@ -157,11 +157,15 @@ def extract_text_layer(pdf_path: Path):
     Tables are not extracted in this pass (separate concern).
     """
     import subprocess
+    # text=True with the default Windows cp1252 codec crashes on PDFs that
+    # emit smart-quotes or other bytes >0x7F (the ODNI USPER Narrative is
+    # one). Pull raw bytes and decode utf-8 ourselves, replacing anything
+    # that genuinely isn't decodable rather than dropping the whole PDF.
     out = subprocess.run(
-        [PDFTOTEXT_CMD, "-layout", str(pdf_path), "-"],
-        capture_output=True, text=True, timeout=60,
+        [PDFTOTEXT_CMD, "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
+        capture_output=True, text=False, timeout=60,
     )
-    raw = out.stdout
+    raw = (out.stdout or b"").decode("utf-8", errors="replace")
     # pdftotext separates pages with form-feed (\f)
     pages = raw.split("\f")
     # The last entry after the final page is usually empty; trim it.

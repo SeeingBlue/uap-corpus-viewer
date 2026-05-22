@@ -1,2 +1,6 @@
 requests>=2.31.0
 beautifulsoup4>=4.12.0
+# war.gov is fronted by Akamai bot management which fingerprints the TLS
+# client hello. curl_cffi impersonates a real Chrome TLS handshake so the
+# fetch scripts can actually pull from www.war.gov. Plain `requests` 403s.
+curl_cffi>=0.7.0
