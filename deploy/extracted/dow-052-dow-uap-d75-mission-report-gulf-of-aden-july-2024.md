@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "7/14/24"
-incident_date_inferred: "2024-07-14"
-incident_date_inferred_source: "csv+summary"
 incident_location: "Gulf of Aden"
-incident_location_inferred: "Gulf of Aden"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d75-mission-report-gulf-of-aden-july-2024.jpg"
 sha256: "672b79390fe6595828c71e1f3df8cb0a2290f0658c36ed724e17ea167233b771"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 7/14/24  
-**Inferred incident date:** 2024-07-14  _(source: csv+summary)_  
 **Incident location:** Gulf of Aden  
-**Inferred incident location:** Gulf of Aden  _(source: csv+title)_  
 **Source:** [dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf)  
 **Pages:** 8  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/28/2001-10/29/2001"
-incident_date_inferred: "2001-10-30"
-incident_date_inferred_source: "body+title"
 incident_location: "Georgia"
-incident_location_inferred: "Georgia (country)"
-incident_location_inferred_source: "body+csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/059uap00011.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/059uap00011.jpg"
 sha256: "df5874d4b68d17f996da1af0026bf701c627a6e21c244cabf6fd53689369beca"
@@ -29,9 +25,7 @@ description: >
 **Agency:** State  
 **Release date:** 5/8/26  
 **Incident date:** 10/28/2001-10/29/2001  
-**Inferred incident date:** 2001-10-30  _(source: body+title)_  
 **Incident location:** Georgia  
-**Inferred incident location:** Georgia (country)  _(source: body+csv+title)_  
 **Source:** [059uap00011.pdf](https://www.war.gov/medialink/ufo/release_1/059uap00011.pdf)  
 **Pages:** 5  
 **Extraction method:** text-layer

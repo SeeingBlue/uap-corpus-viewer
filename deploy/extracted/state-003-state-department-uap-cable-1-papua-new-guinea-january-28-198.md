@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1/24/85"
-incident_date_inferred: "1985-01-28"
-incident_date_inferred_source: "body+summary+title"
 incident_location: "Papua New Guinea"
-incident_location_inferred: "Papua New Guinea"
-incident_location_inferred_source: "body+csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dos-uap-d1-cable-1-papua-new-guinea-january-1985.jpg"
 sha256: "74032ed145b1badbb1049005b4b77ba95351cb573c3cf6578a77ca25f4033220"
@@ -33,9 +29,7 @@ description: >
 **Agency:** State  
 **Release date:** 5/8/26  
 **Incident date:** 1/24/85  
-**Inferred incident date:** 1985-01-28  _(source: body+summary+title)_  
 **Incident location:** Papua New Guinea  
-**Inferred incident location:** Papua New Guinea  _(source: body+csv+summary+title)_  
 **Source:** [dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf](https://www.war.gov/medialink/ufo/release_1/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf)  
 **Pages:** 3  
 **Extraction method:** text-layer

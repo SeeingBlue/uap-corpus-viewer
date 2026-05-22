@@ -8,11 +8,7 @@ type_code: "VID"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2020-05"
-incident_date_inferred_source: "body+title"
 incident_location: "Middle East"
-incident_location_inferred: "Middle East"
-incident_location_inferred_source: "body+csv+title"
 video_title: "Unresolved UAP Report, Middle East, May 2020"
 dvids_video_id: "1006083"
 source_url: "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689030/DOD_111689030-1920x1080-6000k.mp4"
@@ -58,9 +54,7 @@ _DVIDS title: Unresolved UAP Report, Middle East, May 2020_
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2020-05  _(source: body+title)_  
 **Incident location:** Middle East  
-**Inferred incident location:** Middle East  _(source: body+csv+title)_  
 **DVIDS video ID:** 1006083  
 **Source:** [DOD_111689030-1920x1080-6000k.mp4](https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689030/DOD_111689030-1920x1080-6000k.mp4)  
 **Local path:** `files/videos/dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020.mp4`  
@@ -78,4 +72,26 @@ _DVIDS title: Unresolved UAP Report, Middle East, May 2020_
 - **Date taken:** 2020-05-01T00:00:00-04:00
 - **Date published:** 2026-05-08T07:48:58-04:00
 - **Duration:** 137s
-- *
+- **Category:** B-Roll
+- **Location (DVIDS):** UL
+- **Unit:** All Domain Anomaly Resolution Office
+- **Credit:** 
+- **Keywords:** UAPVIDEOS
+
+### DVIDS description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of two minutes and 17 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2020. An accompanying Range Fouler report, DoW-UAP-D38, described the UAP as a solid white object making erratic movements above the water.
+
+Video Description:
+00:05: An area of contrast briefly enters the sensor field-of-view from the left side of the screen.
+00:06-00:18: The sensor pans away from the scene’s initial subject matter while cycling contrast settings and zoom levels.
+00:19: The area of contrast re-enters the sensor field-of-view from near the center of the top edge of the screen.
+00:20-01:15: The area of contrast remains generally within the sensor field-of-view.
+01:16: The sensor narrows its field-of-view to zoom in on the area of contrast.
+01:56: The sensor further narrows its field-of-view to zoom in on the area of contrast.
+02:10: A blue reticle briefly appears on screen but does not acquire a lock on the area of contrast.
+02:15-02:17: The sensor switches to a different modality and loses track of the area of contrast.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+

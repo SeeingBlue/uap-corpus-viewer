@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "2/21/23"
-incident_date_inferred: "2023-02-21"
-incident_date_inferred_source: "csv+title"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d19-mission-report-syria-february-21-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d19-mission-report-syria-february-21-2023.jpg"
 sha256: "46701a48cefa62a834941f073aa47234bcd5358b1ecc53bfa58cfc7cb5aeec41"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 2/21/23  
-**Inferred incident date:** 2023-02-21  _(source: csv+title)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: csv+title)_  
 **Source:** [dow-uap-d19-mission-report-syria-february-21-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d19-mission-report-syria-february-21-2023.pdf)  
 **Pages:** 10  
 **Extraction method:** text-layer

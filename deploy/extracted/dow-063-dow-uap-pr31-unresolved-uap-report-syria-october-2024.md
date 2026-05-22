@@ -8,11 +8,7 @@ type_code: "VID"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2024-10"
-incident_date_inferred_source: "body+title"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "body+csv+title"
 video_title: "Unresolved UAP Report, Syria, October 2024"
 dvids_video_id: "1006076"
 source_url: "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688970/DOD_111688970-1920x1080-6000k.mp4"
@@ -44,9 +40,7 @@ _DVIDS title: Unresolved UAP Report, Syria, October 2024_
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2024-10  _(source: body+title)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: body+csv+title)_  
 **DVIDS video ID:** 1006076  
 **Source:** [DOD_111688970-1920x1080-6000k.mp4](https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688970/DOD_111688970-1920x1080-6000k.mp4)  
 **Local path:** `files/videos/dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024.mp4`  
@@ -64,4 +58,19 @@ _DVIDS title: Unresolved UAP Report, Syria, October 2024_
 - **Date taken:** 2024-10-01T00:00:00-04:00
 - **Date published:** 2026-05-07T23:35:01-04:00
 - **Duration:** 5s
-- **Cat
+- **Category:** B-Roll
+- **Location (DVIDS):** SY
+- **Unit:** All Domain Anomaly Resolution Office
+- **Credit:** 
+- **Keywords:** UAPVIDEOS
+
+### DVIDS description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of five seconds of video footage from a full-motion video (FMV) camera aboard a U.S. military platform in 2024. An accompanying mission report, DoW-UAP-D32, described the UAP as consisting of a “misshapen and uneven ball of white light,” and reported that a “light/glare halo effect” occurred at the top of the FMV feed.
+
+Video Description:
+00:00-00:01: An indistinctly shaped multi-colored area moves from right to left across the top edge of the sensor display within the first second of the video.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+

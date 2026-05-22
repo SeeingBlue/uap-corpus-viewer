@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "3/31/23"
-incident_date_inferred: "2023"
-incident_date_inferred_source: "csv+title"
 incident_location: "Iraq"
-incident_location_inferred: "Iraq"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-southern-united-states-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d20-mission-report-southern-united-states-2023.jpg"
 sha256: "71ca8826db94d61583083ef8465a6902564532dcab7d49d0d2db3e86aaf85b2f"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 3/31/23  
-**Inferred incident date:** 2023  _(source: csv+title)_  
 **Incident location:** Iraq  
-**Inferred incident location:** Iraq  _(source: csv+title)_  
 **Source:** [dow-uap-d20-mission-report-southern-united-states-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-southern-united-states-2023.pdf)  
 **Pages:** 6  
 **Extraction method:** text-layer

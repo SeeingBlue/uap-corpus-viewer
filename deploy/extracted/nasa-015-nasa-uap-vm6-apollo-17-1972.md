@@ -8,11 +8,7 @@ type_code: "IMG"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1972"
-incident_date_inferred: "1972"
-incident_date_inferred_source: "csv+summary+title"
 incident_location: "Moon"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "csv+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-vm6-apollo-17-1972.jpg"
 sha256: "ce62e46b3535a4683ef6fd192d858be52dbbd9ca011ae1a9cb43dba947815f54"
@@ -31,9 +27,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1972  
-**Inferred incident date:** 1972  _(source: csv+summary+title)_  
 **Incident location:** Moon  
-**Inferred incident location:** Moon  _(source: csv+summary)_  
 **Source:** [nasa-uap-vm6-apollo-17-1972.jpg](https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg)  
 **Image size:** 4400x4600 (RGB)  
 **SHA-256:** `ce62e46b3535a4683ef6fd192d858be52dbbd9ca011ae1a9cb43dba947815f54`

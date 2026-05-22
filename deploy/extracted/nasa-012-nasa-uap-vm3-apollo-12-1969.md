@@ -8,11 +8,7 @@ type_code: "IMG"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1969"
-incident_date_inferred: "1969"
-incident_date_inferred_source: "csv+title"
 incident_location: "Moon"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "csv+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-vm3-apollo-12-1969.jpg"
 sha256: "cc3ac0d6800848612758fe0c36d84d96836f6ea0c9f028d453a5f985e4f8dc34"
@@ -33,9 +29,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1969  
-**Inferred incident date:** 1969  _(source: csv+title)_  
 **Incident location:** Moon  
-**Inferred incident location:** Moon  _(source: csv+summary)_  
 **Source:** [nasa-uap-vm3-apollo-12-1969.jpg](https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg)  
 **Image size:** 4400x4600 (RGB)  
 **SHA-256:** `cc3ac0d6800848612758fe0c36d84d96836f6ea0c9f028d453a5f985e4f8dc34`

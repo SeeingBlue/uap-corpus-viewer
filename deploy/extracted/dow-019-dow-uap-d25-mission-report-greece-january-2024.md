@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1/25/24"
-incident_date_inferred: "2024-01"
-incident_date_inferred_source: "csv+title"
 incident_location: "Mediterranean Sea"
-incident_location_inferred: "Greece"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d25-mission-report-greece-january-2024.jpg"
 sha256: "bd5478d2e420f6ff46fb06014e39027e1caa415f55efdc9bd70a849ff6990356"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 1/25/24  
-**Inferred incident date:** 2024-01  _(source: csv+title)_  
 **Incident location:** Mediterranean Sea  
-**Inferred incident location:** Greece  _(source: csv+title)_  
 **Source:** [dow-uap-d25-mission-report-greece-january-2024.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

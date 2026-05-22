@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1972"
-incident_date_inferred: "1972"
-incident_date_inferred_source: "csv+summary+title"
 incident_location: "Moon"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "body+csv+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-d2-apollo-17-transcript-1972.jpg"
 sha256: "9d041c8799a0124dc440c05cacd790a43d9e063e399aaa5cd3ee777b14146d03"
@@ -41,9 +37,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1972  
-**Inferred incident date:** 1972  _(source: csv+summary+title)_  
 **Incident location:** Moon  
-**Inferred incident location:** Moon  _(source: body+csv+summary)_  
 **Source:** [nasa-uap-d2-apollo-17-transcript-1972.pdf](https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf)  
 **Pages:** 16  
 **Extraction method:** text-layer

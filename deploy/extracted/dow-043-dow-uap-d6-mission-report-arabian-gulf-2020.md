@@ -7,12 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2020"
-incident_date_inferred_source: "sequence+title"
 incident_location: "Pacific Ocean"
-incident_location_inferred: "Persian Gulf"
-incident_location_inferred_source: "title"
-incident_location_inferred_csv_disagrees: true
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d6-mission-report-arabian-gulf-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d6-mission-report-arabian-gulf-2020.jpg"
 sha256: "0f898352417d0447b3720c6eda131ac0cbe7e4cf90b8d1ceab60a431fa835457"
@@ -36,9 +31,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2020  _(source: sequence+title)_  
 **Incident location:** Pacific Ocean  
-**Inferred incident location:** Persian Gulf  _(source: title)_  _(csv disagrees)_  
 **Source:** [dow-uap-d6-mission-report-arabian-gulf-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d6-mission-report-arabian-gulf-2020.pdf)  
 **Pages:** 7  
 **Extraction method:** ocr

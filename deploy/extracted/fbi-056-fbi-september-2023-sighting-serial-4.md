@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/1/23"
-incident_date_inferred: "2023-09"
-incident_date_inferred_source: "body+csv+title"
 incident_location: "United States"
-incident_location_inferred: "United States"
-incident_location_inferred_source: "body+csv"
 source_url: "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/serial-3_redacted.jpg"
 sha256: "4f462fefe8f38e6445f652067ff0ba418e6b0d4f38ce73b5c8190e857fe352ed"
@@ -31,9 +27,7 @@ description: >
 **Agency:** FBI  
 **Release date:** 5/8/26  
 **Incident date:** 9/1/23  
-**Inferred incident date:** 2023-09  _(source: body+csv+title)_  
 **Incident location:** United States  
-**Inferred incident location:** United States  _(source: body+csv)_  
 **Source:** [serial-3_redacted.pdf](https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf)  
 **Pages:** 2  
 **Extraction method:** ocr

@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "12/5/65"
-incident_date_inferred: "1965"
-incident_date_inferred_source: "csv+title"
 incident_location: "Low Earth Orbit"
 source_url: "https://www.war.gov/medialink/ufo/release_1/255_t_763_r1b_transcripts.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/255_t_763_r1b_transcripts.jpg"
@@ -30,7 +28,6 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 12/5/65  
-**Inferred incident date:** 1965  _(source: csv+title)_  
 **Incident location:** Low Earth Orbit  
 **Source:** [255_t_763_r1b_transcripts.pdf](https://www.war.gov/medialink/ufo/release_1/255_t_763_r1b_transcripts.pdf)  
 **Pages:** 4  

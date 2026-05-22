@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "11/8/48"
-incident_date_inferred: "1948-11"
-incident_date_inferred_source: "csv+summary"
 incident_location: "Netherlands"
 source_url: "https://www.war.gov/medialink/ufo/release_1/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.jpg"
@@ -28,7 +26,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 11/8/48  
-**Inferred incident date:** 1948-11  _(source: csv+summary)_  
 **Incident location:** Netherlands  
 **Source:** [341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf](https://www.war.gov/medialink/ufo/release_1/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf)  
 **Pages:** 7  

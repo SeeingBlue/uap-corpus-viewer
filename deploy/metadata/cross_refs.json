@@ -1,256 +1,453 @@
 {
   "pair_codes": {
-    "DOW-UAP-D10": [
+    "DOW-UAP-D010": [
       "dow-010-dow-uap-d10-mission-report-middle-east-may-2022"
     ],
-    "DOW-UAP-D12": [
+    "DOW-UAP-D012": [
       "dow-011-dow-uap-d12-mission-report-iraq-may-2022"
     ],
-    "DOW-UAP-D14": [
+    "DOW-UAP-D014": [
       "dow-012-dow-uap-d14-mission-report-iraq-may-2022"
     ],
-    "DOW-UAP-D16": [
+    "DOW-UAP-D016": [
       "dow-013-dow-uap-d16-mission-report-syria-july-2022"
     ],
-    "DOW-UAP-D18": [
+    "DOW-UAP-D018": [
       "dow-014-dow-uap-d18-mission-report-iraq-december-2022"
     ],
-    "DOW-UAP-D19": [
+    "DOW-UAP-D019": [
       "dow-015-dow-uap-d19-mission-report-syria-february-21-2023"
     ],
     "DOW-UAP-D20": [
       "dow-016-dow-uap-d20-mission-report-iraq-2023"
     ],
+    "DOW-UAP-D023": [
+      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
+    ],
     "DOW-UAP-D23": [
-      "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
       "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
     ],
-    "DOW-UAP-D25": [
+    "DOW-UAP-D025": [
       "dow-019-dow-uap-d25-mission-report-greece-january-2024"
     ],
-    "DOW-UAP-D27": [
+    "DOW-UAP-D027": [
       "dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023"
     ],
-    "DOW-UAP-D28": [
+    "DOW-UAP-D028": [
       "dow-021-dow-uap-d28-mission-report-iraq-september-2024"
     ],
-    "DOW-UAP-D3": [
+    "DOW-UAP-D003": [
       "dow-022-dow-uap-d3-mission-report-arabian-gulf-2020"
     ],
+    "DOW-UAP-D032": [
+      "dow-023-dow-uap-d32-mission-report-syria-october-2024"
+    ],
     "DOW-UAP-D32": [
-      "dow-023-dow-uap-d32-mission-report-syria-october-2024",
       "dow-024-dow-uap-d32-mission-report-syria-october-2024",
       "dow-025-dow-uap-d32-mission-report-syria-october-2024"
     ],
-    "DOW-UAP-D33": [
+    "DOW-UAP-D033": [
       "dow-026-dow-uap-d33-mission-report-greece-october-2023"
     ],
-    "DOW-UAP-D35": [
+    "DOW-UAP-D035": [
       "dow-027-dow-uap-d35-mission-report-greece-october-2023"
     ],
-    "DOW-UAP-D38": [
+    "DOW-UAP-D038": [
       "dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020"
     ],
-    "DOW-UAP-D4": [
+    "DOW-UAP-D004": [
       "dow-029-dow-uap-d4-mission-report-arabian-gulf-2020"
     ],
-    "DOW-UAP-D42": [
+    "DOW-UAP-D042": [
       "dow-030-dow-uap-d42-range-fouler-debrief-japan-2023"
     ],
-    "DOW-UAP-D44": [
+    "DOW-UAP-D044": [
       "dow-031-dow-uap-d44-range-fouler-reporting-form-gulf-of-aden-october"
     ],
-    "DOW-UAP-D48": [
+    "DOW-UAP-D048": [
       "dow-032-dow-uap-d48-department-of-the-air-force-report-1996"
     ],
-    "DOW-UAP-D49": [
+    "DOW-UAP-D049": [
       "dow-033-dow-uap-d49-launch-summary-vandenberg-afb-2000"
     ],
-    "DOW-UAP-D5": [
+    "DOW-UAP-D005": [
       "dow-034-dow-uap-d5-mission-report-arabian-gulf-2020"
     ],
-    "DOW-UAP-D50": [
+    "DOW-UAP-D050": [
       "dow-035-dow-uap-d50-email-correspondence-indopacom-april-2025"
     ],
-    "DOW-UAP-D51": [
+    "DOW-UAP-D051": [
       "dow-036-dow-uap-d51-email-correspondence-pacific-time-zone-march-202"
     ],
-    "DOW-UAP-D52": [
+    "DOW-UAP-D052": [
       "dow-037-dow-uap-d52-email-correspondance-na-august-2024"
     ],
-    "DOW-UAP-D54": [
+    "DOW-UAP-D054": [
       "dow-038-dow-uap-d54-mission-report-mediterranean-sea-na"
     ],
-    "DOW-UAP-D55": [
+    "DOW-UAP-D055": [
       "dow-039-dow-uap-d55-mission-report-syria-november-2016"
     ],
-    "DOW-UAP-D56": [
+    "DOW-UAP-D056": [
       "dow-040-dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020"
     ],
-    "DOW-UAP-D57": [
+    "DOW-UAP-D057": [
       "dow-041-dow-uap-d57-range-fouler-reporting-form-gulf-of-aden-septemb"
     ],
-    "DOW-UAP-D58": [
+    "DOW-UAP-D058": [
       "dow-042-dow-uap-d58-range-fouler-debrief-na-october-2020"
     ],
-    "DOW-UAP-D6": [
+    "DOW-UAP-D006": [
       "dow-043-dow-uap-d6-mission-report-arabian-gulf-2020"
     ],
-    "DOW-UAP-D60": [
+    "DOW-UAP-D060": [
       "dow-044-dow-uap-d60-mission-report-persian-gulf-august-2020"
     ],
-    "DOW-UAP-D61": [
+    "DOW-UAP-D061": [
       "dow-045-dow-uap-d61-mission-report-persian-gulf-august-2020"
     ],
-    "DOW-UAP-D62": [
+    "DOW-UAP-D062": [
       "dow-046-dow-uap-d62-mission-report-strait-of-hormuz-september-2020"
     ],
-    "DOW-UAP-D63": [
+    "DOW-UAP-D063": [
       "dow-047-dow-uap-d63-mission-report-strait-of-hormuz-october-2020"
     ],
-    "DOW-UAP-D64": [
+    "DOW-UAP-D064": [
       "dow-048-dow-uap-d64-mission-report-iran-november-2020"
     ],
-    "DOW-UAP-D65": [
+    "DOW-UAP-D065": [
       "dow-049-dow-uap-d65-mission-report-persian-gulf-july-2020"
     ],
-    "DOW-UAP-D7": [
+    "DOW-UAP-D007": [
       "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020"
     ],
-    "DOW-UAP-D74": [
+    "DOW-UAP-D074": [
       "dow-051-dow-uap-d74-mission-report-syria-november-2023"
     ],
-    "DOW-UAP-D75": [
+    "DOW-UAP-D075": [
       "dow-052-dow-uap-d75-mission-report-gulf-of-aden-july-2024"
     ],
-    "DOW-UAP-D8": [
+    "DOW-UAP-D008": [
       "dow-053-dow-uap-d8-mission-report-djibouti-2025"
     ],
-    "DOW-UAP-PR19": [
+    "DOW-UAP-PR019": [
       "dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022"
     ],
-    "DOW-UAP-PR20": [
+    "DOW-UAP-PR020": [
       "dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022"
     ],
-    "DOW-UAP-PR21": [
+    "DOW-UAP-PR021": [
       "dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022"
     ],
-    "DOW-UAP-PR22": [
+    "DOW-UAP-PR022": [
       "dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022"
     ],
-    "DOW-UAP-PR23": [
+    "DOW-UAP-PR023": [
       "dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022"
     ],
-    "DOW-UAP-PR26": [
+    "DOW-UAP-PR026": [
       "dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo"
     ],
-    "DOW-UAP-PR27": [
+    "DOW-UAP-PR027": [
       "dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo"
     ],
-    "DOW-UAP-PR28": [
+    "DOW-UAP-PR028": [
       "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024"
     ],
-    "DOW-UAP-PR29": [
+    "DOW-UAP-PR029": [
       "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june"
     ],
-    "DOW-UAP-PR31": [
+    "DOW-UAP-PR031": [
       "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024"
     ],
-    "DOW-UAP-PR32": [
+    "DOW-UAP-PR032": [
       "dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024"
     ],
-    "DOW-UAP-PR33": [
+    "DOW-UAP-PR033": [
       "dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024"
     ],
-    "DOW-UAP-PR34": [
+    "DOW-UAP-PR034": [
       "dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023"
     ],
-    "DOW-UAP-PR35": [
+    "DOW-UAP-PR035": [
       "dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023"
     ],
-    "DOW-UAP-PR36": [
+    "DOW-UAP-PR036": [
       "dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020"
     ],
-    "DOW-UAP-PR37": [
+    "DOW-UAP-PR037": [
       "dow-069-dow-uap-pr37-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR38": [
+    "DOW-UAP-PR038": [
       "dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013"
     ],
-    "DOW-UAP-PR39": [
+    "DOW-UAP-PR039": [
       "dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR40": [
+    "DOW-UAP-PR040": [
       "dow-072-dow-uap-pr40-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR41": [
+    "DOW-UAP-PR041": [
       "dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR42": [
+    "DOW-UAP-PR042": [
       "dow-074-dow-uap-pr42-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR43": [
+    "DOW-UAP-PR043": [
       "dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025"
     ],
-    "DOW-UAP-PR44": [
+    "DOW-UAP-PR044": [
       "dow-076-dow-uap-pr44-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR45": [
+    "DOW-UAP-PR045": [
       "dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020"
     ],
-    "DOW-UAP-PR46": [
+    "DOW-UAP-PR046": [
       "dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024"
     ],
-    "DOW-UAP-PR47": [
+    "DOW-UAP-PR047": [
       "dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023"
     ],
-    "DOW-UAP-PR48": [
+    "DOW-UAP-PR048": [
       "dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024"
     ],
-    "DOW-UAP-PR49": [
+    "DOW-UAP-PR049": [
       "dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20"
     ],
-    "NASA-UAP-D3": [
+    "NASA-UAP-D003": [
       "nasa-002-nasa-uap-d3-gemini-7-transcript-1965"
     ],
-    "NASA-UAP-D3A": [
+    "NASA-UAP-D003A": [
       "nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965"
     ],
-    "NASA-UAP-D1": [
+    "NASA-UAP-D001": [
       "nasa-004-nasa-uap-d1-apollo-12-transcript-1969"
     ],
-    "NASA-UAP-D2": [
+    "NASA-UAP-D002": [
       "nasa-005-nasa-uap-d2-apollo-17-transcript-1972"
     ],
-    "NASA-UAP-D4": [
+    "NASA-UAP-D004": [
       "nasa-006-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969"
     ],
-    "NASA-UAP-D5": [
+    "NASA-UAP-D005": [
       "nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973"
     ],
-    "NASA-UAP-D6": [
+    "NASA-UAP-D006": [
       "nasa-008-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973"
     ],
-    "NASA-UAP-D7": [
+    "NASA-UAP-D007": [
       "nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973"
     ],
-    "NASA-UAP-VM1": [
+    "NASA-UAP-VM001": [
       "nasa-010-nasa-uap-vm1-apollo-12-1969"
     ],
-    "NASA-UAP-VM2": [
+    "NASA-UAP-VM002": [
       "nasa-011-nasa-uap-vm2-apollo-12-1969"
     ],
-    "NASA-UAP-VM3": [
+    "NASA-UAP-VM003": [
       "nasa-012-nasa-uap-vm3-apollo-12-1969"
     ],
-    "NASA-UAP-VM4": [
+    "NASA-UAP-VM004": [
       "nasa-013-nasa-uap-vm4-apollo-12-1969"
     ],
-    "NASA-UAP-VM5": [
+    "NASA-UAP-VM005": [
       "nasa-014-nasa-uap-vm5-apollo-12-1969"
     ],
-    "NASA-UAP-VM6": [
+    "NASA-UAP-VM006": [
       "nasa-015-nasa-uap-vm6-apollo-17-1972"
+    ],
+    "DOW-UAP-PR050": [
+      "dow-083-dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-ca"
+    ],
+    "DOW-UAP-PR051": [
+      "dow-084-dow-uap-pr051-syrian-uap-instant-acceleration"
+    ],
+    "DOW-UAP-D017": [
+      "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950"
+    ],
+    "CIA-UAP-D001": [
+      "cia-001-cia-uap-d001-intelligence-information-report-ussr-1973"
+    ],
+    "ODNI-UAP-D001": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "NASA-UAP-D008": [
+      "nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969"
+    ],
+    "DOE-UAP-D001": [
+      "doe-001-doe-uap-d001-enhanced-pantex-imagery"
+    ],
+    "DOE-UAP-D002": [
+      "doe-002-doe-uap-d002-james-tuck-correspondence-1970s"
+    ],
+    "DOE-UAP-D003": [
+      "doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986"
+    ],
+    "DOW-UAP-D020": [
+      "dow-086-dow-uap-d020-mission-report-iraq-2023"
+    ],
+    "DOW-UAP-PR052": [
+      "dow-087-dow-uap-pr052-uap-uso-formation-callsign-mission"
+    ],
+    "DOW-UAP-PR053": [
+      "dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct"
+    ],
+    "DOW-UAP-PR054": [
+      "dow-089-dow-uap-pr054-spherical-uap-erratic-movement-callsign-missio"
+    ],
+    "DOW-UAP-PR055": [
+      "dow-090-dow-uap-pr055-spherical-uap-over-afg-in-and-out-of-clouds-23"
+    ],
+    "DOW-UAP-PR056": [
+      "dow-091-dow-uap-pr056-spherical-uap-pulsing-over-water-callsign"
+    ],
+    "DOW-UAP": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja"
+    ],
+    "DOW-UAP-PR058": [
+      "dow-094-dow-uap-pr058-callsign-mission-uap"
+    ],
+    "DOW-UAP-PR059": [
+      "dow-095-dow-uap-pr059-nag-uap-1-jun-20"
+    ],
+    "DOW-UAP-PR060": [
+      "dow-096-dow-uap-pr060-spherical-uap-callsign-2021-04-12-obj-2"
+    ],
+    "DOW-UAP-PR061": [
+      "dow-097-dow-uap-pr061-spherical-uap-callsign-2021-04-12-vid-0"
+    ],
+    "DOW-UAP-PR062": [
+      "dow-098-dow-uap-pr062-spherical-uap-callsign-2021-04-12-vid-1"
+    ],
+    "DOW-UAP-PR063": [
+      "dow-099-dow-uap-pr063-spherical-uap-callsign-2021-04-12-vid-2"
+    ],
+    "DOW-UAP-PR064": [
+      "dow-100-dow-uap-pr064-afsoc-kabul-uap-jul-2017"
+    ],
+    "DOW-UAP-PR065": [
+      "dow-101-dow-uap-pr065-uscg-c-144-tyndall-uap-2-tic-tac-ir-hot-24-apr"
+    ],
+    "DOW-UAP-PR066": [
+      "dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr"
+    ],
+    "DOW-UAP-PR067": [
+      "dow-103-dow-uap-pr067-multiple-spherical-uap-uso-near-sub-callsign-2"
+    ],
+    "DOW-UAP-PR068": [
+      "dow-104-dow-uap-pr068-iir-1-666-s0151-23-video-footage-of-unidentifi"
+    ],
+    "DOW-UAP-PR069": [
+      "dow-105-dow-uap-pr069-f-a-18-flir-uap"
+    ],
+    "DOW-UAP-PR070": [
+      "dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed"
+    ],
+    "DOW-UAP-PR071": [
+      "dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u"
+    ],
+    "DOW-UAP-PR072": [
+      "dow-108-dow-uap-pr072-administrative-revision-iir-1777-j0032-22-kaza"
+    ],
+    "DOW-UAP-PR073": [
+      "dow-109-dow-uap-pr073-iir-1-655-s0053-23-several-unidentified-aerial"
+    ],
+    "DOW-UAP-PR074": [
+      "dow-110-dow-uap-pr074-callsign-mission-hd-20220613"
+    ],
+    "DOW-UAP-PR075": [
+      "dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs"
+    ],
+    "DOW-UAP-PR076": [
+      "dow-112-dow-uap-pr076-03-january-2021-callsign-mission-observes-uap"
+    ],
+    "DOW-UAP-PR077": [
+      "dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and"
+    ],
+    "DOW-UAP-PR078": [
+      "dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and"
+    ],
+    "DOW-UAP-PR079": [
+      "dow-115-dow-uap-pr079-29-october-2020-callsign-mission-observes-3-fa"
+    ],
+    "DOW-UAP-PR080": [
+      "dow-116-dow-uap-pr080-20-october-2020-callsign-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR081": [
+      "dow-117-dow-uap-pr081-18-oct-2020-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR082": [
+      "dow-118-dow-uap-pr082-16-oct-2020-callsign-views-uap"
+    ],
+    "DOW-UAP-PR083": [
+      "dow-119-dow-uap-pr083-7-october-2020-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR084": [
+      "dow-120-dow-uap-pr084-17-sept-2020-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR085": [
+      "dow-121-dow-uap-pr085-16-sept-2020-callsign-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR086": [
+      "dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast"
+    ],
+    "DOW-UAP-PR087": [
+      "dow-123-dow-uap-pr087-05-september-2020-callsign-uap"
+    ],
+    "DOW-UAP-PR088": [
+      "dow-124-dow-uap-pr088-31-aug-callsign-callsign-observes-uap"
+    ],
+    "DOW-UAP-PR089": [
+      "dow-125-dow-uap-pr089-31-aug-callsign-callsign-observes-uap-part2"
+    ],
+    "DOW-UAP-PR090": [
+      "dow-126-dow-uap-pr090-24-aug-2020-callsign-mission-observes-uap"
+    ],
+    "DOW-UAP-PR091": [
+      "dow-127-dow-uap-pr091-21-aug-callsign-observes-uap-in-persian-gulf"
+    ],
+    "DOW-UAP-PR092": [
+      "dow-128-dow-uap-pr092-08-aug-2020-callsign-callsign-uap-observation"
+    ],
+    "DOW-UAP-PR093": [
+      "dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d"
+    ],
+    "DOW-UAP-PR094": [
+      "dow-130-dow-uap-pr094-callsign-mission-hd-2020-02-13"
+    ],
+    "DOW-UAP-PR095": [
+      "dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d"
+    ],
+    "DOW-UAP-PR096": [
+      "dow-132-dow-uap-pr096-hh11-03-july-2018-uaps"
+    ],
+    "DOW-UAP-PR097": [
+      "dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213"
+    ],
+    "DOW-UAP-PR098": [
+      "dow-134-dow-uap-pr098-ufos-in-formation-over-persian-gulf"
+    ],
+    "DOW-UAP-PR099": [
+      "dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171"
+    ],
+    "NASA-UAP-D009": [
+      "nasa-017-nasa-uap-d009-apollo-17-audio-excerpt-december-7-1972"
+    ],
+    "NASA-UAP-D010": [
+      "nasa-018-nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963"
+    ],
+    "NASA-UAP-D011": [
+      "nasa-019-nasa-uap-d011-mercury-atlas-9-audio-excerpt-may-15-1963"
+    ],
+    "NASA-UAP-D012": [
+      "nasa-020-nasa-uap-d012-mercury-atlas-8-audio-excerpt-october-3-1962"
+    ],
+    "NASA-UAP-D013": [
+      "nasa-021-nasa-uap-d013-mercury-atlas-7-may-24-1962"
+    ],
+    "NASA-UAP-D014": [
+      "nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961"
     ]
   },
   "cross_refs": {
@@ -323,18 +520,6 @@
       "dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023",
       "dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023"
     ],
-    "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024": [
-      "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020"
-    ],
-    "dow-050-dow-uap-d7-mission-report-arabian-gulf-2020": [
-      "dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024"
-    ],
-    "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june": [
-      "dow-053-dow-uap-d8-mission-report-djibouti-2025"
-    ],
-    "dow-053-dow-uap-d8-mission-report-djibouti-2025": [
-      "dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june"
-    ],
     "dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024": [
       "dow-023-dow-uap-d32-mission-report-syria-october-2024",
       "dow-024-dow-uap-d32-mission-report-syria-october-2024",
@@ -367,6 +552,162 @@
     ],
     "dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020": [
       "dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020"
+    ],
+    "fbi-021-fbi-photo-a1": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "odni-001-odni-uap-d001-usper-narrative-senior-usic-official": [
+      "fbi-021-fbi-photo-a1",
+      "fbi-022-fbi-photo-a2",
+      "fbi-023-fbi-photo-a3",
+      "fbi-024-fbi-photo-a4",
+      "fbi-025-fbi-photo-a5",
+      "fbi-026-fbi-photo-a6",
+      "fbi-027-fbi-photo-a7",
+      "fbi-028-fbi-photo-a8",
+      "fbi-029-fbi-photo-b1",
+      "fbi-030-fbi-photo-b10",
+      "fbi-031-fbi-photo-b11",
+      "fbi-032-fbi-photo-b12",
+      "fbi-033-fbi-photo-b13",
+      "fbi-034-fbi-photo-b14",
+      "fbi-035-fbi-photo-b15",
+      "fbi-036-fbi-photo-b16",
+      "fbi-037-fbi-photo-b17",
+      "fbi-038-fbi-photo-b18",
+      "fbi-039-fbi-photo-b19",
+      "fbi-040-fbi-photo-b2",
+      "fbi-041-fbi-photo-b20",
+      "fbi-042-fbi-photo-b21",
+      "fbi-043-fbi-photo-b22",
+      "fbi-044-fbi-photo-b23",
+      "fbi-045-fbi-photo-b24",
+      "fbi-046-fbi-photo-b3",
+      "fbi-047-fbi-photo-b4",
+      "fbi-048-fbi-photo-b5",
+      "fbi-049-fbi-photo-b6",
+      "fbi-050-fbi-photo-b7",
+      "fbi-051-fbi-photo-b8",
+      "fbi-052-fbi-photo-b9",
+      "fbi-053-usper-statement-about-uap-sighting"
+    ],
+    "fbi-022-fbi-photo-a2": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-023-fbi-photo-a3": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-024-fbi-photo-a4": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-025-fbi-photo-a5": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-026-fbi-photo-a6": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-027-fbi-photo-a7": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-028-fbi-photo-a8": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-029-fbi-photo-b1": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-030-fbi-photo-b10": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-031-fbi-photo-b11": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-032-fbi-photo-b12": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-033-fbi-photo-b13": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-034-fbi-photo-b14": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-035-fbi-photo-b15": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-036-fbi-photo-b16": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-037-fbi-photo-b17": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-038-fbi-photo-b18": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-039-fbi-photo-b19": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-040-fbi-photo-b2": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-041-fbi-photo-b20": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-042-fbi-photo-b21": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-043-fbi-photo-b22": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-044-fbi-photo-b23": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-045-fbi-photo-b24": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-046-fbi-photo-b3": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-047-fbi-photo-b4": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-048-fbi-photo-b5": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-049-fbi-photo-b6": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-050-fbi-photo-b7": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-051-fbi-photo-b8": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-052-fbi-photo-b9": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "fbi-053-usper-statement-about-uap-sighting": [
+      "odni-001-odni-uap-d001-usper-narrative-senior-usic-official"
+    ],
+    "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja"
+    ],
+    "dow-092-dow-uap-pr057a-spherical-uap-in-clouds": [
+      "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950"
+    ],
+    "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja": [
+      "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950"
+    ],
+    "dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and": [
+      "dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and"
+    ],
+    "dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and": [
+      "dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and"
+    ],
+    "dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d": [
+      "dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d"
+    ],
+    "dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d": [
+      "dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d"
     ]
   }
 }

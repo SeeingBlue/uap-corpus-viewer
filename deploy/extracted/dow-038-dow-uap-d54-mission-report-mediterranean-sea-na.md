@@ -8,8 +8,6 @@ page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
 incident_location: "Mediterranean Sea"
-incident_location_inferred: "Mediterranean Sea"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d54-mission-report-mediterranean-sea-na.jpg"
 sha256: "03b730443d7be1c67478fc26da8ed664cb48b97acdb817caca3b04fd9b9b82a8"
@@ -33,7 +31,6 @@ description: >
 **Release date:** 5/8/26  
 **Incident date:** N/A  
 **Incident location:** Mediterranean Sea  
-**Inferred incident location:** Mediterranean Sea  _(source: csv+title)_  
 **Source:** [dow-uap-d54-mission-report-mediterranean-sea-na.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "8/27/20"
-incident_date_inferred: "2020-08"
-incident_date_inferred_source: "csv+title"
 incident_location: "Persian Gulf"
-incident_location_inferred: "Persian Gulf"
-incident_location_inferred_source: "body+csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d61-mission-report-persian-gulf-august-2020.jpg"
 sha256: "4ce20fc566edf4a3dcb8a8abd7a5dcd91046069f9e35f83912ad757c8c8be1b9"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 8/27/20  
-**Inferred incident date:** 2020-08  _(source: csv+title)_  
 **Incident location:** Persian Gulf  
-**Inferred incident location:** Persian Gulf  _(source: body+csv+title)_  
 **Source:** [dow-uap-d61-mission-report-persian-gulf-august-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

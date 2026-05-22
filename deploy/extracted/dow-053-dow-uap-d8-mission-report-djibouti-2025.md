@@ -7,12 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2025"
-incident_date_inferred_source: "title-only"
 incident_location: "Mediterranean Sea"
-incident_location_inferred: "Djibouti"
-incident_location_inferred_source: "title"
-incident_location_inferred_csv_disagrees: true
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d8-mission-report-djibouti-2025.jpg"
 sha256: "0a8548a845c3b45f90ee512bdfd8eac1af073072228e7e4d24e779d12025886c"
@@ -35,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2025  _(source: title-only)_  
 **Incident location:** Mediterranean Sea  
-**Inferred incident location:** Djibouti  _(source: title)_  _(csv disagrees)_  
 **Source:** [dow-uap-d8-mission-report-djibouti-2025.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/29/23"
-incident_date_inferred: "2023-10"
-incident_date_inferred_source: "csv+title"
 incident_location: "Aegean Sea"
-incident_location_inferred: "Greece"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d35-mission-report-greece-october-2023.jpg"
 sha256: "b4f4f4ce6dc7687a543905990671f999cd6c5a9e579159bfda501bf6d04f4445"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/29/23  
-**Inferred incident date:** 2023-10  _(source: csv+title)_  
 **Incident location:** Aegean Sea  
-**Inferred incident location:** Greece  _(source: csv+title)_  
 **Source:** [dow-uap-d35-mission-report-greece-october-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

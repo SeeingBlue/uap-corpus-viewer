@@ -7,12 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "8/31/20"
-incident_date_inferred: "2020-08-31"
-incident_date_inferred_source: "body+csv"
 incident_location: "Arabian Gulf"
-incident_location_inferred: "Japan"
-incident_location_inferred_source: "title"
-incident_location_inferred_csv_disagrees: true
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d42-range-fouler-debrief-japan-2023.jpg"
 sha256: "d52431b354af55b1e86cb454e61fd61993af3b023a38f2d9e014a9c9d18d16b4"
@@ -35,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 8/31/20  
-**Inferred incident date:** 2020-08-31  _(source: body+csv)_  
 **Incident location:** Arabian Gulf  
-**Inferred incident location:** Japan  _(source: title)_  _(csv disagrees)_  
 **Source:** [dow-uap-d42-range-fouler-debrief-japan-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

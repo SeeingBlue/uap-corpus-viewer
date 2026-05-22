@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "5/29/22"
-incident_date_inferred: "2022-05"
-incident_date_inferred_source: "csv+title"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "body+csv"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d14-mission-report-iraq-may-2022.jpg"
 sha256: "1822564fbae08f152ad4541c8d067a6ec3b6014c4b4eb8209604e1facb5e1bb3"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 5/29/22  
-**Inferred incident date:** 2022-05  _(source: csv+title)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: body+csv)_  
 **Source:** [dow-uap-d14-mission-report-iraq-may-2022.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf)  
 **Pages:** 9  
 **Extraction method:** text-layer

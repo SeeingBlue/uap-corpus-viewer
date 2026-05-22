@@ -7,12 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2022-05"
-incident_date_inferred_source: "sequence+title"
 incident_location: "Iraq"
-incident_location_inferred: "Kuwait"
-incident_location_inferred_source: "title"
-incident_location_inferred_csv_disagrees: true
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr20.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-pr20.jpg"
 sha256: "1ff8c16256579734969188915ad0e80062e1d5639bc424c6a207340e892c6dc6"
@@ -39,9 +34,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2022-05  _(source: sequence+title)_  
 **Incident location:** Iraq  
-**Inferred incident location:** Kuwait  _(source: title)_  _(csv disagrees)_  
 **Source:** [dow-uap-pr20.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-pr20.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/20/24"
-incident_date_inferred: "2024-10"
-incident_date_inferred_source: "csv+title"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d32-mission-report,-syria-october-2024.jpg"
 sha256: "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/20/24  
-**Inferred incident date:** 2024-10  _(source: csv+title)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: csv+title)_  
 **Source:** [dow-uap-d32-mission-report,-syria-october-2024.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf)  
 **Pages:** 10  
 **Extraction method:** text-layer

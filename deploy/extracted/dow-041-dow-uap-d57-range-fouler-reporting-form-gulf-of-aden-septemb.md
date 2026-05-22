@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/4/20"
-incident_date_inferred: "2020-09-04"
-incident_date_inferred_source: "body+csv"
 incident_location: "Gulf of Aden"
-incident_location_inferred: "Gulf of Aden"
-incident_location_inferred_source: "csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d57-mission-report-gulf-of-aden-september-2020.jpg"
 sha256: "2565433b0ac938d6123c611be75b30ec6cf99c192e71dbf4ef53c40a6852ca00"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 9/4/20  
-**Inferred incident date:** 2020-09-04  _(source: body+csv)_  
 **Incident location:** Gulf of Aden  
-**Inferred incident location:** Gulf of Aden  _(source: csv+summary+title)_  
 **Source:** [dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

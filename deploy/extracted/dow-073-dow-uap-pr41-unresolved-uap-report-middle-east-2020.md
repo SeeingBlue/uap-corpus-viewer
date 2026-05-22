@@ -8,11 +8,7 @@ type_code: "VID"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2020"
-incident_date_inferred_source: "sequence+title"
 incident_location: "Arabian Gulf"
-incident_location_inferred: "Persian Gulf"
-incident_location_inferred_source: "body+csv+title"
 video_title: "Unresolved UAP Report, Arabian Gulf, 2020"
 dvids_video_id: "1006094"
 source_url: "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689083/DOD_111689083-1920x1080-6000k.mp4"
@@ -46,9 +42,7 @@ _DVIDS title: Unresolved UAP Report, Arabian Gulf, 2020_
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2020  _(source: sequence+title)_  
 **Incident location:** Arabian Gulf  
-**Inferred incident location:** Persian Gulf  _(source: body+csv+title)_  
 **DVIDS video ID:** 1006094  
 **Source:** [DOD_111689083-1920x1080-6000k.mp4](https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689083/DOD_111689083-1920x1080-6000k.mp4)  
 **Local path:** `files/videos/dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020.mp4`  
@@ -66,4 +60,20 @@ _DVIDS title: Unresolved UAP Report, Arabian Gulf, 2020_
 - **Date taken:** 2020-01-01T00:00:00-05:00
 - **Date published:** 2026-05-08T07:49:36-04:00
 - **Duration:** 94s
-- **Cate
+- **Category:** B-Roll
+- **Location (DVIDS):** UL
+- **Unit:** All Domain Anomaly Resolution Office
+- **Credit:** 
+- **Keywords:** UAPVIDEOS
+
+### DVIDS description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 34 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2020. The reporter did not provide any oral or written description of the observation.
+
+Video Description:
+00:01: An area of contrast enters the sensor field-of-view from the bottom third of the left side of the screen.
+00:02-01:34: The sensor pans from left to right, tracking the area of contrast and keeping it generally centered within the field-of-view.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+

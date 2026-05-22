@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1973"
-incident_date_inferred: "1973-06-30"
-incident_date_inferred_source: "body+summary"
 incident_location: "N/A"
-incident_location_inferred: "Texas"
-incident_location_inferred_source: "body+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-d7-skylab-technical-crew-debriefing-1973.jpg"
 sha256: "49e232c72a77f16f7e06593789a36882d614888d882a74d71eabcc7d2ce94fb6"
@@ -44,9 +40,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1973  
-**Inferred incident date:** 1973-06-30  _(source: body+summary)_  
 **Incident location:** N/A  
-**Inferred incident location:** Texas  _(source: body+summary)_  
 **Source:** [nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf](https://www.war.gov/medialink/ufo/release_1/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf)  
 **Pages:** 11  
 **Extraction method:** ocr

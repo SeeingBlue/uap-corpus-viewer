@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/27/20"
-incident_date_inferred: "2020-10-27"
-incident_date_inferred_source: "body+csv"
 incident_location: "N/A"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d58-range-fouler-debrief-na-october-2020.jpg"
@@ -32,7 +30,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/27/20  
-**Inferred incident date:** 2020-10-27  _(source: body+csv)_  
 **Incident location:** N/A  
 **Source:** [dow-uap-d58-range-fouler-debrief-na-october-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf)  
 **Pages:** 1  

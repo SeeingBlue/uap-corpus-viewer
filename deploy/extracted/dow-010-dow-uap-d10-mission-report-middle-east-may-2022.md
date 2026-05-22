@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "5/6/22"
-incident_date_inferred: "2022-05"
-incident_date_inferred_source: "csv+title"
 incident_location: "Iraq"
-incident_location_inferred: "Iraq"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d10-mission-report-middle-east-may-2022.jpg"
 sha256: "f9deed9063306b0c45a5a0f6b754db6967f7dc3a0ed66097f154be4b0f033399"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 5/6/22  
-**Inferred incident date:** 2022-05  _(source: csv+title)_  
 **Incident location:** Iraq  
-**Inferred incident location:** Iraq  _(source: csv+title)_  
 **Source:** [dow-uap-d10-mission-report-middle-east-may-2022.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf)  
 **Pages:** 6  
 **Extraction method:** text-layer

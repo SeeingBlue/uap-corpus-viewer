@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/15/20"
-incident_date_inferred: "2020-10-15"
-incident_date_inferred_source: "body+csv"
 incident_location: "Arabian Sea"
-incident_location_inferred: "Gulf of Aden"
-incident_location_inferred_source: "body+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d44-range-fouler-arabian-sea-october-2020.jpg"
 sha256: "c5cfbc8bacca29db64346aaa03846a6e36eab01ac09e1e93d8d50028593cf3f9"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/15/20  
-**Inferred incident date:** 2020-10-15  _(source: body+csv)_  
 **Incident location:** Arabian Sea  
-**Inferred incident location:** Gulf of Aden  _(source: body+title)_  
 **Source:** [dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

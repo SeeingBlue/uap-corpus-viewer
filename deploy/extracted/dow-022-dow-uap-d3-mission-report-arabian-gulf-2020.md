@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2020"
-incident_date_inferred_source: "sequence+title"
 incident_location: "N/A"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d3-mission-report-arabian-gulf-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d3-mission-report-arabian-gulf-2020.jpg"
@@ -32,7 +30,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2020  _(source: sequence+title)_  
 **Incident location:** N/A  
 **Source:** [dow-uap-d3-mission-report-arabian-gulf-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d3-mission-report-arabian-gulf-2020.pdf)  
 **Pages:** 7  

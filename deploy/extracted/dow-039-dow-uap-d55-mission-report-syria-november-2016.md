@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "11/18/16"
-incident_date_inferred: "2016-11-18"
-incident_date_inferred_source: "body+csv"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "body+csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d55-mission-report-syria-november-2016.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d55-mission-report-syria-november-2016.jpg"
 sha256: "f5885b95b57a81c08f0595c02950a07c250db050562520c52fb74f2195787166"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 11/18/16  
-**Inferred incident date:** 2016-11-18  _(source: body+csv)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: body+csv+summary+title)_  
 **Source:** [dow-uap-d55-mission-report-syria-november-2016.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d55-mission-report-syria-november-2016.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/31/24"
-incident_date_inferred: "2024"
-incident_date_inferred_source: "csv+title"
 incident_location: "N/A"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d52-email-correspondance-na-august-2024.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d52-email-correspondance-na-august-2024.jpg"
@@ -30,7 +28,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/31/24  
-**Inferred incident date:** 2024  _(source: csv+title)_  
 **Incident location:** N/A  
 **Source:** [dow-uap-d52-email-correspondance-na-august-2024.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d52-email-correspondance-na-august-2024.pdf)  
 **Pages:** 2  

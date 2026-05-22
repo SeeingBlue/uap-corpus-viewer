@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "11/5/04"
-incident_date_inferred: "2004-11-05"
-incident_date_inferred_source: "csv+title"
 incident_location: "Turkmenistan"
-incident_location_inferred: "Turkmenistan"
-incident_location_inferred_source: "body+csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/059uap00012.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/059uap00012.jpg"
 sha256: "a289d6a9d8286514343ac3be8a793f0e1d297b400ccc0a417485cba385fd9230"
@@ -29,9 +25,7 @@ description: >
 **Agency:** State  
 **Release date:** 5/8/26  
 **Incident date:** 11/5/04  
-**Inferred incident date:** 2004-11-05  _(source: csv+title)_  
 **Incident location:** Turkmenistan  
-**Inferred incident location:** Turkmenistan  _(source: body+csv+summary+title)_  
 **Source:** [059uap00012.pdf](https://www.war.gov/medialink/ufo/release_1/059uap00012.pdf)  
 **Pages:** 5  
 **Extraction method:** text-layer

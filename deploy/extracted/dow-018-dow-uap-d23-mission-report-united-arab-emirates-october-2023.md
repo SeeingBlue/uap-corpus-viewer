@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "10/31/23"
-incident_date_inferred: "2023-10"
-incident_date_inferred_source: "csv+title"
 incident_location: "Persian Gulf"
-incident_location_inferred: "United Arab Emirates"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d23-mission-report-united-arab-emirates-october-2023.jpg"
 sha256: "ea1cd5296143f378db533066b524c32c1ecfbfd43d74ec6be7d832c20fa271bb"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 10/31/23  
-**Inferred incident date:** 2023-10  _(source: csv+title)_  
 **Incident location:** Persian Gulf  
-**Inferred incident location:** United Arab Emirates  _(source: csv+title)_  
 **Source:** [dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf)  
 **Pages:** 9  
 **Extraction method:** text-layer

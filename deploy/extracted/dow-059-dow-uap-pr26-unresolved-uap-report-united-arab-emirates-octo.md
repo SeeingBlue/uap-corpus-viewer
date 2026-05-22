@@ -8,11 +8,7 @@ type_code: "VID"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2023-10"
-incident_date_inferred_source: "body+title"
 incident_location: "United Arab Emirates"
-incident_location_inferred: "United Arab Emirates"
-incident_location_inferred_source: "body+csv+title"
 video_title: "Unresolved UAP Report, United Arab Emirates, October 2023"
 dvids_video_id: "1006063"
 source_url: "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688816/DOD_111688816-1920x1080-6000k.mp4"
@@ -50,9 +46,7 @@ _DVIDS title: Unresolved UAP Report, United Arab Emirates, October 2023_
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2023-10  _(source: body+title)_  
 **Incident location:** United Arab Emirates  
-**Inferred incident location:** United Arab Emirates  _(source: body+csv+title)_  
 **DVIDS video ID:** 1006063  
 **Source:** [DOD_111688816-1920x1080-6000k.mp4](https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111688816/DOD_111688816-1920x1080-6000k.mp4)  
 **Local path:** `files/videos/dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo.mp4`  
@@ -69,4 +63,19 @@ _DVIDS title: Unresolved UAP Report, United Arab Emirates, October 2023_
 - **Title:** DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023
 - **Date taken:** 2023-10-01T00:00:00-04:00
 - **Date published:** 2026-05-07T23:31:01-04:00
-- **Duration
+- **Duration:** 43s
+- **Category:** B-Roll
+- **Location (DVIDS):** AE
+- **Unit:** All Domain Anomaly Resolution Office
+- **Credit:** 
+- **Keywords:** UAPVIDEOS
+
+### DVIDS description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from a U.S. military system in 2022. The original reporter digitally altered the imagery by adding a red line encircling an area of interest before submitting it to AARO. An accompanying mission report, DoW-UAP-D12, described the UAP as moving from north to northeast. The operator reported that they were unable to positively identify the UAP.
+
+Image Description: The image contains an encircled, elongated area of contrast in the top left quarter. The area of contrast increases in intensity along its length from top left to bottom right.
+
+This image description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+

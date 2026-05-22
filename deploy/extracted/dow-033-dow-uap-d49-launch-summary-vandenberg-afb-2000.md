@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "2/3/00"
-incident_date_inferred: "2000-02-03"
-incident_date_inferred_source: "body+csv"
 incident_location: "N/A"
-incident_location_inferred: "Vandenberg AFB"
-incident_location_inferred_source: "body+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d49-launch-summary-february-2000.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d49-launch-summary-february-2000.jpg"
 sha256: "0dd7855ac3c69e39a9752c53fe6ba3e851d617e28adfcbf07c3ec93907877cf7"
@@ -29,9 +25,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 2/3/00  
-**Inferred incident date:** 2000-02-03  _(source: body+csv)_  
 **Incident location:** N/A  
-**Inferred incident location:** Vandenberg AFB  _(source: body+summary+title)_  
 **Source:** [dow-uap-d49-launch-summary-february-2000.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d49-launch-summary-february-2000.pdf)  
 **Pages:** 113  
 **Extraction method:** text-layer

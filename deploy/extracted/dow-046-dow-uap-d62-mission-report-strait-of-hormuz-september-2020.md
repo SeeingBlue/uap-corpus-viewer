@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/16/20"
-incident_date_inferred: "2020-09"
-incident_date_inferred_source: "csv+title"
 incident_location: "Strait of Hormuz"
-incident_location_inferred: "Strait of Hormuz"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.jpg"
 sha256: "36708d3c6121b00c55394ac4a648fbcbe5411c8b2c00ea8f42f9ca0e502c6b13"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 9/16/20  
-**Inferred incident date:** 2020-09  _(source: csv+title)_  
 **Incident location:** Strait of Hormuz  
-**Inferred incident location:** Strait of Hormuz  _(source: csv+title)_  
 **Source:** [dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf)  
 **Pages:** 9  
 **Extraction method:** text-layer

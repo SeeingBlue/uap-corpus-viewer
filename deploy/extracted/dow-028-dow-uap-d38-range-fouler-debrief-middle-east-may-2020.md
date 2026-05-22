@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "5/14/20"
-incident_date_inferred: "2020-05-14"
-incident_date_inferred_source: "body+csv"
 incident_location: "Persian Gulf"
-incident_location_inferred: "Persian Gulf"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.jpg"
 sha256: "90b353682ba2181149054d0911b7553e58e959438dd4de531a06fc387a332f85"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 5/14/20  
-**Inferred incident date:** 2020-05-14  _(source: body+csv)_  
 **Incident location:** Persian Gulf  
-**Inferred incident location:** Persian Gulf  _(source: csv+title)_  
 **Source:** [dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf)  
 **Pages:** 1  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "11/2/20"
-incident_date_inferred: "2020-11-02"
-incident_date_inferred_source: "csv+summary"
 incident_location: "Iran"
-incident_location_inferred: "Iran"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d64-mission-report-iran-november-2020.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d64-mission-report-iran-november-2020.jpg"
 sha256: "8422fceb10b2eafcab525690cc9aff6827fc78d5ae5e34b44174d9cc78abbb7c"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 11/2/20  
-**Inferred incident date:** 2020-11-02  _(source: csv+summary)_  
 **Incident location:** Iran  
-**Inferred incident location:** Iran  _(source: csv+title)_  
 **Source:** [dow-uap-d64-mission-report-iran-november-2020.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d64-mission-report-iran-november-2020.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

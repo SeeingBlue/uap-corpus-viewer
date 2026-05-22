@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/1/23"
-incident_date_inferred: "2023-09"
-incident_date_inferred_source: "csv+summary+title"
 incident_location: "United States"
 source_url: "https://www.war.gov/medialink/ufo/release_1/2024-04-30-composite-sketch.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/2024-04-30-composite-sketch.jpg"
@@ -28,7 +26,6 @@ description: >
 **Agency:** FBI  
 **Release date:** 5/8/26  
 **Incident date:** 9/1/23  
-**Inferred incident date:** 2023-09  _(source: csv+summary+title)_  
 **Incident location:** United States  
 **Source:** [2024-04-30-composite-sketch.pdf](https://www.war.gov/medialink/ufo/release_1/2024-04-30-composite-sketch.pdf)  
 **Pages:** 1  

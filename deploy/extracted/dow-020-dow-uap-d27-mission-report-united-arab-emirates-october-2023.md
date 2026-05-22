@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "6/7/24"
-incident_date_inferred: "2024-06-07"
-incident_date_inferred_source: "csv+sequence"
 incident_location: "Gulf of Oman"
-incident_location_inferred: "Oman"
-incident_location_inferred_source: "body+csv"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d27-mission-report-united-arab-emirates-october-2023.jpg"
 sha256: "86275421f64583566fcc32b7422c5d991b35dd7d3700e01d3fcf24b279fff243"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 6/7/24  
-**Inferred incident date:** 2024-06-07  _(source: csv+sequence)_  
 **Incident location:** Gulf of Oman  
-**Inferred incident location:** Oman  _(source: body+csv)_  
 **Source:** [dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf)  
 **Pages:** 8  
 **Extraction method:** text-layer

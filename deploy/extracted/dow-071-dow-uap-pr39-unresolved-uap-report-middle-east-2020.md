@@ -8,11 +8,7 @@ type_code: "VID"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "N/A"
-incident_date_inferred: "2020"
-incident_date_inferred_source: "sequence+title"
 incident_location: "Arabian Gulf"
-incident_location_inferred: "Persian Gulf"
-incident_location_inferred_source: "body+csv+title"
 video_title: "Unresolved UAP Report, Arabian Gulf, 2020"
 dvids_video_id: "1006089"
 source_url: "https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689057/DOD_111689057-1920x1080-6000k.mp4"
@@ -44,9 +40,7 @@ _DVIDS title: Unresolved UAP Report, Arabian Gulf, 2020_
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** N/A  
-**Inferred incident date:** 2020  _(source: sequence+title)_  
 **Incident location:** Arabian Gulf  
-**Inferred incident location:** Persian Gulf  _(source: body+csv+title)_  
 **DVIDS video ID:** 1006089  
 **Source:** [DOD_111689057-1920x1080-6000k.mp4](https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689057/DOD_111689057-1920x1080-6000k.mp4)  
 **Local path:** `files/videos/dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020.mp4`  
@@ -64,4 +58,19 @@ _DVIDS title: Unresolved UAP Report, Arabian Gulf, 2020_
 - **Date taken:** 2020-01-01T00:00:00-05:00
 - **Date published:** 2026-05-08T07:47:01-04:00
 - **Duration:** 5s
-- **Categ
+- **Category:** B-Roll
+- **Location (DVIDS):** UL
+- **Unit:** All Domain Anomaly Resolution Office
+- **Credit:** 
+- **Keywords:** UAPVIDEOS
+
+### DVIDS description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of five seconds of video footage from an infrared sensor aboard a U.S. military platform in 2020. The reporter did not provide any oral or written description of the observation.
+
+Video Description:
+00:03-00:05: A faint area of contrast enters the sensor field-of-view from the bottom half of the right edge of the screen, proceeds from right to left across the corner of the frame, and exits the scene from near the center of the bottom edge of the screen.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+

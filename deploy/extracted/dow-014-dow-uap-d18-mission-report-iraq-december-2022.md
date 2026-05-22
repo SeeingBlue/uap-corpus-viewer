@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "12/1/22"
-incident_date_inferred: "2022-12"
-incident_date_inferred_source: "csv+title"
 incident_location: "Iraq"
-incident_location_inferred: "Iraq"
-incident_location_inferred_source: "body+csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d18-mission-report-iraq-december-2022.jpg"
 sha256: "4752dd830144b21c3055a2fea8b44c551445b41622c27db64fb0fa07c2dcd93d"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 12/1/22  
-**Inferred incident date:** 2022-12  _(source: csv+title)_  
 **Incident location:** Iraq  
-**Inferred incident location:** Iraq  _(source: body+csv+title)_  
 **Source:** [dow-uap-d18-mission-report-iraq-december-2022.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf)  
 **Pages:** 6  
 **Extraction method:** text-layer

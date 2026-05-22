@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1973"
-incident_date_inferred: "1973-01-04"
-incident_date_inferred_source: "body+summary"
 incident_location: "N/A"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "body+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.jpg"
 sha256: "2c874c40c55505f2348177ddde77c9fd015bf971e6e059c43508a92bc9ee6b30"
@@ -32,9 +28,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1973  
-**Inferred incident date:** 1973-01-04  _(source: body+summary)_  
 **Incident location:** N/A  
-**Inferred incident location:** Moon  _(source: body+summary)_  
 **Source:** [nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf](https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf)  
 **Pages:** 2  
 **Extraction method:** ocr

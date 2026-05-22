@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "3/18/45"
-incident_date_inferred: "1945-03"
-incident_date_inferred_source: "body+csv"
 incident_location: "Germany"
 source_url: "https://www.war.gov/medialink/ufo/release_1/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.jpg"
@@ -28,7 +26,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 3/18/45  
-**Inferred incident date:** 1945-03  _(source: body+csv)_  
 **Incident location:** Germany  
 **Source:** [331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf](https://www.war.gov/medialink/ufo/release_1/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf)  
 **Pages:** 17  

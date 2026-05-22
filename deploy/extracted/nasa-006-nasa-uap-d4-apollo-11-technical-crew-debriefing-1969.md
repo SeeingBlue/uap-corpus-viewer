@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1969"
-incident_date_inferred: "1969-07-31"
-incident_date_inferred_source: "body+summary"
 incident_location: "N/A"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "body+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.jpg"
 sha256: "aacc41814dd16583bbeabe068026bf286cd9b0e464ff097c5c7b97b00d308443"
@@ -38,9 +34,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1969  
-**Inferred incident date:** 1969-07-31  _(source: body+summary)_  
 **Incident location:** N/A  
-**Inferred incident location:** Moon  _(source: body+summary)_  
 **Source:** [nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf](https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf)  
 **Pages:** 11  
 **Extraction method:** ocr

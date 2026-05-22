@@ -8,8 +8,6 @@ page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "2023"
 incident_location: "Western United States"
-incident_location_inferred: "Western United States"
-incident_location_inferred_source: "csv+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/western_us_event_slides_5.08.2026.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/western_us_event_slides_5.08.2026.jpg"
 sha256: "6a4e6ee6111eec24d28aa9b4b9d72beafe0be5a480972683fbce82f758e6be35"
@@ -28,7 +26,6 @@ description: >
 **Release date:** 5/8/26  
 **Incident date:** 2023  
 **Incident location:** Western United States  
-**Inferred incident location:** Western United States  _(source: csv+summary)_  
 **Source:** [western_us_event_slides_5.08.2026.pdf](https://www.war.gov/medialink/ufo/release_1/western_us_event_slides_5.08.2026.pdf)  
 **Pages:** 4  
 **Extraction method:** text-layer

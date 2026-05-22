@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/20/24"
-incident_date_inferred: "2024-09"
-incident_date_inferred_source: "csv+title"
 incident_location: "Iraq"
-incident_location_inferred: "Iraq"
-incident_location_inferred_source: "body+csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d28-mission-report-east-china-sea-2024.jpg"
 sha256: "e12c00b3e2d64e35eef5623499e6eb23b1bc21d304523c75d28d3f474d91d77e"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 9/20/24  
-**Inferred incident date:** 2024-09  _(source: csv+title)_  
 **Incident location:** Iraq  
-**Inferred incident location:** Iraq  _(source: body+csv+title)_  
 **Source:** [dow-uap-d28-mission-report-east-china-sea-2024.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf)  
 **Pages:** 6  
 **Extraction method:** text-layer

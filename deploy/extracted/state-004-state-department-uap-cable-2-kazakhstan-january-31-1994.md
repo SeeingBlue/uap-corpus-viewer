@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1/27/94"
-incident_date_inferred: "1994-01-27"
-incident_date_inferred_source: "csv+summary"
 incident_location: "Kazakhstan"
-incident_location_inferred: "Kazakhstan"
-incident_location_inferred_source: "body+csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dos-uap-d2-cable-2-kazakhstan-january-1994.jpg"
 sha256: "64847feac6a309a847a39689ed2036e556f35a253189c7b9b33bd9d40b26b239"
@@ -31,9 +27,7 @@ description: >
 **Agency:** State  
 **Release date:** 5/8/26  
 **Incident date:** 1/27/94  
-**Inferred incident date:** 1994-01-27  _(source: csv+summary)_  
 **Incident location:** Kazakhstan  
-**Inferred incident location:** Kazakhstan  _(source: body+csv+summary+title)_  
 **Source:** [dos-uap-d2-cable-2-kazakhstan-january-1994.pdf](https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf)  
 **Pages:** 3  
 **Extraction method:** text-layer

@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "4/10/2025-4/11/2025"
-incident_date_inferred: "2025-04"
-incident_date_inferred_source: "csv+title"
 incident_location: "N/A"
-incident_location_inferred: "Indo-PACOM"
-incident_location_inferred_source: "body+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d50-email-correspondence-indopacom-april-2025.jpg"
 sha256: "10c11e9bf4d6686159da48e3d9388e7d3afe4ae8b1e79725ec6c63ccc491e537"
@@ -32,9 +28,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 4/10/2025-4/11/2025  
-**Inferred incident date:** 2025-04  _(source: csv+title)_  
 **Incident location:** N/A  
-**Inferred incident location:** Indo-PACOM  _(source: body+title)_  
 **Source:** [dow-uap-d50-email-correspondence-indopacom-april-2025.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf)  
 **Pages:** 2  
 **Extraction method:** text-layer

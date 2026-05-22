@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "7/31/22"
-incident_date_inferred: "2022-07"
-incident_date_inferred_source: "csv+title"
 incident_location: "Syria"
-incident_location_inferred: "Syria"
-incident_location_inferred_source: "csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d16-mission-report-syria-july-2022.jpg"
 sha256: "b3b3f023d70bcce3178de9fe6a019ea6db5e5145bc7e28a49308442e190ef817"
@@ -34,9 +30,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 7/31/22  
-**Inferred incident date:** 2022-07  _(source: csv+title)_  
 **Incident location:** Syria  
-**Inferred incident location:** Syria  _(source: csv+title)_  
 **Source:** [dow-uap-d16-mission-report-syria-july-2022.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

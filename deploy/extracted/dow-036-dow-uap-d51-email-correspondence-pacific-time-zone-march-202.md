@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "3/23/26"
-incident_date_inferred: "2023-03"
-incident_date_inferred_source: "body+title"
 incident_location: "Pacific Time Zone"
-incident_location_inferred: "Pacific Ocean"
-incident_location_inferred_source: "body+csv+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.jpg"
 sha256: "f21f4ae91e51810bfa8a6fce6c422f2bbf99c6277871846c642f987954c042f6"
@@ -32,9 +28,7 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 3/23/26  
-**Inferred incident date:** 2023-03  _(source: body+title)_  
 **Incident location:** Pacific Time Zone  
-**Inferred incident location:** Pacific Ocean  _(source: body+csv+title)_  
 **Source:** [dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf)  
 **Pages:** 6  
 **Extraction method:** text-layer

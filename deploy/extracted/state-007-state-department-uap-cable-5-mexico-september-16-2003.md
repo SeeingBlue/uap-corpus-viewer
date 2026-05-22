@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/12/03"
-incident_date_inferred: "2003-09"
-incident_date_inferred_source: "csv+title"
 incident_location: "Mexico"
-incident_location_inferred: "Mexico"
-incident_location_inferred_source: "body+csv+summary+title"
 source_url: "https://www.war.gov/medialink/ufo/release_1/059uap00013.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/059uap00013.jpg"
 sha256: "022b27728e86e291e078cac1d4fd5dcf225b2f6700175db9ea8ada19147318d8"
@@ -29,9 +25,7 @@ description: >
 **Agency:** State  
 **Release date:** 5/8/26  
 **Incident date:** 9/12/03  
-**Inferred incident date:** 2003-09  _(source: csv+title)_  
 **Incident location:** Mexico  
-**Inferred incident location:** Mexico  _(source: body+csv+summary+title)_  
 **Source:** [059uap00013.pdf](https://www.war.gov/medialink/ufo/release_1/059uap00013.pdf)  
 **Pages:** 7  
 **Extraction method:** text-layer

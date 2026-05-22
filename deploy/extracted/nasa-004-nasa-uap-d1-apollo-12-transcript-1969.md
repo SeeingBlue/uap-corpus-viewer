@@ -7,11 +7,7 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "1969"
-incident_date_inferred: "1969"
-incident_date_inferred_source: "csv+summary+title"
 incident_location: "Moon"
-incident_location_inferred: "Moon"
-incident_location_inferred_source: "body+csv+summary"
 source_url: "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-d1-apollo-12-transcript-1969.jpg"
 sha256: "ab911622b7d4203d9d54914f03d1662cf561b7f943afe9d17f9617cfaea06585"
@@ -37,9 +33,7 @@ description: >
 **Agency:** NASA  
 **Release date:** 5/8/26  
 **Incident date:** 1969  
-**Inferred incident date:** 1969  _(source: csv+summary+title)_  
 **Incident location:** Moon  
-**Inferred incident location:** Moon  _(source: body+csv+summary)_  
 **Source:** [nasa-uap-d1-apollo-12-transcript-1969.pdf](https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf)  
 **Pages:** 4  
 **Extraction method:** text-layer

@@ -7,8 +7,6 @@ type: "pdf"
 page_section: "Release 01"
 release_date: "5/8/26"
 incident_date: "9/10/96"
-incident_date_inferred: "1996-09-10"
-incident_date_inferred_source: "body+csv"
 incident_location: "N/A"
 source_url: "https://www.war.gov/medialink/ufo/release_1/dow-uap-d48-report-september-1996.pdf"
 modal_image_url: "https://www.war.gov/medialink/ufo/release_1/thumbnail/dow-uap-d48-report-september-1996.jpg"
@@ -27,7 +25,6 @@ description: >
 **Agency:** DoW  
 **Release date:** 5/8/26  
 **Incident date:** 9/10/96  
-**Inferred incident date:** 1996-09-10  _(source: body+csv)_  
 **Incident location:** N/A  
 **Source:** [dow-uap-d48-report-september-1996.pdf](https://www.war.gov/medialink/ufo/release_1/dow-uap-d48-report-september-1996.pdf)  
 **Pages:** 181  
