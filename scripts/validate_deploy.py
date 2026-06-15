@@ -43,9 +43,9 @@ for name in ("DATA", "RECORD_COORDS", "PATTERN_FEATURES"):
         if name == "DATA":
             print(f"{name}: OK, records={len(obj['records'])} edges={len(obj['edges'])}")
             # Release split
-            r1 = sum(1 for r in obj["records"] if r.get("release") == "R1")
-            r2 = sum(1 for r in obj["records"] if r.get("release") == "R2")
-            print(f"  release split: R1={r1}  R2={r2}")
+            from collections import Counter as _C
+            rc = _C(r.get("release") for r in obj["records"])
+            print(f"  release split: " + "  ".join(f"{k}={rc[k]}" for k in sorted(rc)))
             agencies = {}
             for r in obj["records"]:
                 agencies[r["agency"]] = agencies.get(r["agency"], 0) + 1

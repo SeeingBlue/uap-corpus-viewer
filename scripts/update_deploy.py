@@ -86,6 +86,30 @@ NEW_LOCATION_COORDS = {
     "Sandia Base":  [-106.55, 35.05],   # Albuquerque, NM
     "Pantex":       [-101.55, 35.31],   # Amarillo, TX
     "Pajarito":     [-106.32, 35.85],   # Los Alamos NM area
+    # Release 03 additions
+    "Westen United States":   [-115.0, 39.0],  # CSV typo for "Western"
+    "Colorado Springs":       [-104.82, 38.83],
+    "Colorado":               [-105.5, 39.0],
+    "Cape Kennedy":           [-80.60, 28.49],  # Cape Canaveral, FL
+    "Houston":                [-95.37, 29.76],
+    "New Jersey":             [-74.5, 40.1],
+    "Washington State":       [-120.74, 47.4],
+    "Florida":                [-81.5, 28.0],
+
+    # Foreign cities/countries new in R3
+    "Budapest":     [19.04, 47.50],
+    "Hungary":      [19.5, 47.0],
+    "Australia":    [134.0, -25.0],
+    "Harare":       [31.05, -17.83],
+    "Zimbabwe":     [29.15, -19.0],
+    "Baku":         [49.87, 40.41],
+    "Azerbaijan":   [47.6, 40.4],
+    "Ladakh":       [77.6, 34.2],       # Himalayan tri-border record
+    "Sikkim":       [88.5, 27.5],
+
+    # Generic fallback - MUST stay after every more-specific "* United
+    # States" key above so substring matching prefers the specific region.
+    "United States": [-98.5, 39.5],
 
     # Water bodies
     "Yellow Sea":             [123.0, 35.0],
@@ -272,7 +296,8 @@ def build_data(index, entities, cross_refs, audit):
                extract_year(normalize_year_from_csv(r.get("incident_date") or "")) or \
                extract_year(r.get("release_date") or "")
 
-        release = "R2" if r.get("page_section") == "Release 02" else "R1"
+        release = {"Release 03": "R3", "Release 02": "R2"}.get(
+            r.get("page_section"), "R1")
 
         records.append({
             "id": rid,
@@ -293,6 +318,7 @@ def build_data(index, entities, cross_refs, audit):
             "incident_location_inferred_csv_disagrees": bool(a.get("loc_disagrees")),
             "summary": r.get("summary", ""),
             "redaction": r.get("redaction", ""),
+            "featured": bool(r.get("featured")),
             "source_url": r.get("source_url", ""),
             "modal_image_url": r.get("modal_image_url", ""),
             "bytes": r.get("bytes", 0),
@@ -397,15 +423,17 @@ def replace_const_line(text, const_name, new_json):
     return text[:body_start] + new_json + ";" + text[i + 1:]
 
 
-def update_header(text, total):
+def update_header(text, total, counts):
     text = re.sub(r"<title>[^<]+</title>",
-                  "<title>war.gov UAP Release 01 + 02 — corpus viewer</title>",
+                  "<title>war.gov UAP Release 01 + 02 + 03 — corpus viewer</title>",
                   text, count=1)
     text = re.sub(r"<h1>[^<]+</h1>",
-                  "<h1>war.gov / UFO — Release 01 + 02</h1>",
+                  "<h1>war.gov / UFO — Release 01 + 02 + 03</h1>",
                   text, count=1)
+    meta = (f'PURSUE · snapshot 2026-06-12 · {total} records · '
+            f'R1={counts.get("R1",0)} R2={counts.get("R2",0)} R3={counts.get("R3",0)}')
     text = re.sub(r'<span class="meta mono">[^<]+</span>',
-                  f'<span class="meta mono">PURSUE · snapshot 2026-05-22 · {total} records · R1=158 R2=64</span>',
+                  f'<span class="meta mono">{meta}</span>',
                   text, count=1)
     return text
 
@@ -440,10 +468,26 @@ def main():
     html = replace_const_line(html, "DATA", data_json)
     html = replace_const_line(html, "RECORD_COORDS", coords_json)
     html = replace_const_line(html, "PATTERN_FEATURES", feats_json)
-    html = update_header(html, data["total"])
+    rel_counts = {}
+    for r in data["records"]:
+        rel_counts[r["release"]] = rel_counts.get(r["release"], 0) + 1
+    html = update_header(html, data["total"], rel_counts)
+
+    # Optional release_patterns.json -> inline as RELEASE_PATTERNS for the
+    # viewer's cross-release comparison panel.
+    rp = ROOT / "metadata" / "release_patterns.json"
+    if rp.exists():
+        rp_json = json.dumps(json.loads(rp.read_text(encoding="utf-8-sig")),
+                             ensure_ascii=False, separators=(",", ":"))
+        try:
+            html = replace_const_line(html, "RELEASE_PATTERNS", rp_json)
+            print("[update_deploy] inlined RELEASE_PATTERNS")
+        except RuntimeError:
+            print("[update_deploy] RELEASE_PATTERNS const not in template (skipped)")
 
     DEPLOY_HTML.write_text(html, encoding="utf-8", newline="\n")
     print(f"[update_deploy] wrote {DEPLOY_HTML} ({len(html):,} bytes)")
+    print(f"[update_deploy] release counts: {rel_counts}")
     return 0
 
 

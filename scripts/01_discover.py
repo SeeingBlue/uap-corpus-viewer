@@ -42,6 +42,7 @@ PAGE_URL = "https://www.war.gov/UFO/"
 RELEASE_SECTIONS = {
     "5/8/26":  "Release 01",
     "5/22/26": "Release 02",
+    "6/12/26": "Release 03",
 }
 
 
@@ -57,9 +58,12 @@ def normalize_agency(agency):
     if not agency:
         return "unknown"
     a = agency.lower()
-    # Order matters: most specific keyword first.
+    # Order matters: most specific keyword first. "intelligence community"
+    # must come before the bare "intelligence"/"national intelligence" tests
+    # so ICA doesn't get mis-tagged as ODNI.
     for kw, label in (
         ("fbi", "FBI"),
+        ("intelligence community", "ICA"),
         ("director of national intelligence", "ODNI"),
         ("national intelligence", "ODNI"),
         ("central intelligence", "CIA"),
@@ -72,6 +76,9 @@ def normalize_agency(agency):
         ("defense", "DoD"),
         ("nasa", "NASA"),
         ("state", "State"),
+        ("u.s. government", "USG"),
+        ("us government", "USG"),
+        ("government", "USG"),
     ):
         if kw in a:
             return label
@@ -95,11 +102,28 @@ def fetch_csv(url, dest):
 
 
 def fld(row, name):
-    return (row.get(name) or "").strip()
+    # R3 titles/summaries are peppered with UTF-8 non-breaking spaces
+    # (U+00A0). They're valid UTF-8 but leave invisible NBSP chars in the
+    # displayed text and break naive whitespace handling, so fold them to
+    # regular spaces and collapse runs.
+    v = (row.get(name) or "").replace(" ", " ")
+    return " ".join(v.split())
 
 
 def asset_key(source_url, dvids_id):
-    """Stable identity for an asset across snapshots."""
+    """Stable identity for an asset across snapshots.
+
+    URL-keyed records (PDFs, images) key on their direct link, which is
+    unique. Videos and audio key on DVIDS id -- which is NOT always unique:
+    the CSV occasionally gives two genuinely-distinct clips the same DVIDS
+    id (e.g. DOW-UAP-PR057a and PR057b both point at DVIDS 1007720).
+
+    We deliberately do NOT fold the title into the key: war.gov edits
+    titles between releases (typo fixes like "Sherical" -> "Spherical"),
+    which would spuriously orphan a record. Instead, collisions are handled
+    positionally -- see load_prior_ids / build_manifest, which map a DVIDS
+    key to an ordered list of ids and consume them in CSV order.
+    """
     if source_url:
         return ("url", source_url.lower())
     if dvids_id:
@@ -117,42 +141,49 @@ def load_prior_ids():
        user has made since the original snapshot, so it's the most
        trustworthy mapping.
     """
-    id_by_key = {}
+    # Each key maps to an ORDERED, de-duplicated list of ids. Most keys
+    # have one id; a DVIDS key shared by two clips has two, in first-seen
+    # order. build_manifest consumes them positionally.
+    ids_by_key = {}
     max_seq = {}
 
-    def absorb(a, *, prefer):
+    def absorb(a):
         k = asset_key(a.get("source_url", ""), a.get("dvids_video_id", ""))
-        if k and (prefer or k not in id_by_key):
-            id_by_key[k] = a["id"]
+        if k:
+            lst = ids_by_key.setdefault(k, [])
+            if a["id"] not in lst:
+                lst.append(a["id"])
         parts = a["id"].split("-", 2)
         if len(parts) >= 2 and parts[1].isdigit():
             seq = int(parts[1])
             ag = a.get("agency", "")
             max_seq[ag] = max(max_seq.get(ag, 0), seq)
 
+    # Oldest snapshots first, then index.json last -- so first-seen order
+    # reflects the original CSV order the records were minted in.
     for snap_dir in sorted(p for p in SNAPSHOTS_DIR.iterdir() if p.is_dir()):
         mpath = snap_dir / "manifest.json"
         if not mpath.exists():
             continue
         for a in load_json(mpath, default={}).get("assets", []):
-            absorb(a, prefer=False)
+            absorb(a)
 
-    # index.json reflects on-disk reality (including any manual URL fixes
-    # the user has applied after the original snapshot). We add its keys
-    # ADDITIVELY - so a corrected URL routes to the existing ID, without
-    # overwriting a duplicate URL's claim on its earliest-seen ID.
+    # index.json reflects on-disk reality (including any manual URL fixes).
     if INDEX_PATH.exists():
         for a in load_json(INDEX_PATH, default={}).get("files", []):
-            absorb(a, prefer=False)
+            absorb(a)
 
-    return id_by_key, max_seq
+    return ids_by_key, max_seq
 
 
 def build_manifest(csv_text):
     reader = csv.DictReader(StringIO(csv_text))
-    prior_ids, max_seq = load_prior_ids()
+    ids_by_key, max_seq = load_prior_ids()
     # next_seq[agency] = next number to hand out for a brand-new record.
     next_seq = dict(max_seq)
+    # Per-key consumption counter: the Nth CSV row with a given key claims
+    # the Nth prior id for that key (handles DVIDS ids shared by 2 clips).
+    key_used = {}
     assets = []
 
     for row in reader:
@@ -172,7 +203,13 @@ def build_manifest(csv_text):
         page_section = RELEASE_SECTIONS.get(release_date, f"Release ({release_date})")
 
         key = asset_key(source_url, dvids_id)
-        existing = prior_ids.get(key) if key else None
+        existing = None
+        if key:
+            prior_list = ids_by_key.get(key, [])
+            n = key_used.get(key, 0)
+            if n < len(prior_list):
+                existing = prior_list[n]
+            key_used[key] = n + 1
         if existing:
             asset_id = existing
         else:
@@ -199,12 +236,15 @@ def build_manifest(csv_text):
             "modal_image_url": fld(row, "Modal Image"),
             "image_alt_text": fld(row, "Image Alt Text"),
             "image_virin": fld(row, "Image VIRIN"),
+            # R3 added a "Featured" column ("YES" for ~10 hero records the
+            # page highlights). Store a clean boolean for downstream use.
+            "featured": fld(row, "Featured").upper() == "YES",
             "source_url": source_url,
             "discovered_on": now_iso(),
         })
 
     return {
-        "snapshot_date": today_str(),
+        "snapshot_date": _SNAPSHOT_DATE or today_str(),
         "source_page": PAGE_URL,
         "csv_manifest_url": CSV_URL,
         "discovered_on": now_iso(),
@@ -213,12 +253,24 @@ def build_manifest(csv_text):
     }
 
 
+# Optional snapshot-date override. Snapshots are named after the release
+# date for archival consistency (snapshots/2026-06-12 for the 6/12 drop),
+# which may differ from the day discovery is actually run.
+_SNAPSHOT_DATE = None
+
+
 def main():
-    snap_dir = SNAPSHOTS_DIR / today_str()
+    global _SNAPSHOT_DATE
+    args = sys.argv[1:]
+    if args:
+        _SNAPSHOT_DATE = args[0].strip()
+
+    snap_date = _SNAPSHOT_DATE or today_str()
+    snap_dir = SNAPSHOTS_DIR / snap_date
     csv_path = snap_dir / "uap-data.csv"
     manifest_path = snap_dir / "manifest.json"
 
-    print("[discover] snapshot:", today_str())
+    print("[discover] snapshot:", snap_date)
     print("[discover] CSV:", csv_path)
 
     try:

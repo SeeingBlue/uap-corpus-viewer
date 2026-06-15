@@ -99,6 +99,10 @@ AGENCY_KEYWORDS = {
     "central intelligence agency": "CIA",
     "cia": "CIA",
     "nsa": "NSA",
+    # Release 03 introduced two more author labels:
+    "intelligence community agency": "ICA",
+    "u.s. government": "USG",
+    "us government": "USG",
 }
 
 

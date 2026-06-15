@@ -2,9 +2,11 @@
 files/pdfs/*
 files/videos/*
 files/images/*
+files/audio/*
 !files/pdfs/.gitkeep
 !files/videos/.gitkeep
 !files/images/.gitkeep
+!files/audio/.gitkeep
 
 # Extracted text — regenerable from PDFs.
 extracted/*

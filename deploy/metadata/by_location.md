@@ -1,9 +1,18 @@
 # Records by incident location
 
-_Generated from `metadata/index.json` covering 227 records._
+_Generated from `metadata/index.json` covering 299 records._
 
-## N/A  (53 records)
+## N/A  (70 records)
 
+- **[CIA]** `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying` — 1952-1953 — CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
+- **[CIA]** `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec` — 1954-1974 — CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
+- **[CIA]** `cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson` — 1958 — CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson
+- **[CIA]** `cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs` — 1950 — CIA-UAP-005, German Scientist's Article on 'Flying Discs'
+- **[CIA]** `cia-008-cia-uap-007-current-status-of-unidentified-flying-objects-uf` — December, 1953 — CIA-UAP-007, Current Status Of Unidentified Flying Objects (UFO) Project.
+- **[CIA]** `cia-009-cia-uap-008-speculative-paper-by-n-kardashev-and-a-sakharov` — 1972 — CIA-UAP-008, Speculative Paper By N Kardashev and A Sakharov on Charged Mass in Space at Conference on Origins Of Life, Armenia, 6-8 September 1971/Low Scientific Level Of Other Soviet Papers
+- **[CIA]** `cia-013-cia-uap-012-combating-fatigue-in-crewmembers` — November, 1976 — CIA-UAP-012, Combating Fatigue In Crewmembers
+- **[CIA]** `cia-015-cia-uap-014-british-activity-in-the-field-of-unidentified-fl` — December, 1952 — CIA-UAP-014, British activity in the Field of "Unidentified Flying Objects"
+- **[CIA]** `cia-016-cia-uap-015-project-blue-book-special-report-no-14-analysis` — — — CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)
 - **[DoE]** `doe-001-doe-uap-d001-enhanced-pantex-imagery` — — — DOE-UAP-D001, Enhanced PANTEX Imagery
 - **[DoE]** `doe-002-doe-uap-d002-james-tuck-correspondence-1970s` — 1970s — DOE-UAP-D002, James Tuck Correspondence, 1970s
 - **[DoW]** `dow-001-18-100754-general-1946-7-vol-2` — 12/30/47 — 18_100754_ General 1946-7_Vol_2
@@ -17,12 +26,16 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-032-dow-uap-d48-department-of-the-air-force-report-1996` — 9/10/96 — DOW-UAP-D048, Department of the Air Force Report, 1996
 - **[DoW]** `dow-033-dow-uap-d49-launch-summary-vandenberg-afb-2000` — 2/3/00 — DOW-UAP-D049, Launch Summary, Vandenberg AFB, 2000
 - **[DoW]** `dow-035-dow-uap-d50-email-correspondence-indopacom-april-2025` — 4/10/2025-4/11/2025 — DOW-UAP-D050, Email Correspondence, INDOPACOM, April 2025
-- **[DoW]** `dow-037-dow-uap-d52-email-correspondance-na-august-2024` — 10/31/24 — DOW-UAP-D052, Email Correspondance, NA, August 2024
+- **[DoW]** `dow-037-dow-uap-d52-email-correspondance-na-august-2024` — 10/31/24 — DOW-UAP-D052, Email Correspondence, NA, August 2024
 - **[DoW]** `dow-042-dow-uap-d58-range-fouler-debrief-na-october-2020` — 10/27/20 — DOW-UAP-D058, Range Fouler Debrief, NA, October 2020
 - **[DoW]** `dow-050-dow-uap-d7-mission-report-arabian-gulf-2020` — N/A — DOW-UAP-D007, Mission Report, Arabian Gulf, 2020
 - **[DoW]** `dow-087-dow-uap-pr052-uap-uso-formation-callsign-mission` — — — DOW-UAP-PR052, "UAP USO Formation [CALLSIGN] (Mission)"
 - **[DoW]** `dow-091-dow-uap-pr056-spherical-uap-pulsing-over-water-callsign` — — — DOW-UAP-PR056, "Spherical UAP pulsing over water [CALLSIGN]"
 - **[DoW]** `dow-103-dow-uap-pr067-multiple-spherical-uap-uso-near-sub-callsign-2` — — — DOW-UAP-PR067, "Multiple Spherical UAP USO near Sub. [CALLSIGN] 2022/03/25 in and out of water"
+- **[DoW]** `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949` — — — DOW-UAP-D084, US Army-Flying-Saucer-Study_1949
+- **[DoW]** `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r` — 1953 — DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953
+- **[DoW]** `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948` — — — DOW-UAP-D086, USNavy-Report-of-Flying-Discs_1948
+- **[DoW]** `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the` — — — DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172
 - **[FBI]** `fbi-001-65-hs1-834228961-62-hq-83894-section-10` — N/A — 65_HS1-834228961_62-HQ-83894_Section_010
 - **[FBI]** `fbi-002-65-hs1-834228961-62-hq-83894-section-2` — N/A — 65_HS1-834228961_62-HQ-83894_Section_002
 - **[FBI]** `fbi-003-65-hs1-834228961-62-hq-83894-section-3` — N/A — 65_HS1-834228961_62-HQ-83894_Section_003
@@ -49,20 +62,65 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[FBI]** `fbi-026-fbi-photo-a6` — Late 2025 — FBI Photo A006
 - **[FBI]** `fbi-027-fbi-photo-a7` — Late 2025 — FBI Photo A007
 - **[FBI]** `fbi-028-fbi-photo-a8` — Late 2025 — FBI Photo A008
+- **[FBI]** `fbi-062-fbi-uap-d011-d-fbi-correspondence-referral-1949` — 1949 — FBI-UAP-D011, D/FBI Correspondence Referral, 1949
 - **[NASA]** `nasa-001-255-413270-ufo-s-and-defense-what-should-we-prepare-for` — — — 255_413270_UFO's_and_Defense_What_Should_we_Prepare_For
 - **[NASA]** `nasa-006-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969` — 1969 — NASA-UAP-D004, Apollo 11 Technical Crew Debriefing, 1969
 - **[NASA]** `nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973` — 1973 — NASA-UAP-D005, Apollo 17 Crew Debriefing for Science, 1973
 - **[NASA]** `nasa-008-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973` — 1973 — NASA-UAP-D006, Apollo 17 Technical Crew Debriefing, 1973
-- **[NASA]** `nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973` — 1973 — NASA-UAP-D007, Skylab Techincal Crew Debriefing 1973
+- **[NASA]** `nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973` — 1973 — NASA-UAP-D007, Skylab Technical Crew Debriefing 1973
+- **[NASA]** `nasa-023-nasa-uap-d015-astronaut-scientific-debriefings-1962-1963` — 1962-1963 — NASA-UAP-D015, Astronaut Scientific Debriefings, 1962-1963
+- **[NASA]** `nasa-031-nasa-uap-d023-interview-excerpt-with-astronaut-gordon-cooper` — November, 1962 — NASA-UAP-D023, Interview Excerpt with Astronaut Gordon Cooper, 1962
 - **[State]** `state-001-59-214434-sp-16-7-18-1963` — 7/18/63 — 59_214434_SP 16 [7.18.1963]
 - **[State]** `state-002-59-64634-711-5612-7-2852` — 1952-07-18 — 59_64634_711.5612[7-2852
 - **[State]** `state-008-59-64634-711-5612-7-2852` — 7/28/52 — 59_64634_711.5612[7-2852
+- **[USG]** `usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue` — 1998 — USG-UAP-D001, Congressional, White House, UFO-related Constituent Correspondence, 1998
+
+## Western United States  (38 records)
+
+- **[DoW]** `dow-082-western-us-event` — 2023 — Western US Event
+- **[DoW]** `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un` — 2023 — DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event
+- **[FBI]** `fbi-029-fbi-photo-b1` — Late 2025 — FBI Photo B001
+- **[FBI]** `fbi-030-fbi-photo-b10` — Late 2025 — FBI Photo B010
+- **[FBI]** `fbi-031-fbi-photo-b11` — Late 2025 — FBI Photo B011
+- **[FBI]** `fbi-032-fbi-photo-b12` — Late 2025 — FBI Photo B012
+- **[FBI]** `fbi-033-fbi-photo-b13` — Late 2025 — FBI Photo B013
+- **[FBI]** `fbi-034-fbi-photo-b14` — Late 2025 — FBI Photo B014
+- **[FBI]** `fbi-035-fbi-photo-b15` — Late 2025 — FBI Photo B015
+- **[FBI]** `fbi-036-fbi-photo-b16` — Late 2025 — FBI Photo B016
+- **[FBI]** `fbi-037-fbi-photo-b17` — Late 2025 — FBI Photo B017
+- **[FBI]** `fbi-038-fbi-photo-b18` — Late 2025 — FBI Photo B018
+- **[FBI]** `fbi-039-fbi-photo-b19` — Late 2025 — FBI Photo B019
+- **[FBI]** `fbi-040-fbi-photo-b2` — Late 2025 — FBI Photo B002
+- **[FBI]** `fbi-041-fbi-photo-b20` — Late 2025 — FBI Photo B020
+- **[FBI]** `fbi-042-fbi-photo-b21` — Late 2025 — FBI Photo B021
+- **[FBI]** `fbi-043-fbi-photo-b22` — Late 2025 — FBI Photo B022
+- **[FBI]** `fbi-044-fbi-photo-b23` — Late 2025 — FBI Photo B023
+- **[FBI]** `fbi-045-fbi-photo-b24` — Late 2025 — FBI Photo B024
+- **[FBI]** `fbi-046-fbi-photo-b3` — Late 2025 — FBI Photo B003
+- **[FBI]** `fbi-047-fbi-photo-b4` — Late 2025 — FBI Photo B004
+- **[FBI]** `fbi-048-fbi-photo-b5` — Late 2025 — FBI Photo B005
+- **[FBI]** `fbi-049-fbi-photo-b6` — Late 2025 — FBI Photo B006
+- **[FBI]** `fbi-050-fbi-photo-b7` — Late 2025 — FBI Photo B007
+- **[FBI]** `fbi-051-fbi-photo-b8` — Late 2025 — FBI Photo B008
+- **[FBI]** `fbi-052-fbi-photo-b9` — Late 2025 — FBI Photo B009
+- **[FBI]** `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste` — October, 2023 — FBI-UAP-D015, Digital Rendering, Narrative Statement 1-2, Western United States Event, 2023
+- **[FBI]** `fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste` — October, 2023 — FBI-UAP-D016, Digital Rendering, Narrative Statement 2-1, Western United States Event, 2023
+- **[FBI]** `fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste` — October, 2023 — FBI-UAP-D017, Digital Rendering, Narrative Statement 2-2, Western United States Event, 2023
+- **[FBI]** `fbi-077-fbi-uap-d018-digital-rendering-narrative-statement-2-3-weste` — October, 2023 — FBI-UAP-D018, Digital Rendering, Narrative Statement 2-3, Western United States Event, 2023
+- **[FBI]** `fbi-078-fbi-uap-d019-digital-rendering-narrative-statement-2-4-weste` — October, 2023 — FBI-UAP-D019, Digital Rendering, Narrative Statement 2-4, Western United States Event, 2023
+- **[FBI]** `fbi-079-fbi-uap-d020-digital-rendering-narrative-statement-2-5-weste` — October, 2023 — FBI-UAP-D020, Digital Rendering, Narrative Statement 2-5, Western United States Event, 2023
+- **[FBI]** `fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste` — October, 2023 — FBI-UAP-D021, Digital Rendering, Narrative Statement 1-3, Western United States Event, 2023
+- **[FBI]** `fbi-081-fbi-uap-d022-digital-rendering-narrative-statement-2-6-weste` — October, 2023 — FBI-UAP-D022, Digital Rendering, Narrative Statement 2-6, Western United States Event, 2026
+- **[FBI]** `fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste` — October, 2023 — FBI-UAP-D023, Digital Rendering, Narrative Statement 2-7, Western United States Event, 2023
+- **[FBI]** `fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes` — October, 2023 — FBI-UAP-PR005, Digital Recreation, Narrative Statement 3-1, Western United States Event, 2023
+- **[FBI]** `fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes` — October, 2023 — FBI-UAP-PR006, Digital Recreation, Narrative Statement 3-2, Western United States Event, 2023
+- **[ODNI]** `odni-001-odni-uap-d001-usper-narrative-senior-usic-official` — 2025 — ODNI-UAP-D001, USPER Narrative, Senior USIC Official
 
 ## CENTCOM  (32 records)
 
 - **[DoW]** `dow-083-dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-ca` — 2022 — DOW-UAP-PR050, "4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]"
 - **[DoW]** `dow-084-dow-uap-pr051-syrian-uap-instant-acceleration` — 2021 — DOW-UAP-PR051, "Syrian UAP instant acceleration"
-- **[DoW]** `dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct` — 2022 — DOW-UAP-PR053, "Cigar Shaped or Fast Sherical UAP clip 15 OCT 22"
+- **[DoW]** `dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct` — 2022 — DOW-UAP-PR053, "Cigar Shaped or Fast Spherical UAP clip 15 OCT 22"
 - **[DoW]** `dow-090-dow-uap-pr055-spherical-uap-over-afg-in-and-out-of-clouds-23` — 2020 — DOW-UAP-PR055, "Spherical UAP over AFG in and out of clouds 23 Nov 2020"
 - **[DoW]** `dow-095-dow-uap-pr059-nag-uap-1-jun-20` — 2020 — DOW-UAP-PR059, "NAG UAP 1 Jun 20"
 - **[DoW]** `dow-096-dow-uap-pr060-spherical-uap-callsign-2021-04-12-obj-2` — 2021 — DOW-UAP-PR060, "Spherical UAP [CALLSIGN] 2021/04/12 obj 2"
@@ -92,35 +150,6 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213` — 2019 — DOW-UAP-PR097, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z"
 - **[DoW]** `dow-134-dow-uap-pr098-ufos-in-formation-over-persian-gulf` — — — DOW-UAP-PR098, "UFOs in formation over Persian Gulf?"
 - **[DoW]** `dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171` — 2023 — DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"
-
-## Western United States  (26 records)
-
-- **[DoW]** `dow-082-western-us-event` — 2023 — Western US Event
-- **[FBI]** `fbi-029-fbi-photo-b1` — Late 2025 — FBI Photo B001
-- **[FBI]** `fbi-030-fbi-photo-b10` — Late 2025 — FBI Photo B010
-- **[FBI]** `fbi-031-fbi-photo-b11` — Late 2025 — FBI Photo B011
-- **[FBI]** `fbi-032-fbi-photo-b12` — Late 2025 — FBI Photo B012
-- **[FBI]** `fbi-033-fbi-photo-b13` — Late 2025 — FBI Photo B013
-- **[FBI]** `fbi-034-fbi-photo-b14` — Late 2025 — FBI Photo B014
-- **[FBI]** `fbi-035-fbi-photo-b15` — Late 2025 — FBI Photo B015
-- **[FBI]** `fbi-036-fbi-photo-b16` — Late 2025 — FBI Photo B016
-- **[FBI]** `fbi-037-fbi-photo-b17` — Late 2025 — FBI Photo B017
-- **[FBI]** `fbi-038-fbi-photo-b18` — Late 2025 — FBI Photo B018
-- **[FBI]** `fbi-039-fbi-photo-b19` — Late 2025 — FBI Photo B019
-- **[FBI]** `fbi-040-fbi-photo-b2` — Late 2025 — FBI Photo B002
-- **[FBI]** `fbi-041-fbi-photo-b20` — Late 2025 — FBI Photo B020
-- **[FBI]** `fbi-042-fbi-photo-b21` — Late 2025 — FBI Photo B021
-- **[FBI]** `fbi-043-fbi-photo-b22` — Late 2025 — FBI Photo B022
-- **[FBI]** `fbi-044-fbi-photo-b23` — Late 2025 — FBI Photo B023
-- **[FBI]** `fbi-045-fbi-photo-b24` — Late 2025 — FBI Photo B024
-- **[FBI]** `fbi-046-fbi-photo-b3` — Late 2025 — FBI Photo B003
-- **[FBI]** `fbi-047-fbi-photo-b4` — Late 2025 — FBI Photo B004
-- **[FBI]** `fbi-048-fbi-photo-b5` — Late 2025 — FBI Photo B005
-- **[FBI]** `fbi-049-fbi-photo-b6` — Late 2025 — FBI Photo B006
-- **[FBI]** `fbi-050-fbi-photo-b7` — Late 2025 — FBI Photo B007
-- **[FBI]** `fbi-051-fbi-photo-b8` — Late 2025 — FBI Photo B008
-- **[FBI]** `fbi-052-fbi-photo-b9` — Late 2025 — FBI Photo B009
-- **[ODNI]** `odni-001-odni-uap-d001-usper-narrative-senior-usic-official` — 2025 — ODNI-UAP-D001, USPER Narrative, Senior USIC Official
 
 ## Arabian Gulf  (12 records)
 
@@ -152,6 +181,20 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024` — N/A — DOW-UAP-PR032, Unresolved UAP Report, Syria, October 2024
 - **[DoW]** `dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024` — N/A — DOW-UAP-PR033, Unresolved UAP Report, Syria, October 2024
 
+## Northeastern United States  (11 records)
+
+- **[FBI]** `fbi-060-fbi-uap-d009-fd-302-67-northeastern-orb-sighting-2026` — 2026 — FBI-UAP-D009, FD-302-67, “Northeastern Orb Sighting,” 2026
+- **[FBI]** `fbi-061-fbi-uap-d010-fd-302-71-northeastern-orb-sighting-2026` — 2026 — FBI-UAP-D010, FD-302-71, “Northeastern Orb Sighting,” 2026
+- **[FBI]** `fbi-063-fbi-uap-pr003-orbs-over-the-pond-2024` — October, 2024 — FBI-UAP-PR003, “Orbs Over the Pond,” 2024
+- **[FBI]** `fbi-064-fbi-uap-pr004-northeastern-orb-sighting-2025` — July, 2025 — FBI-UAP-PR004, “Northeastern Orb Sighting,” 2025
+- **[FBI]** `fbi-066-fbi-uap-d004-fd-1057-02-northeastern-united-states-2024` — October, 2024 — FBI-UAP-D004, FD-1057-02, Northeastern United States, 2024
+- **[FBI]** `fbi-067-fbi-uap-d005-fd-1057-04-northeastern-united-states-2024` — October, 2024 — FBI-UAP-D005, FD-1057-04, Northeastern United States, 2024
+- **[FBI]** `fbi-068-fbi-uap-d006-fd-1057-05-northeastern-united-states-2024` — November, 2024 — FBI-UAP-D006, FD-1057-05, Northeastern United States, 2024
+- **[FBI]** `fbi-069-fbi-uap-d007-fd-1057-06-northeastern-united-states-2024` — November, 2024 — FBI-UAP-D007, FD-1057-06, Northeastern United States, 2024
+- **[FBI]** `fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024` — December, 2024 — FBI-UAP-D008, FD-1057-07, Northeastern United States, 2024
+- **[FBI]** `fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021` — November, 2021 — FBI-UAP-PR001, “Triangle Orbs,” Northeastern United States, 2021
+- **[FBI]** `fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20` — March, 2022 — FBI-UAP-PR002, “Red Orb Rotation,” Northeastern United States, 2022
+
 ## Iraq  (9 records)
 
 - **[DoW]** `dow-010-dow-uap-d10-mission-report-middle-east-may-2022` — 5/6/22 — DOW-UAP-D010, Mission Report, Middle East, May 2022
@@ -164,6 +207,17 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022` — N/A — DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
 - **[DoW]** `dow-086-dow-uap-d020-mission-report-iraq-2023` — 3/31/23 — DOW-UAP-D020, Mission Report, Iraq, 2023
 
+## Low Earth Orbit  (8 records)
+
+- **[NASA]** `nasa-002-nasa-uap-d3-gemini-7-transcript-1965` — 12/5/65 — NASA-UAP-D003, Gemini 7 Transcript, 1965
+- **[NASA]** `nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965` — 12/5/65 — NASA-UAP-D003A, Gemini 7 Audio Excerpt, 1965
+- **[NASA]** `nasa-018-nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963` — 5/15/63 — NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+- **[NASA]** `nasa-019-nasa-uap-d011-mercury-atlas-9-audio-excerpt-may-15-1963` — 5/15/63 — NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+- **[NASA]** `nasa-020-nasa-uap-d012-mercury-atlas-8-audio-excerpt-october-3-1962` — 10/3/62 — NASA-UAP-D012, Mercury Atlas 8 Audio Excerpt, October 3, 1962
+- **[NASA]** `nasa-021-nasa-uap-d013-mercury-atlas-7-may-24-1962` — 5/24/62 — NASA-UAP-D013, Mercury Atlas 7, May 24, 1962
+- **[NASA]** `nasa-026-nasa-uap-d018-gemini-4-experiment-debriefing-1967` — June 3-7, 1965 — NASA-UAP-D018, Gemini 4 Experiment Debriefing, 1967
+- **[NASA]** `nasa-030-nasa-uap-d022-gemini-9-debriefing-1966` — June 3-6, 1966 — NASA-UAP-D022, Gemini 9 Debriefing, 1966
+
 ## Moon  (8 records)
 
 - **[NASA]** `nasa-004-nasa-uap-d1-apollo-12-transcript-1969` — 1969 — NASA-UAP-D001, Apollo 12 Transcript, 1969
@@ -175,22 +229,31 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[NASA]** `nasa-014-nasa-uap-vm5-apollo-12-1969` — 1969 — NASA-UAP-VM005, Apollo 12, 1969
 - **[NASA]** `nasa-015-nasa-uap-vm6-apollo-17-1972` — 1972 — NASA-UAP-VM006, Apollo 17, 1972
 
-## Low Earth Orbit  (6 records)
+## Westen United States  (7 records)
 
-- **[NASA]** `nasa-002-nasa-uap-d3-gemini-7-transcript-1965` — 12/5/65 — NASA-UAP-D003, Gemini 7 Transcript, 1965
-- **[NASA]** `nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965` — 12/5/65 — NASA-UAP-D003A, Gemini 7 Audio Excerpt, 1965
-- **[NASA]** `nasa-018-nasa-uap-d010-mercury-atlas-9-audio-excerpt-may-15-1963` — 5/15/63 — NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
-- **[NASA]** `nasa-019-nasa-uap-d011-mercury-atlas-9-audio-excerpt-may-15-1963` — 5/15/63 — NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963
-- **[NASA]** `nasa-020-nasa-uap-d012-mercury-atlas-8-audio-excerpt-october-3-1962` — 10/3/62 — NASA-UAP-D012, Mercury Atlas 8 Audio Excerpt, October 3, 1962
-- **[NASA]** `nasa-021-nasa-uap-d013-mercury-atlas-7-may-24-1962` — 5/24/62 — NASA-UAP-D013, Mercury Atlas 7, May 24, 1962
+- **[DoW]** `dow-138-dow-uap-d078-notional-map-western-united-states-event` — October, 2023 — DOW-UAP-D078, Notional Map: Western United States Event
+- **[DoW]** `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve` — October, 2023 — DOW-UAP-D079, Narrative Statement 1, Western United States Event, 2023
+- **[DoW]** `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve` — October, 2023 — DOW-UAP-D080, Narrative Statement 2, Western United States Event, 2023
+- **[DoW]** `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve` — October, 2023 — DOW-UAP-D081, Narrative Statement 3, Western United States Event, 2023
+- **[DoW]** `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve` — October, 2023 — DOW-UAP-D082, Narrative Statement 4, Western United States Event, 2023
+- **[DoW]** `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve` — October, 2023 — DOW-UAP-D083, Narrative Statement 5, Western United States Event, 2023
+- **[FBI]** `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` — October, 2023 — FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023
 
-## United States  (5 records)
+## United States  (6 records)
 
+- **[DoW]** `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the` — — — DOW-UAP-D087, U.S. Air Force Analysis of Flying Objects in the United States, 1-100
 - **[FBI]** `fbi-053-usper-statement-about-uap-sighting` — Late 2025 — USPER Statement about UAP Sighting
 - **[FBI]** `fbi-054-fbi-september-2023-sighting-composite-sketch` — 9/1/23 — FBI September 2023 Sighting - Composite Sketch
 - **[FBI]** `fbi-055-fbi-september-2023-sighting-serial-3` — 9/1/23 — FBI September 2023 Sighting - Serial 003
 - **[FBI]** `fbi-056-fbi-september-2023-sighting-serial-4` — 9/1/23 — FBI September 2023 Sighting - Serial 004
 - **[FBI]** `fbi-057-fbi-september-2023-sighting-serial-5` — 9/1/23 — FBI September 2023 Sighting - Serial 005
+
+## Colorado Springs, Colorado, U.S.  (4 records)
+
+- **[FBI]** `fbi-058-fbi-uap-d002-fd-1057-unresolved-uap-report-colorado-springs` — 2022 — FBI-UAP-D002, FD-1057, Unresolved UAP Report, Colorado Springs, 2022
+- **[FBI]** `fbi-059-fbi-uap-d003-digital-rendering-unresolved-uap-report-colorad` — 2022 — FBI-UAP-D003, Digital Rendering, Unresolved UAP Report, Colorado Springs, 2022
+- **[FBI]** `fbi-065-fbi-uap-d001-fd-302-unresolved-uap-report-colorado-springs-2` — February, 2022 — FBI-UAP-D001, FD-302, Unresolved UAP Report, Colorado Springs, 2022
+- **[ICA]** `ica-001-ica-uap-d001-analysis-colorado-springs-uap-incident-2022` — 2022 — ICA-UAP-D001, Analysis: Colorado Springs UAP Incident, 2022
 
 ## Mediterranean Sea  (4 records)
 
@@ -206,6 +269,12 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u` — 2023 — DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"
 - **[DoW]** `dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast` — 2019 — DOW-UAP-PR086, "UAP from Dec 2019 (East Coast)"
 
+## Cape Kennedy, Florida  (3 records)
+
+- **[NASA]** `nasa-027-nasa-uap-d019-gemini-5-technical-debriefing-part-i-1965` — August 2 - September 2, 1965 — NASA-UAP-D019, Gemini 5 Technical Debriefing, Part I, 1965
+- **[NASA]** `nasa-028-nasa-uap-d020-gemini-5-technical-debriefing-part-ii-1965` — August 30 - September 2, 1965 — NASA-UAP-D020, Gemini 5 Technical Debriefing, Part II, 1965
+- **[NASA]** `nasa-029-nasa-uap-d021-gemini-7-technical-debriefing-1965` — December 19-21, 1965 — NASA-UAP-D021, Gemini 7 Technical Debriefing, 1965
+
 ## Greece  (3 records)
 
 - **[DoW]** `dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024` — N/A — DOW-UAP-PR028, Unresolved UAP Report, Greece, January 2024
@@ -218,11 +287,23 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
 - **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
 
+## North Atlantic Ocean  (3 records)
+
+- **[NASA]** `nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961` — 7/21/61 — NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961
+- **[NASA]** `nasa-024-nasa-uap-d016-preliminary-gemini-4-crew-debriefing-part-i-19` — 6/9/65 — NASA-UAP-D016, Preliminary Gemini 4 Crew Debriefing, Part I, 1965
+- **[NASA]** `nasa-025-nasa-uap-d017-preliminary-gemini-4-crew-debriefing-part-ii-1` — 6/9/65 — NASA-UAP-D017, Preliminary Gemini 4 Crew Debriefing, Part II, 1965
+
 ## Southeastern United States  (3 records)
 
 - **[DoW]** `dow-101-dow-uap-pr065-uscg-c-144-tyndall-uap-2-tic-tac-ir-hot-24-apr` — 2024 — DOW-UAP-PR065, "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024"
 - **[DoW]** `dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr` — 2024 — DOW-UAP-PR066, "USCG C-144 Tyndall UAP 1 TIC TAC IR hot 24 April 2024"
 - **[DoW]** `dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed` — 2023 — DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"
+
+## USSR  (3 records)
+
+- **[CIA]** `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973` — 12/20/73 — CIA-UAP-D001, Intelligence Information Report, USSR, 1973
+- **[CIA]** `cia-011-cia-uap-010-report-on-conversations-with-soviet-scientists-o` — August, 1967 — CIA-UAP-010, Report on Conversations with Soviet Scientists on Subject of Unidentified Flying Objects in the USSR
+- **[CIA]** `cia-012-cia-uap-011-the-sary-shagan-weapons-testing-range` — December, 1973 — CIA-UAP-011, The Sary Shagan Weapons Testing Range
 
 ## AFRICOM  (2 records)
 
@@ -238,6 +319,11 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[DoW]** `dow-031-dow-uap-d44-range-fouler-reporting-form-gulf-of-aden-october` — 10/15/20 — DOW-UAP-D044, Range Fouler Reporting Form, Gulf of Aden, October 2020
 - **[DoW]** `dow-040-dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020` — 8/24/20 — DOW-UAP-D056, Range Fouler Debrief, Arabian Sea, August 2020
+
+## Budapest, Hungary  (2 records)
+
+- **[CIA]** `cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest` — 1957 — CIA-UAP-009, Unknown Flying Objects Observed Over Budapest
+- **[CIA]** `cia-014-cia-uap-013-report-of-unusual-flying-object-sightings-and-at` — 1956 — CIA-UAP-013, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
 
 ## East China Sea  (2 records)
 
@@ -258,6 +344,11 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[DoW]** `dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023` — 6/7/24 — DOW-UAP-D027, Mission Report, United Arab Emirates, October 2023
 - **[DoW]** `dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june` — N/A — DOW-UAP-PR029, Unresolved UAP Report, United Arab Emirates, June 2024
+
+## Houston, Texas  (2 records)
+
+- **[NASA]** `nasa-032-nasa-uap-d024-apollo-16-scientific-debriefing` — — — NASA-UAP-D024, “Apollo 16 Scientific Debriefing”
+- **[NASA]** `nasa-033-nasa-uap-d025-apollo-16-scientific-debriefing` — — — NASA-UAP-D025, “Apollo 16 Scientific Debriefing”
 
 ## Kazakhstan  (2 records)
 
@@ -284,9 +375,17 @@ _Generated from `metadata/index.json` covering 227 records._
 - **[DoW]** `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` — 2023 — DOW-UAP-PR057a, "Spherical UAP in clouds"
 - **[DoW]** `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` — 2023 — DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
 
+## Australia  (1 records)
+
+- **[CIA]** `cia-019-cia-uap-019-australian-dept-of-defense-scientific-and-intel` — 1971 — CIA-UAP-019, Australian Dept of Defense Scientific and Intel Aspects of the UFO Problem
+
 ## Azerbaijan  (1 records)
 
 - **[DoW]** `dow-005-341-110677-numerical-file-5-2500` — 10/14/55 — 341_110677_Numerical_File,_5-2500
+
+## Baku, Azerbaijan  (1 records)
+
+- **[CIA]** `cia-007-cia-uap-006-sighting-of-unconventional-aircraft` — November, 1955 — CIA-UAP-006, Sighting Of Unconventional Aircraft
 
 ## Cislunar Space  (1 records)
 
@@ -308,6 +407,14 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[State]** `state-005-state-department-uap-cable-3-tbilisi-georgia-october-30-2001` — 10/28/2001-10/29/2001 — State Department UAP Cable 003, Tbilisi, Georgia, October 30, 2001
 
+## Harare, Zimbabwe  (1 records)
+
+- **[CIA]** `cia-002-cia-uap-017-placement-on-high-alert-due-to-perceived-aggress` — July, 2008 — CIA-UAP-017, Placement on High Alert Due to Perceived Aggressive Foreign Posturing
+
+## Hungary  (1 records)
+
+- **[CIA]** `cia-018-cia-uap-018-report-of-unusual-flying-object-sightings-and-at` — 1955 — CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
+
 ## INDOPACOM  (1 records)
 
 - **[DoW]** `dow-094-dow-uap-pr058-callsign-mission-uap` — — — DOW-UAP-PR058, "[CALLSIGN] (Mission) UAP"
@@ -324,6 +431,10 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[DoW]** `dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023` — N/A — DOW-UAP-PR047, Unresolved UAP Report, INDOPACOM, 2023
 
+## Ladakh, Nepal | Sikkim, India | Bhutam  (1 records)
+
+- **[CIA]** `cia-017-cia-uap-016-sightings-of-unidentified-flying-objects-in-lada` — 1968 — CIA-UAP-016, Sightings of Unidentified Flying Objects in Ladakh, Nepal, Sikkim and Bhutan
+
 ## Mexico  (1 records)
 
 - **[State]** `state-007-state-department-uap-cable-5-mexico-september-16-2003` — 9/12/03 — State Department UAP Cable 005, Mexico, September 16, 2003
@@ -336,13 +447,13 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[DoW]** `dow-004-341-110448-records-relating-to-the-collection-and-disseminat` — 11/8/48 — 341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399
 
+## New Jersey, United States  (1 records)
+
+- **[FBI]** `fbi-071-fbi-uap-d012-newark-field-office-1952-1967` — August 1952-1967 — FBI-UAP-D012, Newark Field Office, 1952-1967
+
 ## North America  (1 records)
 
 - **[DoW]** `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20` — N/A — DOW-UAP-PR049, Unresolved UAP Report, Department of the Army, 2026
-
-## North Atlantic Ocean  (1 records)
-
-- **[NASA]** `nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961` — 7/21/61 — NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961
 
 ## Pacific Ocean  (1 records)
 
@@ -372,6 +483,6 @@ _Generated from `metadata/index.json` covering 227 records._
 
 - **[State]** `state-006-state-department-uap-cable-4-ashgabat-turkmenistan-november` — 11/5/04 — State Department UAP Cable 004, Ashgabat, Turkmenistan, November 5, 2004
 
-## USSR  (1 records)
+## Washington State, United States  (1 records)
 
-- **[CIA]** `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973` — 12/20/73 — CIA-UAP-D001, Intelligence Information Report, USSR, 1973
+- **[FBI]** `fbi-072-fbi-uap-d013-washington-state-ufo-investigation-1952-1960` — July 1952-1960 — FBI-UAP-D013, Washington State ‘UFO’ Investigation, 1952-1960
