@@ -1,8 +1,8 @@
 # Records by incident location
 
-_Generated from `metadata/index.json` covering 299 records._
+_Generated from `metadata/index.json` covering 339 records._
 
-## N/A  (70 records)
+## N/A  (71 records)
 
 - **[CIA]** `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying` — 1952-1953 — CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
 - **[CIA]** `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec` — 1954-1974 — CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
@@ -13,6 +13,7 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[CIA]** `cia-013-cia-uap-012-combating-fatigue-in-crewmembers` — November, 1976 — CIA-UAP-012, Combating Fatigue In Crewmembers
 - **[CIA]** `cia-015-cia-uap-014-british-activity-in-the-field-of-unidentified-fl` — December, 1952 — CIA-UAP-014, British activity in the Field of "Unidentified Flying Objects"
 - **[CIA]** `cia-016-cia-uap-015-project-blue-book-special-report-no-14-analysis` — — — CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)
+- **[CIA]** `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1` — 1955 — CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955
 - **[DoE]** `doe-001-doe-uap-d001-enhanced-pantex-imagery` — — — DOE-UAP-D001, Enhanced PANTEX Imagery
 - **[DoE]** `doe-002-doe-uap-d002-james-tuck-correspondence-1970s` — 1970s — DOE-UAP-D002, James Tuck Correspondence, 1970s
 - **[DoW]** `dow-001-18-100754-general-1946-7-vol-2` — 12/30/47 — 18_100754_ General 1946-7_Vol_2
@@ -75,10 +76,12 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[State]** `state-008-59-64634-711-5612-7-2852` — 7/28/52 — 59_64634_711.5612[7-2852
 - **[USG]** `usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue` — 1998 — USG-UAP-D001, Congressional, White House, UFO-related Constituent Correspondence, 1998
 
-## Western United States  (38 records)
+## Western United States  (40 records)
 
 - **[DoW]** `dow-082-western-us-event` — 2023 — Western US Event
 - **[DoW]** `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un` — 2023 — DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event
+- **[DoW]** `dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19` — 1996 — DOW-UAP-PR113, Unresolved UAP Report, Western United States, 1996
+- **[DoW]** `dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20` — 2020 — DOW-UAP-PR108, Unresolved UAP Report, Western United States, 2020
 - **[FBI]** `fbi-029-fbi-photo-b1` — Late 2025 — FBI Photo B001
 - **[FBI]** `fbi-030-fbi-photo-b10` — Late 2025 — FBI Photo B010
 - **[FBI]** `fbi-031-fbi-photo-b11` — Late 2025 — FBI Photo B011
@@ -207,6 +210,17 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022` — N/A — DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
 - **[DoW]** `dow-086-dow-uap-d020-mission-report-iraq-2023` — 3/31/23 — DOW-UAP-D020, Mission Report, Iraq, 2023
 
+## Eastern United States  (8 records)
+
+- **[DoW]** `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020` — 2020 — DOW-UAP-D089, Range Fouler Debrief, Eastern United States, 2020
+- **[DoW]** `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019` — 2019 — DOW-UAP-D090, Range Fouler Debrief, Eastern United States, 2019
+- **[DoW]** `dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20` — 2020 — DOW-UAP-PR106, Unresolved UAP Report, Eastern United States, 2020
+- **[DoW]** `dow-168-dow-uap-pr107-unresolved-uap-report-eastern-united-states-20` — 2020 — DOW-UAP-PR107, Unresolved UAP Report, Eastern United States, 2020
+- **[DoW]** `dow-170-dow-uap-pr109-unresolved-uap-report-eastern-united-states-20` — 2015 — DOW-UAP-PR109, Unresolved UAP Report, Eastern United States, 2015
+- **[DoW]** `dow-171-dow-uap-pr110-unresolved-uap-report-eastern-united-states-20` — 2020 — DOW-UAP-PR110, Unresolved UAP Report, Eastern United States, 2020
+- **[DoW]** `dow-172-dow-uap-pr111-unresolved-uap-report-eastern-united-states-20` — 2020 — DOW-UAP-PR111, Unresolved UAP Report, Eastern United States, 2020
+- **[DoW]** `dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20` — 2019 — DOW-UAP-PR112, Unresolved UAP Report, Eastern United States, 2019
+
 ## Low Earth Orbit  (8 records)
 
 - **[NASA]** `nasa-002-nasa-uap-d3-gemini-7-transcript-1965` — 12/5/65 — NASA-UAP-D003, Gemini 7 Transcript, 1965
@@ -239,6 +253,15 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve` — October, 2023 — DOW-UAP-D083, Narrative Statement 5, Western United States Event, 2023
 - **[FBI]** `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` — October, 2023 — FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023
 
+## Texas  (6 records)
+
+- **[DoE]** `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015` — 9/1/15 — DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015
+- **[NASA]** `nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969` — 1969 — NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969
+- **[NASA]** `nasa-037-nasa-uap-d026-apollo-14-debriefing-1971` — 2/18/71 — NASA-UAP-D026, Apollo 14 Debriefing, 1971
+- **[NASA]** `nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971` — 2/18/71 — NASA-UAP-D027, Apollo 14 Debriefing (Continued), 1971
+- **[NASA]** `nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972` — 12/21/72 — NASA-UAP-D028, Apollo 17 Crew Medical Debriefing, 1972
+- **[NASA]** `nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19` — 12/21/72 — NASA-UAP-D029, Apollo 17 Crew Medical Debriefing (Continued), 1972
+
 ## United States  (6 records)
 
 - **[DoW]** `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the` — — — DOW-UAP-D087, U.S. Air Force Analysis of Flying Objects in the United States, 1-100
@@ -247,6 +270,30 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[FBI]** `fbi-055-fbi-september-2023-sighting-serial-3` — 9/1/23 — FBI September 2023 Sighting - Serial 003
 - **[FBI]** `fbi-056-fbi-september-2023-sighting-serial-4` — 9/1/23 — FBI September 2023 Sighting - Serial 004
 - **[FBI]** `fbi-057-fbi-september-2023-sighting-serial-5` — 9/1/23 — FBI September 2023 Sighting - Serial 005
+
+## East China Sea  (5 records)
+
+- **[DoW]** `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024` — N/A — DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
+- **[DoW]** `dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs` — 2021 — DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
+- **[DoW]** `dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025` — 2025 — DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025
+- **[DoW]** `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024
+- **[DoW]** `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024
+
+## Middle East  (5 records)
+
+- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
+- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
+- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
+- **[DoW]** `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
+
+## Various  (5 records)
+
+- **[DoW]** `dow-149-dow-uap-d097-project-sign-progress-report-1948` — 1948 — DOW-UAP-D097, Project Sign Progress Report, 1948
+- **[DoW]** `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review` — 4/17/67 — DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
+- **[DoW]** `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si` — 1955 — DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
+- **[DoW]** `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19` — 1955 — DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
+- **[FBI]** `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1` — 10/10/74 — FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
 
 ## Colorado Springs, Colorado, U.S.  (4 records)
 
@@ -269,6 +316,19 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u` — 2023 — DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"
 - **[DoW]** `dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast` — 2019 — DOW-UAP-PR086, "UAP from Dec 2019 (East Coast)"
 
+## Yellow Sea  (4 records)
+
+- **[DoW]** `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` — 2023 — DOW-UAP-PR057a, "Spherical UAP in clouds"
+- **[DoW]** `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` — 2023 — DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
+- **[DoW]** `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025` — 2025 — DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025
+- **[DoW]** `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023
+
+## Atlantic Ocean  (3 records)
+
+- **[DoW]** `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020` — 2020 — DOW-UAP-D091, Range Fouler Debrief, Atlantic Ocean, 2020
+- **[DoW]** `dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016` — 2016 — DOW-UAP-PR114, Unresolved UAP Report, Atlantic Ocean, 2016
+- **[DoW]** `dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020` — 2020 — DOW-UAP-PR116, Unresolved UAP Report, Atlantic Ocean, 2020
+
 ## Cape Kennedy, Florida  (3 records)
 
 - **[NASA]** `nasa-027-nasa-uap-d019-gemini-5-technical-debriefing-part-i-1965` — August 2 - September 2, 1965 — NASA-UAP-D019, Gemini 5 Technical Debriefing, Part I, 1965
@@ -281,11 +341,17 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023` — N/A — DOW-UAP-PR034, Unresolved UAP Report, Greece, October 2023
 - **[DoW]** `dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023` — N/A — DOW-UAP-PR035, Unresolved UAP Report, Greece, October 2023
 
-## Middle East  (3 records)
+## Low-Earth Orbit  (3 records)
 
-- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
-- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
-- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
+- **[NASA]** `nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996` — 1996 — NASA-UAP-D030, STS-80 Unidentified Object Image 1, 1996
+- **[NASA]** `nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996` — 1996 — NASA-UAP-D031, STS-80 Unidentified Object Image 2, 1996
+- **[NASA]** `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996` — 1996 — NASA-UAP-D032, STS-80 Unidentified Object Image 3, 1996
+
+## New Mexico  (3 records)
+
+- **[DoE]** `doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986` — 5/20/86 — DOE-UAP-D003, Pajarito Astronomers Invitation, 1986
+- **[DoE]** `doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949` — 3/22/49 — DOE-UAP-D004, Los Alamos Conference on Aerial Phenomena, 1949
+- **[DoW]** `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950` — 1948-1950 — DOW-UAP-D017, UAP Reported at Sandia Base, 1948-1950
 
 ## North Atlantic Ocean  (3 records)
 
@@ -320,15 +386,15 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-031-dow-uap-d44-range-fouler-reporting-form-gulf-of-aden-october` — 10/15/20 — DOW-UAP-D044, Range Fouler Reporting Form, Gulf of Aden, October 2020
 - **[DoW]** `dow-040-dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020` — 8/24/20 — DOW-UAP-D056, Range Fouler Debrief, Arabian Sea, August 2020
 
+## Azerbaijan  (2 records)
+
+- **[CIA]** `cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings` — 1955 — CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955
+- **[DoW]** `dow-005-341-110677-numerical-file-5-2500` — 10/14/55 — 341_110677_Numerical_File,_5-2500
+
 ## Budapest, Hungary  (2 records)
 
 - **[CIA]** `cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest` — 1957 — CIA-UAP-009, Unknown Flying Objects Observed Over Budapest
 - **[CIA]** `cia-014-cia-uap-013-report-of-unusual-flying-object-sightings-and-at` — 1956 — CIA-UAP-013, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
-
-## East China Sea  (2 records)
-
-- **[DoW]** `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024` — N/A — DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
-- **[DoW]** `dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs` — 2021 — DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
 
 ## Germany  (2 records)
 
@@ -355,11 +421,6 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-108-dow-uap-pr072-administrative-revision-iir-1777-j0032-22-kaza` — 2022 — DOW-UAP-PR072, "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan - UAP in the vicinity of Karaganda International Airport"
 - **[State]** `state-004-state-department-uap-cable-2-kazakhstan-january-31-1994` — 1/27/94 — State Department UAP Cable 002, Kazakhstan, January 31, 1994
 
-## New Mexico  (2 records)
-
-- **[DoE]** `doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986` — 5/20/86 — DOE-UAP-D003, Pajarito Astronomers Invitation, 1986
-- **[DoW]** `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950` — 1948-1950 — DOW-UAP-D017, UAP Reported at Sandia Base, 1948-1950
-
 ## Strait of Hormuz  (2 records)
 
 - **[DoW]** `dow-046-dow-uap-d62-mission-report-strait-of-hormuz-september-2020` — 9/16/20 — DOW-UAP-D062, Mission Report, Strait of Hormuz, September 2020
@@ -370,18 +431,14 @@ _Generated from `metadata/index.json` covering 299 records._
 - **[DoW]** `dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo` — N/A — DOW-UAP-PR026, Unresolved UAP Report, United Arab Emirates, October 2023
 - **[DoW]** `dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo` — N/A — DOW-UAP-PR027, Unresolved UAP Report, United Arab Emirates, October 2023
 
-## Yellow Sea  (2 records)
+## Virginia  (2 records)
 
-- **[DoW]** `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` — 2023 — DOW-UAP-PR057a, "Spherical UAP in clouds"
-- **[DoW]** `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` — 2023 — DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
+- **[DoW]** `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit` — 4/28/49 — DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949
+- **[DoW]** `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit` — 12/10/48 — DOW-UAP-D093, Analysis of Flying Object Incidents in the United States, 1948
 
 ## Australia  (1 records)
 
 - **[CIA]** `cia-019-cia-uap-019-australian-dept-of-defense-scientific-and-intel` — 1971 — CIA-UAP-019, Australian Dept of Defense Scientific and Intel Aspects of the UFO Problem
-
-## Azerbaijan  (1 records)
-
-- **[DoW]** `dow-005-341-110677-numerical-file-5-2500` — 10/14/55 — 341_110677_Numerical_File,_5-2500
 
 ## Baku, Azerbaijan  (1 records)
 
@@ -406,6 +463,10 @@ _Generated from `metadata/index.json` covering 299 records._
 ## Georgia  (1 records)
 
 - **[State]** `state-005-state-department-uap-cable-3-tbilisi-georgia-october-30-2001` — 10/28/2001-10/29/2001 — State Department UAP Cable 003, Tbilisi, Georgia, October 30, 2001
+
+## Gulf of America  (1 records)
+
+- **[DoW]** `dow-153-dow-uap-pr115-unresolved-uap-report-gulf-of-america-2019` — 2019 — DOW-UAP-PR115, Unresolved UAP Report, Gulf of America, 2019
 
 ## Harare, Zimbabwe  (1 records)
 
@@ -471,13 +532,13 @@ _Generated from `metadata/index.json` covering 299 records._
 
 - **[DoW]** `dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023` — 2023-10 — DOW-UAP-D23, Mission Report, United Arab Emirates, October 2023
 
+## South China Sea  (1 records)
+
+- **[DoW]** `dow-164-dow-uap-pr101-unresolved-uap-report-south-china-sea-2024` — 2024 — DOW-UAP-PR101, Unresolved UAP Report, South China Sea, 2024
+
 ## Southern United States  (1 records)
 
 - **[DoW]** `dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020` — N/A — DOW-UAP-PR045, Unresolved UAP Report, Middle East, 2020
-
-## Texas  (1 records)
-
-- **[NASA]** `nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969` — 1969 — NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969
 
 ## Turkmenistan  (1 records)
 

@@ -107,6 +107,13 @@ NEW_LOCATION_COORDS = {
     "Ladakh":       [77.6, 34.2],       # Himalayan tri-border record
     "Sikkim":       [88.5, 27.5],
 
+    # Release 04 additions
+    "Virginia":              [-78.6, 37.5],
+    "Middle East":           [45.0, 30.0],   # region centroid
+    "Gulf of America":       [-90.0, 25.0],  # (renamed Gulf of Mexico)
+    "Low-Earth Orbit":       [0.0, 0.0],     # hyphenated variant of "Low Earth Orbit"
+    "Atlantic Ocean":        [-30.0, 30.0],  # bare (no North/South qualifier)
+
     # Generic fallback - MUST stay after every more-specific "* United
     # States" key above so substring matching prefers the specific region.
     "United States": [-98.5, 39.5],
@@ -296,7 +303,7 @@ def build_data(index, entities, cross_refs, audit):
                extract_year(normalize_year_from_csv(r.get("incident_date") or "")) or \
                extract_year(r.get("release_date") or "")
 
-        release = {"Release 03": "R3", "Release 02": "R2"}.get(
+        release = {"Release 04": "R4", "Release 03": "R3", "Release 02": "R2"}.get(
             r.get("page_section"), "R1")
 
         records.append({
@@ -425,13 +432,14 @@ def replace_const_line(text, const_name, new_json):
 
 def update_header(text, total, counts):
     text = re.sub(r"<title>[^<]+</title>",
-                  "<title>war.gov UAP Release 01 + 02 + 03 — corpus viewer</title>",
+                  "<title>war.gov UAP Release 01–04 — corpus viewer</title>",
                   text, count=1)
     text = re.sub(r"<h1>[^<]+</h1>",
-                  "<h1>war.gov / UFO — Release 01 + 02 + 03</h1>",
+                  "<h1>war.gov / UFO — Release 01–04</h1>",
                   text, count=1)
-    meta = (f'PURSUE · snapshot 2026-06-12 · {total} records · '
-            f'R1={counts.get("R1",0)} R2={counts.get("R2",0)} R3={counts.get("R3",0)}')
+    meta = (f'PURSUE · snapshot 2026-07-10 · {total} records · '
+            f'R1={counts.get("R1",0)} R2={counts.get("R2",0)} '
+            f'R3={counts.get("R3",0)} R4={counts.get("R4",0)}')
     text = re.sub(r'<span class="meta mono">[^<]+</span>',
                   f'<span class="meta mono">{meta}</span>',
                   text, count=1)

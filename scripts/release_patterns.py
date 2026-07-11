@@ -53,6 +53,7 @@ RELEASES = [
     ("R1", "Release 01", "2026-05-08"),
     ("R2", "Release 02", "2026-05-22"),
     ("R3", "Release 03", "2026-06-12"),
+    ("R4", "Release 04", "2026-07-10"),
 ]
 
 # Document-class signatures: a record is tagged with a class when its title
@@ -278,57 +279,66 @@ def pct(profiles, rel, field, key):
 
 
 def compute_headlines(profiles):
-    """A few deterministic, notable deltas phrased as short findings."""
+    """A few deterministic, notable deltas phrased as short findings.
+
+    Written to be release-count-agnostic: each headline prints the full
+    R1..Rn series for its metric so adding a release needs no rewrite.
+    """
+    order = [k for k, _, _ in RELEASES]
+    last = order[-1]
+
+    def series(field, key):
+        return " / ".join(f"{r} {pct(profiles, r, field, key)}%" for r in order)
+
+    def redact_series():
+        out = []
+        for r in order:
+            n = profiles[r]["n"]
+            out.append(f"{r} {round(100 * profiles[r]['redacted'] / n) if n else 0}%")
+        return " / ".join(out)
+
     H = []
-
-    def top(rel, field):
-        d = profiles[rel].get(field, {})
-        return max(d, key=d.get) if d else "-"
-
     H.append({
         "title": "Authoring agency rotates each drop",
-        "body": (f"R1 led with DoW + FBI ({pct(profiles,'R1','by_agency','DoW')}% / "
-                 f"{pct(profiles,'R1','by_agency','FBI')}%); R2 was a near-pure DoW "
-                 f"video dump ({pct(profiles,'R2','by_agency','DoW')}% DoW, 0% FBI); "
-                 f"R3 swings to FBI + CIA ({pct(profiles,'R3','by_agency','FBI')}% FBI, "
-                 f"{pct(profiles,'R3','by_agency','CIA')}% CIA) and introduces ICA and USG.")
+        "body": (f"DoW share {series('by_agency','DoW')}; FBI {series('by_agency','FBI')}; "
+                 f"CIA {series('by_agency','CIA')}. R1 led with DoW+FBI, R2 was a near-pure "
+                 f"DoW video dump, R3 swung to FBI+CIA (adding ICA and USG), and R4 tilts "
+                 f"back toward DoW with a fresh NASA/DoE contingent.")
     })
     H.append({
-        "title": "Geography flips from CENTCOM to CONUS",
-        "body": (f"CENTCOM/Middle-East share: R1 {pct(profiles,'R1','by_region','CENTCOM / Middle East')}%, "
-                 f"R2 {pct(profiles,'R2','by_region','CENTCOM / Middle East')}%, "
-                 f"R3 {pct(profiles,'R3','by_region','CENTCOM / Middle East')}%. "
-                 f"CONUS share climbs to {pct(profiles,'R3','by_region','CONUS / United States')}% in R3 — "
-                 f"the newest drop is a domestic-US story (Western US, Colorado Springs, Northeastern orbs).")
+        "title": "Geography: CENTCOM → CONUS → maritime/Pacific",
+        "body": (f"CENTCOM/Middle-East share {series('by_region','CENTCOM / Middle East')}; "
+                 f"CONUS {series('by_region','CONUS / United States')}; "
+                 f"INDOPACOM/Pacific {series('by_region','INDOPACOM / Pacific')}. R1/R2 were "
+                 f"Gulf-war-zone heavy, R3 pivoted to the US homeland, and R4 broadens again "
+                 f"toward maritime and Pacific (East/South China Sea, Yellow Sea, Atlantic).")
     })
     H.append({
-        "title": "Redaction collapses in R3",
-        "body": (f"Redacted share: R1 {round(100*profiles['R1']['redacted']/profiles['R1']['n'])}%, "
-                 f"R2 {round(100*profiles['R2']['redacted']/profiles['R2']['n'])}%, "
-                 f"R3 {round(100*profiles['R3']['redacted']/profiles['R3']['n'])}%. "
-                 f"R3 also debuts the 'Featured' flag with {profiles['R3']['featured']} hero records — "
-                 f"a more curated, less-redacted presentation.")
+        "title": "Redaction & the Featured flag",
+        "body": (f"Redacted share {redact_series()}. Featured hero records: "
+                 + ", ".join(f"{r} {profiles[r]['featured']}" for r in order) + ". "
+                 f"The Featured flag (debuted in R3) continues in R4; redaction rate tracks "
+                 f"composition (already-declassified historical files vs contemporary casework).")
     })
     H.append({
-        "title": "Asset mix: documents → video → documents",
-        "body": (f"PDF share: R1 {pct(profiles,'R1','by_type','pdf')}%, "
-                 f"R2 {pct(profiles,'R2','by_type','pdf')}%, R3 {pct(profiles,'R3','by_type','pdf')}%. "
-                 f"R2 was {pct(profiles,'R2','by_type','video')}% video (raw DVIDS clips); R3 returns "
-                 f"to a paper-heavy mix with a wave of FBI still images.")
+        "title": "Asset mix swings document ↔ video each drop",
+        "body": (f"PDF share {series('by_type','pdf')}; video {series('by_type','video')}. "
+                 f"R2 and R4 are the video-heavy drops (raw DVIDS clips); R1 and R3 are "
+                 f"paper-heavy. R4 adds {profiles[last]['by_type'].get('video',0)} new clips.")
     })
     H.append({
-        "title": "R3 reaches deeper into the 1950s-60s",
-        "body": (f"Mid-century incidents jump in R3: 1950s {pct(profiles,'R3','by_decade','1950s')}% "
-                 f"(R1 {pct(profiles,'R1','by_decade','1950s')}%), 1960s {pct(profiles,'R3','by_decade','1960s')}% "
-                 f"(R1 {pct(profiles,'R1','by_decade','1960s')}%) — driven by CIA Cold-War files and the "
-                 f"Mercury/Gemini NASA expansion.")
+        "title": "Historical reach: 1950s-60s and the space program",
+        "body": (f"1950s incidents {series('by_decade','1950s')}; 1960s {series('by_decade','1960s')}. "
+                 f"R3 opened the CIA Cold-War lane and the Mercury/Gemini NASA expansion; R4 "
+                 f"continues the NASA thread (Apollo 14, STS-80 shuttle) and adds DoE Los Alamos "
+                 f"conference material.")
     })
     H.append({
-        "title": "Shape vocabulary returns in R3",
-        "body": (f"R2's raw clips carried almost no descriptive language; R3 restores rich morphology — "
-                 f"sphere/orb {pct(profiles,'R3','shape','sphere/orb')}%, disc {pct(profiles,'R3','shape','disc')}%, "
-                 f"circular {pct(profiles,'R3','shape','circular')}% — closer to R1's witness-narrative texture "
-                 f"(sphere/orb {pct(profiles,'R1','shape','sphere/orb')}%).")
+        "title": "Object morphology across the four drops",
+        "body": (f"sphere/orb {series('shape','sphere/orb')}; disc {series('shape','disc')}; "
+                 f"circular {series('shape','circular')}. Descriptive morphology is richest in "
+                 f"the document-heavy drops (R1, R3) and thinnest in the video-heavy ones "
+                 f"(R2, R4), whose signal lives mostly in clip titles.")
     })
     return H
 
@@ -344,13 +354,26 @@ def main():
             by_rel[rel].append(r)
 
     profiles = {rel: profile_release(by_rel[rel]) for rel, _, _ in RELEASES}
+
+    # "Featured" is a live-page flag that rotates to the newest drop, so the
+    # current index only shows the latest release's featured records. Recover
+    # each release's featured-at-launch count from its OWN snapshot manifest.
+    for rel, _, date in RELEASES:
+        man_path = ROOT / "snapshots" / date / "manifest.json"
+        if man_path.exists():
+            man = json.loads(man_path.read_text(encoding="utf-8-sig"))
+            own = {r["id"] for r in by_rel[rel]}
+            profiles[rel]["featured"] = sum(
+                1 for a in man.get("assets", [])
+                if a.get("featured") and a["id"] in own)
+
     threads = detect_threads(by_rel)
     emergent = emergent_vocab(profiles)
     headlines = compute_headlines(profiles)
 
     result = {
         "generated_for": "war-gov-uap-archive",
-        "snapshot": "2026-06-12",
+        "snapshot": RELEASES[-1][2],
         "releases": [{"key": k, "section": s, "date": d, "n": profiles[k]["n"]}
                      for k, s, d in RELEASES],
         "profiles": profiles,
@@ -380,13 +403,16 @@ def _top_table(d, n, limit=8):
 
 
 def write_md(result):
+    rels = result["releases"]
+    keys = " vs ".join(r["key"] for r in rels)
+    n_word = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five",
+              6: "six"}.get(len(rels), str(len(rels)))
     L = []
-    L.append("# Cross-release pattern recognition (R1 vs R2 vs R3)\n")
-    L.append("Deterministic keyword/metadata profile of the three war.gov UAP "
-             "document drops. Generated by `scripts/release_patterns.py`. The "
+    L.append(f"# Cross-release pattern recognition ({keys})\n")
+    L.append(f"Deterministic keyword/metadata profile of the {n_word} war.gov "
+             "UAP document drops. Generated by `scripts/release_patterns.py`. The "
              "qualitative companion (deeper reading of document bodies) lives "
              "in `audits/cross_release_patterns.md`.\n")
-    rels = result["releases"]
     L.append("## Release sizes\n")
     L.append("| release | section | dropped | records |\n|---|---|---|---|")
     for r in rels:
@@ -399,24 +425,24 @@ def write_md(result):
     L.append("")
 
     P = result["profiles"]
+    order = [r["key"] for r in rels]
 
     def side_by_side(field, title):
         L.append(f"## {title}\n")
         keys = []
-        for rel in ("R1", "R2", "R3"):
+        for rel in order:
             for k in P[rel].get(field, {}):
                 if k not in keys:
                     keys.append(k)
-        L.append("| tag | R1 | R2 | R3 |")
-        L.append("|---|---|---|---|")
+        L.append("| tag | " + " | ".join(order) + " |")
+        L.append("|---|" + "---|" * len(order))
         for k in keys:
-            r1 = P["R1"].get(field, {}).get(k, 0)
-            r2 = P["R2"].get(field, {}).get(k, 0)
-            r3 = P["R3"].get(field, {}).get(k, 0)
-            n1, n2, n3 = P["R1"]["n"], P["R2"]["n"], P["R3"]["n"]
-            def pct(c, n):
-                return f"{c} ({round(100*c/n)}%)" if n else "0"
-            L.append(f"| {k} | {pct(r1,n1)} | {pct(r2,n2)} | {pct(r3,n3)} |")
+            cells = []
+            for rel in order:
+                c = P[rel].get(field, {}).get(k, 0)
+                n = P[rel]["n"]
+                cells.append(f"{c} ({round(100*c/n)}%)" if n else "0")
+            L.append(f"| {k} | " + " | ".join(cells) + " |")
         L.append("")
 
     side_by_side("by_agency", "Authoring agency")
@@ -431,16 +457,16 @@ def write_md(result):
 
     L.append("## Redaction & featured\n")
     L.append("| release | redacted | % | featured |\n|---|---|---|---|")
-    for rel in ("R1", "R2", "R3"):
+    for rel in order:
         p = P[rel]
         L.append(f"| {rel} | {p['redacted']} | "
                  f"{round(100*p['redacted']/p['n']) if p['n'] else 0}% | {p['featured']} |")
     L.append("")
 
-    L.append("## Emergent vocabulary (new in R2 / R3)\n")
+    L.append("## Emergent vocabulary (new in later releases)\n")
     L.append("Tags/labels first appearing in a release, absent from all "
              "earlier ones.\n")
-    for rel in ("R2", "R3"):
+    for rel in order[1:]:
         ev = result["emergent_vocab"].get(rel, {})
         if not ev:
             continue
@@ -453,12 +479,12 @@ def write_md(result):
     L.append("Named incidents/themes traced across releases. A thread spanning "
              "2+ releases means the same story surfaced again in a later drop, "
              "usually in a different evidentiary form.\n")
-    L.append("| thread | R1 | R2 | R3 | releases spanned |")
-    L.append("|---|---|---|---|---|")
+    L.append("| thread | " + " | ".join(order) + " | releases spanned |")
+    L.append("|---|" + "---|" * (len(order) + 1))
     for t in result["threads"]:
         c = t["counts"]
-        L.append(f"| {t['label']} | {c['R1']} | {c['R2']} | {c['R3']} | "
-                 f"{t['releases_spanned']} |")
+        cells = " | ".join(str(c.get(rel, 0)) for rel in order)
+        L.append(f"| {t['label']} | {cells} | {t['releases_spanned']} |")
     L.append("")
 
     OUT_MD.parent.mkdir(parents=True, exist_ok=True)

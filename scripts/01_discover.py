@@ -43,6 +43,7 @@ RELEASE_SECTIONS = {
     "5/8/26":  "Release 01",
     "5/22/26": "Release 02",
     "6/12/26": "Release 03",
+    "7/10/26": "Release 04",
 }
 
 

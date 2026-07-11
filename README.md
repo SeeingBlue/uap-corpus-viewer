@@ -12,35 +12,37 @@ Local archive of the U.S. Department of War's Unidentified Anomalous Phenomena (
   - Release 01 - May 8, 2026 - 161 records
   - Release 02 - May 22, 2026 - +61 records (222 total)
   - Release 03 - June 12, 2026 - +72 records (294 total)
-- **Latest snapshot in this archive**: 2026-06-12
+  - Release 04 - July 10, 2026 - +40 records (334 total)
+- **Latest snapshot in this archive**: 2026-07-10
 - **Releasing agency**: U.S. Department of War (formerly Department of Defense)
 
 ## Confirmed inventory
 
-Confirmed against `uap-data.csv` on 2026-06-12:
+Confirmed against `uap-data.csv` on 2026-07-10:
 
 ```
-Total:    294 records
-PDF:      175
-Video:     84
-Image:     24
-Audio:     11
+Total:    334 records
+PDF:      189
+Video:    103
+Image:     27
+Audio:     15
 
 By agency (normalized tag):
-  DoW   (Department of War):                          143
-  FBI:                                                 86
-  NASA:                                                33
-  CIA   (Central Intelligence Agency):                 19   (1 in R2, 18 in R3)
+  DoW   (Department of War):                          171
+  FBI:                                                 87
+  NASA:                                                40
+  CIA   (Central Intelligence Agency):                 21   (1 R2, 18 R3, 2 R4)
   State (Department of State):                          7
-  DoE   (Department of Energy):                         3   (R2)
+  DoE   (Department of Energy):                         5   (3 R2, 2 R4)
   ODNI  (Dir. of National Intelligence):                1   (R2)
-  ICA   (Intelligence Community Agency):                1   (new in R3)
-  USG   (U.S. Government):                              1   (new in R3)
+  ICA   (Intelligence Community Agency):                1   (R3)
+  USG   (U.S. Government):                              1   (R3)
 
 By page section:
   Release 01 (5/8/26):   158
   Release 02 (5/22/26):   64
   Release 03 (6/12/26):   72
+  Release 04 (7/10/26):   40
 ```
 
 5 Release-01 records are marked `deprecated` (broken/duplicate URLs the
@@ -87,7 +89,7 @@ python scripts\extract_pdfs.py            # PDF -> extracted/<id>.md (text-layer
 python scripts\audit_incident_dates.py    # cross-check incident dates
 python scripts\audit_incident_locations.py
 python scripts\build_index.py             # entities, cross-refs, timeline, geo
-python scripts\release_patterns.py        # cross-release pattern profile (R1 vs R2 vs R3)
+python scripts\release_patterns.py        # cross-release pattern profile (R1..R4)
 python scripts\update_deploy.py           # rebuild deploy/index.html data blobs
 python scripts\validate_deploy.py         # sanity-check the inlined data
 ```
@@ -96,7 +98,7 @@ python scripts\validate_deploy.py         # sanity-check the inlined data
 folder is named after the release date (e.g. `2026-06-12`) even when you
 run discovery a few days later. Without it, today's date is used.
 
-Estimated runtime (full corpus, R3 baseline of 294 records):
+Estimated runtime (full corpus, R4 baseline of 334 records):
 
 | Step | Duration | What it does |
 |---|---|---|
@@ -124,15 +126,19 @@ war-gov-uap-archive/
 │   │   ├── manifest_schema.md   <- schema delta, AUD type, DVIDS quirks
 │   │   ├── uap-data.csv
 │   │   └── manifest.json
-│   └── 2026-06-12/              <- Release 03 (combined CSV, 294 records)
-│       ├── manifest_schema.md   <- ICA/USG agencies, Featured col, NBSP, DVIDS-collision
+│   ├── 2026-06-12/              <- Release 03 (combined CSV, 294 records)
+│   │   ├── manifest_schema.md   <- ICA/USG agencies, Featured col, NBSP, DVIDS-collision
+│   │   ├── uap-data.csv
+│   │   └── manifest.json
+│   └── 2026-07-10/              <- Release 04 (combined CSV, 334 records)
+│       ├── manifest_schema.md   <- maritime pivot, no new schema, Featured rotation
 │       ├── uap-data.csv
 │       └── manifest.json
 ├── files/
-│   ├── pdfs/                    <- 180 expected
-│   ├── videos/                  <- 84 expected
-│   ├── images/                  <- 24 expected
-│   └── audio/                   <- 11 expected
+│   ├── pdfs/                    <- 189 expected
+│   ├── videos/                  <- 103 expected
+│   ├── images/                  <- 27 expected
+│   └── audio/                   <- 15 expected
 ├── metadata/
 │   ├── index.json               <- canonical record per file (built by 02_fetch.py)
 │   ├── index.csv                <- same data flattened, spreadsheet-friendly
@@ -266,6 +272,7 @@ it only downloads what's missing.
 | R1 | 2026-05-08 | initial 161 records; PDF / VID / IMG types; DoW / FBI / NASA / State agencies |
 | R2 | 2026-05-22 | +61 records; AUD (audio) type; DoE / CIA / ODNI agencies; `Image Alt Text`, `Image VIRIN` columns; CSV moved from `uap-csv.csv` to `uap-data.csv`; new R2 PDF path `medialink/ufo/052226/release_02/documents/`; Akamai TLS-fingerprint enforcement now strict (curl_cffi required) |
 | R3 | 2026-06-12 | +72 records; ICA (Intelligence Community Agency) and USG (U.S. Government) agencies; CIA wave (18 records); `Featured` column (10 hero records); R3 PDF path `medialink/ufo/061226/release_03/documents/`; UTF-8 non-breaking spaces (U+00A0) throughout titles (normalized in `fld()`); one upstream title typo fix ("Sherical"→"Spherical") and a DVIDS id shared by two clips (1007720) — both handled by positional DVIDS-key matching in `01_discover.py` |
+| R4 | 2026-07-10 | +40 records; **no new schema** (no new columns or agencies); R4 PDF path `medialink/ufo/071026/release_04/documents/`; DoW-heavy (28) + video-heavy (19 clips); maritime/Indo-Pacific pivot (East/South China Sea, Yellow Sea, Atlantic); 10 new `Featured` records (the flag rotated off R3's onto R4's, so `release_patterns.py` reads featured-at-launch from each snapshot manifest); pipeline change was a one-line `RELEASE_SECTIONS` entry |
 
 ## Cross-release analysis
 
@@ -283,8 +290,8 @@ Once all three releases are ingested, two analyses separate and compare them:
   assessment.
 
 The viewer (`deploy/index.html`) colours every record by release — R1
-amber, R2 cyan, R3 magenta — across the Timeline, Globe, and detail
-panel, with per-release filter chips and a dedicated **Releases**
+amber, R2 cyan, R3 magenta, R4 green — across the Timeline, Globe, and
+detail panel, with per-release filter chips and a dedicated **Releases**
 comparison tab.
 
 ## What was confirmed during reconnaissance

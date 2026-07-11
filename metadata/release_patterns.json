@@ -1,6 +1,6 @@
 {
   "generated_for": "war-gov-uap-archive",
-  "snapshot": "2026-06-12",
+  "snapshot": "2026-07-10",
   "releases": [
     {
       "key": "R1",
@@ -19,6 +19,12 @@
       "section": "Release 03",
       "date": "2026-06-12",
       "n": 72
+    },
+    {
+      "key": "R4",
+      "section": "Release 04",
+      "date": "2026-07-10",
+      "n": 40
     }
   ],
   "profiles": {
@@ -76,15 +82,15 @@
         "rectangle": 5
       },
       "behavior": {
-        "formation": 32,
         "loud/sound": 32,
+        "formation": 32,
         "vanish/disappear": 28,
         "pulsating/blinking": 27,
         "hover/stationary": 23,
         "trail/contrail": 21,
         "aerobatic/maneuver": 21,
-        "silent": 19,
         "rotation/spin": 19,
+        "silent": 19,
         "high speed": 12,
         "high altitude": 10,
         "light beam": 7,
@@ -178,22 +184,22 @@
       },
       "behavior": {
         "loud/sound": 3,
-        "silent": 2,
         "pulsating/blinking": 2,
+        "silent": 2,
         "vanish/disappear": 2,
-        "trail/contrail": 1,
         "rotation/spin": 1,
+        "trail/contrail": 1,
         "aerobatic/maneuver": 1,
-        "formation": 1,
-        "split/multiply": 1,
         "high speed": 1,
-        "hover/stationary": 1
+        "split/multiply": 1,
+        "hover/stationary": 1,
+        "formation": 1
       },
       "context": {
         "civilian witness": 4,
         "night/dark": 3,
-        "military aircraft witness": 2,
         "day/morning": 2,
+        "military aircraft witness": 2,
         "photographed": 1,
         "near nuclear/sensitive": 1
       },
@@ -205,8 +211,8 @@
         "Correspondence/memo": 1
       },
       "sensor": {
-        "IR/FLIR/thermal": 49,
         "video/sensor feed": 49,
+        "IR/FLIR/thermal": 49,
         "photographic": 8,
         "radar": 3,
         "satellite/space": 2,
@@ -314,6 +320,97 @@
         "IR/FLIR/thermal": 5
       },
       "with_body": 53
+    },
+    "R4": {
+      "n": 40,
+      "by_type": {
+        "video": 19,
+        "pdf": 14,
+        "audio": 4,
+        "image": 3
+      },
+      "by_agency": {
+        "DoW": 28,
+        "NASA": 7,
+        "DoE": 2,
+        "CIA": 2,
+        "FBI": 1
+      },
+      "redacted": 19,
+      "featured": 10,
+      "by_decade": {
+        "2020s": 16,
+        "2010s": 6,
+        "1970s": 5,
+        "1940s": 4,
+        "1990s": 4,
+        "1950s": 4,
+        "1960s": 1
+      },
+      "by_region": {
+        "CONUS / United States": 19,
+        "Other": 11,
+        "INDOPACOM / Pacific": 6,
+        "CENTCOM / Middle East": 2,
+        "Former USSR / Central Asia": 1,
+        "(unspecified)": 1
+      },
+      "shape": {
+        "circular": 11,
+        "disc": 9,
+        "sphere/orb": 5,
+        "elongated": 2,
+        "rectangle": 2,
+        "cigar": 1,
+        "line/streak": 1,
+        "point/dot": 1,
+        "triangle": 1,
+        "diamond": 1
+      },
+      "behavior": {
+        "loud/sound": 8,
+        "pulsating/blinking": 6,
+        "aerobatic/maneuver": 5,
+        "high altitude": 4,
+        "hover/stationary": 4,
+        "high speed": 4,
+        "vanish/disappear": 3,
+        "trail/contrail": 3,
+        "silent": 2,
+        "formation": 2,
+        "split/multiply": 1,
+        "rotation/spin": 1,
+        "zigzag": 1,
+        "merge": 1
+      },
+      "context": {
+        "night/dark": 9,
+        "military aircraft witness": 8,
+        "photographed": 6,
+        "day/morning": 6,
+        "naval/maritime": 5,
+        "police witness": 5,
+        "civilian witness": 5,
+        "near nuclear/sensitive": 2,
+        "near airbase": 2
+      },
+      "doc_class": {
+        "Unresolved UAP report": 19,
+        "Scientific study": 13,
+        "Crew debriefing": 13,
+        "Correspondence/memo": 7,
+        "Range Fouler report": 6,
+        "Congressional/legal": 2
+      },
+      "sensor": {
+        "IR/FLIR/thermal": 20,
+        "video/sensor feed": 19,
+        "photographic": 11,
+        "radar": 6,
+        "satellite/space": 6,
+        "naked-eye": 2
+      },
+      "with_body": 14
     }
   },
   "emergent_vocab": {
@@ -333,42 +430,44 @@
         "ICA",
         "USG"
       ]
-    }
+    },
+    "R4": {}
   },
   "headlines": [
     {
       "title": "Authoring agency rotates each drop",
-      "body": "R1 led with DoW + FBI (50% / 36%); R2 was a near-pure DoW video dump (81% DoW, 0% FBI); R3 swings to FBI + CIA (40% FBI, 25% CIA) and introduces ICA and USG."
+      "body": "DoW share R1 50% / R2 81% / R3 17% / R4 70%; FBI R1 36% / R2 0% / R3 40% / R4 2%; CIA R1 0% / R2 2% / R3 25% / R4 5%. R1 led with DoW+FBI, R2 was a near-pure DoW video dump, R3 swung to FBI+CIA (adding ICA and USG), and R4 tilts back toward DoW with a fresh NASA/DoE contingent."
     },
     {
-      "title": "Geography flips from CENTCOM to CONUS",
-      "body": "CENTCOM/Middle-East share: R1 33%, R2 50%, R3 0%. CONUS share climbs to 56% in R3 — the newest drop is a domestic-US story (Western US, Colorado Springs, Northeastern orbs)."
+      "title": "Geography: CENTCOM → CONUS → maritime/Pacific",
+      "body": "CENTCOM/Middle-East share R1 33% / R2 50% / R3 0% / R4 5%; CONUS R1 20% / R2 20% / R3 56% / R4 48%; INDOPACOM/Pacific R1 3% / R2 6% / R3 0% / R4 15%. R1/R2 were Gulf-war-zone heavy, R3 pivoted to the US homeland, and R4 broadens again toward maritime and Pacific (East/South China Sea, Yellow Sea, Atlantic)."
     },
     {
-      "title": "Redaction collapses in R3",
-      "body": "Redacted share: R1 66%, R2 84%, R3 17%. R3 also debuts the 'Featured' flag with 10 hero records — a more curated, less-redacted presentation."
+      "title": "Redaction & the Featured flag",
+      "body": "Redacted share R1 66% / R2 84% / R3 17% / R4 48%. Featured hero records: R1 0, R2 0, R3 10, R4 10. The Featured flag (debuted in R3) continues in R4; redaction rate tracks composition (already-declassified historical files vs contemporary casework)."
     },
     {
-      "title": "Asset mix: documents → video → documents",
-      "body": "PDF share: R1 73%, R2 9%, R3 74%. R2 was 80% video (raw DVIDS clips); R3 returns to a paper-heavy mix with a wave of FBI still images."
+      "title": "Asset mix swings document ↔ video each drop",
+      "body": "PDF share R1 73% / R2 9% / R3 74% / R4 35%; video R1 17% / R2 80% / R3 8% / R4 48%. R2 and R4 are the video-heavy drops (raw DVIDS clips); R1 and R3 are paper-heavy. R4 adds 19 new clips."
     },
     {
-      "title": "R3 reaches deeper into the 1950s-60s",
-      "body": "Mid-century incidents jump in R3: 1950s 18% (R1 3%), 1960s 15% (R1 6%) — driven by CIA Cold-War files and the Mercury/Gemini NASA expansion."
+      "title": "Historical reach: 1950s-60s and the space program",
+      "body": "1950s incidents R1 3% / R2 0% / R3 18% / R4 10%; 1960s R1 6% / R2 9% / R3 15% / R4 2%. R3 opened the CIA Cold-War lane and the Mercury/Gemini NASA expansion; R4 continues the NASA thread (Apollo 14, STS-80 shuttle) and adds DoE Los Alamos conference material."
     },
     {
-      "title": "Shape vocabulary returns in R3",
-      "body": "R2's raw clips carried almost no descriptive language; R3 restores rich morphology — sphere/orb 21%, disc 24%, circular 25% — closer to R1's witness-narrative texture (sphere/orb 13%)."
+      "title": "Object morphology across the four drops",
+      "body": "sphere/orb R1 13% / R2 2% / R3 21% / R4 12%; disc R1 17% / R2 2% / R3 24% / R4 22%; circular R1 36% / R2 3% / R3 25% / R4 28%. Descriptive morphology is richest in the document-heavy drops (R1, R3) and thinnest in the video-heavy ones (R2, R4), whose signal lives mostly in clip titles."
     }
   ],
   "threads": [
     {
       "label": "Western US 2025 'glowing orbs' (test range)",
-      "releases_spanned": 3,
+      "releases_spanned": 4,
       "counts": {
         "R1": 29,
         "R2": 2,
-        "R3": 19
+        "R3": 19,
+        "R4": 2
       },
       "ids": {
         "R1": [
@@ -426,16 +525,21 @@
           "fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste",
           "fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes",
           "fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes"
+        ],
+        "R4": [
+          "dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19",
+          "dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20"
         ]
       }
     },
     {
       "label": "NASA crewed-spaceflight observations (Mercury/Gemini/Apollo)",
-      "releases_spanned": 3,
+      "releases_spanned": 4,
       "counts": {
         "R1": 14,
         "R2": 7,
-        "R3": 12
+        "R3": 12,
+        "R4": 7
       },
       "ids": {
         "R1": [
@@ -476,16 +580,26 @@
           "nasa-032-nasa-uap-d024-apollo-16-scientific-debriefing",
           "nasa-033-nasa-uap-d025-apollo-16-scientific-debriefing",
           "usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue"
+        ],
+        "R4": [
+          "nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996",
+          "nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996",
+          "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996",
+          "nasa-037-nasa-uap-d026-apollo-14-debriefing-1971",
+          "nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971",
+          "nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972",
+          "nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19"
         ]
       }
     },
     {
       "label": "1947-1950 Flying Disc era",
-      "releases_spanned": 3,
+      "releases_spanned": 4,
       "counts": {
         "R1": 22,
         "R2": 1,
-        "R3": 5
+        "R3": 5,
+        "R4": 6
       },
       "ids": {
         "R1": [
@@ -521,6 +635,14 @@
           "cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying",
           "cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs",
           "dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948"
+        ],
+        "R4": [
+          "doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949",
+          "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit",
+          "dow-149-dow-uap-d097-project-sign-progress-report-1948",
+          "cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings",
+          "cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1",
+          "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit"
         ]
       }
     },
@@ -530,7 +652,8 @@
       "counts": {
         "R1": 23,
         "R2": 2,
-        "R3": 0
+        "R3": 0,
+        "R4": 0
       },
       "ids": {
         "R1": [
@@ -562,7 +685,8 @@
           "dow-127-dow-uap-pr091-21-aug-callsign-observes-uap-in-persian-gulf",
           "dow-134-dow-uap-pr098-ufos-in-formation-over-persian-gulf"
         ],
-        "R3": []
+        "R3": [],
+        "R4": []
       }
     },
     {
@@ -571,7 +695,8 @@
       "counts": {
         "R1": 0,
         "R2": 0,
-        "R3": 11
+        "R3": 11,
+        "R4": 0
       },
       "ids": {
         "R1": [],
@@ -588,7 +713,8 @@
           "fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024",
           "fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021",
           "fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20"
-        ]
+        ],
+        "R4": []
       }
     },
     {
@@ -597,7 +723,8 @@
       "counts": {
         "R1": 0,
         "R2": 0,
-        "R3": 4
+        "R3": 4,
+        "R4": 0
       },
       "ids": {
         "R1": [],
@@ -607,7 +734,8 @@
           "fbi-059-fbi-uap-d003-digital-rendering-unresolved-uap-report-colorad",
           "ica-001-ica-uap-d001-analysis-colorado-springs-uap-incident-2022",
           "fbi-065-fbi-uap-d001-fd-302-unresolved-uap-report-colorado-springs-2"
-        ]
+        ],
+        "R4": []
       }
     }
   ]

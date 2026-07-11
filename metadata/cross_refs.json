@@ -586,7 +586,8 @@
       "fbi-072-fbi-uap-d013-washington-state-ufo-investigation-1952-1960"
     ],
     "FBI-UAP-D014": [
-      "fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste"
+      "fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste",
+      "fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1"
     ],
     "FBI-UAP-D015": [
       "fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste"
@@ -662,6 +663,123 @@
     ],
     "USG-UAP-D001": [
       "usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue"
+    ],
+    "DOE-UAP-D004": [
+      "doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949"
+    ],
+    "DOW-UAP-D094": [
+      "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit"
+    ],
+    "DOW-UAP-D097": [
+      "dow-149-dow-uap-d097-project-sign-progress-report-1948"
+    ],
+    "DOW-UAP-PR104": [
+      "dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025"
+    ],
+    "DOW-UAP-PR105": [
+      "dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025"
+    ],
+    "DOW-UAP-PR113": [
+      "dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19"
+    ],
+    "DOW-UAP-PR115": [
+      "dow-153-dow-uap-pr115-unresolved-uap-report-gulf-of-america-2019"
+    ],
+    "NASA-UAP-D030": [
+      "nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996"
+    ],
+    "NASA-UAP-D031": [
+      "nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996"
+    ],
+    "NASA-UAP-D032": [
+      "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996"
+    ],
+    "CIA-UAP-D020": [
+      "cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings"
+    ],
+    "CIA-UAP-D021": [
+      "cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1"
+    ],
+    "DOE-UAP-D005": [
+      "doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015"
+    ],
+    "DOW-UAP-D089": [
+      "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020"
+    ],
+    "DOW-UAP-D090": [
+      "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019"
+    ],
+    "DOW-UAP-D091": [
+      "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020"
+    ],
+    "DOW-UAP-D092": [
+      "dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review"
+    ],
+    "DOW-UAP-D093": [
+      "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit"
+    ],
+    "DOW-UAP-D095": [
+      "dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si"
+    ],
+    "DOW-UAP-D096": [
+      "dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19"
+    ],
+    "DOW-UAP-PR024": [
+      "dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023"
+    ],
+    "DOW-UAP-PR030": [
+      "dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023"
+    ],
+    "DOW-UAP-PR100": [
+      "dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023"
+    ],
+    "DOW-UAP-PR101": [
+      "dow-164-dow-uap-pr101-unresolved-uap-report-south-china-sea-2024"
+    ],
+    "DOW-UAP-PR102": [
+      "dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024"
+    ],
+    "DOW-UAP-PR103": [
+      "dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024"
+    ],
+    "DOW-UAP-PR106": [
+      "dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR107": [
+      "dow-168-dow-uap-pr107-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR108": [
+      "dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20"
+    ],
+    "DOW-UAP-PR109": [
+      "dow-170-dow-uap-pr109-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR110": [
+      "dow-171-dow-uap-pr110-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR111": [
+      "dow-172-dow-uap-pr111-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR112": [
+      "dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "DOW-UAP-PR114": [
+      "dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016"
+    ],
+    "DOW-UAP-PR116": [
+      "dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020"
+    ],
+    "NASA-UAP-D026": [
+      "nasa-037-nasa-uap-d026-apollo-14-debriefing-1971"
+    ],
+    "NASA-UAP-D027": [
+      "nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971"
+    ],
+    "NASA-UAP-D028": [
+      "nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972"
+    ],
+    "NASA-UAP-D029": [
+      "nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19"
     ]
   },
   "cross_refs": {
@@ -786,7 +904,8 @@
       "fbi-081-fbi-uap-d022-digital-rendering-narrative-statement-2-6-weste",
       "fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste",
       "fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes",
-      "fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes"
+      "fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes",
+      "fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1"
     ],
     "dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un": [
       "dow-082-western-us-event",
@@ -807,7 +926,8 @@
       "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
       "fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste",
       "fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste",
-      "fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste"
+      "fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste",
+      "fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1"
     ],
     "dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve": [
       "dow-082-western-us-event",
@@ -844,7 +964,13 @@
     ],
     "fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste": [
       "dow-082-western-us-event",
-      "dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve"
+      "dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve",
+      "fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1"
+    ],
+    "fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1": [
+      "dow-082-western-us-event",
+      "dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve",
+      "fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste"
     ],
     "fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste": [
       "dow-082-western-us-event",
@@ -1042,7 +1168,16 @@
       "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
       "dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948",
       "dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the",
-      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the"
+      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the",
+      "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-149-dow-uap-d097-project-sign-progress-report-1948",
+      "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020",
+      "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019",
+      "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020",
+      "dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review",
+      "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si",
+      "dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19"
     ],
     "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja": [
       "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950",
@@ -1057,7 +1192,16 @@
       "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
       "dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948",
       "dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the",
-      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the"
+      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the",
+      "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-149-dow-uap-d097-project-sign-progress-report-1948",
+      "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020",
+      "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019",
+      "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020",
+      "dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review",
+      "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si",
+      "dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19"
     ],
     "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r": [
       "dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950",
@@ -1073,7 +1217,22 @@
       "dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve",
       "dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948",
       "dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the",
-      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the"
+      "dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the",
+      "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-149-dow-uap-d097-project-sign-progress-report-1948",
+      "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020",
+      "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019",
+      "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020",
+      "dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review",
+      "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit",
+      "dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si",
+      "dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19"
+    ],
+    "doe-001-doe-uap-d001-enhanced-pantex-imagery": [
+      "doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015"
+    ],
+    "doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015": [
+      "doe-001-doe-uap-d001-enhanced-pantex-imagery"
     ],
     "dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and": [
       "dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and"
@@ -1184,6 +1343,97 @@
       "fbi-066-fbi-uap-d004-fd-1057-02-northeastern-united-states-2024",
       "fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024",
       "fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021"
+    ],
+    "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
+      "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit"
+    ],
+    "dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
+      "dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit"
+    ],
+    "dow-149-dow-uap-d097-project-sign-progress-report-1948": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r"
+    ],
+    "nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996": [
+      "nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996",
+      "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996"
+    ],
+    "nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996": [
+      "nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996",
+      "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996"
+    ],
+    "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996": [
+      "nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996",
+      "nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996",
+      "nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19"
+    ],
+    "nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19": [
+      "nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996",
+      "nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972"
+    ],
+    "cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings": [
+      "cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1"
+    ],
+    "cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1": [
+      "cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings"
+    ],
+    "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
+      "dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20": [
+      "dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020"
+    ],
+    "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
+      "dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20"
+    ],
+    "dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20": [
+      "dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019"
+    ],
+    "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r",
+      "dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020"
+    ],
+    "dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020": [
+      "dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020"
+    ],
+    "dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r"
+    ],
+    "dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r"
+    ],
+    "dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19": [
+      "dow-092-dow-uap-pr057a-spherical-uap-in-clouds",
+      "dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja",
+      "dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r"
+    ],
+    "nasa-037-nasa-uap-d026-apollo-14-debriefing-1971": [
+      "nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971"
+    ],
+    "nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971": [
+      "nasa-037-nasa-uap-d026-apollo-14-debriefing-1971"
+    ],
+    "nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972": [
+      "nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19"
     ]
   }
 }

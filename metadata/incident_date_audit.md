@@ -1,26 +1,26 @@
 # Incident Date audit (v2)
 
-Records audited: **299**
+Records audited: **339**
 
 Verdict counts:
 
-- `confirmed`: 204
-- `single-source`: 58
+- `confirmed`: 249
+- `single-source`: 57
 - `confirmed-by-sequence`: 23
-- `disagree`: 7
-- `sequence-suggests`: 4
-- `no-evidence`: 3
+- `disagree`: 6
+- `no-evidence`: 2
+- `sequence-suggests`: 2
 
 **Confirmation rules.** A date is `confirmed` when 2+ of {csv, title, summary, body} agree at year+month precision or better (year-only matches don't count). A date is `confirmed-by-sequence` when the record sits in a numbered title family (e.g. DOW-UAP-D{N}) and one of its candidates fits the date range implied by the nearest confirmed prev/next neighbors.
 
 
-## Disagreements (multiple sources, none corroborate) (7)
+## Disagreements (multiple sources, none corroborate) (6)
 
-### `cia-009-cia-uap-008-speculative-paper-by-n-kardashev-and-a-sakharov`
-- **title:** CIA-UAP-008, Speculative Paper By N Kardashev and A Sakharov on Charged Mass in Space at Conference on Origins Of Life, Armenia, 6-8 September 1971/Low Scientific Level Of Other Soviet Papers
-- **csv:** `1972` -> `1972`
-- **title dates:** 1971-09-08
-- **summary:** This 1972 CIA Intelligence Information Report summarizes a US attendee's observations of a speculative paper regarding charged mass behavior in space presented by Soviet scientists N.S. Kardashev and…
+### `cia-019-cia-uap-019-australian-dept-of-defense-scientific-and-intel`
+- **title:** CIA-UAP-019, Australian Dept of Defense Scientific and Intel Aspects of the UFO Problem
+- **csv:** `1971` -> `1971`
+- **body dates (filtered):** 1953-02-16; 1948-09; 1952-03; 1953-01; 1953-09; 1969-12; 1950-10; 1957-11
+- **summary:** Dated to 1971, an Australian review of the USAF Project Blue Book. This document was released by the National Archives of Australia.
 
 ### `dow-084-dow-uap-pr051-syrian-uap-instant-acceleration`
 - **family:** `DOW-UAP-PR51`
@@ -47,14 +47,6 @@ Verdict counts:
 - **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (66=(2024, 4, 24), 68=(2023, 6, 15))
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
-### `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`
-- **family:** `DOW-UAP-D77`
-- **title:** DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event
-- **csv:** `2023` -> `2023`
-- **summary dates:** 2026-06
-- **sequence:** DOW-UAP-D neighbors disagree with sequence direction (75=(2024, 7, 14), 78=(2023, 6, 15))
-- **summary:** This memorandum summarizes the All-domain Anomaly Resolution Office’s (AARO) ongoing analysis of a reported incident near a sensitive national security site in the western United States involving uni…
-
 ### `fbi-018-65-hs1-101634279-100-de-26505`
 - **title:** 65_HS1-101634279_100-DE-26505
 - **csv:** `11/7/57` -> `1957-11-07`
@@ -68,48 +60,29 @@ Verdict counts:
 - **summary:** This document is a first-hand account written by a currently serving (May 2026) senior U.S. intelligence official. The official was part of a team investigating reports of unusual noises and sighting…
 
 
-## Sequence suggests a range (no direct candidates) (4)
-
-### `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`
-- **family:** `DOW-UAP-D87`
-- **title:** DOW-UAP-D087, U.S. Air Force Analysis of Flying Objects in the United States, 1-100
-- **csv:** `` -> `-`
-- **sequence:** prev=DOW-UAP-D85@1953; implied range (1953, 6, 15)..(2030, 12, 31)
-- **summary:** Includes a "Check-List - Unidentified Flying Objects" that contains details about the incident. Many summaries also include witness lists or statements and other narrative reports or descriptions.
-
-### `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`
-- **family:** `DOW-UAP-D88`
-- **title:** DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172
-- **csv:** `` -> `-`
-- **sequence:** prev=DOW-UAP-D85@1953; implied range (1953, 6, 15)..(2030, 12, 31)
-- **summary:** Includes a "Check-List - Unidentified Flying Objects" that contains details about the incident. Many summaries also include witness lists or statements and other narrative reports or descriptions.
+## Sequence suggests a range (no direct candidates) (2)
 
 ### `nasa-032-nasa-uap-d024-apollo-16-scientific-debriefing`
 - **family:** `NASA-UAP-D24`
 - **title:** NASA-UAP-D024, “Apollo 16 Scientific Debriefing”
 - **csv:** `` -> `-`
-- **sequence:** prev=NASA-UAP-D23@1962; implied range (1962, 6, 15)..(2030, 12, 31)
+- **sequence:** prev=NASA-UAP-D23@1962; next=NASA-UAP-D26@1971; implied range (1962, 6, 15)..(1971, 6, 15)
 - **summary:** This debriefing includes presentations from principal investigators of various Apollo experiments. The principal investigators describe preliminary results of their work to educate the Apollo crews a…
 
 ### `nasa-033-nasa-uap-d025-apollo-16-scientific-debriefing`
 - **family:** `NASA-UAP-D25`
 - **title:** NASA-UAP-D025, “Apollo 16 Scientific Debriefing”
 - **csv:** `` -> `-`
-- **sequence:** prev=NASA-UAP-D23@1962; implied range (1962, 6, 15)..(2030, 12, 31)
+- **sequence:** prev=NASA-UAP-D23@1962; next=NASA-UAP-D26@1971; implied range (1962, 6, 15)..(1971, 6, 15)
 - **summary:** At 32:41, the speaker makes an off-handed comment, “Could be an alien starbase or something, I don’t know” when discussing correlations between experimental data sets.
 
 
-## Single-source (no corroboration) (58)
+## Single-source (no corroboration) (57)
 
 ### `cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson`
 - **title:** CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson
 - **csv:** `1958` -> `1958`
 - **summary:** This 1958 CIA memorandum discussing a phone conversation with Dr. Leon Davidson regarding concerns about a destroyed "space message and its transmitter." A redacted version of this memorandum has bee…
-
-### `cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs`
-- **title:** CIA-UAP-005, German Scientist's Article on 'Flying Discs'
-- **csv:** `1950` -> `1950`
-- **summary:** This 1950 CIA Information Report from Chile discusses a German scientist's article theorizing that "Flying Discs" could be explained as a new type of aircraft based on aerodynamic principles develope…
 
 ### `cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest`
 - **title:** CIA-UAP-009, Unknown Flying Objects Observed Over Budapest
@@ -121,20 +94,16 @@ Verdict counts:
 - **csv:** `1956` -> `1956`
 - **summary:** This 1956 CIA Information Report describes flying object sightings reported by a Budapest-based sub-source, including a sketch showing the objects' suspected formation and flight path between Budapes…
 
-### `cia-017-cia-uap-016-sightings-of-unidentified-flying-objects-in-lada`
-- **title:** CIA-UAP-016, Sightings of Unidentified Flying Objects in Ladakh, Nepal, Sikkim and Bhutan
-- **csv:** `1968` -> `1968`
-- **summary:** A 1968 report about UFO sightings in Ladakh, Nepal, Sikkim and Bhutan. Seven UFO sightings are listed that took place between 19 Feb. to 25 Mar. 1968. A more redacted version of the report has been a…
+### `cia-016-cia-uap-015-project-blue-book-special-report-no-14-analysis`
+- **title:** CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)
+- **csv:** `` -> `-`
+- **body dates (filtered):** 1952-04-30; 1948-07-29; 1952-04-20; 1951-01-20; 1952-07-19; 1948-07-24; 1952-12-22; 1952-06-06; 1948-07-31; 1947-08-13; 1949-05-24; 1950-03-20; 1952-08-25; 1955-05-05; 1954-08-12; 1955-01-01; 1952-04-29; 1953-01
+- **summary:** This is the USAF Project Blue Book with a CIA cover sheet stating the document is "Official Record Copy." With the exception of the handwritten note on the first page, the content of this document ha…
 
 ### `cia-018-cia-uap-018-report-of-unusual-flying-object-sightings-and-at`
 - **title:** CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
 - **csv:** `1955` -> `1955`
 - **summary:** A 1955 report on a UFO sighting in Hungary. The information came from a letter between Hungarian relatives, living in the USA and Budapest. A more redacted version of the report has been available on…
-
-### `cia-019-cia-uap-019-australian-dept-of-defense-scientific-and-intel`
-- **title:** CIA-UAP-019, Australian Dept of Defense Scientific and Intel Aspects of the UFO Problem
-- **csv:** `1971` -> `1971`
-- **summary:** Dated to 1971, an Australian review of the USAF Project Blue Book. This document was released by the National Archives of Australia.
 
 ### `dow-007-38-143685-box-incident-summaries-101-172`
 - **title:** 38_143685_box_Incident_Summaries_101-172
@@ -247,21 +216,29 @@ Verdict counts:
 - **sequence:** all candidates fall outside DOW-UAP-PR68..70 range [(2023, 6, 15)..(2023, 6, 15)]
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
-### `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`
-- **family:** `DOW-UAP-D84`
-- **title:** DOW-UAP-D084, US Army-Flying-Saucer-Study_1949
-- **csv:** `` -> `-`
-- **title dates:** 1949
-- **sequence:** DOW-UAP-D neighbors disagree with sequence direction (83=(2023, 6, 15), 85=(1953, 6, 15))
-- **summary:** This file contains an Evaluation Study of the Phenomenon (Flying Saucers) prepared at the request of the Plans & Operations Divisions of the General Staff, U.S. Army (P&O, GSUSA) to determine if the …
-
 ### `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`
 - **family:** `DOW-UAP-D86`
 - **title:** DOW-UAP-D086, USNavy-Report-of-Flying-Discs_1948
 - **csv:** `` -> `-`
 - **title dates:** 1948
-- **sequence:** all candidates fall outside DOW-UAP-D85..None range [(1953, 6, 15)..None]
+- **sequence:** all candidates fall outside DOW-UAP-D85..89 range [(1953, 6, 15)..(2020, 6, 15)]
 - **summary:** This document is a memorandum from the Commandant of the 5th Naval District, and it cites a memorandum related to "flying discs" from the Chief of Naval Operations. The memorandum requests that naval…
+
+### `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`
+- **family:** `DOW-UAP-D87`
+- **title:** DOW-UAP-D087, U.S. Air Force Analysis of Flying Objects in the United States, 1-100
+- **csv:** `` -> `-`
+- **body dates (filtered):** 1947-07-07; 1947-06-29; 1947-12-30; 1947-11-02; 1947-10
+- **sequence:** all candidates fall outside DOW-UAP-D85..89 range [(1953, 6, 15)..(2020, 6, 15)]
+- **summary:** Includes a "Check-List - Unidentified Flying Objects" that contains details about the incident. Many summaries also include witness lists or statements and other narrative reports or descriptions.
+
+### `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`
+- **family:** `DOW-UAP-D88`
+- **title:** DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172
+- **csv:** `` -> `-`
+- **body dates (filtered):** 1948-02-20; 1947-11-24; 1948-04-11; 1948-07-24; 1947-06-24; 1947-07-14; 1948-03-08; 1948-03-05; 1948-03-09; 1948-03-29; 1946-04-09; 1948-05-28; 1948-07-01; 1948-07-29; 1948-07-30; 1948-07-26; 1948-07-20; 1913-02; 1945-04
+- **sequence:** all candidates fall outside DOW-UAP-D85..89 range [(1953, 6, 15)..(2020, 6, 15)]
+- **summary:** Includes a "Check-List - Unidentified Flying Objects" that contains details about the incident. Many summaries also include witness lists or statements and other narrative reports or descriptions.
 
 ### `fbi-021-fbi-photo-a1`
 - **title:** FBI Photo A1
@@ -435,12 +412,7 @@ Verdict counts:
 - **summary:** This file contains an independent report on UFOs written by the French association COMETA (previously published in the French magazine VDS in 1999), which details the results of a study by the Instit…
 
 
-## No evidence anywhere (3)
-
-### `cia-016-cia-uap-015-project-blue-book-special-report-no-14-analysis`
-- **title:** CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)
-- **csv:** `` -> `-`
-- **summary:** This is the USAF Project Blue Book with a CIA cover sheet stating the document is "Official Record Copy." With the exception of the handwritten note on the first page, the content of this document ha…
+## No evidence anywhere (2)
 
 ### `doe-001-doe-uap-d001-enhanced-pantex-imagery`
 - **title:** DOE-UAP-D001, Enhanced PANTEX Imagery
@@ -590,8 +562,8 @@ Verdict counts:
 - **title:** DOW-UAP-PR098, "UFOs in formation over Persian Gulf?"
 - **csv:** `` -> `-`
 - **summary dates:** 2026-03-06; 2019-10
-- **confirmed date:** `2026-03-06` (via sequence, summary)
-- **sequence:** prev=DOW-UAP-PR97@2019
+- **confirmed date:** `2019-10` (via sequence, summary)
+- **sequence:** prev=DOW-UAP-PR97@2019; next=DOW-UAP-PR100@2023; non-fit sources: summary=2026-03-06
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
 ### `dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171`
@@ -599,8 +571,8 @@ Verdict counts:
 - **title:** DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"
 - **csv:** `2023` -> `2023`
 - **summary dates:** 2026-03-06; 2019-11
-- **confirmed date:** `2026-03-06` (via sequence, summary)
-- **sequence:** prev=DOW-UAP-PR97@2019
+- **confirmed date:** `2019-11` (via sequence, summary)
+- **sequence:** prev=DOW-UAP-PR97@2019; next=DOW-UAP-PR100@2023; non-fit sources: summary=2026-03-06
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
 ### `fbi-005-65-hs1-834228961-62-hq-83894-section-5`
@@ -673,7 +645,7 @@ Verdict counts:
 - **summary:** The FBI's 62-HQ-83894 case file includes investigative records, eyewitness testimonies, and public reports concerning Unidentified Flying Objects and flying discs documented between June 1947 and Jul…
 
 
-## Confirmed (>=2 sources agree) (204)
+## Confirmed (>=2 sources agree) (249)
 
 ### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
 - **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -686,22 +658,33 @@ Verdict counts:
 - **title:** CIA-UAP-017, Placement on High Alert Due to Perceived Aggressive Foreign Posturing
 - **csv:** `July, 2008` -> `2008`
 - **summary dates:** 2008-07
-- **confirmed date:** `2008` (via csv, summary)
+- **body dates (filtered):** 2008-07-03; 2008-07-02
+- **confirmed date:** `2008-07` (via body, summary)
+- **note:** csv `2008` disagrees
 - **summary:** A never before released July 2008 report on a UFO sighting at the Harare International Airport. Individuals debated if the sighting was an advanced reconnaissance device of a foreign government or of…
 
 ### `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying`
 - **title:** CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
 - **csv:** `1952-1953` -> `1952`
 - **title dates:** 1952; 1953
-- **confirmed date:** `1952` (via csv, title)
+- **body dates (filtered):** 1953-01-17; 1953-03-13; 1953-03-12; 1952-07-02; 1953-02-18; 1953-02-25; 1950-08-15; 1952-07-19; 1952-08-05; 1952-10-13; 1944-06; 1949-10; 1951-01
+- **confirmed date:** `1952` (via body, csv, title)
 - **summary:** This file contains correspondence and reports dated 1952–1953 from the Scientific Advisory Panel on Unidentified Flying Objects, convened by the CIA’s Office of Scientific Intelligence. The panel’s p…
 
 ### `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec`
 - **title:** CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
 - **csv:** `1954-1974` -> `1954`
 - **title dates:** 1954; 1974
-- **confirmed date:** `1954` (via csv, title)
+- **body dates (filtered):** 1953-04-15; 1957-05-06; 1956-07-10; 1954-07-04; 1960-05-01; 1950-04-08; 1952-06-13; 1983-12-14; 1952-10-07; 1985-08-19; 1988-08-28; 1953-11-30; 1954-03-05; 1988-07-23; 1954-06-07; 1985-05-20; 1954-05-12; 1983-05-23; 1955-05-13; 1984-11-08; 1954-10-15; 1987-04-22; 1952-06-15; 1985-06-21; 1985-04-24; 1953-08-03; 1985-05-22; 1955-08-29; 1954-03-23; 1953-10-21; 1953-10-26; 1954-08-02; 1954-09-24; 1954-04-15; 1954-07-26; 1954-09-13; 1954-11-05; 1954-11-18; 1954-11-19; 1954-11-24; 1954-11-26; 1954-12-02; 1955-04-28; 1954-12-03; 1949-06-20; 1954-12-22; 1955-03-02; 1955-02-21; 1983-08-05; 1988-08-26; 1955-01-28; 1955-01-31; 1956-01-24; 1955-04-12; 1986-05-12; 1955-04-29; 1955-08-03; 1955-06-27; 1965-10-12; 1986-04-03; 1983-10-04; 1986-04-24; 1955-07-27; 1986-03-14; 1955-08-04; 1955-08-08; 1955-09-22; 1955-10-03; 1955-11-28; 1986-03-06; 1956-04-14; 1956-05-15; 1988-10-12; 1956-08-01; 1956-09-17; 1956-12-09; 1960-08-15; 1954-12-13; 1987-05-21; 1955-12-27; 1956-02-15; 1956-02-07; 1956-03-05; 1956-02-24; 1956-06-21; 1956-01-10; 1956-04-29; 1956-05-07; 1956-05-28; 1955-07-21; 1956-05-31; 1956-01-30; 1955-05-23; 1955-05-30; 1956-02-27; 1956-05-11; 1955-09-26; 1956-04-23; 1956-06-20; 1956-06-22; 1956-02-20; 1956-05-04; 1956-06-23; 1956-07-02; 1956-07-05; 1956-07-04; 1956-07-09; 1987-07-08; 1956-07-11; 1956-07-19; 1956-11-26; 1956-07-30; 1956-07-26; 1956-08-29; 1956-09-11; 1956-10-15; 1956-10-29; 1956-10-28; 1956-10-30; 1956-11-01; 1956-12-18; 1956-11-06; 1956-11-07; 1956-10-03; 1956-10-23; 1956-11-15; 1956-11-20; 1956-12-10; 1986-05-07; 1960-01-04; 1960-01-07; 1956-12-15; 1956-12-22; 1957-03-18; 1957-04-02; 1957-04-12; 1957-06-08; 1957-09-16; 1957-06-07; 1957-08-22; 1957-08-28; 1959-07-09; 1957-08-21; 1957-09-06; 1957-08-23; 1957-08-10; 1957-04-25; 1957-10-11; 1957-10-03; 1957-09-20; 1957-11-15; 1957-10-13; 1958-11-06; 1957-08-27; 1958-03-05; 1958-06-27; 1957-10-27; 1958-03-01; 1958-03-07; 1958-07-07; 1958-06-25; 1958-10-11; 1958-07-29; 1958-07-09; 1958-09-08; 1985-02-16; 1958-07-15; 1958-02-07; 1959-10-06; 1959-02-16; 1958-12-04; 1957-10-04; 1958-05-29; 1959-02-17; 1959-06-18; 1959-07-07; 1959-02-12; 1959-06-09; 1959-09-27; 1959-09-12; 1959-12-06; 1960-02-02; 1960-02-05; 1960-04-09; 1960-03-14; 1960-04-26; 1960-05-16; 1962-02-13; 1960-05-07; 1960-05-27; 1960-07-08; 1960-07-25; 1960-05-31; 1960-08-17; 1962-03-06; 1965-04-25; 1961-03-21; 1969-09-25; 1960-08-09; 1962-03-01; 1960-05-06; 1961-01-18; 1959-01-01; 1962-02-17; 1962-07-30; 1962-09-30; 1963-08-05; 1962-02-07; 1961-01-25; 1964-01-15; 1961-09-14; 1961-09-25; 1961-10-01; 1961-09-21; 1962-12-14; 1960-10-27; 1960-12-11; 1961-04-20; 1962-08-30; 1962-10-16; 1962-11-14; 1962-10-14; 1963-02-27; 1962-10-24; 1962-10-04; 1962-10-06; 1962-11-20; 1962-10-12; 1962-10-13; 1962-10-01; 1963-11-30; 1963-12-09; 1957-09-25; 1958-03-24; 1958-03-28; 1958-06-10; 1958-07-16; 1959-05-14; 1959-09-13; 1959-09-24; 1960-06-06; 1961-03-03; 1961-03-06; 1962-01-12; 1962-02-23; 1962-01-13; 1962-03-13; 1962-03-26; 1962-07-28; 1962-09-03; 1962-08-11; 1962-09-08; 1962-09-09; 1962-12-17; 1962-12-25; 1962-12-28; 1963-01-20; 1962-11-11; 1962-12-05; 1964-03-31; 1964-05-24; 1963-05-28; 1963-11-01; 1964-03-16; 1964-07-07; 1964-08-06; 1964-10-16; 1964-12-09; 1965-01-11; 1964-10-26; 1964-11-22; 1964-11-25; 1964-12-19; 1965-01-08; 1967-09-08; 1967-12-13; 1968-01-05; 1968-03-16; 1968-04-03; 1968-03-31; 1968-05-18; 1969-01-05; 1970-11-24; 1973-12-12; 1973-03-30; 1973-07-21; 1974-01-06; 1964-03-02; 1964-04-24; 1968-12-11; 1966-11-23; 1971-02-09; 1970-11-10; 1973-10-08; 1972-08-12; 1973-08-30; 1958-04-23; 1958-06-26; 1958-07-23; 1958-12-17; 1958-09-24; 1958-11-12; 1958-12-22; 1959-07-14; 1959-07-20; 1984-12-05; 1959-08-20; 1959-09-14; 1959-11-18; 1960-11-15; 1962-02-27; 1961-09-11; 1962-02-26; 1962-04-25; 1962-04-30; 1962-05-02; 1963-01-15; 1963-11-12; 1963-01-21; 1963-10-22; 1964-02-29; 1963-11-29; 1964-02-25; 1963-05-24; 1964-07-09; 1965-12-28; 1965-01-27; 1965-08-03; 1965-11-20; 1965-04-30; 1962-07-05; 1962-07-06; 1963-04-05; 1964-08-05; 1964-11-05; 1962-10-23; 1964-08-17; 1965-03-18; 1965-06-03; 1966-12-21; 1967-01-05; 1967-05-04; 1967-05-17; 1967-05-29; 1967-12-31; 1967-10-30; 1968-03-08; 1968-01-23; 1968-05-08; 1966-12-12; 1966-12-28; 1967-11-03; 1968-05-16; 1968-06-08; 1968-06-04; 1967-01-26; 1960-05-28; 1960-08-19; 1957-06-20; 1957-08-05; 1957-08-11; 1957-09-10; 1965-11-15; 1966-11-21; 1954-05-24; 1957-01-28; 1959-02-09; 1956-03-12; 1954-06-18; 1956-05-18; 1954-08-23; 1954-06-28; 1955-02-14; 1959-02-23; 1984-11-02; 1984-09-20; 1987-02-20; 1992-04; 1951-02; 1951-10; 1950-06; 1951-04; 1950-03; 1952-09; 1953-03; 1953-07; 1954-01; 1953-06; 1952-02; 1953-01; 1954-02; 1966-08; 1975-07; 1972-12; 1974-12; 1958-08; 1959-04; 1963-03; 1961-11; 1977-08; 1961-05; 1958-01; 1959-03; 1961-07; 1967-07; 1963-06; 1965-02; 1968-02; 1971-05; 1969-04; 1972-03; 1973-01; 1963-09; 1974-08; 1969-12; 1970-08; 1973-06; 1968-07; 1960-09; 1961-08; 1962-06; 1966-09; 1966-07; 1976-05; 1967-04; 1971-01
+- **confirmed date:** `1954` (via body, csv, title)
 - **summary:** This CIA History Staff document chronicles the complete history of the U-2 and OXCART (A-12) high-altitude reconnaissance aircraft programs from 1954 to 1974, detailing their development, operations …
+
+### `cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs`
+- **title:** CIA-UAP-005, German Scientist's Article on 'Flying Discs'
+- **csv:** `1950` -> `1950`
+- **body dates (filtered):** 1950-07-31
+- **confirmed date:** `1950` (via body, csv)
+- **summary:** This 1950 CIA Information Report from Chile discusses a German scientist's article theorizing that "Flying Discs" could be explained as a new type of aircraft based on aerodynamic principles develope…
 
 ### `cia-007-cia-uap-006-sighting-of-unconventional-aircraft`
 - **title:** CIA-UAP-006, Sighting Of Unconventional Aircraft
@@ -714,8 +697,19 @@ Verdict counts:
 - **title:** CIA-UAP-007, Current Status Of Unidentified Flying Objects (UFO) Project.
 - **csv:** `December, 1953` -> `1953`
 - **summary dates:** 1953-12
-- **confirmed date:** `1953` (via csv, summary)
+- **body dates (filtered):** 1953-12-17
+- **confirmed date:** `1953-12` (via body, summary)
+- **note:** csv `1953` disagrees
 - **summary:** This December 1953 memorandum provides a status update on the Air Force's UFO project activities, including ongoing intelligence operations, equipment procurement for photographing UFOs, and Canada’s…
+
+### `cia-009-cia-uap-008-speculative-paper-by-n-kardashev-and-a-sakharov`
+- **title:** CIA-UAP-008, Speculative Paper By N Kardashev and A Sakharov on Charged Mass in Space at Conference on Origins Of Life, Armenia, 6-8 September 1971/Low Scientific Level Of Other Soviet Papers
+- **csv:** `1972` -> `1972`
+- **title dates:** 1971-09-08
+- **body dates (filtered):** 1971-09-06; 1911-09-08
+- **confirmed date:** `1971-09` (via body, title)
+- **note:** csv `1972` disagrees
+- **summary:** This 1972 CIA Intelligence Information Report summarizes a US attendee's observations of a speculative paper regarding charged mass behavior in space presented by Soviet scientists N.S. Kardashev and…
 
 ### `cia-011-cia-uap-010-report-on-conversations-with-soviet-scientists-o`
 - **title:** CIA-UAP-010, Report on Conversations with Soviet Scientists on Subject of Unidentified Flying Objects in the USSR
@@ -745,6 +739,27 @@ Verdict counts:
 - **confirmed date:** `1952` (via csv, summary)
 - **summary:** A December 1952 Memo on the activities the British are taking to identify UFOs. The memo references a UFO sighting at an RAF field seen by high officials and RAF pilots. A more redacted version of th…
 
+### `cia-017-cia-uap-016-sightings-of-unidentified-flying-objects-in-lada`
+- **title:** CIA-UAP-016, Sightings of Unidentified Flying Objects in Ladakh, Nepal, Sikkim and Bhutan
+- **csv:** `1968` -> `1968`
+- **body dates (filtered):** 1968-03-04; 1968-02-19; 1968-02-21
+- **confirmed date:** `1968` (via body, csv)
+- **summary:** A 1968 report about UFO sightings in Ladakh, Nepal, Sikkim and Bhutan. Seven UFO sightings are listed that took place between 19 Feb. to 25 Mar. 1968. A more redacted version of the report has been a…
+
+### `cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings`
+- **title:** CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955
+- **csv:** `1955` -> `1955`
+- **title dates:** 1955
+- **confirmed date:** `1955` (via csv, title)
+- **summary:** This memorandum summarizes a Central Intelligence Agency (CIA) debriefing of a group of four individuals who reported observing a “flying saucer” or “unconventional aircraft” in 1955. The group, whic…
+
+### `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`
+- **title:** CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955
+- **csv:** `1955` -> `1955`
+- **title dates:** 1955
+- **confirmed date:** `1955` (via csv, title)
+- **summary:** Sections 1 and 2 of this memorandum document a 1955 analysis of reports of “flying saucers” or “unconventional aircraft,” referencing the incident described in observer debriefings contained within C…
+
 ### `doe-002-doe-uap-d002-james-tuck-correspondence-1970s`
 - **title:** DOE-UAP-D002, James Tuck Correspondence, 1970s
 - **csv:** `1970s` -> `1970`
@@ -759,6 +774,21 @@ Verdict counts:
 - **body dates (filtered):** 1986-05-20; 1986-05-29
 - **confirmed date:** `1986-05-20` (via body, csv)
 - **summary:** A letter to the members of the Pajarito Astronomers club regarding an upcoming meeting featuring a presentation from a Los Alamos National Laboratory-affiliated physicist, Dr. John Warren, titled “Wh…
+
+### `doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949`
+- **title:** DOE-UAP-D004, Los Alamos Conference on Aerial Phenomena, 1949
+- **csv:** `3/22/49` -> `1949-03-22`
+- **title dates:** 1949
+- **confirmed date:** `1949` (via csv, title)
+- **summary:** This document is a transcript of a 1949 conference held at Los Alamos Scientific Laboratory (now Los Alamos National Laboratory), Los Alamos, New Mexico. Attendees included several eminent scientists…
+
+### `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015`
+- **title:** DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015
+- **csv:** `9/1/15` -> `2015-09-01`
+- **title dates:** 2015
+- **summary dates:** 2015-09-01; 2026-05-22
+- **confirmed date:** `2015-09-01` (via csv, summary)
+- **summary:** This file contains imagery and a report documenting the circumstances surrounding a September 1, 2015, incident involving an unidentified object intruding the airspace above the Pantex Plant near Ama…
 
 ### `dow-001-18-100754-general-1946-7-vol-2`
 - **title:** 18_100754_ General 1946-7_Vol_2
@@ -1662,12 +1692,33 @@ Verdict counts:
 - **confirmed date:** `2019` (via csv, summary)
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
+### `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`
+- **family:** `DOW-UAP-D84`
+- **title:** DOW-UAP-D084, US Army-Flying-Saucer-Study_1949
+- **csv:** `` -> `-`
+- **title dates:** 1949
+- **body dates (filtered):** 1949-04-05; 1949-01
+- **confirmed date:** `1949` (via body, title)
+- **summary:** This file contains an Evaluation Study of the Phenomenon (Flying Saucers) prepared at the request of the Plans & Operations Divisions of the General Staff, U.S. Army (P&O, GSUSA) to determine if the …
+
+### `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`
+- **family:** `DOW-UAP-D77`
+- **title:** DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event
+- **csv:** `2023` -> `2023`
+- **summary dates:** 2026-06
+- **body dates (filtered):** 2026-06-05; 2026-05; 2023-10
+- **confirmed date:** `2026-06` (via body, summary)
+- **note:** csv `2023` disagrees
+- **summary:** This memorandum summarizes the All-domain Anomaly Resolution Office’s (AARO) ongoing analysis of a reported incident near a sensitive national security site in the western United States involving uni…
+
 ### `dow-138-dow-uap-d078-notional-map-western-united-states-event`
 - **family:** `DOW-UAP-D78`
 - **title:** DOW-UAP-D078, Notional Map: Western United States Event
 - **csv:** `October, 2023` -> `2023`
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary)
+- **body dates (filtered):** 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This image is a notional representation of four incidents reportedly involving unidentified anomalous phenomena in the western United States, as seen from above. This illustration depicts multiple in…
 
 ### `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`
@@ -1676,7 +1727,9 @@ Verdict counts:
 - **csv:** `October, 2023` -> `2023`
 - **title dates:** 2023
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary, title)
+- **body dates (filtered):** 2026-06-02; 2026-05; 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This memorandum presents the first-hand narrative from Witness 1 provided to the All-domain Anomaly Resolution Office (AARO). Witness 1 was one of several United States (U.S.) federal law enforcement…
 
 ### `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`
@@ -1685,7 +1738,9 @@ Verdict counts:
 - **csv:** `October, 2023` -> `2023`
 - **title dates:** 2023
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary, title)
+- **body dates (filtered):** 2026-06-02; 2026-05; 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This memorandum presents the first-hand narrative from Witness 2 provided to the All-domain Anomaly Resolution Office (AARO). Witness 2 was one of several United States (U.S.) federal law enforcement…
 
 ### `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`
@@ -1694,7 +1749,9 @@ Verdict counts:
 - **csv:** `October, 2023` -> `2023`
 - **title dates:** 2023
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary, title)
+- **body dates (filtered):** 2026-06-02; 2026-05; 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This memorandum presents the first-hand narrative from Witness 3 provided to the All-domain Anomaly Resolution Office (AARO). Witness 3 was one of several United States (U.S.) federal law enforcement…
 
 ### `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`
@@ -1703,7 +1760,9 @@ Verdict counts:
 - **csv:** `October, 2023` -> `2023`
 - **title dates:** 2023
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary, title)
+- **body dates (filtered):** 2026-06-02; 2026-05; 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This memorandum presents the first-hand narrative from Witness 4 provided to the All-domain Anomaly Resolution Office (AARO). Witness 4 was one of several United States (U.S.) federal law enforcement…
 
 ### `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`
@@ -1712,7 +1771,9 @@ Verdict counts:
 - **csv:** `October, 2023` -> `2023`
 - **title dates:** 2023
 - **summary dates:** 2023-10
-- **confirmed date:** `2023` (via csv, summary, title)
+- **body dates (filtered):** 2026-05; 2023-10
+- **confirmed date:** `2023-10` (via body, summary)
+- **note:** csv `2023` disagrees
 - **summary:** This memorandum presents the first-hand narrative from Witness 5 provided to the All-domain Anomaly Resolution Office (AARO). Witness 5 was one of several United States (U.S.) federal law enforcement…
 
 ### `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
@@ -1722,6 +1783,233 @@ Verdict counts:
 - **title dates:** 1953
 - **confirmed date:** `1953` (via csv, title)
 - **summary:** This file contains a copy of the CIA's 1953 "Report of the Scientific Panel on Unidentified Flying Objects" that was sent to the Secretary of Defense.
+
+### `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`
+- **family:** `DOW-UAP-D94`
+- **title:** DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949
+- **csv:** `4/28/49` -> `1949-04-28`
+- **title dates:** 1949
+- **summary dates:** 1949-04-28
+- **confirmed date:** `1949-04-28` (via csv, summary)
+- **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 04/28/1949. The analysis includes an asses…
+
+### `dow-149-dow-uap-d097-project-sign-progress-report-1948`
+- **family:** `DOW-UAP-D97`
+- **title:** DOW-UAP-D097, Project Sign Progress Report, 1948
+- **csv:** `1948` -> `1948`
+- **title dates:** 1948
+- **confirmed date:** `1948` (via csv, title)
+- **summary:** This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified fly…
+
+### `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025`
+- **family:** `DOW-UAP-PR104`
+- **title:** DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 18 seconds of video footage from an …
+
+### `dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025`
+- **family:** `DOW-UAP-PR105`
+- **title:** DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 5 minutes of video footage from an i…
+
+### `dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19`
+- **family:** `DOW-UAP-PR113`
+- **title:** DOW-UAP-PR113, Unresolved UAP Report, Western United States, 1996
+- **csv:** `1996` -> `1996`
+- **title dates:** 1996
+- **confirmed date:** `1996` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 57 secon…
+
+### `dow-153-dow-uap-pr115-unresolved-uap-report-gulf-of-america-2019`
+- **family:** `DOW-UAP-PR115`
+- **title:** DOW-UAP-PR115, Unresolved UAP Report, Gulf of America, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Air Force submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 8 seconds of video footage from an infrared sen…
+
+### `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`
+- **family:** `DOW-UAP-D89`
+- **title:** DOW-UAP-D089, Range Fouler Debrief, Eastern United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** This document is a Range Fouler Debrief, a standardized reporting form the U.S. Navy uses to record the circumstances surrounding an unauthorized intrusion into controlled airspace during active mili…
+
+### `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`
+- **family:** `DOW-UAP-D90`
+- **title:** DOW-UAP-D090, Range Fouler Debrief, Eastern United States, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** This document is a Range Fouler Debrief, a standardized reporting form the U.S. Navy uses to record the circumstances surrounding an unauthorized intrusion into controlled airspace during active mili…
+
+### `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`
+- **family:** `DOW-UAP-D91`
+- **title:** DOW-UAP-D091, Range Fouler Debrief, Atlantic Ocean, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** This document is a Range Fouler Debrief, a standardized reporting form the U.S. Navy uses to record the circumstances surrounding an unauthorized intrusion into controlled airspace during active mili…
+
+### `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`
+- **family:** `DOW-UAP-D92`
+- **title:** DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
+- **csv:** `4/17/67` -> `1967-04-17`
+- **title dates:** 1966; 1967
+- **confirmed date:** `1967` (via csv, title)
+- **summary:** This file documents the 1966-1967 deliberations and recommendations of the U.S. Air Force (USAF) Scientific Advisory Board’s Ad Hoc Committee to Review Project Blue Book. Project Blue Book was a 1952…
+
+### `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`
+- **family:** `DOW-UAP-D93`
+- **title:** DOW-UAP-D093, Analysis of Flying Object Incidents in the United States, 1948
+- **csv:** `12/10/48` -> `1948-12-10`
+- **title dates:** 1948
+- **summary dates:** 1948-12-10
+- **confirmed date:** `1948-12-10` (via csv, summary)
+- **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 12/10/1948. The analysis includes an asses…
+
+### `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`
+- **family:** `DOW-UAP-D95`
+- **title:** DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
+- **csv:** `1955` -> `1955`
+- **title dates:** 1954; 1955
+- **summary dates:** 1955-07
+- **confirmed date:** `1955` (via csv, summary, title)
+- **summary:** This file contains reports, memoranda, and correspondence concerning various then-developmental vertical take-off and landing (VTOL) aircraft. The file includes assessments of the experimental potent…
+
+### `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
+- **family:** `DOW-UAP-D96`
+- **title:** DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
+- **csv:** `1955` -> `1955`
+- **title dates:** 1955
+- **confirmed date:** `1955` (via csv, title)
+- **summary:** This file contains correspondence relating to Project Blue Book, a 1952-1969 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The correspondence inclu…
+
+### `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR24`
+- **title:** DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 18 seconds of video footage from an infra…
+
+### `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR30`
+- **title:** DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 10 seconds of video footage from an infra…
+
+### `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR100`
+- **title:** DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 4 minutes and 57 seconds of video fo…
+
+### `dow-164-dow-uap-pr101-unresolved-uap-report-south-china-sea-2024`
+- **family:** `DOW-UAP-PR101`
+- **title:** DOW-UAP-PR101, Unresolved UAP Report, South China Sea, 2024
+- **csv:** `2024` -> `2024`
+- **title dates:** 2024
+- **confirmed date:** `2024` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 46 seconds of video foo…
+
+### `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024`
+- **family:** `DOW-UAP-PR102`
+- **title:** DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024
+- **csv:** `2024` -> `2024`
+- **title dates:** 2024
+- **confirmed date:** `2024` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 36 seconds of video footage from an …
+
+### `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024`
+- **family:** `DOW-UAP-PR103`
+- **title:** DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024
+- **csv:** `2024` -> `2024`
+- **title dates:** 2024
+- **confirmed date:** `2024` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 16 seconds of video foo…
+
+### `dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR106`
+- **title:** DOW-UAP-PR106, Unresolved UAP Report, Eastern United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 11 seconds of video footage from an infr…
+
+### `dow-168-dow-uap-pr107-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR107`
+- **title:** DOW-UAP-PR107, Unresolved UAP Report, Eastern United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 28 seconds of video footage from an infr…
+
+### `dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20`
+- **family:** `DOW-UAP-PR108`
+- **title:** DOW-UAP-PR108, Unresolved UAP Report, Western United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 2 minutes and 16 seconds of video footag…
+
+### `dow-170-dow-uap-pr109-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR109`
+- **title:** DOW-UAP-PR109, Unresolved UAP Report, Eastern United States, 2015
+- **csv:** `2015` -> `2015`
+- **title dates:** 2015
+- **confirmed date:** `2015` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 21 seconds of footage …
+
+### `dow-171-dow-uap-pr110-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR110`
+- **title:** DOW-UAP-PR110, Unresolved UAP Report, Eastern United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 27 seconds of video footage from an infr…
+
+### `dow-172-dow-uap-pr111-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR111`
+- **title:** DOW-UAP-PR111, Unresolved UAP Report, Eastern United States, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute of video footage from an infrar…
+
+### `dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20`
+- **family:** `DOW-UAP-PR112`
+- **title:** DOW-UAP-PR112, Unresolved UAP Report, Eastern United States, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 20 seconds of video footage from an infrared sensor …
+
+### `dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016`
+- **family:** `DOW-UAP-PR114`
+- **title:** DOW-UAP-PR114, Unresolved UAP Report, Atlantic Ocean, 2016
+- **csv:** `2016` -> `2016`
+- **title dates:** 2016
+- **confirmed date:** `2016` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 39 seconds of video footage from an infr…
+
+### `dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020`
+- **family:** `DOW-UAP-PR116`
+- **title:** DOW-UAP-PR116, Unresolved UAP Report, Atlantic Ocean, 2020
+- **csv:** `2020` -> `2020`
+- **title dates:** 2020
+- **confirmed date:** `2020` (via csv, title)
+- **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 32 seconds of video footage from an infr…
 
 ### `fbi-001-65-hs1-834228961-62-hq-83894-section-10`
 - **family:** `FBI-Section10`
@@ -1893,7 +2181,8 @@ Verdict counts:
 - **title:** FBI-UAP-D011, D/FBI Correspondence Referral, 1949
 - **csv:** `1949` -> `1949`
 - **title dates:** 1949
-- **confirmed date:** `1949` (via csv, title)
+- **body dates (filtered):** 1949-01-31
+- **confirmed date:** `1949` (via body, csv, title)
 - **summary:** This collection of documents contains correspondence between the Director of the Federal Bureau of Investigation (FBI), J. Edgar Hoover, and Rev. Charles Barnes concerning Barnes’ account of an incid…
 
 ### `fbi-063-fbi-uap-pr003-orbs-over-the-pond-2024`
@@ -1925,7 +2214,8 @@ Verdict counts:
 - **csv:** `October, 2024` -> `2024`
 - **title dates:** 2024
 - **summary dates:** 2024-10
-- **confirmed date:** `2024` (via csv, summary, title)
+- **body dates (filtered):** 2024-08; 2021-11
+- **confirmed date:** `2024` (via body, csv, summary, title)
 - **summary:** This document is an FBI FD-1057, a form the Federal Bureau of Investigation (FBI) uses to record investigative activity. This FD-1057 documents the FBI’s contact with a U.S. person in October 2024, d…
 
 ### `fbi-067-fbi-uap-d005-fd-1057-04-northeastern-united-states-2024`
@@ -1957,7 +2247,9 @@ Verdict counts:
 - **csv:** `December, 2024` -> `2024`
 - **title dates:** 2024
 - **summary dates:** 2024-12
-- **confirmed date:** `2024` (via csv, summary, title)
+- **body dates (filtered):** 2024-12-01
+- **confirmed date:** `2024-12` (via body, summary)
+- **note:** csv `2024` disagrees
 - **summary:** This document is an FBI FD-1057, a form the Federal Bureau of Investigation (FBI) uses to record investigative activity. This FBI FD-1057 documents a December 2024 site survey of a location where two…
 
 ### `fbi-071-fbi-uap-d012-newark-field-office-1952-1967`
@@ -1965,6 +2257,7 @@ Verdict counts:
 - **csv:** `August 1952-1967` -> `1952-08`
 - **title dates:** 1952; 1967
 - **summary dates:** 1952-08; 1967-01
+- **body dates (filtered):** 1957-08-28; 1957-08-27; 1958-02-14; 1958-02-11; 1959-10-28; 1960-02-27; 1961-02-08; 1961-01-16; 1961-02-13; 1966-07-11; 1957-11-05; 1960-01-16
 - **confirmed date:** `1952-08` (via csv, summary)
 - **summary:** This file details a special inquiry by the Federal Bureau of Investigation’s Newark Field Office of various reported sightings of unidentified flying objects (UFOs) in and near New Jersey between Aug…
 
@@ -1973,6 +2266,7 @@ Verdict counts:
 - **csv:** `July 1952-1960` -> `1952-07`
 - **title dates:** 1952; 1960
 - **summary dates:** 1952-07; 1960-08
+- **body dates (filtered):** 1954-06-07; 1954-06-06; 1954-06-24
 - **confirmed date:** `1952-07` (via csv, summary)
 - **summary:** This file details an investigation of various sightings of Unidentified Flying Objects (UFOs) in Washington state between July 1952 and August 1960. This file includes memoranda and correspondence be…
 
@@ -2088,12 +2382,21 @@ Verdict counts:
 - **confirmed date:** `2023` (via csv, summary, title)
 - **summary:** This video is an artistic interpretation of a reported incident near a sensitive national security site in the western United States involving unidentified anomalous phenomena (UAP) over a period of …
 
+### `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
+- **title:** FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
+- **csv:** `10/10/74` -> `1974-10-10`
+- **title dates:** 1967; 1974
+- **summary dates:** 1967-09-22; 1974-09-30; 1974-10-10; 1954-04-08
+- **confirmed date:** `1974-10-10` (via csv, summary)
+- **summary:** This file contains two pieces of correspondence. The first, dated 9/22/1967, relays a description of an incident provided by an eleven-year-old child in which they heard a “weird” noise and saw a “fl…
+
 ### `ica-001-ica-uap-d001-analysis-colorado-springs-uap-incident-2022`
 - **title:** ICA-UAP-D001, Analysis: Colorado Springs UAP Incident, 2022
 - **csv:** `2022` -> `2022`
 - **title dates:** 2022
 - **summary dates:** 2026-06
-- **confirmed date:** `2022` (via csv, title)
+- **body dates (filtered):** 2022-02-15
+- **confirmed date:** `2022` (via body, csv, title)
 - **summary:** This document contains analysis by an All-domain Anomaly Resolution Office (AARO) Intelligence Community (IC) partner to account for a 2022 incident involving an airborne object near Colorado Springs…
 
 ### `nasa-002-nasa-uap-d3-gemini-7-transcript-1965`
@@ -2280,7 +2583,8 @@ Verdict counts:
 - **title:** NASA-UAP-D015, Astronaut Scientific Debriefings, 1962-1963
 - **csv:** `1962-1963` -> `1962`
 - **title dates:** 1962; 1963
-- **confirmed date:** `1962` (via csv, title)
+- **body dates (filtered):** 1962-07-13; 1963-03-12; 1963-12-20; 1962-07-29; 1962-02-21; 1962-05-24; 1963-11-15
+- **confirmed date:** `1962` (via body, csv, title)
 - **summary:** This file contains memoranda, correspondence, reports, and other materials relating to contemporary scientific interest in investigating the nature of luminous phenomena reported by astronauts John G…
 
 ### `nasa-024-nasa-uap-d016-preliminary-gemini-4-crew-debriefing-part-i-19`
@@ -2289,7 +2593,8 @@ Verdict counts:
 - **csv:** `6/9/65` -> `1965-06-09`
 - **title dates:** 1965
 - **summary dates:** 1965-06-09
-- **confirmed date:** `1965-06-09` (via csv, summary)
+- **body dates (filtered):** 1965-06-09; 1965-06-23
+- **confirmed date:** `1965-06-09` (via body, csv, summary)
 - **summary:** This document is a preliminary transcript (Part I) derived from voice recordings of the Gemini 4 flight crew debriefing taken aboard the recovery ship, USS Wasp, on June 9, 1965. Astronaut Ed White r…
 
 ### `nasa-025-nasa-uap-d017-preliminary-gemini-4-crew-debriefing-part-ii-1`
@@ -2298,6 +2603,7 @@ Verdict counts:
 - **csv:** `6/9/65` -> `1965-06-09`
 - **title dates:** 1965
 - **summary dates:** 1965-06-09
+- **body dates (filtered):** 1965-06-12
 - **confirmed date:** `1965-06-09` (via csv, summary)
 - **summary:** This document is a preliminary transcript (Part II) derived from voice recordings of the Gemini 4 flight crew debriefing taken aboard the recovery ship, USS Wasp, on June 9, 1965. Part II of this doc…
 
@@ -2307,7 +2613,9 @@ Verdict counts:
 - **csv:** `June 3-7, 1965` -> `1965`
 - **title dates:** 1967
 - **summary dates:** 1965-06-07; 1967-06-25
-- **confirmed date:** `1965` (via csv, summary)
+- **body dates (filtered):** 1965-07-16; 1963-08-15; 1929-06-10; 1930-11-14; 1928-03-14; 1928-03-25; 1957-03-15; 1965-07-14; 1965-06-17; 1965-06-03; 1965-07-02; 1965-06-24; 1962-09; 1942-05
+- **confirmed date:** `1965-06` (via body, summary)
+- **note:** csv `1965` disagrees
 - **summary:** Gemini IV was the second crewed mission of the Gemini series. Astronauts James McDivitt and Edward White successfully completed the four-day flight between June 3 and June 7, 1965. The mission includ…
 
 ### `nasa-027-nasa-uap-d019-gemini-5-technical-debriefing-part-i-1965`
@@ -2316,6 +2624,7 @@ Verdict counts:
 - **csv:** `August 2 - September 2, 1965` -> `1965-09-02`
 - **title dates:** 1965
 - **summary dates:** 1965-08-30; 1965-09-02
+- **body dates (filtered):** 1965-08-30; 1965-09-01; 1965-09-03
 - **confirmed date:** `1965-09-02` (via csv, summary)
 - **summary:** This document is a preliminary transcript (Part I) derived from voice recordings of the Gemini 5 flight crew technical debriefing. NASA conducted this debriefing between August 30, 1965, and Septembe…
 
@@ -2325,7 +2634,8 @@ Verdict counts:
 - **csv:** `August 30 - September 2, 1965` -> `1965-09-02`
 - **title dates:** 1965
 - **summary dates:** 1965-08-30; 1965-09-02
-- **confirmed date:** `1965-09-02` (via csv, summary)
+- **body dates (filtered):** 1965-09-02; 1965-08-30; 1965-09-01
+- **confirmed date:** `1965-09-02` (via body, csv, summary)
 - **summary:** This document is a preliminary transcript (Part II) derived from voice recordings of the Gemini 5 flight crew technical debriefing. NASA conducted this debriefing between August 30, 1965, and Septemb…
 
 ### `nasa-029-nasa-uap-d021-gemini-7-technical-debriefing-1965`
@@ -2333,7 +2643,8 @@ Verdict counts:
 - **title:** NASA-UAP-D021, Gemini 7 Technical Debriefing, 1965
 - **csv:** `December 19-21, 1965` -> `1965`
 - **title dates:** 1965
-- **confirmed date:** `1965` (via csv, title)
+- **body dates (filtered):** 1965-12-23
+- **confirmed date:** `1965` (via body, csv, title)
 - **summary:** This document is a preliminary transcript derived from voice recordings of the Gemini 7 flight crew debriefing conducted December 19-21, 1965, at the Crew Quarters, Cape Kennedy, Florida. Lights and …
 
 ### `nasa-030-nasa-uap-d022-gemini-9-debriefing-1966`
@@ -2342,7 +2653,9 @@ Verdict counts:
 - **csv:** `June 3-6, 1966` -> `1966`
 - **title dates:** 1966
 - **summary dates:** 1966-06-03; 1966-06-16
-- **confirmed date:** `1966` (via csv, summary, title)
+- **body dates (filtered):** 1966-05-27; 1966-05-31; 1966-06-10; 1966-01-19; 1966-03-31; 1966-06-02; 1964-12-21; 1957-03-15; 1966-05-20; 1966-03-04; 1966-06-21
+- **confirmed date:** `1966-06` (via body, summary)
+- **note:** csv `1966` disagrees
 - **summary:** Gemini IX (renamed Gemini IX-A) was the seventh crewed flight of the Gemini series, launched on June 3, 1966. The mission’s primary objectives included a spacewalk and multiple scientific and medical…
 
 ### `nasa-031-nasa-uap-d023-interview-excerpt-with-astronaut-gordon-cooper`
@@ -2353,6 +2666,65 @@ Verdict counts:
 - **summary dates:** 1962-11
 - **confirmed date:** `1962` (via csv, summary, title)
 - **summary:** In November 1962, journalist Walter Cronkite interviewed astronaut Gordon Cooper. In this excerpt from that interview, Cronkite asks Cooper about his views regarding the nature of unidentified flying…
+
+### `nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996`
+- **family:** `NASA-UAP-D30`
+- **title:** NASA-UAP-D030, STS-80 Unidentified Object Image 1, 1996
+- **csv:** `1996` -> `1996`
+- **title dates:** 1996
+- **summary dates:** 1996-12-07
+- **confirmed date:** `1996` (via csv, summary, title)
+- **summary:** During STS-80, between November 19 and December 7, 1996, astronauts aboard Space Shuttle Columbia captured a series of three images of an unidentified object in low-Earth orbit. In the first photogra…
+
+### `nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996`
+- **family:** `NASA-UAP-D31`
+- **title:** NASA-UAP-D031, STS-80 Unidentified Object Image 2, 1996
+- **csv:** `1996` -> `1996`
+- **title dates:** 1996
+- **summary dates:** 1996-12-07
+- **confirmed date:** `1996` (via csv, summary, title)
+- **summary:** During STS-80, between November 19 and December 7, 1996, astronauts aboard Space Shuttle Columbia captured a series of three images of an unidentified object in low-Earth orbit. In the second photogr…
+
+### `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`
+- **family:** `NASA-UAP-D32`
+- **title:** NASA-UAP-D032, STS-80 Unidentified Object Image 3, 1996
+- **csv:** `1996` -> `1996`
+- **title dates:** 1996
+- **summary dates:** 1996-12-07
+- **confirmed date:** `1996` (via csv, summary, title)
+- **summary:** During STS-80, between November 19 and December 7, 1996, astronauts aboard Space Shuttle Columbia captured a series of three images of an unidentified object in low-Earth orbit. In the third photogra…
+
+### `nasa-037-nasa-uap-d026-apollo-14-debriefing-1971`
+- **family:** `NASA-UAP-D26`
+- **title:** NASA-UAP-D026, Apollo 14 Debriefing, 1971
+- **csv:** `2/18/71` -> `1971-02-18`
+- **title dates:** 1971
+- **confirmed date:** `1971` (via csv, title)
+- **summary:** This file contains segment 1 of 2 of the Apollo 14 post-mission crew debriefing at the Manned Spacecraft Center (now Johnson Space Center), Houston, Texas. In the recording, crew members and debriefe…
+
+### `nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971`
+- **family:** `NASA-UAP-D27`
+- **title:** NASA-UAP-D027, Apollo 14 Debriefing (Continued), 1971
+- **csv:** `2/18/71` -> `1971-02-18`
+- **title dates:** 1971
+- **confirmed date:** `1971` (via csv, title)
+- **summary:** This file contains segment 2 of 2 of the Apollo 14 post-mission crew debriefing at the Manned Spacecraft Center (now Johnson Space Center), Houston, Texas. In this continued segment, crew members and…
+
+### `nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972`
+- **family:** `NASA-UAP-D28`
+- **title:** NASA-UAP-D028, Apollo 17 Crew Medical Debriefing, 1972
+- **csv:** `12/21/72` -> `1972-12-21`
+- **title dates:** 1972
+- **confirmed date:** `1972` (via csv, title)
+- **summary:** This file contains segment 1 of 2 of the Apollo 17 post-mission medical debriefing at the Manned Spacecraft Center (now Johnson Space Center), Houston, Texas. In the recording, crew members discuss t…
+
+### `nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19`
+- **family:** `NASA-UAP-D29`
+- **title:** NASA-UAP-D029, Apollo 17 Crew Medical Debriefing (Continued), 1972
+- **csv:** `12/21/72` -> `1972-12-21`
+- **title dates:** 1972
+- **confirmed date:** `1972` (via csv, title)
+- **summary:** This file contains segment 2 of 2 of the Apollo 17 post-mission medical debriefing at the Manned Spacecraft Center (now Johnson Space Center), Houston, Texas. In this continued segment, crew members …
 
 ### `state-001-59-214434-sp-16-7-18-1963`
 - **title:** 59_214434_SP 16 [7.18.1963]
@@ -2433,5 +2805,6 @@ Verdict counts:
 - **title:** USG-UAP-D001, Congressional, White House, UFO-related Constituent Correspondence, 1998
 - **csv:** `1998` -> `1998`
 - **title dates:** 1998
-- **confirmed date:** `1998` (via csv, title)
+- **body dates (filtered):** 1998-05-18; 1998-06-24; 1998-06-18; 1998-08-03; 1998-09-04; 1998-09-10; 1998-08-22; 1998-05-17; 1998-06-26; 1998-07-15; 1998-06-04; 1998-07-06; 1998-03-16; 1998-05-28; 1998-05-13; 1998-04-23; 1965-06-03; 1976-03-05; 1965-07-01; 1965-12-04; 1976-04-12; 1969-07-19; 1976-05-10; 1973-10-18; 1970-01-29; 1997-08-10; 1963-05-15; 1962-07-17; 1962-05-11; 1998-06-09; 1969-12-17; 1997-02-14; 1969-07-21; 1970-05; 1969-06; 1992-10; 1993-10
+- **confirmed date:** `1998` (via body, csv, title)
 - **summary:** This collection of documents, primarily from 1998, contains draft and final correspondence from the White House and the offices of members of Congress responding to constituent inquiries about Uniden…

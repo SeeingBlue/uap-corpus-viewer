@@ -1,47 +1,59 @@
 # war.gov UAP Release 01 — master index
 
-This file is a navigation map for the 299-record Department of War UAP archive. Every record has a corresponding `<id>.md` file in this directory with frontmatter metadata + extracted text body. PII (names, locations, military units) is preserved verbatim per the war.gov Trump-directive policy: redactions only protect eyewitness identities and non-UAP-related sensitive military site information.
+This file is a navigation map for the 339-record Department of War UAP archive. Every record has a corresponding `<id>.md` file in this directory with frontmatter metadata + extracted text body. PII (names, locations, military units) is preserved verbatim per the war.gov Trump-directive policy: redactions only protect eyewitness identities and non-UAP-related sensitive military site information.
 
 ## Counts
 
 | | |
 |---|---:|
-| Total records | 299 |
-| audios | 11 |
-| images | 24 |
-| pdfs | 180 |
-| videos | 84 |
+| Total records | 339 |
+| audios | 15 |
+| images | 27 |
+| pdfs | 194 |
+| videos | 103 |
 
 | Agency | Count |
 |---|---:|
-| DoW | 147 |
-| FBI | 86 |
-| NASA | 33 |
-| CIA | 19 |
+| DoW | 175 |
+| FBI | 87 |
+| NASA | 40 |
+| CIA | 21 |
 | State | 8 |
-| DoE | 3 |
+| DoE | 5 |
 | ODNI | 1 |
 | ICA | 1 |
 | USG | 1 |
 
 ## Records by agency
 
-### DoW  (147 records)
+### DoW  (175 records)
 
 - `dow-003-331-120752-numeric-files-1944-1945-37153-german-armament-equ` (pdf, 3/18/45, Germany) — [331_120752_Numeric_Files_1944–1945_37153_German_Armament_Equipment_Documents](dow-003-331-120752-numeric-files-1944-1945-37153-german-armament-equ.md)
 - `dow-001-18-100754-general-1946-7-vol-2` (pdf, 12/30/47, N/A) — [18_100754_ General 1946-7_Vol_2](dow-001-18-100754-general-1946-7-vol-2.md)
 - `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950` (pdf, 1948-1950, New Mexico) — [DOW-UAP-D017, UAP Reported at Sandia Base, 1948-1950](dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
+- `dow-149-dow-uap-d097-project-sign-progress-report-1948` (pdf, 1948, Various) — [DOW-UAP-D097, Project Sign Progress Report, 1948](dow-149-dow-uap-d097-project-sign-progress-report-1948.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 - `dow-002-18-6369445-general-1948-vol-1` (pdf, 6/15/48, N/A) — [18_6369445_General_1948_Vol_1](dow-002-18-6369445-general-1948-vol-1.md)
 - `dow-004-341-110448-records-relating-to-the-collection-and-disseminat` (pdf, 11/8/48, Netherlands) — [341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399](dow-004-341-110448-records-relating-to-the-collection-and-disseminat.md)
+- `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit` (pdf, 12/10/48, Virginia) — [DOW-UAP-D093, Analysis of Flying Object Incidents in the United States, 1948](dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`
+- `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit` (pdf, 4/28/49, Virginia) — [DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949](dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`
 - `dow-006-342-hs1-416511228-319-1-flying-discs-1949` (pdf, 1/9/50, N/A) — [342_HS1-416511228_319.1 Flying Discs 1949](dow-006-342-hs1-416511228-319-1-flying-discs-1949.md)
-- `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r` (pdf, 1953, N/A) — [DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`
+- `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r` (pdf, 1953, N/A) — [DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`, `dow-149-dow-uap-d097-project-sign-progress-report-1948`, `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`, `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`, `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`, `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`, `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`, `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`, `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
+- `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si` (pdf, 1955, Various) — [DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955](dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
+- `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19` (pdf, 1955, Various) — [DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955](dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 - `dow-005-341-110677-numerical-file-5-2500` (pdf, 10/14/55, Azerbaijan) — [341_110677_Numerical_File,_5-2500](dow-005-341-110677-numerical-file-5-2500.md)
+- `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review` (pdf, 4/17/67, Various) — [DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967](dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
+- `dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19` (video, 1996, Western United States) — [DOW-UAP-PR113, Unresolved UAP Report, Western United States, 1996](dow-152-dow-uap-pr113-unresolved-uap-report-western-united-states-19.md)
 - `dow-032-dow-uap-d48-department-of-the-air-force-report-1996` (pdf, 9/10/96, N/A) — [DOW-UAP-D048, Department of the Air Force Report, 1996](dow-032-dow-uap-d48-department-of-the-air-force-report-1996.md)
 - `dow-033-dow-uap-d49-launch-summary-vandenberg-afb-2000` (pdf, 2/3/00, N/A) — [DOW-UAP-D049, Launch Summary, Vandenberg AFB, 2000](dow-033-dow-uap-d49-launch-summary-vandenberg-afb-2000.md)
+- `dow-170-dow-uap-pr109-unresolved-uap-report-eastern-united-states-20` (video, 2015, Eastern United States) — [DOW-UAP-PR109, Unresolved UAP Report, Eastern United States, 2015](dow-170-dow-uap-pr109-unresolved-uap-report-eastern-united-states-20.md)
+- `dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016` (video, 2016, Atlantic Ocean) — [DOW-UAP-PR114, Unresolved UAP Report, Atlantic Ocean, 2016](dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016.md)
 - `dow-039-dow-uap-d55-mission-report-syria-november-2016` (pdf, 11/18/16, Syria) — [DOW-UAP-D055, Mission Report, Syria, November 2016](dow-039-dow-uap-d55-mission-report-syria-november-2016.md)
 - `dow-132-dow-uap-pr096-hh11-03-july-2018-uaps` (video, 2018, CENTCOM) — [DOW-UAP-PR096, "HH11 03 July 2018 UAPs"](dow-132-dow-uap-pr096-hh11-03-july-2018-uaps.md)
 - `dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast` (video, 2019, NORTHCOM) — [DOW-UAP-PR086, "UAP from Dec 2019 (East Coast)"](dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast.md)
 - `dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213` (video, 2019, CENTCOM) — [DOW-UAP-PR097, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z"](dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213.md)
+- `dow-153-dow-uap-pr115-unresolved-uap-report-gulf-of-america-2019` (video, 2019, Gulf of America) — [DOW-UAP-PR115, Unresolved UAP Report, Gulf of America, 2019](dow-153-dow-uap-pr115-unresolved-uap-report-gulf-of-america-2019.md)
+- `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019` (pdf, 2019, Eastern United States) — [DOW-UAP-D090, Range Fouler Debrief, Eastern United States, 2019](dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20`
+- `dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20` (video, 2019, Eastern United States) — [DOW-UAP-PR112, Unresolved UAP Report, Eastern United States, 2019](dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20.md) ↔ paired with `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`
 - `dow-090-dow-uap-pr055-spherical-uap-over-afg-in-and-out-of-clouds-23` (video, 2020, CENTCOM) — [DOW-UAP-PR055, "Spherical UAP over AFG in and out of clouds 23 Nov 2020"](dow-090-dow-uap-pr055-spherical-uap-over-afg-in-and-out-of-clouds-23.md)
 - `dow-095-dow-uap-pr059-nag-uap-1-jun-20` (video, 2020, CENTCOM) — [DOW-UAP-PR059, "NAG UAP 1 Jun 20"](dow-095-dow-uap-pr059-nag-uap-1-jun-20.md)
 - `dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and` (video, 2020, CENTCOM) — [DOW-UAP-PR077, "2 November 2020 [CALLSIGN] [CALLSIGN] Observes and tracks UAP 1 of 2"](dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and.md) ↔ paired with `dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and`
@@ -62,6 +74,14 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d` (video, 2020, CENTCOM) — [DOW-UAP-PR093, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"](dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d.md) ↔ paired with `dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d`
 - `dow-130-dow-uap-pr094-callsign-mission-hd-2020-02-13` (video, 2020, CENTCOM) — [DOW-UAP-PR094, "[CALLSIGN] (Mission) - HD 2020-02-13"](dow-130-dow-uap-pr094-callsign-mission-hd-2020-02-13.md)
 - `dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d` (video, 2020, CENTCOM) — [DOW-UAP-PR095, "May 05 2020 Gulf of Arabia [CALLSIGN] (Platform) Dual UAP"](dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d.md) ↔ paired with `dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d`
+- `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020` (pdf, 2020, Eastern United States) — [DOW-UAP-D089, Range Fouler Debrief, Eastern United States, 2020](dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20`
+- `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020` (pdf, 2020, Atlantic Ocean) — [DOW-UAP-D091, Range Fouler Debrief, Atlantic Ocean, 2020](dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020`
+- `dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20` (video, 2020, Eastern United States) — [DOW-UAP-PR106, Unresolved UAP Report, Eastern United States, 2020](dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20.md) ↔ paired with `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`
+- `dow-168-dow-uap-pr107-unresolved-uap-report-eastern-united-states-20` (video, 2020, Eastern United States) — [DOW-UAP-PR107, Unresolved UAP Report, Eastern United States, 2020](dow-168-dow-uap-pr107-unresolved-uap-report-eastern-united-states-20.md)
+- `dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20` (video, 2020, Western United States) — [DOW-UAP-PR108, Unresolved UAP Report, Western United States, 2020](dow-169-dow-uap-pr108-unresolved-uap-report-western-united-states-20.md)
+- `dow-171-dow-uap-pr110-unresolved-uap-report-eastern-united-states-20` (video, 2020, Eastern United States) — [DOW-UAP-PR110, Unresolved UAP Report, Eastern United States, 2020](dow-171-dow-uap-pr110-unresolved-uap-report-eastern-united-states-20.md)
+- `dow-172-dow-uap-pr111-unresolved-uap-report-eastern-united-states-20` (video, 2020, Eastern United States) — [DOW-UAP-PR111, Unresolved UAP Report, Eastern United States, 2020](dow-172-dow-uap-pr111-unresolved-uap-report-eastern-united-states-20.md)
+- `dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020` (video, 2020, Atlantic Ocean) — [DOW-UAP-PR116, Unresolved UAP Report, Atlantic Ocean, 2020](dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020.md) ↔ paired with `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`
 - `dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020` (pdf, 5/14/20, Arabian Gulf) — [DOW-UAP-D038, Range Fouler Debrief, Middle East, May 2020](dow-028-dow-uap-d38-range-fouler-debrief-middle-east-may-2020.md) ↔ paired with `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020`
 - `dow-049-dow-uap-d65-mission-report-persian-gulf-july-2020` (pdf, 7/16/20, Arabian Gulf) — [DOW-UAP-D065, Mission Report, Arabian Gulf, July 2020](dow-049-dow-uap-d65-mission-report-persian-gulf-july-2020.md)
 - `dow-044-dow-uap-d60-mission-report-persian-gulf-august-2020` (pdf, 8/8/20, Arabian Gulf) — [DOW-UAP-D060, Mission Report, Arabian Gulf, August 2020](dow-044-dow-uap-d60-mission-report-persian-gulf-august-2020.md)
@@ -93,20 +113,23 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `dow-013-dow-uap-d16-mission-report-syria-july-2022` (pdf, 7/31/22, Syria) — [DOW-UAP-D016, Mission Report, Syria, July 2022](dow-013-dow-uap-d16-mission-report-syria-july-2022.md) ↔ paired with `dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022`
 - `dow-014-dow-uap-d18-mission-report-iraq-december-2022` (pdf, 12/1/22, Iraq) — [DOW-UAP-D018, Mission Report, Iraq, December 2022](dow-014-dow-uap-d18-mission-report-iraq-december-2022.md) ↔ paired with `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022`
 - `dow-016-dow-uap-d20-mission-report-iraq-2023` (pdf, 2023, Iraq) — [DOW-UAP-D20, Mission Report, Iraq, 2023](dow-016-dow-uap-d20-mission-report-iraq-2023.md)
-- `dow-082-western-us-event` (pdf, 2023, Western United States) — [Western US Event](dow-082-western-us-event.md) ↔ paired with `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`, `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste`, `fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste`, `fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste`, `fbi-077-fbi-uap-d018-digital-rendering-narrative-statement-2-3-weste`, `fbi-078-fbi-uap-d019-digital-rendering-narrative-statement-2-4-weste`, `fbi-079-fbi-uap-d020-digital-rendering-narrative-statement-2-5-weste`, `fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste`, `fbi-081-fbi-uap-d022-digital-rendering-narrative-statement-2-6-weste`, `fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste`, `fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes`, `fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes`
-- `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` (video, 2023, Yellow Sea) — [DOW-UAP-PR057a, "Spherical UAP in clouds"](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`
-- `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` (video, 2023, Yellow Sea) — [DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`
+- `dow-082-western-us-event` (pdf, 2023, Western United States) — [Western US Event](dow-082-western-us-event.md) ↔ paired with `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`, `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste`, `fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste`, `fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste`, `fbi-077-fbi-uap-d018-digital-rendering-narrative-statement-2-3-weste`, `fbi-078-fbi-uap-d019-digital-rendering-narrative-statement-2-4-weste`, `fbi-079-fbi-uap-d020-digital-rendering-narrative-statement-2-5-weste`, `fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste`, `fbi-081-fbi-uap-d022-digital-rendering-narrative-statement-2-6-weste`, `fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste`, `fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes`, `fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes`, `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
+- `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` (video, 2023, Yellow Sea) — [DOW-UAP-PR057a, "Spherical UAP in clouds"](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`, `dow-149-dow-uap-d097-project-sign-progress-report-1948`, `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`, `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`, `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`, `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`, `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`, `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`, `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
+- `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` (video, 2023, Yellow Sea) — [DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) ↔ paired with `dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`, `dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`, `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`, `dow-138-dow-uap-d078-notional-map-western-united-states-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`, `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve`, `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve`, `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`, `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`, `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`, `dow-149-dow-uap-d097-project-sign-progress-report-1948`, `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`, `dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`, `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`, `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`, `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`, `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`, `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
 - `dow-104-dow-uap-pr068-iir-1-666-s0151-23-video-footage-of-unidentifi` (video, 2023, NORTHCOM) — [DOW-UAP-PR068, "IIR 1 666 S0151 23/Video Footage of Unidentified Aerial Phenomenon (UAP) captured by fifth generation aircraft on 20 Jan 23"](dow-104-dow-uap-pr068-iir-1-666-s0151-23-video-footage-of-unidentifi.md)
 - `dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed` (video, 2023, Southeastern United States) — [DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"](dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed.md)
 - `dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u` (video, 2023, NORTHCOM) — [DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"](dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u.md)
 - `dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171` (video, 2023, CENTCOM) — [DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"](dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171.md)
 - `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un` (pdf, 2023, Western United States) — [DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event](dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 - `dow-138-dow-uap-d078-notional-map-western-united-states-event` (pdf, October, 2023, Westen United States) — [DOW-UAP-D078, Notional Map: Western United States Event](dow-138-dow-uap-d078-notional-map-western-united-states-event.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
-- `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D079, Narrative Statement 1, Western United States Event, 2023](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`, `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste`, `fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste`
+- `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D079, Narrative Statement 1, Western United States Event, 2023](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`, `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste`, `fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste`, `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
 - `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D080, Narrative Statement 2, Western United States Event, 2023](dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste`, `fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste`, `fbi-077-fbi-uap-d018-digital-rendering-narrative-statement-2-3-weste`, `fbi-078-fbi-uap-d019-digital-rendering-narrative-statement-2-4-weste`, `fbi-079-fbi-uap-d020-digital-rendering-narrative-statement-2-5-weste`, `fbi-081-fbi-uap-d022-digital-rendering-narrative-statement-2-6-weste`, `fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste`
 - `dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D081, Narrative Statement 3, Western United States Event, 2023](dow-141-dow-uap-d081-narrative-statement-3-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`, `fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes`, `fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes`
 - `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D082, Narrative Statement 4, Western United States Event, 2023](dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 - `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve` (pdf, October, 2023, Westen United States) — [DOW-UAP-D083, Narrative Statement 5, Western United States Event, 2023](dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve.md) ↔ paired with `dow-082-western-us-event`, `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
+- `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` (video, 2023, Middle East) — [DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023](dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023.md)
+- `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` (video, 2023, Middle East) — [DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023](dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023.md)
+- `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023` (video, 2023, Yellow Sea) — [DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023](dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023.md)
 - `dow-015-dow-uap-d19-mission-report-syria-february-21-2023` (pdf, 2/21/23, Syria) — [DOW-UAP-D019, Mission Report, Syria, February 21, 2023](dow-015-dow-uap-d19-mission-report-syria-february-21-2023.md)
 - `dow-086-dow-uap-d020-mission-report-iraq-2023` (pdf, 3/31/23, Iraq) — [DOW-UAP-D020, Mission Report, Iraq, 2023](dow-086-dow-uap-d020-mission-report-iraq-2023.md)
 - `dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023` (pdf, 2023-10, Persian Gulf) — [DOW-UAP-D23, Mission Report, United Arab Emirates, October 2023](dow-018-dow-uap-d23-mission-report-united-arab-emirates-october-2023.md) ↔ paired with `dow-017-dow-uap-d23-mission-report-united-arab-emirates-october-2023`, `dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo`, `dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo`
@@ -116,6 +139,9 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `dow-051-dow-uap-d74-mission-report-syria-november-2023` (pdf, 11/9/23, Syria) — [DOW-UAP-D074, Mission Report, Syria, November 2023](dow-051-dow-uap-d74-mission-report-syria-november-2023.md)
 - `dow-101-dow-uap-pr065-uscg-c-144-tyndall-uap-2-tic-tac-ir-hot-24-apr` (video, 2024, Southeastern United States) — [DOW-UAP-PR065, "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024"](dow-101-dow-uap-pr065-uscg-c-144-tyndall-uap-2-tic-tac-ir-hot-24-apr.md)
 - `dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr` (video, 2024, Southeastern United States) — [DOW-UAP-PR066, "USCG C-144 Tyndall UAP 1 TIC TAC IR hot 24 April 2024"](dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr.md)
+- `dow-164-dow-uap-pr101-unresolved-uap-report-south-china-sea-2024` (video, 2024, South China Sea) — [DOW-UAP-PR101, Unresolved UAP Report, South China Sea, 2024](dow-164-dow-uap-pr101-unresolved-uap-report-south-china-sea-2024.md)
+- `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024` (video, 2024, East China Sea) — [DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024](dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024.md)
+- `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024` (video, 2024, East China Sea) — [DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024](dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024.md)
 - `dow-019-dow-uap-d25-mission-report-greece-january-2024` (pdf, 1/25/24, Mediterranean Sea) — [DOW-UAP-D025, Mission Report, Greece, January 2024](dow-019-dow-uap-d25-mission-report-greece-january-2024.md)
 - `dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023` (pdf, 6/7/24, Gulf of Oman) — [DOW-UAP-D027, Mission Report, United Arab Emirates, October 2023](dow-020-dow-uap-d27-mission-report-united-arab-emirates-october-2023.md)
 - `dow-052-dow-uap-d75-mission-report-gulf-of-aden-july-2024` (pdf, 7/14/24, Gulf of Aden) — [DOW-UAP-D075, Mission Report, Gulf of Aden, July 2024](dow-052-dow-uap-d75-mission-report-gulf-of-aden-july-2024.md)
@@ -125,6 +151,8 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `dow-023-dow-uap-d32-mission-report-syria-october-2024` (pdf, 10/20/24, Syria) — [DOW-UAP-D032, Mission Report, Syria, October 2024](dow-023-dow-uap-d32-mission-report-syria-october-2024.md) ↔ paired with `dow-024-dow-uap-d32-mission-report-syria-october-2024`, `dow-025-dow-uap-d32-mission-report-syria-october-2024`, `dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024`, `dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024`, `dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024`
 - `dow-037-dow-uap-d52-email-correspondance-na-august-2024` (pdf, 10/31/24, N/A) — [DOW-UAP-D052, Email Correspondence, NA, August 2024](dow-037-dow-uap-d52-email-correspondance-na-august-2024.md)
 - `dow-035-dow-uap-d50-email-correspondence-indopacom-april-2025` (pdf, 4/10/2025-4/11/2025, N/A) — [DOW-UAP-D050, Email Correspondence, INDOPACOM, April 2025](dow-035-dow-uap-d50-email-correspondence-indopacom-april-2025.md)
+- `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025` (video, 2025, Yellow Sea) — [DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025](dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025.md)
+- `dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025` (video, 2025, East China Sea) — [DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025](dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025.md)
 - `dow-036-dow-uap-d51-email-correspondence-pacific-time-zone-march-202` (pdf, 3/23/26, Pacific Time Zone) — [DOW-UAP-D051, Email Correspondence, Pacific Time Zone, March 2023](dow-036-dow-uap-d51-email-correspondence-pacific-time-zone-march-202.md)
 - `dow-007-38-143685-box-incident-summaries-101-172` (pdf, N/A, N/A) — [38_143685_box_Incident_Summaries_101-172](dow-007-38-143685-box-incident-summaries-101-172.md)
 - `dow-008-38-143685-box-incident-summaries-173-233` (pdf, N/A, N/A) — [38_143685_box_Incident_Summaries_173-233](dow-008-38-143685-box-incident-summaries-173-233.md)
@@ -176,19 +204,20 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the` (pdf, —, United States) — [DOW-UAP-D087, U.S. Air Force Analysis of Flying Objects in the United States, 1-100](dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 - `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the` (pdf, —, N/A) — [DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172](dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the.md) ↔ paired with `dow-092-dow-uap-pr057a-spherical-uap-in-clouds`, `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`, `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`
 
-### FBI  (86 records)
+### FBI  (87 records)
 
 - `fbi-062-fbi-uap-d011-d-fbi-correspondence-referral-1949` (pdf, 1949, N/A) — [FBI-UAP-D011, D/FBI Correspondence Referral, 1949](fbi-062-fbi-uap-d011-d-fbi-correspondence-referral-1949.md)
 - `fbi-071-fbi-uap-d012-newark-field-office-1952-1967` (pdf, August 1952-1967, New Jersey, United States) — [FBI-UAP-D012, Newark Field Office, 1952-1967](fbi-071-fbi-uap-d012-newark-field-office-1952-1967.md)
 - `fbi-072-fbi-uap-d013-washington-state-ufo-investigation-1952-1960` (pdf, July 1952-1960, Washington State, United States) — [FBI-UAP-D013, Washington State ‘UFO’ Investigation, 1952-1960](fbi-072-fbi-uap-d013-washington-state-ufo-investigation-1952-1960.md)
 - `fbi-018-65-hs1-101634279-100-de-26505` (pdf, 11/7/57, Germany) — [65_HS1-101634279_100-DE-26505](fbi-018-65-hs1-101634279-100-de-26505.md)
 - `fbi-017-65-hs1-101634279-100-de-18221-serial-844` (pdf, 4/17/58, Detroit, MI) — [65_HS1-101634279_100-DE-18221_Serial_844](fbi-017-65-hs1-101634279-100-de-18221-serial-844.md)
+- `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1` (pdf, 10/10/74, Various) — [FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974](fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1.md) ↔ paired with `dow-082-western-us-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`
 - `fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021` (video, November, 2021, Northeastern United States) — [FBI-UAP-PR001, “Triangle Orbs,” Northeastern United States, 2021](fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021.md) ↔ paired with `fbi-063-fbi-uap-pr003-orbs-over-the-pond-2024`, `fbi-066-fbi-uap-d004-fd-1057-02-northeastern-united-states-2024`, `fbi-067-fbi-uap-d005-fd-1057-04-northeastern-united-states-2024`, `fbi-068-fbi-uap-d006-fd-1057-05-northeastern-united-states-2024`, `fbi-069-fbi-uap-d007-fd-1057-06-northeastern-united-states-2024`, `fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024`, `fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20`
 - `fbi-058-fbi-uap-d002-fd-1057-unresolved-uap-report-colorado-springs` (pdf, 2022, Colorado Springs, Colorado, U.S.) — [FBI-UAP-D002, FD-1057, Unresolved UAP Report, Colorado Springs, 2022](fbi-058-fbi-uap-d002-fd-1057-unresolved-uap-report-colorado-springs.md) ↔ paired with `fbi-059-fbi-uap-d003-digital-rendering-unresolved-uap-report-colorad`
 - `fbi-059-fbi-uap-d003-digital-rendering-unresolved-uap-report-colorad` (pdf, 2022, Colorado Springs, Colorado, U.S.) — [FBI-UAP-D003, Digital Rendering, Unresolved UAP Report, Colorado Springs, 2022](fbi-059-fbi-uap-d003-digital-rendering-unresolved-uap-report-colorad.md) ↔ paired with `fbi-058-fbi-uap-d002-fd-1057-unresolved-uap-report-colorado-springs`
 - `fbi-065-fbi-uap-d001-fd-302-unresolved-uap-report-colorado-springs-2` (pdf, February, 2022, Colorado Springs, Colorado, U.S.) — [FBI-UAP-D001, FD-302, Unresolved UAP Report, Colorado Springs, 2022](fbi-065-fbi-uap-d001-fd-302-unresolved-uap-report-colorado-springs-2.md)
 - `fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20` (video, March, 2022, Northeastern United States) — [FBI-UAP-PR002, “Red Orb Rotation,” Northeastern United States, 2022](fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20.md) ↔ paired with `fbi-063-fbi-uap-pr003-orbs-over-the-pond-2024`, `fbi-066-fbi-uap-d004-fd-1057-02-northeastern-united-states-2024`, `fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024`, `fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021`
-- `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` (image, October, 2023, Westen United States) — [FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023](fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste.md) ↔ paired with `dow-082-western-us-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`
+- `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` (image, October, 2023, Westen United States) — [FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023](fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste.md) ↔ paired with `dow-082-western-us-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`, `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
 - `fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste` (image, October, 2023, Western United States) — [FBI-UAP-D015, Digital Rendering, Narrative Statement 1-2, Western United States Event, 2023](fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste.md) ↔ paired with `dow-082-western-us-event`, `dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`
 - `fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste` (image, October, 2023, Western United States) — [FBI-UAP-D016, Digital Rendering, Narrative Statement 2-1, Western United States Event, 2023](fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste.md) ↔ paired with `dow-082-western-us-event`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`
 - `fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste` (image, October, 2023, Western United States) — [FBI-UAP-D017, Digital Rendering, Narrative Statement 2-2, Western United States Event, 2023](fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste.md) ↔ paired with `dow-082-western-us-event`, `dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`
@@ -265,7 +294,7 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `fbi-019-65-hs1-834228961-62-hq-83894-section-1` (pdf, N/A, N/A) — [65_HS1-834228961_62-HQ-83894_Section_001](fbi-019-65-hs1-834228961-62-hq-83894-section-1.md)
 - `fbi-020-65-hs1-834228961-62-hq-83894-section-8` (pdf, N/A, N/A) — [65_HS1-834228961_62-HQ-83894_Section_008](fbi-020-65-hs1-834228961-62-hq-83894-section-8.md)
 
-### NASA  (33 records)
+### NASA  (40 records)
 
 - `nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961` (audio, 7/21/61, North Atlantic Ocean) — [NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961](nasa-022-nasa-uap-d014-mercury-redstone-4-july-21-1961.md)
 - `nasa-023-nasa-uap-d015-astronaut-scientific-debriefings-1962-1963` (pdf, 1962-1963, N/A) — [NASA-UAP-D015, Astronaut Scientific Debriefings, 1962-1963](nasa-023-nasa-uap-d015-astronaut-scientific-debriefings-1962-1963.md)
@@ -291,17 +320,24 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `nasa-013-nasa-uap-vm4-apollo-12-1969` (image, 1969, Moon) — [NASA-UAP-VM004, Apollo 12, 1969](nasa-013-nasa-uap-vm4-apollo-12-1969.md)
 - `nasa-014-nasa-uap-vm5-apollo-12-1969` (image, 1969, Moon) — [NASA-UAP-VM005, Apollo 12, 1969](nasa-014-nasa-uap-vm5-apollo-12-1969.md)
 - `nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969` (audio, 1969, Texas) — [NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969](nasa-016-nasa-uap-d008-apollo-12-medical-debriefing-tape-12-1969.md)
+- `nasa-037-nasa-uap-d026-apollo-14-debriefing-1971` (audio, 2/18/71, Texas) — [NASA-UAP-D026, Apollo 14 Debriefing, 1971](nasa-037-nasa-uap-d026-apollo-14-debriefing-1971.md) ↔ paired with `nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971`
+- `nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971` (audio, 2/18/71, Texas) — [NASA-UAP-D027, Apollo 14 Debriefing (Continued), 1971](nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971.md) ↔ paired with `nasa-037-nasa-uap-d026-apollo-14-debriefing-1971`
 - `nasa-005-nasa-uap-d2-apollo-17-transcript-1972` (pdf, 1972, Moon) — [NASA-UAP-D002, Apollo 17 Transcript, 1972](nasa-005-nasa-uap-d2-apollo-17-transcript-1972.md)
 - `nasa-015-nasa-uap-vm6-apollo-17-1972` (image, 1972, Moon) — [NASA-UAP-VM006, Apollo 17, 1972](nasa-015-nasa-uap-vm6-apollo-17-1972.md)
 - `nasa-017-nasa-uap-d009-apollo-17-audio-excerpt-december-7-1972` (audio, 12/7/72, Cislunar Space) — [NASA-UAP-D009, Apollo 17 Audio Excerpt, December 7, 1972](nasa-017-nasa-uap-d009-apollo-17-audio-excerpt-december-7-1972.md)
+- `nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972` (audio, 12/21/72, Texas) — [NASA-UAP-D028, Apollo 17 Crew Medical Debriefing, 1972](nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972.md) ↔ paired with `nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19`
+- `nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19` (audio, 12/21/72, Texas) — [NASA-UAP-D029, Apollo 17 Crew Medical Debriefing (Continued), 1972](nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19.md) ↔ paired with `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`, `nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972`
 - `nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973` (pdf, 1973, N/A) — [NASA-UAP-D005, Apollo 17 Crew Debriefing for Science, 1973](nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.md)
 - `nasa-008-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973` (pdf, 1973, N/A) — [NASA-UAP-D006, Apollo 17 Technical Crew Debriefing, 1973](nasa-008-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.md)
 - `nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973` (pdf, 1973, N/A) — [NASA-UAP-D007, Skylab Technical Crew Debriefing 1973](nasa-009-nasa-uap-d7-skylab-techincal-crew-debriefing-1973.md)
+- `nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996` (image, 1996, Low-Earth Orbit) — [NASA-UAP-D030, STS-80 Unidentified Object Image 1, 1996](nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996.md) ↔ paired with `nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996`, `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`
+- `nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996` (image, 1996, Low-Earth Orbit) — [NASA-UAP-D031, STS-80 Unidentified Object Image 2, 1996](nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996.md) ↔ paired with `nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996`, `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`
+- `nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996` (image, 1996, Low-Earth Orbit) — [NASA-UAP-D032, STS-80 Unidentified Object Image 3, 1996](nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996.md) ↔ paired with `nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996`, `nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996`, `nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19`
 - `nasa-001-255-413270-ufo-s-and-defense-what-should-we-prepare-for` (pdf, —, N/A) — [255_413270_UFO's_and_Defense_What_Should_we_Prepare_For](nasa-001-255-413270-ufo-s-and-defense-what-should-we-prepare-for.md)
 - `nasa-032-nasa-uap-d024-apollo-16-scientific-debriefing` (audio, —, Houston, Texas) — [NASA-UAP-D024, “Apollo 16 Scientific Debriefing”](nasa-032-nasa-uap-d024-apollo-16-scientific-debriefing.md)
 - `nasa-033-nasa-uap-d025-apollo-16-scientific-debriefing` (audio, —, Houston, Texas) — [NASA-UAP-D025, “Apollo 16 Scientific Debriefing”](nasa-033-nasa-uap-d025-apollo-16-scientific-debriefing.md)
 
-### CIA  (19 records)
+### CIA  (21 records)
 
 - `cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs` (pdf, 1950, N/A) — [CIA-UAP-005, German Scientist's Article on 'Flying Discs'](cia-006-cia-uap-005-german-scientist-s-article-on-flying-discs.md)
 - `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying` (pdf, 1952-1953, N/A) — [CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953](cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying.md)
@@ -310,6 +346,8 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec` (pdf, 1954-1974, N/A) — [CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974](cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec.md)
 - `cia-007-cia-uap-006-sighting-of-unconventional-aircraft` (pdf, November, 1955, Baku, Azerbaijan) — [CIA-UAP-006, Sighting Of Unconventional Aircraft](cia-007-cia-uap-006-sighting-of-unconventional-aircraft.md)
 - `cia-018-cia-uap-018-report-of-unusual-flying-object-sightings-and-at` (pdf, 1955, Hungary) — [CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity](cia-018-cia-uap-018-report-of-unusual-flying-object-sightings-and-at.md)
+- `cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings` (pdf, 1955, Azerbaijan) — [CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955](cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings.md) ↔ paired with `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`
+- `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1` (pdf, 1955, N/A) — [CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955](cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1.md) ↔ paired with `cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings`
 - `cia-014-cia-uap-013-report-of-unusual-flying-object-sightings-and-at` (pdf, 1956, Budapest, Hungary) — [CIA-UAP-013, Report of Unusual Flying Object Sightings and Attendant Scientific Activity](cia-014-cia-uap-013-report-of-unusual-flying-object-sightings-and-at.md)
 - `cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest` (pdf, 1957, Budapest, Hungary) — [CIA-UAP-009, Unknown Flying Objects Observed Over Budapest](cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest.md)
 - `cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson` (pdf, 1958, N/A) — [CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson](cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson.md)
@@ -334,11 +372,13 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 - `state-007-state-department-uap-cable-5-mexico-september-16-2003` (pdf, 9/12/03, Mexico) — [State Department UAP Cable 005, Mexico, September 16, 2003](state-007-state-department-uap-cable-5-mexico-september-16-2003.md)
 - `state-006-state-department-uap-cable-4-ashgabat-turkmenistan-november` (pdf, 11/5/04, Turkmenistan) — [State Department UAP Cable 004, Ashgabat, Turkmenistan, November 5, 2004](state-006-state-department-uap-cable-4-ashgabat-turkmenistan-november.md)
 
-### DoE  (3 records)
+### DoE  (5 records)
 
+- `doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949` (pdf, 3/22/49, New Mexico) — [DOE-UAP-D004, Los Alamos Conference on Aerial Phenomena, 1949](doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949.md)
 - `doe-002-doe-uap-d002-james-tuck-correspondence-1970s` (pdf, 1970s, N/A) — [DOE-UAP-D002, James Tuck Correspondence, 1970s](doe-002-doe-uap-d002-james-tuck-correspondence-1970s.md)
 - `doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986` (pdf, 5/20/86, New Mexico) — [DOE-UAP-D003, Pajarito Astronomers Invitation, 1986](doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986.md)
-- `doe-001-doe-uap-d001-enhanced-pantex-imagery` (pdf, —, N/A) — [DOE-UAP-D001, Enhanced PANTEX Imagery](doe-001-doe-uap-d001-enhanced-pantex-imagery.md)
+- `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015` (pdf, 9/1/15, Texas) — [DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015](doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015.md) ↔ paired with `doe-001-doe-uap-d001-enhanced-pantex-imagery`
+- `doe-001-doe-uap-d001-enhanced-pantex-imagery` (pdf, —, N/A) — [DOE-UAP-D001, Enhanced PANTEX Imagery](doe-001-doe-uap-d001-enhanced-pantex-imagery.md) ↔ paired with `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015`
 
 ### ODNI  (1 records)
 
@@ -356,6 +396,8 @@ This file is a navigation map for the 299-record Department of War UAP archive. 
 
 DoW mission reports often pair with DoW PR videos via the page's `Video Pairing` and `PDF Pairing` columns:
 
+- [`cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings`](cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings.md) (pdf) ↔ [`cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`](cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1.md) (pdf)
+- [`doe-001-doe-uap-d001-enhanced-pantex-imagery`](doe-001-doe-uap-d001-enhanced-pantex-imagery.md) (pdf) ↔ [`doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015`](doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015.md) (pdf)
 - [`dow-010-dow-uap-d10-mission-report-middle-east-may-2022`](dow-010-dow-uap-d10-mission-report-middle-east-may-2022.md) (pdf) ↔ [`dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022`](dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022.md) (video)
 - [`dow-011-dow-uap-d12-mission-report-iraq-may-2022`](dow-011-dow-uap-d12-mission-report-iraq-may-2022.md) (pdf) ↔ [`dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022`](dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022.md) (pdf)
 - [`dow-012-dow-uap-d14-mission-report-iraq-may-2022`](dow-012-dow-uap-d14-mission-report-iraq-may-2022.md) (pdf) ↔ [`dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022`](dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022.md) (video)
@@ -400,6 +442,7 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`dow-082-western-us-event`](dow-082-western-us-event.md) (pdf) ↔ [`fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste`](fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste.md) (image)
 - [`dow-082-western-us-event`](dow-082-western-us-event.md) (pdf) ↔ [`fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes`](fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes.md) (video)
 - [`dow-082-western-us-event`](dow-082-western-us-event.md) (pdf) ↔ [`fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes`](fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes.md) (video)
+- [`dow-082-western-us-event`](dow-082-western-us-event.md) (pdf) ↔ [`fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`](fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1.md) (pdf)
 - [`dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`](dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950.md) (pdf) ↔ [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video)
 - [`dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`](dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950.md) (pdf) ↔ [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video)
 - [`dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950`](dow-085-dow-uap-d017-uap-reported-at-sandia-base-1948-1950.md) (pdf) ↔ [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf)
@@ -415,6 +458,15 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`](dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948.md) (pdf)
 - [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`](dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
 - [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`](dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`](dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-149-dow-uap-d097-project-sign-progress-report-1948`](dow-149-dow-uap-d097-project-sign-progress-report-1948.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`](dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`](dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`](dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`](dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`](dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`](dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si.md) (pdf)
+- [`dow-092-dow-uap-pr057a-spherical-uap-in-clouds`](dow-092-dow-uap-pr057a-spherical-uap-in-clouds.md) (video) ↔ [`dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`](dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19.md) (pdf)
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`](dow-136-dow-uap-d084-us-army-flying-saucer-study-1949.md) (pdf)
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un`](dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un.md) (pdf)
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-138-dow-uap-d078-notional-map-western-united-states-event`](dow-138-dow-uap-d078-notional-map-western-united-states-event.md) (pdf)
@@ -427,6 +479,15 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`](dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948.md) (pdf)
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`](dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
 - [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`](dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`](dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-149-dow-uap-d097-project-sign-progress-report-1948`](dow-149-dow-uap-d097-project-sign-progress-report-1948.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`](dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`](dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`](dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`](dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`](dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`](dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si.md) (pdf)
+- [`dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja`](dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja.md) (video) ↔ [`dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`](dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19.md) (pdf)
 - [`dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and`](dow-113-dow-uap-pr077-2-november-2020-callsign-callsign-observes-and.md) (video) ↔ [`dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and`](dow-114-dow-uap-pr078-2-november-2020-callsign-callsign-observes-and.md) (video)
 - [`dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d`](dow-129-dow-uap-pr093-may-05-2020-gulf-of-arabia-callsign-platform-d.md) (video) ↔ [`dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d`](dow-131-dow-uap-pr095-may-05-2020-gulf-of-arabia-callsign-platform-d.md) (video)
 - [`dow-136-dow-uap-d084-us-army-flying-saucer-study-1949`](dow-136-dow-uap-d084-us-army-flying-saucer-study-1949.md) (pdf) ↔ [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf)
@@ -436,6 +497,7 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) (pdf) ↔ [`fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`](fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste.md) (image)
 - [`dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) (pdf) ↔ [`fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste`](fbi-074-fbi-uap-d015-digital-rendering-narrative-statement-1-2-weste.md) (image)
 - [`dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) (pdf) ↔ [`fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste`](fbi-080-fbi-uap-d021-digital-rendering-narrative-statement-1-3-weste.md) (image)
+- [`dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve`](dow-139-dow-uap-d079-narrative-statement-1-western-united-states-eve.md) (pdf) ↔ [`fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`](fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1.md) (pdf)
 - [`dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`](dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve.md) (pdf) ↔ [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf)
 - [`dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`](dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve.md) (pdf) ↔ [`fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste`](fbi-075-fbi-uap-d016-digital-rendering-narrative-statement-2-1-weste.md) (image)
 - [`dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve`](dow-140-dow-uap-d080-narrative-statement-2-western-united-states-eve.md) (pdf) ↔ [`fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste`](fbi-076-fbi-uap-d017-digital-rendering-narrative-statement-2-2-weste.md) (image)
@@ -452,6 +514,19 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948`](dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948.md) (pdf)
 - [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the`](dow-146-dow-uap-d087-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
 - [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the`](dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`](dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-149-dow-uap-d097-project-sign-progress-report-1948`](dow-149-dow-uap-d097-project-sign-progress-report-1948.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`](dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`](dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`](dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`](dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`](dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`](dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si.md) (pdf)
+- [`dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r`](dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r.md) (pdf) ↔ [`dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`](dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19.md) (pdf)
+- [`dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit`](dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit.md) (pdf) ↔ [`dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`](dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit.md) (pdf)
+- [`dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020`](dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020.md) (pdf) ↔ [`dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20`](dow-167-dow-uap-pr106-unresolved-uap-report-eastern-united-states-20.md) (video)
+- [`dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019`](dow-155-dow-uap-d090-range-fouler-debrief-eastern-united-states-2019.md) (pdf) ↔ [`dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20`](dow-173-dow-uap-pr112-unresolved-uap-report-eastern-united-states-20.md) (video)
+- [`dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020`](dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020.md) (pdf) ↔ [`dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020`](dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020.md) (video)
 - [`fbi-021-fbi-photo-a1`](fbi-021-fbi-photo-a1.md) (image) ↔ [`odni-001-odni-uap-d001-usper-narrative-senior-usic-official`](odni-001-odni-uap-d001-usper-narrative-senior-usic-official.md) (pdf)
 - [`fbi-022-fbi-photo-a2`](fbi-022-fbi-photo-a2.md) (image) ↔ [`odni-001-odni-uap-d001-usper-narrative-senior-usic-official`](odni-001-odni-uap-d001-usper-narrative-senior-usic-official.md) (pdf)
 - [`fbi-023-fbi-photo-a3`](fbi-023-fbi-photo-a3.md) (image) ↔ [`odni-001-odni-uap-d001-usper-narrative-senior-usic-official`](odni-001-odni-uap-d001-usper-narrative-senior-usic-official.md) (pdf)
@@ -510,7 +585,14 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 - [`fbi-069-fbi-uap-d007-fd-1057-06-northeastern-united-states-2024`](fbi-069-fbi-uap-d007-fd-1057-06-northeastern-united-states-2024.md) (pdf) ↔ [`fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021`](fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021.md) (video)
 - [`fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024`](fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024.md) (pdf) ↔ [`fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021`](fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021.md) (video)
 - [`fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024`](fbi-070-fbi-uap-d008-fd-1057-07-northeastern-united-states-2024.md) (pdf) ↔ [`fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20`](fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20.md) (video)
+- [`fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste`](fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste.md) (image) ↔ [`fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`](fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1.md) (pdf)
 - [`fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021`](fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021.md) (video) ↔ [`fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20`](fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20.md) (video)
+- [`nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996`](nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996.md) (image) ↔ [`nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996`](nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996.md) (image)
+- [`nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996`](nasa-034-nasa-uap-d030-sts-80-unidentified-object-image-1-1996.md) (image) ↔ [`nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`](nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996.md) (image)
+- [`nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996`](nasa-035-nasa-uap-d031-sts-80-unidentified-object-image-2-1996.md) (image) ↔ [`nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`](nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996.md) (image)
+- [`nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996`](nasa-036-nasa-uap-d032-sts-80-unidentified-object-image-3-1996.md) (image) ↔ [`nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19`](nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19.md) (audio)
+- [`nasa-037-nasa-uap-d026-apollo-14-debriefing-1971`](nasa-037-nasa-uap-d026-apollo-14-debriefing-1971.md) (audio) ↔ [`nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971`](nasa-038-nasa-uap-d027-apollo-14-debriefing-continued-1971.md) (audio)
+- [`nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972`](nasa-039-nasa-uap-d028-apollo-17-crew-medical-debriefing-1972.md) (audio) ↔ [`nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19`](nasa-040-nasa-uap-d029-apollo-17-crew-medical-debriefing-continued-19.md) (audio)
 
 ## Aggregate entity stats
 
@@ -518,7 +600,7 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 
 | value | records |
 |---|---:|
-| Western United States | 38 |
+| Western United States | 40 |
 | CENTCOM | 32 |
 | Syria | 12 |
 | Arabian Gulf | 12 |
@@ -526,85 +608,85 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 | Iraq | 9 |
 | Low Earth Orbit | 8 |
 | Moon | 8 |
+| Eastern United States | 8 |
 | Westen United States | 7 |
 | United States | 6 |
+| Texas | 6 |
+| Middle East | 5 |
+| East China Sea | 5 |
+| Various | 5 |
 | Mediterranean Sea | 4 |
+| Yellow Sea | 4 |
 | NORTHCOM | 4 |
 | Colorado Springs, Colorado, U.S. | 4 |
-| Middle East | 3 |
 | Greece | 3 |
+| New Mexico | 3 |
 | USSR | 3 |
 | Southeastern United States | 3 |
 | North Atlantic Ocean | 3 |
 | Cape Kennedy, Florida | 3 |
+| Low-Earth Orbit | 3 |
+| Atlantic Ocean | 3 |
 | Germany | 2 |
+| Azerbaijan | 2 |
 | Gulf of Oman | 2 |
-| Aegean Sea | 2 |
-| Arabian Sea | 2 |
-| Gulf of Aden | 2 |
-| Strait of Hormuz | 2 |
-| United Arab Emirates | 2 |
-| East China Sea | 2 |
-| Kazakhstan | 2 |
-| New Mexico | 2 |
-| Yellow Sea | 2 |
 
 ### Top US states mentioned in document bodies
 
 | value | records |
 |---|---:|
-| Washington | 38 |
-| California | 32 |
-| Ohio | 27 |
-| Texas | 27 |
-| Colorado | 25 |
-| New Mexico | 23 |
-| Florida | 22 |
-| New York | 21 |
-| Arizona | 20 |
-| Virginia | 18 |
-| Alaska | 17 |
-| Michigan | 17 |
-| Oregon | 16 |
-| Illinois | 16 |
-| Oklahoma | 15 |
-| Maryland | 14 |
-| Georgia | 13 |
-| Utah | 13 |
+| Washington | 43 |
+| California | 35 |
+| Ohio | 33 |
+| Texas | 31 |
+| Colorado | 27 |
+| New Mexico | 26 |
+| Florida | 25 |
+| Arizona | 25 |
+| New York | 23 |
+| Virginia | 21 |
+| Oregon | 20 |
+| Alaska | 20 |
+| Illinois | 18 |
+| Michigan | 18 |
+| Oklahoma | 16 |
+| Maryland | 16 |
+| Georgia | 15 |
+| Utah | 15 |
+| Indiana | 14 |
+| Montana | 14 |
+| Nevada | 14 |
+| Pennsylvania | 13 |
+| Idaho | 13 |
+| Kansas | 13 |
 | TN (Tennessee) | 13 |
-| Pennsylvania | 12 |
-| Idaho | 12 |
-| Kansas | 12 |
-| Nevada | 12 |
-| Alabama | 11 |
-| Massachusetts | 11 |
-| Indiana | 11 |
-| Montana | 11 |
-| Hawaii | 10 |
-| Tennessee | 10 |
-| New Jersey | 10 |
+| Alabama | 12 |
+| Massachusetts | 12 |
+| Hawaii | 11 |
+| Tennessee | 11 |
+| DC (District of Columbia) | 10 |
 
 ### Top military units mentioned
 
 | value | records |
 |---|---:|
-| AARO | 106 |
-| FBI | 82 |
-| CIA | 64 |
-| RAF | 42 |
+| AARO | 109 |
+| FBI | 84 |
+| CIA | 69 |
+| RAF | 44 |
+| USAF | 35 |
 | USCENTCOM | 35 |
 | CENTCOM | 35 |
-| DIA | 30 |
-| USAF | 28 |
-| NSA | 19 |
-| USN | 12 |
+| DIA | 32 |
+| NSA | 20 |
+| USN | 15 |
 | NCIS | 11 |
 | USA | 7 |
 | INDOPACOM | 5 |
+| USMC | 3 |
 | NORAD | 3 |
 | EUCOM | 2 |
 | AFOSI | 2 |
-| USMC | 2 |
 | NRO | 2 |
 | USSPACECOM | 1 |
 | USCG | 1 |
@@ -617,14 +699,14 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 
 | value | records |
 |---|---:|
-| B-29 | 10 |
-| P-80 | 7 |
-| P-51 | 7 |
-| C-54 | 6 |
+| B-29 | 13 |
+| P-80 | 9 |
+| P-51 | 8 |
+| C-54 | 7 |
 | E-4 | 6 |
+| C-47 | 5 |
 | B-1 | 4 |
 | F-2 | 4 |
-| C-47 | 4 |
 | B-2 | 4 |
 | F-5 | 3 |
 | F-4 | 3 |
@@ -632,29 +714,30 @@ DoW mission reports often pair with DoW PR videos via the page's `Video Pairing`
 | B-5 | 3 |
 | B-6 | 3 |
 | B-3 | 3 |
+| F-51 | 3 |
 | F-84 | 2 |
 | F-80 | 2 |
+| F-61 | 2 |
 | P-0 | 2 |
-| B-25 | 2 |
-| F-3 | 2 |
 
 ### Classification markers seen
 
 | value | records |
 |---|---:|
-| SECRET | 31 |
-| UNCLASSIFIED | 25 |
+| SECRET | 35 |
+| UNCLASSIFIED | 26 |
 | REL TO USA, FVEY | 14 |
 | SECRET//REL TO USA, FVEY | 13 |
-| CONFIDENTIAL | 10 |
+| CONFIDENTIAL | 11 |
 | NOFORN | 9 |
 | FOUO | 8 |
 | SECRET//NOFORN | 7 |
 | SECRET//REL TO USA, FVEY
 USCENTCOM MDR | 6 |
+| CUI | 3 |
+| TOP SECRET | 3 |
 | SECRET//REL TO USA, FVEY
 MDR | 2 |
-| CUI | 2 |
 | SECRET//NOFORN
 USCENTCOM MDR | 1 |
 | SECRET//NOFORN
@@ -668,8 +751,6 @@ CLASSIFICATION | 1 |
 | SECRET//REL TO USA, FVEY        USCENTCOM | 1 |
 | REL TO USA, FVEY         USCENTCOM | 1 |
 | REL TO USA, FVEY        USCENTCOM | 1 |
-| SECRET//REL TO
-USA, FIN, SWE, FVEY, NATO | 1 |
 
 ## Auxiliary indexes
 
