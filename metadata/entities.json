@@ -16866,5 +16866,1114 @@
     "operations": [],
     "us_states": [],
     "names": []
+  },
+  "dow-176-dow-uap-d098-film-analysis-of-unidentified-objects-1953": {
+    "id": "dow-176-dow-uap-d098-film-analysis-of-unidentified-objects-1953",
+    "military_units": [
+      "USAF",
+      "NRO",
+      "RAF"
+    ],
+    "classification": [
+      "CONFIDENTIAL"
+    ],
+    "dates_in_body": [
+      "2 July 1952",
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "IL (Illinois)",
+      "Montana",
+      "Utah",
+      "Washington"
+    ],
+    "names": [
+      "Unidentified Objects",
+      "Naval Photographic Interpretation",
+      "The Center",
+      "Attach Correspondence Here",
+      "Las Name",
+      "Copy I Identified",
+      "Code Ol",
+      "Topical Division",
+      "Photogrammetry Division",
+      "Unidentifiea Objects",
+      "Terrestial Objects",
+      "Welch Scientific Company",
+      "Utah Film",
+      "Mooavw Da",
+      "Left Object",
+      "Right Object"
+    ]
+  },
+  "fbi-088-fbi-uap-d025-digital-rendering-airborne-triangle-2002": {
+    "id": "fbi-088-fbi-uap-d025-digital-rendering-airborne-triangle-2002",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "fbi-089-fbi-uap-d027-digital-rendering-dark-translucent-triangle-202": {
+    "id": "fbi-089-fbi-uap-d027-digital-rendering-dark-translucent-triangle-202",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "Colorado"
+    ],
+    "names": [
+      "Digital Rendering",
+      "Dark Translucent Triangle",
+      "Colorado Springs"
+    ]
+  },
+  "fbi-090-fbi-uap-d029-digital-rendering-dark-triangle-with-lights-201": {
+    "id": "fbi-090-fbi-uap-d029-digital-rendering-dark-triangle-with-lights-201",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "fbi-091-fbi-uap-d031-digital-rendering-large-triangle-with-red-light": {
+    "id": "fbi-091-fbi-uap-d031-digital-rendering-large-triangle-with-red-light",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "fbi-092-fbi-uap-d038-digital-rendering-1-multiple-red-lights-2026": {
+    "id": "fbi-092-fbi-uap-d038-digital-rendering-1-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Digital Rendering",
+      "Multiple Red Lights"
+    ]
+  },
+  "fbi-093-fbi-uap-d039-digital-rendering-2-multiple-red-lights-2026": {
+    "id": "fbi-093-fbi-uap-d039-digital-rendering-2-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Digital Rendering",
+      "Multiple Red Lights"
+    ]
+  },
+  "fbi-094-fbi-uap-d041-digital-rendering-1-multiple-red-lights-2026": {
+    "id": "fbi-094-fbi-uap-d041-digital-rendering-1-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Digital Rendering",
+      "Multiple Red Lights"
+    ]
+  },
+  "fbi-095-fbi-uap-d042-digital-rendering-2-multiple-red-lights-2026": {
+    "id": "fbi-095-fbi-uap-d042-digital-rendering-2-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Digital Rendering",
+      "Multiple Red Lights"
+    ]
+  },
+  "cia-022-cia-uap-d022-unidentified-flying-object-reported-near-puerto": {
+    "id": "cia-022-cia-uap-d022-unidentified-flying-object-reported-near-puerto",
+    "military_units": [
+      "CIA"
+    ],
+    "classification": [
+      "TOP SECRET",
+      "SECRET",
+      "CONFIDENTIAL",
+      "UNCLASSIFIED"
+    ],
+    "dates_in_body": [
+      "November 19, 1964",
+      "24 November 1964",
+      "8/7/26",
+      "2/1/65"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [
+      "U-2"
+    ],
+    "operations": [
+      "SEC"
+    ],
+    "us_states": [],
+    "names": [
+      "Unidentified Flying Object",
+      "Puerto Rico",
+      "Central Intelligence Agency",
+      "Special Activities",
+      "Scientific Intelligence",
+      "President Trump",
+      "Handle Via Indicated",
+      "Control System",
+      "Jiaa Oi",
+      "Lockheed Aircraft"
+    ]
+  },
+  "cia-023-cia-uap-d023-briefing-notes-for-mr-walter-elder": {
+    "id": "cia-023-cia-uap-d023-briefing-notes-for-mr-walter-elder",
+    "military_units": [
+      "CIA"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "November 19, 1964",
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [
+      "F-8"
+    ],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Briefing Notes",
+      "Walter Elder",
+      "Walter N. Elder",
+      "Executive Assistant",
+      "Central Intelligence Agency",
+      "Puerto Rico",
+      "Fleet Wfapona Rang",
+      "The Cru"
+    ]
+  },
+  "state-009-dos-uap-d001-diplomatic-cable-brazil-november-14-1963": {
+    "id": "state-009-dos-uap-d001-diplomatic-cable-brazil-november-14-1963",
+    "military_units": [
+      "NSA",
+      "CIA"
+    ],
+    "classification": [
+      "UNCLASSIFIED"
+    ],
+    "dates_in_body": [
+      "November 14, 1963",
+      "8/7/26",
+      "11/14/63"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [
+      "NND 939551"
+    ],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "Washington"
+    ],
+    "names": [
+      "Diplomatic Cable"
+    ]
+  },
+  "state-010-dos-uap-d002-diplomatic-cable-brazil-november-20-1963": {
+    "id": "state-010-dos-uap-d002-diplomatic-cable-brazil-november-20-1963",
+    "military_units": [],
+    "classification": [
+      "UNCLASSIFIED"
+    ],
+    "dates_in_body": [
+      "November 20, 1963",
+      "November 8, 1964",
+      "November 14, 1963",
+      "8/7/26",
+      "11/20/63"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [
+      "NND 939551"
+    ],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "Washington"
+    ],
+    "names": [
+      "Diplomatic Cable",
+      "American Consulate",
+      "The Consulate",
+      "Brazilian Ministry",
+      "Unidentified Flying Object",
+      "Reportedly Sighted Near",
+      "Amconsul Salvador",
+      "Harold Midkiff",
+      "Conde Bahia",
+      "Secretary Public Security",
+      "The Airship"
+    ]
+  },
+  "dow-177-dow-uap-d099-intelligence-review-of-ghost-rocket-incidents-1": {
+    "id": "dow-177-dow-uap-d099-intelligence-review-of-ghost-rocket-incidents-1",
+    "military_units": [
+      "USMC",
+      "FBI"
+    ],
+    "classification": [
+      "SECRET"
+    ],
+    "dates_in_body": [
+      "8/7/26",
+      "1/9/47"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Intelligence Review",
+      "Ghost Rocket",
+      "Ghost Rockets",
+      "The Swedish",
+      "Soviet Union",
+      "Copy No",
+      "The Scandinavian",
+      "The Communist",
+      "Official Investigations",
+      "Military Attache",
+      "German Baltic",
+      "Swedish Officials",
+      "Swedish Staff",
+      "The Soviets",
+      "Pelplnc Bqs Op",
+      "Hlsl Div",
+      "State Dept",
+      "White Bouse"
+    ]
+  },
+  "dow-178-dow-uap-d100-air-materiel-command-report-on-unidentified-fly": {
+    "id": "dow-178-dow-uap-d100-air-materiel-command-report-on-unidentified-fly",
+    "military_units": [
+      "EUCOM",
+      "USAF",
+      "USN",
+      "CIA",
+      "FBI"
+    ],
+    "classification": [
+      "TOP SECRET",
+      "SECRET"
+    ],
+    "dates_in_body": [
+      "July 4, 1948",
+      "July 8, 1948",
+      "30 December 1947",
+      "27 October 1948",
+      "7 October 1948",
+      "25 October 1948",
+      "21 October 1948",
+      "15 December\n\n                     1947",
+      "9 July 1948",
+      "2 August 1948",
+      "30 April 1948",
+      "3 MAY 1948",
+      "24 February 1948",
+      "12 April 1948",
+      "6 February 1948",
+      "9 March 1948",
+      "5 March 1948",
+      "8 March 1948",
+      "4 March 1948",
+      "7 January 1948",
+      "7 October 1947",
+      "16 January 1948",
+      "18 December 1947",
+      "6 October 1947",
+      "23 September 1947",
+      "8/7/26"
+    ],
+    "mgrs": [
+      "7APR1948"
+    ],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [
+      "E-1",
+      "P-00"
+    ],
+    "operations": [
+      "STAFF"
+    ],
+    "us_states": [
+      "Alabama",
+      "Alaska",
+      "California",
+      "Georgia",
+      "ID (Idaho)",
+      "Illinois",
+      "Louisiana",
+      "New York",
+      "Ohio",
+      "Texas",
+      "VT (Vermont)",
+      "Washington",
+      "DC (District of Columbia)"
+    ],
+    "names": [
+      "Unidentified Flying Objects",
+      "Project Sign",
+      "Vlying Object Inoid",
+      "Flying Objeot Incident",
+      "Foroo Be",
+      "Object Incidents",
+      "Jnitod Sio",
+      "Deputy Cbiet",
+      "Flying Object Incidents",
+      "Irving Langmuir",
+      "The Books",
+      "Charles Fort",
+      "Tiffany Thayer",
+      "Henry Holt",
+      "New York",
+      "Hq U Af",
+      "Ur Troil",
+      "Ort Anoociatic",
+      "Requirements Division",
+      "Washingt Ln",
+      "Essential Elements",
+      "Joint Communications",
+      "Electronics Committee",
+      "Collection Branch",
+      "Ruth Shook",
+      "The Atlanta Constitution",
+      "Uuth Shook",
+      "Aerial Phc",
+      "Lieutenant Colonel",
+      "Acting Chief",
+      "Deputy Chief",
+      "Central Intell",
+      "Rand Corporation",
+      "Project Sign Study",
+      "Project Si",
+      "Hyde Park Boulevard",
+      "Reported Flying Disc",
+      "Intelligence Group",
+      "Morning Tribune",
+      "Intelligence Division",
+      "New Orl",
+      "Actg Chief",
+      "Iutoliigence Requirements Dirisior",
+      "Intelligence Collection Plan",
+      "Communication Instructions",
+      "Reporting Military Intelligence",
+      "Joint Co",
+      "Intelligence Collection Instructions",
+      "Ii De",
+      "Cclloctioi Dranch",
+      "Stars Obsened",
+      "Hausman Lt Col",
+      "Cheek List",
+      "Une Stare Observed",
+      "Jlligence Requirements",
+      "Dear Sir",
+      "Flying Saucers",
+      "John Jamniclcy",
+      "Newspaper Clipping",
+      "Concerning Flying Disc",
+      "Lt Col Garret",
+      "Lt Col Garrett",
+      "Flying Di",
+      "Special Agent",
+      "Materiel Canm",
+      "Ben Rupe",
+      "New York Central",
+      "System Car Inspector",
+      "Earl Roush",
+      "Yard Clerk",
+      "Flying Discs",
+      "Lt Col",
+      "Central System Ltr",
+      "Flying Disc",
+      "Central Files",
+      "Loedding Flying Disc",
+      "Royal Aircraft Establishment",
+      "Technical Note",
+      "German Flying",
+      "Horten Brothers",
+      "Control Officer",
+      "Lt Col Earle",
+      "Horten Brother",
+      "Teoh Note",
+      "Secret Control Officer",
+      "Control Ottioer",
+      "Anacostia Naval",
+      "White House Area",
+      "Commander Lowe",
+      "Gen Cabell",
+      "Col Walsh",
+      "Lt Col Carrett",
+      "Lt Col Gar",
+      "Acting Chi",
+      "Col Ma",
+      "Ethel Evans",
+      "Poat Oftioe Box",
+      "Up Jeraey",
+      "Acting Obiet",
+      "Acting Chiof"
+    ]
+  },
+  "dow-179-dow-uap-d101-intelligence-information-report-unresolved-uap": {
+    "id": "dow-179-dow-uap-d101-intelligence-information-report-unresolved-uap",
+    "military_units": [
+      "USCENTCOM",
+      "CENTCOM",
+      "STRATCOM",
+      "AARO",
+      "DIA",
+      "CIA",
+      "FBI",
+      "AFOSI",
+      "RAF"
+    ],
+    "classification": [
+      "SECRET"
+    ],
+    "dates_in_body": [
+      "September 8, 2021",
+      "8 September 2021",
+      "8/7/26",
+      "9/8/21",
+      "6/1/22",
+      "03/26/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Intelligence Community",
+      "Special Operations Forces",
+      "President Trump",
+      "Record Preview",
+      "Int Iii",
+      "Core Metada",
+      "Multiple Unidentified Aerial",
+      "Observed Maneuvering Er",
+      "In Formation Over",
+      "Oman During",
+      "Fire Training",
+      "Non State Entify",
+      "Portion Mark",
+      "Recotd Previ",
+      "Unidentified Aerial Phenomenon",
+      "Combat Systems Officer",
+      "Digital Video",
+      "Source A Is",
+      "Source Direct",
+      "Source Directed",
+      "Unidentlfied Aerial Phenomenon",
+      "Observed Maneuvering",
+      "Gunship Live Fire",
+      "Special Operations",
+      "Comba Systems Officer",
+      "Video Recorder",
+      "Field Conment",
+      "Source Directed Requirements",
+      "Central In",
+      "Threat Reduction Agency",
+      "National Aeronautics",
+      "Space Administration",
+      "Marine Corps",
+      "Extended Metadata",
+      "Recotd Preview"
+    ]
+  },
+  "dow-180-dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-180-dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-181-dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-181-dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-182-dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-182-dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021": {
+    "id": "dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-186-dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019": {
+    "id": "dow-186-dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-187-dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019": {
+    "id": "dow-187-dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-188-dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019": {
+    "id": "dow-188-dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-189-dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019": {
+    "id": "dow-189-dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-190-dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019": {
+    "id": "dow-190-dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025": {
+    "id": "dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023": {
+    "id": "dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025": {
+    "id": "dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023": {
+    "id": "dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
+  },
+  "eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe": {
+    "id": "eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe",
+    "military_units": [
+      "CIA",
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "November 13, 1963",
+      "November 9, 1963",
+      "8/7/26",
+      "11/13/63"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "IN (Indiana)"
+    ],
+    "names": [
+      "Brazil Incident",
+      "Central Intelligence Agency",
+      "Edward C. Welsh",
+      "Executive Secretary",
+      "National Aeronautics",
+      "Space Council"
+    ]
+  },
+  "fbi-096-fbi-uap-d024-fd-302-airborne-lights-and-triangle-2002-2023-2": {
+    "id": "fbi-096-fbi-uap-d024-fd-302-airborne-lights-and-triangle-2002-2023-2",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "MA (Massachusetts)",
+      "Minnesota",
+      "North Dakota"
+    ],
+    "names": [
+      "Airborne Lights",
+      "President Trump",
+      "Samsung Galaxy",
+      "Eastern Standard Time",
+      "Sioux Fal"
+    ]
+  },
+  "fbi-097-fbi-uap-d026-fd-302-dark-translucent-triangle-2023": {
+    "id": "fbi-097-fbi-uap-d026-fd-302-dark-translucent-triangle-2023",
+    "military_units": [
+      "USAF",
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "Colorado"
+    ],
+    "names": [
+      "Dark Translucent Triangle",
+      "Colorado Springs",
+      "President Trump",
+      "Special Agent",
+      "Supervisory Special Agent",
+      "Colorado Spr"
+    ]
+  },
+  "fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011": {
+    "id": "fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Dark Triangle",
+      "President Trump",
+      "Special Agent"
+    ]
+  },
+  "fbi-099-fbi-uap-d030-fd-302-large-triangle-with-red-lights-2023": {
+    "id": "fbi-099-fbi-uap-d030-fd-302-large-triangle-with-red-lights-2023",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [
+      "Colorado"
+    ],
+    "names": [
+      "Large Triangle",
+      "Red Lights",
+      "Colorado Springs",
+      "President Trump",
+      "Supervisory Special Agent",
+      "Colorado Spri"
+    ]
+  },
+  "fbi-100-fbi-uap-d032-fd-302-slow-moving-objects-2026": {
+    "id": "fbi-100-fbi-uap-d032-fd-302-slow-moving-objects-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Government Special Agent",
+      "President Trump",
+      "Special Agent"
+    ]
+  },
+  "fbi-101-fbi-uap-d033-fd-302-thermally-elevated-aerial-object-2026": {
+    "id": "fbi-101-fbi-uap-d033-fd-302-thermally-elevated-aerial-object-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Thermally Elevated Aerial",
+      "Government Special Agent",
+      "President Trump",
+      "Special Agent",
+      "Unidentified Aerial Object",
+      "Black Hawk"
+    ]
+  },
+  "fbi-102-fbi-uap-d037-fd-302-multiple-red-lights-2026": {
+    "id": "fbi-102-fbi-uap-d037-fd-302-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Multiple Red Lights",
+      "President Trump",
+      "Special Agent",
+      "Night Opt",
+      "Analog Watch"
+    ]
+  },
+  "fbi-103-fbi-uap-d040-fd-302-multiple-red-lights-2026": {
+    "id": "fbi-103-fbi-uap-d040-fd-302-multiple-red-lights-2026",
+    "military_units": [
+      "FBI"
+    ],
+    "classification": [],
+    "dates_in_body": [
+      "8/7/26"
+    ],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": [
+      "Multiple Red Lights",
+      "President Trump",
+      "Night Opt"
+    ]
+  },
+  "fbi-104-fbi-uap-pr007-slow-moving-objects-2026": {
+    "id": "fbi-104-fbi-uap-pr007-slow-moving-objects-2026",
+    "military_units": [],
+    "classification": [],
+    "dates_in_body": [],
+    "mgrs": [],
+    "latlong": [],
+    "case_numbers": [],
+    "serials": [],
+    "archive_ids": [],
+    "aircraft": [],
+    "operations": [],
+    "us_states": [],
+    "names": []
   }
 }

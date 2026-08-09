@@ -103,6 +103,8 @@ AGENCY_KEYWORDS = {
     "intelligence community agency": "ICA",
     "u.s. government": "USG",
     "us government": "USG",
+    # Release 05:
+    "executive office of the president": "EOP",
 }
 
 

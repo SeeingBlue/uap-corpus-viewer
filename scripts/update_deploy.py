@@ -114,6 +114,27 @@ NEW_LOCATION_COORDS = {
     "Low-Earth Orbit":       [0.0, 0.0],     # hyphenated variant of "Low Earth Orbit"
     "Atlantic Ocean":        [-30.0, 30.0],  # bare (no North/South qualifier)
 
+    # Release 05 additions.
+    # These are fallbacks for the CSV location string. build_coords prefers
+    # the audit's body-confirmed location when there is one, so a record
+    # whose CSV location names two places is placed by the audit, not by
+    # key order here: "Northeastern U.S.; Afghanistan" and "Bahia, Brazil"
+    # both resolve via their confirmed_location ("Afghanistan", "Brazil").
+    # The finer-grained keys still apply to records with no body evidence.
+    # "Northeastern U.S." is its own key because the abbreviated form does
+    # not substring-match "Northeastern United States" above.
+    "Northeastern U.S.":     [-73.0, 42.5],
+    "Afghanistan":           [66.0, 33.9],
+    "Bahia":                 [-41.7, -12.5],  # Brazilian state (1963 cables)
+    "Brazil":                [-51.9, -14.2],
+    "Caribbean Sea":         [-75.0, 15.0],
+    "Puerto Rico":           [-66.5, 18.2],
+    "Sweden":                [15.0, 62.0],    # 1947 "Ghost Rocket" review
+    "Gulf of Oman":          [58.5, 24.8],
+    "Pacific Ocean":         [-155.0, 10.0],  # basin centroid
+    "Montana":               [-110.0, 47.0],  # "Montana, Utah" hits this first
+    "Utah":                  [-111.7, 39.3],
+
     # Generic fallback - MUST stay after every more-specific "* United
     # States" key above so substring matching prefers the specific region.
     "United States": [-98.5, 39.5],
@@ -303,8 +324,8 @@ def build_data(index, entities, cross_refs, audit):
                extract_year(normalize_year_from_csv(r.get("incident_date") or "")) or \
                extract_year(r.get("release_date") or "")
 
-        release = {"Release 04": "R4", "Release 03": "R3", "Release 02": "R2"}.get(
-            r.get("page_section"), "R1")
+        release = {"Release 05": "R5", "Release 04": "R4", "Release 03": "R3",
+                   "Release 02": "R2"}.get(r.get("page_section"), "R1")
 
         records.append({
             "id": rid,
@@ -432,14 +453,15 @@ def replace_const_line(text, const_name, new_json):
 
 def update_header(text, total, counts):
     text = re.sub(r"<title>[^<]+</title>",
-                  "<title>war.gov UAP Release 01–04 — corpus viewer</title>",
+                  "<title>war.gov UAP Release 01–05 — corpus viewer</title>",
                   text, count=1)
     text = re.sub(r"<h1>[^<]+</h1>",
-                  "<h1>war.gov / UFO — Release 01–04</h1>",
+                  "<h1>war.gov / UFO — Release 01–05</h1>",
                   text, count=1)
-    meta = (f'PURSUE · snapshot 2026-07-10 · {total} records · '
+    meta = (f'PURSUE · snapshot 2026-08-07 · {total} records · '
             f'R1={counts.get("R1",0)} R2={counts.get("R2",0)} '
-            f'R3={counts.get("R3",0)} R4={counts.get("R4",0)}')
+            f'R3={counts.get("R3",0)} R4={counts.get("R4",0)} '
+            f'R5={counts.get("R5",0)}')
     text = re.sub(r'<span class="meta mono">[^<]+</span>',
                   f'<span class="meta mono">{meta}</span>',
                   text, count=1)

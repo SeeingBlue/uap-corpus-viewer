@@ -1,21 +1,21 @@
 # Incident Location audit
 
-Records audited: **339**
+Records audited: **380**
 
 Verdict counts:
 
-- `confirmed`: 182
-- `single-source`: 72
-- `disagree`: 58
-- `no-evidence`: 21
+- `confirmed`: 209
+- `single-source`: 73
+- `disagree`: 70
+- `no-evidence`: 22
 - `csv-vs-title`: 6
 
-**CSV disagreements flagged:** 11
+**CSV disagreements flagged:** 13
 
 **Confirmation rules.** A location is `confirmed` when 2+ of {csv, title, summary, body} agree on a place — either by exact match or via containment (a CSV value of `Middle East` agrees with a title of `Iraq`). A location is `confirmed-by-sequence` when the record sits in a numbered family (e.g. DOW-UAP-D{N}) where prev/next neighbors agree on a location AND the current record's title or body matches them, with the CSV disagreeing.
 
 
-## Disagreements (multiple sources, none corroborate) (58)
+## Disagreements (multiple sources, none corroborate) (70)
 
 ### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
 - **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -58,6 +58,13 @@ Verdict counts:
 - **body locations (top 8):** New Mexico
 - **note:** body=New Mexico; csv=Hungary
 - **summary:** A 1955 report on a UFO sighting in Hungary. The information came from a letter between Hungarian relatives, living in the USA and Budapest. A more redacted version of the report has been available on…
+
+### `cia-023-cia-uap-d023-briefing-notes-for-mr-walter-elder`
+- **title:** CIA-UAP-D023, Briefing Notes for Mr. Walter Elder
+- **csv:** `Caribbean Sea` -> `Caribbean Sea`
+- **body locations (top 8):** Florida
+- **note:** body=Florida; csv=Caribbean Sea
+- **summary:** This document contains briefing material prepared for Mr. Walter N. Elder, Executive Assistant to the Director of the Central Intelligence Agency (CIA), regarding a November 19, 1964, incident allege…
 
 ### `dow-003-331-120752-numeric-files-1944-1945-37153-german-armament-equ`
 - **title:** 331_120752_Numeric_Files_1944–1945_37153_German_Armament_Equipment_Documents
@@ -378,6 +385,14 @@ Verdict counts:
 - **note:** csv=CENTCOM; summary=United States
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
+### `dow-149-dow-uap-d097-project-sign-progress-report-1948`
+- **family:** `DOW-UAP-D97`
+- **title:** DOW-UAP-D097, Project Sign Progress Report, 1948
+- **csv:** `Various` -> `Various`
+- **body locations (top 8):** Wright-Patterson AFB; Washington (state); Canada; Arizona; Mexico; California; Texas; Moon
+- **note:** body=Arizona; body=Atlantic Ocean; body=California; body=Canada; body=China; body=Florida; body=Germany; body=Mexico; body=Moon; body=Russia; body=Texas; body=United Kingdom; body=Washington (state); body=Wright-Patterson AFB; csv=Various
+- **summary:** This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified fly…
+
 ### `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025`
 - **family:** `DOW-UAP-PR104`
 - **title:** DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025
@@ -394,13 +409,21 @@ Verdict counts:
 - **note:** csv=Gulf of America; summary=United States
 - **summary:** The United States Air Force submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 8 seconds of video footage from an infrared sen…
 
-### `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`
-- **family:** `DOW-UAP-D95`
-- **title:** DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
+### `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`
+- **family:** `DOW-UAP-D92`
+- **title:** DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
 - **csv:** `Various` -> `Various`
-- **summary locations:** Canada
-- **note:** csv=Various; summary=Canada
-- **summary:** This file contains reports, memoranda, and correspondence concerning various then-developmental vertical take-off and landing (VTOL) aircraft. The file includes assessments of the experimental potent…
+- **body locations (top 8):** Arizona; Wright-Patterson AFB; Florida; Georgia (country); Texas; Washington (state); United States; California
+- **note:** body=Arizona; body=California; body=Florida; body=Georgia (country); body=Japan; body=Mexico; body=New Mexico; body=Sweden; body=Texas; body=United States; body=Washington (state); body=Wright-Patterson AFB; csv=Various
+- **summary:** This file documents the 1966-1967 deliberations and recommendations of the U.S. Air Force (USAF) Scientific Advisory Board’s Ad Hoc Committee to Review Project Blue Book. Project Blue Book was a 1952…
+
+### `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
+- **family:** `DOW-UAP-D96`
+- **title:** DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
+- **csv:** `Various` -> `Various`
+- **body locations (top 8):** Florida; Russia; Washington (state); New York; Texas; Andrews AFB; California; Mexico
+- **note:** body=Andrews AFB; body=California; body=Florida; body=Mexico; body=New York; body=Russia; body=Texas; body=United States; body=Washington (state); body=Wright-Patterson AFB; csv=Various
+- **summary:** This file contains correspondence relating to Project Blue Book, a 1952-1969 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The correspondence inclu…
 
 ### `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023`
 - **family:** `DOW-UAP-PR100`
@@ -409,6 +432,68 @@ Verdict counts:
 - **summary locations:** Pacific Ocean; United States
 - **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
 - **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 4 minutes and 57 seconds of video fo…
+
+### `dow-176-dow-uap-d098-film-analysis-of-unidentified-objects-1953`
+- **family:** `DOW-UAP-D98`
+- **title:** DOW-UAP-D098, Film Analysis of Unidentified Objects, 1953
+- **csv:** `Montana, Utah` -> `Montana, Utah`
+- **body locations (top 8):** Florida; Washington (state)
+- **note:** body=Florida; body=Washington (state); csv=Montana, Utah
+- **summary:** This file contains a memorandum relating to the U.S. Naval Photographic Interpretation Center’s assessment of two films allegedly depicting unidentified airborne objects, captured in Montana and Utah…
+
+### `dow-180-dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR117`
+- **title:** DOW-UAP-PR117, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 16 seconds of video footage. This footage…
+
+### `dow-181-dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR118`
+- **title:** DOW-UAP-PR118, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 30 seconds of video footage. This footage…
+
+### `dow-182-dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR119`
+- **title:** DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of two seconds of video footage. This footag…
+
+### `dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR120`
+- **title:** DOW-UAP-PR120, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 13 seconds of video footage. This footage…
+
+### `dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR121`
+- **title:** DOW-UAP-PR121, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 34 seconds of video footage. This footage…
+
+### `dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR122`
+- **title:** DOW-UAP-PR122, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** United States
+- **note:** summary=United States; title=Gulf of Oman; title=Oman
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 26 seconds of video footage. This footage…
 
 ### `fbi-013-65-hs1-834228961-62-hq-83894-serial-403`
 - **family:** `FBI-Serial403`
@@ -434,6 +519,20 @@ Verdict counts:
 - **body locations (top 8):** New York
 - **note:** body=New York; csv=Colorado Springs, Colorado, U.S.
 - **summary:** This document is an FBI FD-1057, a form the Federal Bureau of Investigation (FBI) uses to record investigative activity. This FD-1057 contains a first-hand narrative description of unidentified anoma…
+
+### `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
+- **title:** FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
+- **csv:** `Various` -> `Various`
+- **body locations (top 8):** United States
+- **note:** body=United States; csv=Various
+- **summary:** This file contains two pieces of correspondence. The first, dated 9/22/1967, relays a description of an incident provided by an eleven-year-old child in which they heard a “weird” noise and saw a “fl…
+
+### `fbi-099-fbi-uap-d030-fd-302-large-triangle-with-red-lights-2023`
+- **title:** FBI-UAP-D030, FD-302, “Large Triangle with Red Lights,” 2023
+- **csv:** `Colorado Springs, Colorado` -> `Colorado Springs, Colorado`
+- **body locations (top 8):** California
+- **note:** body=California; csv=Colorado Springs, Colorado
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an October 2025 interview with a U.S. Person, in which the interviewee …
 
 ### `nasa-002-nasa-uap-d3-gemini-7-transcript-1965`
 - **family:** `NASA-UAP-D3`
@@ -477,7 +576,7 @@ Verdict counts:
 - **summary:** Gemini IX (renamed Gemini IX-A) was the seventh crewed flight of the Gemini series, launched on June 3, 1966. The mission’s primary objectives included a spacewalk and multiple scientific and medical…
 
 
-## Single-source (no corroboration) (72)
+## Single-source (no corroboration) (73)
 
 ### `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec`
 - **title:** CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
@@ -526,6 +625,13 @@ Verdict counts:
 - **body locations (top 8):** Wright-Patterson AFB; Washington (state); Moon; Florida; United States; Canada; Korea; Arizona
 - **confirmed location:** `Wright-Patterson AFB` (via body)
 - **summary:** This is the USAF Project Blue Book with a CIA cover sheet stating the document is "Official Record Copy." With the exception of the handwritten note on the first page, the content of this document ha…
+
+### `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`
+- **title:** CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955
+- **csv:** `N/A` -> `-`
+- **body locations (top 8):** Nevada
+- **confirmed location:** `Nevada` (via body)
+- **summary:** Sections 1 and 2 of this memorandum document a 1955 analysis of reports of “flying saucers” or “unconventional aircraft,” referencing the incident described in observer debriefings contained within C…
 
 ### `doe-003-doe-uap-d003-pajarito-astronomers-invitation-1986`
 - **title:** DOE-UAP-D003, Pajarito Astronomers Invitation, 1986
@@ -621,26 +727,13 @@ Verdict counts:
 - **confirmed location:** `Washington (state)` (via body)
 - **summary:** This file contains a copy of the CIA's 1953 "Report of the Scientific Panel on Unidentified Flying Objects" that was sent to the Secretary of Defense.
 
-### `dow-149-dow-uap-d097-project-sign-progress-report-1948`
-- **family:** `DOW-UAP-D97`
-- **title:** DOW-UAP-D097, Project Sign Progress Report, 1948
-- **csv:** `Various` -> `Various`
-- **confirmed location:** `Various` (via csv)
-- **summary:** This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified fly…
-
-### `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review`
-- **family:** `DOW-UAP-D92`
-- **title:** DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
-- **csv:** `Various` -> `Various`
-- **confirmed location:** `Various` (via csv)
-- **summary:** This file documents the 1966-1967 deliberations and recommendations of the U.S. Air Force (USAF) Scientific Advisory Board’s Ad Hoc Committee to Review Project Blue Book. Project Blue Book was a 1952…
-
-### `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
-- **family:** `DOW-UAP-D96`
-- **title:** DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
-- **csv:** `Various` -> `Various`
-- **confirmed location:** `Various` (via csv)
-- **summary:** This file contains correspondence relating to Project Blue Book, a 1952-1969 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The correspondence inclu…
+### `dow-178-dow-uap-d100-air-materiel-command-report-on-unidentified-fly`
+- **family:** `DOW-UAP-D100`
+- **title:** DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948
+- **csv:** `N/A` -> `-`
+- **body locations (top 8):** United States; Washington (state); Florida; Wright-Patterson AFB; New York; Georgia (country); California; New Mexico
+- **confirmed location:** `Washington (state)` (via body)
+- **summary:** This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The do…
 
 ### `fbi-029-fbi-photo-b1`
 - **title:** FBI Photo B1
@@ -829,11 +922,23 @@ Verdict counts:
 - **confirmed location:** `Colorado Springs, Colorado, U.S.` (via csv)
 - **summary:** This document is a Federal Bureau of Investigation (FBI) FD-302, a form the FBI uses to record interviews. This FD-302 contains a summary of an interview with a U.S. military service member in March …
 
-### `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1`
-- **title:** FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
-- **csv:** `Various` -> `Various`
-- **confirmed location:** `Various` (via csv)
-- **summary:** This file contains two pieces of correspondence. The first, dated 9/22/1967, relays a description of an incident provided by an eleven-year-old child in which they heard a “weird” noise and saw a “fl…
+### `fbi-089-fbi-uap-d027-digital-rendering-dark-translucent-triangle-202`
+- **title:** FBI-UAP-D027, Digital Rendering, “Dark Translucent Triangle,” 2023
+- **csv:** `Colorado Springs, Colorado` -> `Colorado Springs, Colorado`
+- **confirmed location:** `Colorado Springs, Colorado` (via csv)
+- **summary:** This image is an artistic interpretation of a reported incident near Colorado Springs, Colorado, potentially involving unidentified anomalous phenomena (UAP) in October 2023. This image is based upon…
+
+### `fbi-091-fbi-uap-d031-digital-rendering-large-triangle-with-red-light`
+- **title:** FBI-UAP-D031, Digital Rendering, “Large Triangle with Red Lights,” 2023
+- **csv:** `Colorado Springs, Colorado` -> `Colorado Springs, Colorado`
+- **confirmed location:** `Colorado Springs, Colorado` (via csv)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) near Colorado Springs, Colorado in 2023. This image is based upon a first-…
+
+### `fbi-097-fbi-uap-d026-fd-302-dark-translucent-triangle-2023`
+- **title:** FBI-UAP-D026, FD-302, “Dark Translucent Triangle,” 2023
+- **csv:** `Colorado Springs, Colorado` -> `Colorado Springs, Colorado`
+- **confirmed location:** `Colorado Springs, Colorado` (via csv)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a January 2026 interview with a former employee of the Department of Wa…
 
 ### `ica-001-ica-uap-d001-analysis-colorado-springs-uap-incident-2022`
 - **title:** ICA-UAP-D001, Analysis: Colorado Springs UAP Incident, 2022
@@ -954,7 +1059,7 @@ Verdict counts:
 - **summary:** This collection of documents, primarily from 1998, contains draft and final correspondence from the White House and the offices of members of Congress responding to constituent inquiries about Uniden…
 
 
-## No evidence anywhere (21)
+## No evidence anywhere (22)
 
 ### `cia-009-cia-uap-008-speculative-paper-by-n-kardashev-and-a-sakharov`
 - **title:** CIA-UAP-008, Speculative Paper By N Kardashev and A Sakharov on Charged Mass in Space at Conference on Origins Of Life, Armenia, 6-8 September 1971/Low Scientific Level Of Other Soviet Papers
@@ -965,11 +1070,6 @@ Verdict counts:
 - **title:** CIA-UAP-012, Combating Fatigue In Crewmembers
 - **csv:** `N/A` -> `-`
 - **summary:** This November 1976 CIA Foreign Intelligence Information Report summarizes Soviet Aeroflot's involvement in aerospace medical research, including their methods for combating crew fatigue through physi…
-
-### `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`
-- **title:** CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955
-- **csv:** `N/A` -> `-`
-- **summary:** Sections 1 and 2 of this memorandum document a 1955 analysis of reports of “flying saucers” or “unconventional aircraft,” referencing the incident described in observer debriefings contained within C…
 
 ### `doe-001-doe-uap-d001-enhanced-pantex-imagery`
 - **title:** DOE-UAP-D001, Enhanced PANTEX Imagery
@@ -1057,6 +1157,16 @@ Verdict counts:
 - **csv:** `N/A` -> `-`
 - **summary:** The Federal Bureau of Investigation (FBI) submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from …
 
+### `fbi-090-fbi-uap-d029-digital-rendering-dark-triangle-with-lights-201`
+- **title:** FBI-UAP-D029, Digital Rendering, “Dark Triangle with Lights,” 2011
+- **csv:** `N/A` -> `-`
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in June or July of 2011. This image is based upon a first-hand description…
+
+### `fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011`
+- **title:** FBI-UAP-D028, FD-302, “Dark Triangle with Lights,” 2011
+- **csv:** `N/A` -> `-`
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an April 2025 interview with two former U.S. military service members, …
+
 ### `nasa-031-nasa-uap-d023-interview-excerpt-with-astronaut-gordon-cooper`
 - **family:** `NASA-UAP-D23`
 - **title:** NASA-UAP-D023, Interview Excerpt with Astronaut Gordon Cooper, 1962
@@ -1069,7 +1179,7 @@ Verdict counts:
 - **summary:** This two page memorandum, dated July 28, 1952, relates to increased reports of unidentified flying objects (UFOs). Included in the record are possible explanations of increased sightings, such as tec…
 
 
-## Confirmed (>=2 sources agree) (182)
+## Confirmed (>=2 sources agree) (209)
 
 ### `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying`
 - **title:** CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
@@ -1106,21 +1216,33 @@ Verdict counts:
 - **title:** CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955
 - **csv:** `Azerbaijan` -> `Azerbaijan`
 - **summary locations:** Georgia (country); Azerbaijan
+- **body locations (top 8):** Florida; California
 - **confirmed location:** `Azerbaijan` (via csv, summary)
 - **summary:** This memorandum summarizes a Central Intelligence Agency (CIA) debriefing of a group of four individuals who reported observing a “flying saucer” or “unconventional aircraft” in 1955. The group, whic…
+
+### `cia-022-cia-uap-d022-unidentified-flying-object-reported-near-puerto`
+- **title:** CIA-UAP-D022, Unidentified Flying Object Reported near Puerto Rico, 1965
+- **csv:** `Caribbean Sea` -> `Caribbean Sea`
+- **summary locations:** Atlantic Ocean; United States
+- **body locations (top 8):** United States; California; New Mexico; Florida; Atlantic Ocean
+- **confirmed location:** `Atlantic Ocean` (via body, summary)
+- **note:** csv `Caribbean Sea` disagrees
+- **summary:** This file contains Central Intelligence Agency (CIA) memoranda exchanged between the Assistant Director for Special Activities (AD/SA) and the Assistant Director for Scientific Intelligence (AD/SI) r…
 
 ### `doe-004-doe-uap-d004-los-alamos-conference-on-aerial-phenomena-1949`
 - **title:** DOE-UAP-D004, Los Alamos Conference on Aerial Phenomena, 1949
 - **csv:** `New Mexico` -> `Mexico`
 - **summary locations:** Mexico; New Mexico
-- **confirmed location:** `Mexico` (via csv, summary)
+- **body locations (top 8):** New Mexico; Mexico; California; United Arab Emirates; Texas; Arizona; New York; Oak Ridge, TN
+- **confirmed location:** `Mexico` (via body, csv, summary)
 - **summary:** This document is a transcript of a 1949 conference held at Los Alamos Scientific Laboratory (now Los Alamos National Laboratory), Los Alamos, New Mexico. Attendees included several eminent scientists…
 
 ### `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015`
 - **title:** DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015
 - **csv:** `Texas` -> `Texas`
 - **summary locations:** Texas
-- **confirmed location:** `Texas` (via csv, summary)
+- **body locations (top 8):** Oak Ridge, TN; Tennessee; Texas
+- **confirmed location:** `Texas` (via body, csv, summary)
 - **summary:** This file contains imagery and a report documenting the circumstances surrounding a September 1, 2015, incident involving an unidentified object intruding the airspace above the Pantex Plant near Ama…
 
 ### `dow-006-342-hs1-416511228-319-1-flying-discs-1949`
@@ -1902,7 +2024,8 @@ Verdict counts:
 - **csv:** `Virginia` -> `Virginia`
 - **title locations:** United States
 - **summary locations:** United States
-- **confirmed location:** `United States` (via summary, title)
+- **body locations (top 8):** United States; Germany; United Kingdom; Atlantic Ocean; Pacific Ocean; Oak Ridge, TN; Nevada; New Mexico
+- **confirmed location:** `Oak Ridge, TN` (via body, summary, title)
 - **note:** csv `Virginia` disagrees
 - **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 04/28/1949. The analysis includes an asses…
 
@@ -1953,9 +2076,20 @@ Verdict counts:
 - **csv:** `Virginia` -> `Virginia`
 - **title locations:** United States
 - **summary locations:** United States
-- **confirmed location:** `United States` (via summary, title)
+- **body locations (top 8):** United States; Florida; Atlantic Ocean; Germany; California; Oak Ridge, TN; Nevada; Arizona
+- **confirmed location:** `Florida` (via body, summary, title)
 - **note:** csv `Virginia` disagrees
 - **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 12/10/1948. The analysis includes an asses…
+
+### `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si`
+- **family:** `DOW-UAP-D95`
+- **title:** DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
+- **csv:** `Various` -> `Various`
+- **summary locations:** Canada
+- **body locations (top 8):** United States; Washington (state); Canada; Florida
+- **confirmed location:** `Canada` (via body, summary)
+- **note:** csv `Various` disagrees
+- **summary:** This file contains reports, memoranda, and correspondence concerning various then-developmental vertical take-off and landing (VTOL) aircraft. The file includes assessments of the experimental potent…
 
 ### `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023`
 - **family:** `DOW-UAP-PR24`
@@ -2080,6 +2214,109 @@ Verdict counts:
 - **summary locations:** United States
 - **confirmed location:** `Atlantic Ocean` (via csv, title)
 - **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 32 seconds of video footage from an infr…
+
+### `dow-177-dow-uap-d099-intelligence-review-of-ghost-rocket-incidents-1`
+- **family:** `DOW-UAP-D99`
+- **title:** DOW-UAP-D099, Intelligence Review of “Ghost Rocket” Incidents, 1947
+- **csv:** `Sweden` -> `Sweden`
+- **summary locations:** Germany; Sweden
+- **body locations (top 8):** Sweden; Finland; Denmark; Norway; United States; Baltic Sea; Belgium; Greece
+- **confirmed location:** `Sweden` (via body, csv, summary)
+- **summary:** This document is a U.S. Department of War General Staff intelligence review assessing incidents involving unidentified “Ghost Rockets” reported over Sweden and other Scandinavian countries beginning …
+
+### `dow-179-dow-uap-d101-intelligence-information-report-unresolved-uap`
+- **family:** `DOW-UAP-D101`
+- **title:** DOW-UAP-D101, Intelligence Information Report, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `N/A` -> `-`
+- **title locations:** Oman; Gulf of Oman
+- **summary locations:** Oman; Gulf of Oman
+- **body locations (top 8):** Oman; United States; Gulf of Oman; Florida; Wright-Patterson AFB; California; CENTCOM
+- **confirmed location:** `Oman` (via body, summary, title)
+- **summary:** This document is an Intelligence Information Report (IIR), the primary standardized format utilized by the Department of War, military services, and the broader Intelligence Community to disseminate …
+
+### `dow-186-dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR123`
+- **title:** DOW-UAP-PR123, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `Pacific Ocean` -> `Pacific Ocean`
+- **title locations:** Pacific Ocean
+- **confirmed location:** `Pacific Ocean` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 1 minute and 4 seconds…
+
+### `dow-187-dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR124`
+- **title:** DOW-UAP-PR124, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `Pacific Ocean` -> `Pacific Ocean`
+- **title locations:** Pacific Ocean
+- **confirmed location:** `Pacific Ocean` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 53 seconds of footage.…
+
+### `dow-188-dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR125`
+- **title:** DOW-UAP-PR125, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `Pacific Ocean` -> `Pacific Ocean`
+- **title locations:** Pacific Ocean
+- **confirmed location:** `Pacific Ocean` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 28 seconds of footage.…
+
+### `dow-189-dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR126`
+- **title:** DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `Pacific Ocean` -> `Pacific Ocean`
+- **title locations:** Pacific Ocean
+- **confirmed location:** `Pacific Ocean` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 32 secon…
+
+### `dow-190-dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR127`
+- **title:** DOW-UAP-PR127, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `Pacific Ocean` -> `Pacific Ocean`
+- **title locations:** Pacific Ocean
+- **confirmed location:** `Pacific Ocean` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 29 secon…
+
+### `dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR134`
+- **title:** DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 39 seconds of video footage …
+
+### `dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR136`
+- **title:** DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 30 seconds of video footage from an infra…
+
+### `dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR142`
+- **title:** DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 14 seconds of video footage from an infra…
+
+### `dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR149`
+- **title:** DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 51 seconds of video footage from an infra…
+
+### `eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe`
+- **title:** EOP-UAP-D001, NASC Inquiry into Bahia, Brazil Incident, November 13, 1963
+- **csv:** `Bahia, Brazil` -> `Brazil`
+- **title locations:** Brazil
+- **summary locations:** Brazil
+- **confirmed location:** `Brazil` (via csv, summary, title)
+- **summary:** This document is a Central Intelligence Agency (CIA) Foreign Broadcast Information Service (FBIS) wire report dated November 9, 1963, tracking a local Portuguese-language radio broadcast from Rio de …
 
 ### `fbi-001-65-hs1-834228961-62-hq-83894-section-10`
 - **family:** `FBI-Section10`
@@ -2444,6 +2681,86 @@ Verdict counts:
 - **confirmed location:** `Western United States` (via csv, summary, title)
 - **summary:** This video is an artistic interpretation of a reported incident near a sensitive national security site in the western United States involving unidentified anomalous phenomena (UAP) over a period of …
 
+### `fbi-088-fbi-uap-d025-digital-rendering-airborne-triangle-2002`
+- **title:** FBI-UAP-D025, Digital Rendering, “Airborne Triangle,” 2002
+- **csv:** `Afghanistan` -> `Afghanistan`
+- **summary locations:** Afghanistan
+- **confirmed location:** `Afghanistan` (via csv, summary)
+- **summary:** This image is an artistic interpretation of a reported incident above Bagram Air Force Base, Afghanistan, potentially involving unidentified anomalous phenomena (UAP) in June 2002. This image is base…
+
+### `fbi-092-fbi-uap-d038-digital-rendering-1-multiple-red-lights-2026`
+- **title:** FBI-UAP-D038, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-093-fbi-uap-d039-digital-rendering-2-multiple-red-lights-2026`
+- **title:** FBI-UAP-D039, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-094-fbi-uap-d041-digital-rendering-1-multiple-red-lights-2026`
+- **title:** FBI-UAP-D041, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-095-fbi-uap-d042-digital-rendering-2-multiple-red-lights-2026`
+- **title:** FBI-UAP-D042, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-096-fbi-uap-d024-fd-302-airborne-lights-and-triangle-2002-2023-2`
+- **title:** FBI-UAP-D024, FD-302, “Airborne Lights and Triangle,” 2002, 2023-2024
+- **csv:** `Northeastern U.S.; Afghanistan` -> `Afghanistan`
+- **summary locations:** Afghanistan
+- **body locations (top 8):** Ireland; Canada; Atlantic Ocean; Afghanistan
+- **confirmed location:** `Afghanistan` (via body, csv, summary)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a March 2024 interview with a former U.S. military pilot, in which the …
+
+### `fbi-100-fbi-uap-d032-fd-302-slow-moving-objects-2026`
+- **title:** FBI-UAP-D032, FD-302, “Slow-moving Objects,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **body locations (top 8):** California; Nevada
+- **confirmed location:** `California` (via body, csv, summary)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. Government Special Agent, in which the int…
+
+### `fbi-101-fbi-uap-d033-fd-302-thermally-elevated-aerial-object-2026`
+- **title:** FBI-UAP-D033, FD-302, “Thermally Elevated Aerial Object,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. Government Special Agent, in which the int…
+
+### `fbi-102-fbi-uap-d037-fd-302-multiple-red-lights-2026`
+- **title:** FBI-UAP-D037, FD-302, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. person, in which the interviewee describes…
+
+### `fbi-103-fbi-uap-d040-fd-302-multiple-red-lights-2026`
+- **title:** FBI-UAP-D040, FD-302, “Multiple Red Lights,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **body locations (top 8):** United States
+- **confirmed location:** `Western United States` (via body, csv, summary)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 telephonic interview with a U.S. person, in which the interviewe…
+
+### `fbi-104-fbi-uap-pr007-slow-moving-objects-2026`
+- **title:** FBI-UAP-PR007, “Slow-moving Objects,” 2026
+- **csv:** `Western United States` -> `Western United States`
+- **summary locations:** Western United States; United States
+- **confirmed location:** `Western United States` (via csv, summary)
+- **summary:** A U.S. Government Special Agent captured this video footage via hand-held optical thermal imaging device during a 2026 incident in the western United States, as described in FBI-UAP-D032. The footage…
+
 ### `nasa-003-nasa-uap-d3a-gemini-7-audio-excerpt-1965`
 - **family:** `NASA-UAP-D3`
 - **title:** NASA-UAP-D003A, Gemini 7 Audio Excerpt, 1965
@@ -2670,3 +2987,19 @@ Verdict counts:
 - **body locations (top 8):** Mexico; Florida
 - **confirmed location:** `Mexico` (via body, csv, summary, title)
 - **summary:** On September 12, 20023 the Mexican Congress heard testimony on UAP from experts related to the debate about an Aerial Space Protection Law, which, if approved, would make Mexico the first country to …
+
+### `state-009-dos-uap-d001-diplomatic-cable-brazil-november-14-1963`
+- **title:** DOS-UAP-D001, Diplomatic Cable, Brazil, November 14, 1963
+- **csv:** `Bahia, Brazil` -> `Brazil`
+- **title locations:** Brazil
+- **summary locations:** Brazil
+- **confirmed location:** `Brazil` (via csv, summary, title)
+- **summary:** This document is a U.S. Department of State diplomatic cable from the U.S. Embassy in Rio de Janeiro, Brazil to the Office of the Secretary of State in Washington, D.C., on November 14, 1963. This ca…
+
+### `state-010-dos-uap-d002-diplomatic-cable-brazil-november-20-1963`
+- **title:** DOS-UAP-D002, Diplomatic Cable, Brazil, November 20, 1963
+- **csv:** `Bahia, Brazil` -> `Brazil`
+- **title locations:** Brazil
+- **summary locations:** Brazil
+- **confirmed location:** `Brazil` (via csv, summary, title)
+- **summary:** This document is a U.S. Department of State diplomatic cable from the U.S. Embassy in Rio de Janeiro, Brazil to the Office of the Secretary of State in Washington, D.C., on November 20, 1963. This ca…

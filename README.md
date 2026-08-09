@@ -13,41 +13,44 @@ Local archive of the U.S. Department of War's Unidentified Anomalous Phenomena (
   - Release 02 - May 22, 2026 - +61 records (222 total)
   - Release 03 - June 12, 2026 - +72 records (294 total)
   - Release 04 - July 10, 2026 - +40 records (334 total)
-- **Latest snapshot in this archive**: 2026-07-10
+  - Release 05 - August 7, 2026 - +41 records (375 total)
+- **Latest snapshot in this archive**: 2026-08-07
 - **Releasing agency**: U.S. Department of War (formerly Department of Defense)
 
 ## Confirmed inventory
 
-Confirmed against `uap-data.csv` on 2026-07-10:
+Confirmed against `uap-data.csv` on 2026-08-07:
 
 ```
-Total:    334 records
-PDF:      189
-Video:    103
-Image:     27
+Total:    375 records
+PDF:      211
+Video:    119
+Image:     30
 Audio:     15
 
 By agency (normalized tag):
-  DoW   (Department of War):                          171
-  FBI:                                                 87
+  DoW   (Department of War):                          190
+  FBI:                                                104
   NASA:                                                40
-  CIA   (Central Intelligence Agency):                 21   (1 R2, 18 R3, 2 R4)
-  State (Department of State):                          7
+  CIA   (Central Intelligence Agency):                 23   (1 R2, 18 R3, 2 R4, 2 R5)
+  State (Department of State):                          9   (7 R1, 2 R5)
   DoE   (Department of Energy):                         5   (3 R2, 2 R4)
   ODNI  (Dir. of National Intelligence):                1   (R2)
   ICA   (Intelligence Community Agency):                1   (R3)
   USG   (U.S. Government):                              1   (R3)
+  EOP   (Executive Office of the President):            1   (R5)
 
 By page section:
   Release 01 (5/8/26):   158
   Release 02 (5/22/26):   64
   Release 03 (6/12/26):   72
   Release 04 (7/10/26):   40
+  Release 05 (8/7/26):    41
 ```
 
 5 Release-01 records are marked `deprecated` (broken/duplicate URLs the
 later CSVs corrected); they remain in `index.json` for provenance but are
-excluded from the 294 active total above where noted.
+excluded from the 375 active total above (`index.json` holds 380 rows).
 
 R1 originally reported 161; the new combined CSV labels 158 of those rows
 with `Release Date = 5/8/26` and 3 of them with `5/22/26` (cosmetic title
@@ -89,7 +92,7 @@ python scripts\extract_pdfs.py            # PDF -> extracted/<id>.md (text-layer
 python scripts\audit_incident_dates.py    # cross-check incident dates
 python scripts\audit_incident_locations.py
 python scripts\build_index.py             # entities, cross-refs, timeline, geo
-python scripts\release_patterns.py        # cross-release pattern profile (R1..R4)
+python scripts\release_patterns.py        # cross-release pattern profile (R1..R5)
 python scripts\update_deploy.py           # rebuild deploy/index.html data blobs
 python scripts\validate_deploy.py         # sanity-check the inlined data
 ```
@@ -98,7 +101,7 @@ python scripts\validate_deploy.py         # sanity-check the inlined data
 folder is named after the release date (e.g. `2026-06-12`) even when you
 run discovery a few days later. Without it, today's date is used.
 
-Estimated runtime (full corpus, R4 baseline of 334 records):
+Estimated runtime (full corpus, R5 baseline of 375 records):
 
 | Step | Duration | What it does |
 |---|---|---|
@@ -108,8 +111,8 @@ Estimated runtime (full corpus, R4 baseline of 334 records):
 | `mark_deprecated.py` | ~1 sec | Marks records absent from latest manifest as `status=deprecated`. |
 | `release_patterns.py` | ~5 sec | Profiles each release and emits `metadata/release_patterns.json` + `audits/release_patterns.md`. |
 
-Total download size for the full R3 corpus: ~10 GB (the bulk is Release 02
-DVIDS video; R3 itself is mostly documents + still images, ~1 GB).
+Total download size for the full corpus: ~12 GB (the bulk is Release 02
+DVIDS video; R5 adds ~1.7 GB, mostly its 16 clips).
 
 ## Folder layout
 
@@ -130,14 +133,18 @@ war-gov-uap-archive/
 │   │   ├── manifest_schema.md   <- ICA/USG agencies, Featured col, NBSP, DVIDS-collision
 │   │   ├── uap-data.csv
 │   │   └── manifest.json
-│   └── 2026-07-10/              <- Release 04 (combined CSV, 334 records)
-│       ├── manifest_schema.md   <- maritime pivot, no new schema, Featured rotation
+│   ├── 2026-07-10/              <- Release 04 (combined CSV, 334 records)
+│   │   ├── manifest_schema.md   <- maritime pivot, no new schema, Featured rotation
+│   │   ├── uap-data.csv
+│   │   └── manifest.json
+│   └── 2026-08-07/              <- Release 05 (combined CSV, 375 records)
+│       ├── manifest_schema.md   <- EOP agency, inverted asset path, mixed-case Featured
 │       ├── uap-data.csv
 │       └── manifest.json
 ├── files/
-│   ├── pdfs/                    <- 189 expected
-│   ├── videos/                  <- 103 expected
-│   ├── images/                  <- 27 expected
+│   ├── pdfs/                    <- 211 expected
+│   ├── videos/                  <- 119 expected
+│   ├── images/                  <- 30 expected
 │   └── audio/                   <- 15 expected
 ├── metadata/
 │   ├── index.json               <- canonical record per file (built by 02_fetch.py)
@@ -153,7 +160,7 @@ war-gov-uap-archive/
 │   └── release_catalog.json     <- compact per-release catalog (for analysis)
 ├── extracted/                   <- per-PDF markdown (extract_pdfs.py)
 ├── audits/                      <- human-readable audit summaries
-│   ├── release_patterns.md          <- deterministic R1/R2/R3 comparison
+│   ├── release_patterns.md          <- deterministic R1..R5 comparison
 │   └── cross_release_patterns.md    <- qualitative multi-agent assessment
 ├── deploy/                      <- viewer assets / globe data
 ├── logs/
@@ -172,7 +179,7 @@ war-gov-uap-archive/
     ├── audit_incident_locations.py
     ├── build_index.py           <- entities, cross-refs, timeline, geo
     ├── mark_deprecated.py       <- flag IDs that left the latest manifest
-    ├── release_patterns.py      <- cross-release pattern profile (R1/R2/R3)
+    ├── release_patterns.py      <- cross-release pattern profile (R1..R5)
     ├── update_deploy.py         <- rebuild deploy/index.html data blobs + Releases view
     ├── validate_deploy.py       <- sanity-check the inlined viewer data
     └── run-archive.ps1          <- pure-PowerShell mirror of discover+fetch
@@ -273,10 +280,11 @@ it only downloads what's missing.
 | R2 | 2026-05-22 | +61 records; AUD (audio) type; DoE / CIA / ODNI agencies; `Image Alt Text`, `Image VIRIN` columns; CSV moved from `uap-csv.csv` to `uap-data.csv`; new R2 PDF path `medialink/ufo/052226/release_02/documents/`; Akamai TLS-fingerprint enforcement now strict (curl_cffi required) |
 | R3 | 2026-06-12 | +72 records; ICA (Intelligence Community Agency) and USG (U.S. Government) agencies; CIA wave (18 records); `Featured` column (10 hero records); R3 PDF path `medialink/ufo/061226/release_03/documents/`; UTF-8 non-breaking spaces (U+00A0) throughout titles (normalized in `fld()`); one upstream title typo fix ("Sherical"→"Spherical") and a DVIDS id shared by two clips (1007720) — both handled by positional DVIDS-key matching in `01_discover.py` |
 | R4 | 2026-07-10 | +40 records; **no new schema** (no new columns or agencies); R4 PDF path `medialink/ufo/071026/release_04/documents/`; DoW-heavy (28) + video-heavy (19 clips); maritime/Indo-Pacific pivot (East/South China Sea, Yellow Sea, Atlantic); 10 new `Featured` records (the flag rotated off R3's onto R4's, so `release_patterns.py` reads featured-at-launch from each snapshot manifest); pipeline change was a one-line `RELEASE_SECTIONS` entry |
+| R5 | 2026-08-07 | +41 records; no new columns (header byte-identical to R4) but a new agency **EOP** (Executive Office of the President, 1 record) needing a `normalize_agency()` entry — upstream ids are `EOP-UAP-D001`, and without it the tag slugified to `executive-office-of`; R5 asset path **inverts** to `medialink/ufo/release_05/Aug_07/documents/` with `<DOC-ID>_<Hyphen-Cased-Title>_<year>.pdf` filenames; first mixed-case `Featured` values (`YES` ×5, `Yes` ×4 — already handled by `.upper()`); first U+202F narrow no-break space (handled by `fld()`'s `split()`); DoW/FBI near-parity, document-heavy; Gulf of Oman + Pacific clips, CONUS FBI casework, Latin America returns |
 
 ## Cross-release analysis
 
-Once all three releases are ingested, two analyses separate and compare them:
+Once the releases are ingested, two analyses separate and compare them:
 
 - `scripts/release_patterns.py` -> deterministic, reproducible profile of
   each release (agency / region / decade / shape / behaviour / document
@@ -287,10 +295,12 @@ Once all three releases are ingested, two analyses separate and compare them:
 - `audits/cross_release_patterns.md` -> the qualitative companion: a
   multi-agent read of the actual document bodies across R1/R2/R3,
   adversarially verified and synthesized into an intelligence-style
-  assessment.
+  assessment. It predates R4 and R5 and has not been re-run for them;
+  those two are covered by the deterministic profile and by the
+  Patterns-tab cards in the viewer.
 
 The viewer (`deploy/index.html`) colours every record by release — R1
-amber, R2 cyan, R3 magenta, R4 green — across the Timeline, Globe, and
+amber, R2 cyan, R3 magenta, R4 green, R5 violet — across the Timeline, Globe, and
 detail panel, with per-release filter chips and a dedicated **Releases**
 comparison tab.
 

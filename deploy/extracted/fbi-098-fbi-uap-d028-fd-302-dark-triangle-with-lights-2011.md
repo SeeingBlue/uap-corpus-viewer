@@ -1,0 +1,139 @@
+---
+id: "fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011"
+title: "FBI-UAP-D028, FD-302, “Dark Triangle with Lights,” 2011"
+agency: "FBI"
+agency_raw: "FBI"
+type: "pdf"
+page_section: "Release 05"
+release_date: "8/7/26"
+incident_date: "2011"
+incident_location: "N/A"
+source_url: "https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.pdf"
+modal_image_url: "https://www.war.gov/medialink/ufo/release_05/Aug_07/thumbnails/FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.jpg"
+sha256: "6a1c229de51ed47cff5de843b0cc4592e1ff691f1ed20254ada15d267e0942bb"
+bytes: 1330526
+pages: 3
+extraction_method: "text-layer"
+redaction: "TRUE"
+description: >
+  This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an April 2025 interview with two former U.S. military service members, in which the interviewees describe an incident potentially involving unidentified anomalous phenomena (UAP) in June or July of 2011. An FBI digital rendering based upon the observers’ descriptions accompanies this document, under the title FBI-UAP-D029.
+---
+
+# FBI-UAP-D028, FD-302, “Dark Triangle with Lights,” 2011
+
+> This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an April 2025 interview with two former U.S. military service members, in which the interviewees describe an incident potentially involving unidentified anomalous phenomena (UAP) in June or July of 2011. An FBI digital rendering based upon the observers’ descriptions accompanies this document, under the title FBI-UAP-D029.
+
+**Agency:** FBI  
+**Release date:** 8/7/26  
+**Incident date:** 2011  
+**Incident location:** N/A  
+**Source:** [FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.pdf](https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.pdf)  
+**Pages:** 3  
+**Extraction method:** text-layer
+
+> **Redaction notice:** Per the war.gov release page, redactions in this file protect eyewitness identities, government facility locations, or sensitive information about military sites unrelated to UAP. No redactions were applied to material released under President Trump's directive concerning the nature or existence of UAP encounters.
+
+---
+
+## Page 1
+
+- 1 of 3 -
+FD-302 (Rev. 5-8-10)
+                                                  FEDERAL BUREAU OF INVESTIGATION
+
+
+
+
+                                                                                                                          Date of enfiy       05 .      /2025
+
+
+
+              On April ■ ,                                               and            were interviewed -
+                                                                       Special Agent (SSA)                , Special
+
+
+
+
+        -            -    - After being advised of the identity of the interviewing
+        agents and the nature of the interview, -       and -    provided the
+         fo ll owing information:
+
+
+
+
+           On an evening in June or Ju l y 2011, it was dark outside when
+        was leaving his driveway l ocated                                            at
+        about 8 or 9 PM. -        was with                           who was driving the
+        vehicle, and                  ,                , who was in the front passenger
+        seat. The vehic l e was about fifty feet from the driveway and preparing to
+        make a l eft turn onto                  When they reached the intersection,
+        -     was looking out window and saw three l ights in the sky. -          got out
+        of the vehic l e, and when he l ooked up, he saw a massive b l ack isosceles
+
+
+
+
+   File#                                                     _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Date drafted                                  04 -      /2025
+
+   by
+  This document contains neither recommendations nor conclusions of the FBI. It is the property of the FBI and is loaned to your agency; it and its contents are not
+  to be distributed outside your agency.
+
+## Page 2
+
+FD-302a (Rev. 5-8-10)
+
+
+
+                                                  and . .
+Continuation of FD-302 of   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ,On   04/l l/2025   ,Page   2 of 3
+
+
+
+
+          triangle shaped object flying North. The object had a car- sized white l ight
+          in each of its three corners that emitted a diffuse gl ow and were recessed
+          back a bit from the corners . The object was l ow to the ground , and creating
+          a l ow humming noise that made a pu l sing sound.                   told him to
+          take a video , but by the time -        got his phone out, the object had flown
+          over the tree line behind the houses to the north , and out of s i ght . He had
+          seen the object for approximate l y 10- 15 seconds . There were no contrai l s
+          left behind the object. -        fe l t dumbfounded and awestruck during the
+          experience .
+
+              When 111111 observed the object , he was overwhelmed by the size of it and
+          how low it was to the ground. 111111 thought the object may have been 800
+          feet above the ground , and based on the dimensions of their environment, he
+          estimated the object was 200 feet long and 1 00 feet wide . 111111 believed the
+          object had more of an equilateral triangle shape , but based on the
+          cal cul ated dimensions , it could have been more of an isosceles triangle.
+          The object was moving slowly and steadily, and he also heard the pulsing
+          sound . 111111 saw the three lights in t he corners , but also remembered seeing
+          something in the middle of the triangle that was grayi sh or graphite
+          colored.
+
+             Neither 111111 nor -     had a clear memory of the thickness or any other
+          description of the vertical profile of the triangle. They opined that they
+          were in i tially underneath the triangle and didn ' t really have a view of its
+          side or vertical profile . They were then temporarily distracted by their
+          unsucces s ful attempt to get a phone out to video record the UAP, at the
+          moment when they likely would have had a better view of the back profile .
+
+               111111 believed a couple of people in the neighborhood also saw
+
+
+
+
+          would also would try to see if                   as wel l as their neighbors
+          who witnessed the UAP , would be willing to writ e a statement about their
+          observation, or speak to the FBI about it .
+
+## Page 3
+
+FD-302a(Rcv. 5-8-10)
+
+
+
+
+                                                 and . .
+Continuation ofFD-302 of   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ,On   04/l l /2025   ,Page   3 of 3

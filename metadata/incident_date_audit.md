@@ -1,11 +1,11 @@
 # Incident Date audit (v2)
 
-Records audited: **339**
+Records audited: **380**
 
 Verdict counts:
 
-- `confirmed`: 249
-- `single-source`: 57
+- `confirmed`: 289
+- `single-source`: 58
 - `confirmed-by-sequence`: 23
 - `disagree`: 6
 - `no-evidence`: 2
@@ -77,7 +77,7 @@ Verdict counts:
 - **summary:** At 32:41, the speaker makes an off-handed comment, “Could be an alien starbase or something, I don’t know” when discussing correlations between experimental data sets.
 
 
-## Single-source (no corroboration) (57)
+## Single-source (no corroboration) (58)
 
 ### `cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson`
 - **title:** CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson
@@ -104,6 +104,12 @@ Verdict counts:
 - **title:** CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
 - **csv:** `1955` -> `1955`
 - **summary:** A 1955 report on a UFO sighting in Hungary. The information came from a letter between Hungarian relatives, living in the USA and Budapest. A more redacted version of the report has been available on…
+
+### `cia-023-cia-uap-d023-briefing-notes-for-mr-walter-elder`
+- **title:** CIA-UAP-D023, Briefing Notes for Mr. Walter Elder
+- **csv:** `Undated` -> `-`
+- **summary dates:** 1964-11-19
+- **summary:** This document contains briefing material prepared for Mr. Walter N. Elder, Executive Assistant to the Director of the Central Intelligence Agency (CIA), regarding a November 19, 1964, incident allege…
 
 ### `dow-007-38-143685-box-incident-summaries-101-172`
 - **title:** 38_143685_box_Incident_Summaries_101-172
@@ -645,7 +651,7 @@ Verdict counts:
 - **summary:** The FBI's 62-HQ-83894 case file includes investigative records, eyewitness testimonies, and public reports concerning Unidentified Flying Objects and flying discs documented between June 1947 and Jul…
 
 
-## Confirmed (>=2 sources agree) (249)
+## Confirmed (>=2 sources agree) (289)
 
 ### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
 - **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -750,7 +756,8 @@ Verdict counts:
 - **title:** CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955
 - **csv:** `1955` -> `1955`
 - **title dates:** 1955
-- **confirmed date:** `1955` (via csv, title)
+- **body dates (filtered):** 1955-11-01
+- **confirmed date:** `1955` (via body, csv, title)
 - **summary:** This memorandum summarizes a Central Intelligence Agency (CIA) debriefing of a group of four individuals who reported observing a “flying saucer” or “unconventional aircraft” in 1955. The group, whic…
 
 ### `cia-021-cia-uap-d021-analysis-of-unconventional-aircraft-sightings-1`
@@ -759,6 +766,15 @@ Verdict counts:
 - **title dates:** 1955
 - **confirmed date:** `1955` (via csv, title)
 - **summary:** Sections 1 and 2 of this memorandum document a 1955 analysis of reports of “flying saucers” or “unconventional aircraft,” referencing the incident described in observer debriefings contained within C…
+
+### `cia-022-cia-uap-d022-unidentified-flying-object-reported-near-puerto`
+- **title:** CIA-UAP-D022, Unidentified Flying Object Reported near Puerto Rico, 1965
+- **csv:** `2/1/65` -> `1965-02-01`
+- **title dates:** 1965
+- **summary dates:** 1964-11-19
+- **body dates (filtered):** 1965-02-01; 1964-11-24
+- **confirmed date:** `1965-02-01` (via body, csv)
+- **summary:** This file contains Central Intelligence Agency (CIA) memoranda exchanged between the Assistant Director for Special Activities (AD/SA) and the Assistant Director for Scientific Intelligence (AD/SI) r…
 
 ### `doe-002-doe-uap-d002-james-tuck-correspondence-1970s`
 - **title:** DOE-UAP-D002, James Tuck Correspondence, 1970s
@@ -779,7 +795,8 @@ Verdict counts:
 - **title:** DOE-UAP-D004, Los Alamos Conference on Aerial Phenomena, 1949
 - **csv:** `3/22/49` -> `1949-03-22`
 - **title dates:** 1949
-- **confirmed date:** `1949` (via csv, title)
+- **body dates (filtered):** 1949-01-30; 1948-12-12; 1948-01-01; 1946-01-16; 1947-10-30; 1949-02-16
+- **confirmed date:** `1949` (via body, csv, title)
 - **summary:** This document is a transcript of a 1949 conference held at Los Alamos Scientific Laboratory (now Los Alamos National Laboratory), Los Alamos, New Mexico. Attendees included several eminent scientists…
 
 ### `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015`
@@ -787,7 +804,8 @@ Verdict counts:
 - **csv:** `9/1/15` -> `2015-09-01`
 - **title dates:** 2015
 - **summary dates:** 2015-09-01; 2026-05-22
-- **confirmed date:** `2015-09-01` (via csv, summary)
+- **body dates (filtered):** 2015-09-02; 2015-09-01; 2000-09
+- **confirmed date:** `2015-09-01` (via body, csv, summary)
 - **summary:** This file contains imagery and a report documenting the circumstances surrounding a September 1, 2015, incident involving an unidentified object intruding the airspace above the Pantex Plant near Ama…
 
 ### `dow-001-18-100754-general-1946-7-vol-2`
@@ -1790,6 +1808,7 @@ Verdict counts:
 - **csv:** `4/28/49` -> `1949-04-28`
 - **title dates:** 1949
 - **summary dates:** 1949-04-28
+- **body dates (filtered):** 1948-12-10; 1948-08-01; 1947-06-28; 1947-07-07; 1948-01-07; 1948-04-06; 1948-04-30; 1948-07-01; 1948-07-17; 1947-09-12; 1948-06-15; 1948-07-26; 1948-07-20; 1948-08-03; 1948-10-01; 1948-11-18; 1947-07-01; 1947-09-16; 1948-07-22; 1947-04; 1947-11
 - **confirmed date:** `1949-04-28` (via csv, summary)
 - **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 04/28/1949. The analysis includes an asses…
 
@@ -1798,7 +1817,8 @@ Verdict counts:
 - **title:** DOW-UAP-D097, Project Sign Progress Report, 1948
 - **csv:** `1948` -> `1948`
 - **title dates:** 1948
-- **confirmed date:** `1948` (via csv, title)
+- **body dates (filtered):** 1948-02-13; 1912-11-23; 1948-03-05; 1948-03-19; 1948-07-01; 1948-01-26
+- **confirmed date:** `1948` (via body, csv, title)
 - **summary:** This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified fly…
 
 ### `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025`
@@ -1862,7 +1882,8 @@ Verdict counts:
 - **title:** DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
 - **csv:** `4/17/67` -> `1967-04-17`
 - **title dates:** 1966; 1967
-- **confirmed date:** `1967` (via csv, title)
+- **body dates (filtered):** 1969-02-13; 1969-02-28; 1967-07-27; 1967-04-17; 1966-04-19; 1966-02-03; 1953-01-17; 1965-12-22; 1966-04-20; 1967-07-31; 1966-05-18; 1966-03-30; 1965-09-28; 1965-10-05; 1965-06-30; 1969-02-06; 1968-02-27; 1968-02-26; 1968-02-28; 1967-05-16; 1967-05-05; 1967-01-01; 1966-08-10; 1966-01-01; 1953-02-16; 1952-08-01; 1952-07-02; 1952-07-19; 1952-08-05; 1952-07-29; 1952-10-10; 1952-09; 1949-10; 1950-08; 1951-01
+- **confirmed date:** `1967-04-17` (via body, csv)
 - **summary:** This file documents the 1966-1967 deliberations and recommendations of the U.S. Air Force (USAF) Scientific Advisory Board’s Ad Hoc Committee to Review Project Blue Book. Project Blue Book was a 1952…
 
 ### `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit`
@@ -1871,6 +1892,7 @@ Verdict counts:
 - **csv:** `12/10/48` -> `1948-12-10`
 - **title dates:** 1948
 - **summary dates:** 1948-12-10
+- **body dates (filtered):** 1947-07-07; 1947-04; 1947-06; 1948-10
 - **confirmed date:** `1948-12-10` (via csv, summary)
 - **summary:** This file contains a U.S. Air Force (USAF) Air Intelligence Division study, “Analysis of Flying Object Incidents in the United States,” Study No. 203, dated 12/10/1948. The analysis includes an asses…
 
@@ -1880,7 +1902,9 @@ Verdict counts:
 - **csv:** `1955` -> `1955`
 - **title dates:** 1954; 1955
 - **summary dates:** 1955-07
-- **confirmed date:** `1955` (via csv, summary, title)
+- **body dates (filtered):** 1955-11-03; 1954-12-10; 1954-12-14; 1955-07-05; 1955-07-11
+- **confirmed date:** `1955-07` (via body, summary)
+- **note:** csv `1955` disagrees
 - **summary:** This file contains reports, memoranda, and correspondence concerning various then-developmental vertical take-off and landing (VTOL) aircraft. The file includes assessments of the experimental potent…
 
 ### `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19`
@@ -1888,7 +1912,8 @@ Verdict counts:
 - **title:** DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
 - **csv:** `1955` -> `1955`
 - **title dates:** 1955
-- **confirmed date:** `1955` (via csv, title)
+- **body dates (filtered):** 1955-01-04; 1954-12-08; 1954-12-02; 1955-01-26; 1955-02-21; 1955-02-25; 1954-07-01; 1955-06-30; 1954-08-12; 1955-08-08; 1955-07-05
+- **confirmed date:** `1955` (via body, csv, title)
 - **summary:** This file contains correspondence relating to Project Blue Book, a 1952-1969 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The correspondence inclu…
 
 ### `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023`
@@ -2010,6 +2035,174 @@ Verdict counts:
 - **title dates:** 2020
 - **confirmed date:** `2020` (via csv, title)
 - **summary:** The United States Northern Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 32 seconds of video footage from an infr…
+
+### `dow-176-dow-uap-d098-film-analysis-of-unidentified-objects-1953`
+- **family:** `DOW-UAP-D98`
+- **title:** DOW-UAP-D098, Film Analysis of Unidentified Objects, 1953
+- **csv:** `1950, 1952` -> `1950`
+- **title dates:** 1953
+- **body dates (filtered):** 1952-10-27; 1952-11-24; 1952-12-05; 1953-02-16; 1952-07-02
+- **confirmed date:** `1953` (via body, title)
+- **note:** csv `1950` disagrees
+- **summary:** This file contains a memorandum relating to the U.S. Naval Photographic Interpretation Center’s assessment of two films allegedly depicting unidentified airborne objects, captured in Montana and Utah…
+
+### `dow-177-dow-uap-d099-intelligence-review-of-ghost-rocket-incidents-1`
+- **family:** `DOW-UAP-D99`
+- **title:** DOW-UAP-D099, Intelligence Review of “Ghost Rocket” Incidents, 1947
+- **csv:** `1/9/47` -> `1947-01-09`
+- **title dates:** 1947
+- **summary dates:** 1946-05
+- **body dates (filtered):** 1946-05
+- **confirmed date:** `1946-05` (via body, summary)
+- **note:** csv `1947-01-09` disagrees
+- **summary:** This document is a U.S. Department of War General Staff intelligence review assessing incidents involving unidentified “Ghost Rockets” reported over Sweden and other Scandinavian countries beginning …
+
+### `dow-178-dow-uap-d100-air-materiel-command-report-on-unidentified-fly`
+- **family:** `DOW-UAP-D100`
+- **title:** DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948
+- **csv:** `1947-1948` -> `1947`
+- **title dates:** 1947; 1948
+- **body dates (filtered):** 1948-07-04; 1948-07-08; 1948-04-13; 1948-03-10; 1948-01-15; 1947-12-30; 1948-08-07; 1948-10-27; 1948-10-07; 1948-10-11; 1948-10-25; 1948-10-21; 1947-12-15; 1948-07-09; 1947-11-10; 1948-08-02; 1948-06-05; 1944-12-01; 1947-09-25; 1948-04-30; 1948-05-03; 1948-02-24; 1948-04-08; 1948-04-12; 1948-02-06; 1948-03-09; 1948-03-05; 1948-03-08; 1948-03-03; 1948-03-04; 1948-03-17; 1948-01-07; 1948-02-17; 1947-10-07; 1948-02-02; 1948-01-16; 1948-01-21; 1947-12-18; 1947-10-06; 1947-09-23; 1948-11
+- **confirmed date:** `1947` (via body, csv, title)
+- **summary:** This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The do…
+
+### `dow-179-dow-uap-d101-intelligence-information-report-unresolved-uap`
+- **family:** `DOW-UAP-D101`
+- **title:** DOW-UAP-D101, Intelligence Information Report, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **summary dates:** 2021-09-08
+- **body dates (filtered):** 2026-03-26; 2021-09-08
+- **confirmed date:** `2021-09-08` (via body, csv, summary)
+- **summary:** This document is an Intelligence Information Report (IIR), the primary standardized format utilized by the Department of War, military services, and the broader Intelligence Community to disseminate …
+
+### `dow-180-dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR117`
+- **title:** DOW-UAP-PR117, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 16 seconds of video footage. This footage…
+
+### `dow-181-dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR118`
+- **title:** DOW-UAP-PR118, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 30 seconds of video footage. This footage…
+
+### `dow-182-dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR119`
+- **title:** DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of two seconds of video footage. This footag…
+
+### `dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR120`
+- **title:** DOW-UAP-PR120, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 13 seconds of video footage. This footage…
+
+### `dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR121`
+- **title:** DOW-UAP-PR121, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 34 seconds of video footage. This footage…
+
+### `dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021`
+- **family:** `DOW-UAP-PR122`
+- **title:** DOW-UAP-PR122, Unresolved UAP Report, Gulf of Oman, 2021
+- **csv:** `9/8/21` -> `2021-09-08`
+- **title dates:** 2021
+- **confirmed date:** `2021` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 26 seconds of video footage. This footage…
+
+### `dow-186-dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR123`
+- **title:** DOW-UAP-PR123, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 1 minute and 4 seconds…
+
+### `dow-187-dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR124`
+- **title:** DOW-UAP-PR124, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 53 seconds of footage.…
+
+### `dow-188-dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR125`
+- **title:** DOW-UAP-PR125, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 28 seconds of footage.…
+
+### `dow-189-dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR126`
+- **title:** DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 32 secon…
+
+### `dow-190-dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019`
+- **family:** `DOW-UAP-PR127`
+- **title:** DOW-UAP-PR127, Unresolved UAP Report, Pacific Ocean, 2019
+- **csv:** `2019` -> `2019`
+- **title dates:** 2019
+- **confirmed date:** `2019` (via csv, title)
+- **summary:** The United States Navy Unidentified Anomalous Phenomena Task Force (UAPTF) transferred this media to the All-domain Anomaly Resolution Office (AARO) in 2022. The video contains 2 minutes and 29 secon…
+
+### `dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR134`
+- **title:** DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 39 seconds of video footage …
+
+### `dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR136`
+- **title:** DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 30 seconds of video footage from an infra…
+
+### `dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR142`
+- **title:** DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 14 seconds of video footage from an infra…
+
+### `dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023`
+- **family:** `DOW-UAP-PR149`
+- **title:** DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 51 seconds of video footage from an infra…
+
+### `eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe`
+- **title:** EOP-UAP-D001, NASC Inquiry into Bahia, Brazil Incident, November 13, 1963
+- **csv:** `11/13/63` -> `1963-11-13`
+- **title dates:** 1963-11-13
+- **summary dates:** 1963-11-09; 1963-11-13
+- **confirmed date:** `1963-11-13` (via csv, summary, title)
+- **summary:** This document is a Central Intelligence Agency (CIA) Foreign Broadcast Information Service (FBIS) wire report dated November 9, 1963, tracking a local Portuguese-language radio broadcast from Rio de …
 
 ### `fbi-001-65-hs1-834228961-62-hq-83894-section-10`
 - **family:** `FBI-Section10`
@@ -2387,8 +2580,135 @@ Verdict counts:
 - **csv:** `10/10/74` -> `1974-10-10`
 - **title dates:** 1967; 1974
 - **summary dates:** 1967-09-22; 1974-09-30; 1974-10-10; 1954-04-08
-- **confirmed date:** `1974-10-10` (via csv, summary)
+- **body dates (filtered):** 1967-09-22; 1954-04-08; 1954-01-01; 1954-12-03; 1974-10-10
+- **confirmed date:** `1974-10-10` (via body, csv, summary)
 - **summary:** This file contains two pieces of correspondence. The first, dated 9/22/1967, relays a description of an incident provided by an eleven-year-old child in which they heard a “weird” noise and saw a “fl…
+
+### `fbi-088-fbi-uap-d025-digital-rendering-airborne-triangle-2002`
+- **title:** FBI-UAP-D025, Digital Rendering, “Airborne Triangle,” 2002
+- **csv:** `2002` -> `2002`
+- **title dates:** 2002
+- **summary dates:** 2002-06
+- **confirmed date:** `2002` (via csv, summary, title)
+- **summary:** This image is an artistic interpretation of a reported incident above Bagram Air Force Base, Afghanistan, potentially involving unidentified anomalous phenomena (UAP) in June 2002. This image is base…
+
+### `fbi-089-fbi-uap-d027-digital-rendering-dark-translucent-triangle-202`
+- **title:** FBI-UAP-D027, Digital Rendering, “Dark Translucent Triangle,” 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **summary dates:** 2023-10
+- **confirmed date:** `2023` (via csv, summary, title)
+- **summary:** This image is an artistic interpretation of a reported incident near Colorado Springs, Colorado, potentially involving unidentified anomalous phenomena (UAP) in October 2023. This image is based upon…
+
+### `fbi-090-fbi-uap-d029-digital-rendering-dark-triangle-with-lights-201`
+- **title:** FBI-UAP-D029, Digital Rendering, “Dark Triangle with Lights,” 2011
+- **csv:** `2011` -> `2011`
+- **title dates:** 2011
+- **confirmed date:** `2011` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in June or July of 2011. This image is based upon a first-hand description…
+
+### `fbi-091-fbi-uap-d031-digital-rendering-large-triangle-with-red-light`
+- **title:** FBI-UAP-D031, Digital Rendering, “Large Triangle with Red Lights,” 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) near Colorado Springs, Colorado in 2023. This image is based upon a first-…
+
+### `fbi-092-fbi-uap-d038-digital-rendering-1-multiple-red-lights-2026`
+- **title:** FBI-UAP-D038, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-093-fbi-uap-d039-digital-rendering-2-multiple-red-lights-2026`
+- **title:** FBI-UAP-D039, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-094-fbi-uap-d041-digital-rendering-1-multiple-red-lights-2026`
+- **title:** FBI-UAP-D041, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-095-fbi-uap-d042-digital-rendering-2-multiple-red-lights-2026`
+- **title:** FBI-UAP-D042, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This image is an artistic interpretation of a reported incident potentially involving unidentified anomalous phenomena (UAP) in the western United States in 2026. This image is based upon a first-han…
+
+### `fbi-096-fbi-uap-d024-fd-302-airborne-lights-and-triangle-2002-2023-2`
+- **title:** FBI-UAP-D024, FD-302, “Airborne Lights and Triangle,” 2002, 2023-2024
+- **csv:** `2002, 2023-2024` -> `2002`
+- **title dates:** 2002; 2023; 2024
+- **summary dates:** 2024-03
+- **body dates (filtered):** 2023-10; 2002-06
+- **confirmed date:** `2002` (via body, csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a March 2024 interview with a former U.S. military pilot, in which the …
+
+### `fbi-097-fbi-uap-d026-fd-302-dark-translucent-triangle-2023`
+- **title:** FBI-UAP-D026, FD-302, “Dark Translucent Triangle,” 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **summary dates:** 2026-01; 2023-10
+- **confirmed date:** `2023` (via csv, summary, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a January 2026 interview with a former employee of the Department of Wa…
+
+### `fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011`
+- **title:** FBI-UAP-D028, FD-302, “Dark Triangle with Lights,” 2011
+- **csv:** `2011` -> `2011`
+- **title dates:** 2011
+- **summary dates:** 2025-04
+- **confirmed date:** `2011` (via csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an April 2025 interview with two former U.S. military service members, …
+
+### `fbi-099-fbi-uap-d030-fd-302-large-triangle-with-red-lights-2023`
+- **title:** FBI-UAP-D030, FD-302, “Large Triangle with Red Lights,” 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **summary dates:** 2025-10; 2023-10
+- **confirmed date:** `2023` (via csv, summary, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records an October 2025 interview with a U.S. Person, in which the interviewee …
+
+### `fbi-100-fbi-uap-d032-fd-302-slow-moving-objects-2026`
+- **title:** FBI-UAP-D032, FD-302, “Slow-moving Objects,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. Government Special Agent, in which the int…
+
+### `fbi-101-fbi-uap-d033-fd-302-thermally-elevated-aerial-object-2026`
+- **title:** FBI-UAP-D033, FD-302, “Thermally Elevated Aerial Object,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. Government Special Agent, in which the int…
+
+### `fbi-102-fbi-uap-d037-fd-302-multiple-red-lights-2026`
+- **title:** FBI-UAP-D037, FD-302, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 interview with a U.S. person, in which the interviewee describes…
+
+### `fbi-103-fbi-uap-d040-fd-302-multiple-red-lights-2026`
+- **title:** FBI-UAP-D040, FD-302, “Multiple Red Lights,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** This document is an FBI FD-302, a form the Federal Bureau of Investigation (FBI) uses to record interviews. This FD-302 records a 2026 telephonic interview with a U.S. person, in which the interviewe…
+
+### `fbi-104-fbi-uap-pr007-slow-moving-objects-2026`
+- **title:** FBI-UAP-PR007, “Slow-moving Objects,” 2026
+- **csv:** `2026` -> `2026`
+- **title dates:** 2026
+- **confirmed date:** `2026` (via csv, title)
+- **summary:** A U.S. Government Special Agent captured this video footage via hand-held optical thermal imaging device during a 2026 incident in the western United States, as described in FBI-UAP-D032. The footage…
 
 ### `ica-001-ica-uap-d001-analysis-colorado-springs-uap-incident-2022`
 - **title:** ICA-UAP-D001, Analysis: Colorado Springs UAP Incident, 2022
@@ -2800,6 +3120,24 @@ Verdict counts:
 - **body dates (filtered):** 1952-07-28
 - **confirmed date:** `1952-07-28` (via body, csv, summary)
 - **summary:** This two page memorandum, dated July 28, 1952, relates to increased reports of unidentified flying objects (UFOs). Included in the record are possible explanations of increased sightings, such as tec…
+
+### `state-009-dos-uap-d001-diplomatic-cable-brazil-november-14-1963`
+- **title:** DOS-UAP-D001, Diplomatic Cable, Brazil, November 14, 1963
+- **csv:** `11/14/63` -> `1963-11-14`
+- **title dates:** 1963-11-14
+- **summary dates:** 1963-11-14
+- **body dates (filtered):** 1963-11-14
+- **confirmed date:** `1963-11-14` (via body, csv, summary, title)
+- **summary:** This document is a U.S. Department of State diplomatic cable from the U.S. Embassy in Rio de Janeiro, Brazil to the Office of the Secretary of State in Washington, D.C., on November 14, 1963. This ca…
+
+### `state-010-dos-uap-d002-diplomatic-cable-brazil-november-20-1963`
+- **title:** DOS-UAP-D002, Diplomatic Cable, Brazil, November 20, 1963
+- **csv:** `11/20/63` -> `1963-11-20`
+- **title dates:** 1963-11-20
+- **summary dates:** 1963-11-20
+- **body dates (filtered):** 1964-11-08; 1963-11-14
+- **confirmed date:** `1963-11-20` (via csv, summary, title)
+- **summary:** This document is a U.S. Department of State diplomatic cable from the U.S. Embassy in Rio de Janeiro, Brazil to the Office of the Secretary of State in Washington, D.C., on November 20, 1963. This ca…
 
 ### `usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue`
 - **title:** USG-UAP-D001, Congressional, White House, UFO-related Constituent Correspondence, 1998

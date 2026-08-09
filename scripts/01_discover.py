@@ -44,6 +44,7 @@ RELEASE_SECTIONS = {
     "5/22/26": "Release 02",
     "6/12/26": "Release 03",
     "7/10/26": "Release 04",
+    "8/7/26":  "Release 05",
 }
 
 
@@ -64,6 +65,11 @@ def normalize_agency(agency):
     # so ICA doesn't get mis-tagged as ODNI.
     for kw, label in (
         ("fbi", "FBI"),
+        # R5: "Executive Office of the President" (upstream ids are EOP-UAP-*).
+        # Must precede the bare "government"/"state" tests; without it the
+        # label falls through to the raw string and slugifies to the
+        # truncated, ugly agency prefix "executive-office-of".
+        ("executive office of the president", "EOP"),
         ("intelligence community", "ICA"),
         ("director of national intelligence", "ODNI"),
         ("national intelligence", "ODNI"),

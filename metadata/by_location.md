@@ -1,8 +1,8 @@
 # Records by incident location
 
-_Generated from `metadata/index.json` covering 339 records._
+_Generated from `metadata/index.json` covering 380 records._
 
-## N/A  (71 records)
+## N/A  (81 records)
 
 - **[CIA]** `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying` — 1952-1953 — CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
 - **[CIA]** `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec` — 1954-1974 — CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
@@ -37,6 +37,14 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-144-dow-uap-d085-transmission-of-cia-scientific-advisory-panel-r` — 1953 — DOW-UAP-D085_Transmission-of-CIA-Scientific-Advisory-Panel-Rept_1953
 - **[DoW]** `dow-145-dow-uap-d086-usnavy-report-of-flying-discs-1948` — — — DOW-UAP-D086, USNavy-Report-of-Flying-Discs_1948
 - **[DoW]** `dow-147-dow-uap-d088-u-s-air-force-analysis-of-flying-objects-in-the` — — — DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172
+- **[DoW]** `dow-178-dow-uap-d100-air-materiel-command-report-on-unidentified-fly` — 1947-1948 — DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948
+- **[DoW]** `dow-179-dow-uap-d101-intelligence-information-report-unresolved-uap` — 9/8/21 — DOW-UAP-D101, Intelligence Information Report, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-180-dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR117, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-181-dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR118, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-182-dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR119, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR120, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR121, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR122, Unresolved UAP Report, Gulf of Oman, 2021
 - **[FBI]** `fbi-001-65-hs1-834228961-62-hq-83894-section-10` — N/A — 65_HS1-834228961_62-HQ-83894_Section_010
 - **[FBI]** `fbi-002-65-hs1-834228961-62-hq-83894-section-2` — N/A — 65_HS1-834228961_62-HQ-83894_Section_002
 - **[FBI]** `fbi-003-65-hs1-834228961-62-hq-83894-section-3` — N/A — 65_HS1-834228961_62-HQ-83894_Section_003
@@ -64,6 +72,8 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[FBI]** `fbi-027-fbi-photo-a7` — Late 2025 — FBI Photo A007
 - **[FBI]** `fbi-028-fbi-photo-a8` — Late 2025 — FBI Photo A008
 - **[FBI]** `fbi-062-fbi-uap-d011-d-fbi-correspondence-referral-1949` — 1949 — FBI-UAP-D011, D/FBI Correspondence Referral, 1949
+- **[FBI]** `fbi-090-fbi-uap-d029-digital-rendering-dark-triangle-with-lights-201` — 2011 — FBI-UAP-D029, Digital Rendering, “Dark Triangle with Lights,” 2011
+- **[FBI]** `fbi-098-fbi-uap-d028-fd-302-dark-triangle-with-lights-2011` — 2011 — FBI-UAP-D028, FD-302, “Dark Triangle with Lights,” 2011
 - **[NASA]** `nasa-001-255-413270-ufo-s-and-defense-what-should-we-prepare-for` — — — 255_413270_UFO's_and_Defense_What_Should_we_Prepare_For
 - **[NASA]** `nasa-006-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969` — 1969 — NASA-UAP-D004, Apollo 11 Technical Crew Debriefing, 1969
 - **[NASA]** `nasa-007-nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973` — 1973 — NASA-UAP-D005, Apollo 17 Crew Debriefing for Science, 1973
@@ -76,7 +86,7 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[State]** `state-008-59-64634-711-5612-7-2852` — 7/28/52 — 59_64634_711.5612[7-2852
 - **[USG]** `usg-001-usg-uap-d001-congressional-white-house-ufo-related-constitue` — 1998 — USG-UAP-D001, Congressional, White House, UFO-related Constituent Correspondence, 1998
 
-## Western United States  (40 records)
+## Western United States  (49 records)
 
 - **[DoW]** `dow-082-western-us-event` — 2023 — Western US Event
 - **[DoW]** `dow-137-dow-uap-d077-aaro-unresolved-case-analysis-update-western-un` — 2023 — DOW-UAP-D077, AARO Unresolved Case Analysis Update: Western United States Event
@@ -117,6 +127,15 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[FBI]** `fbi-082-fbi-uap-d023-digital-rendering-narrative-statement-2-7-weste` — October, 2023 — FBI-UAP-D023, Digital Rendering, Narrative Statement 2-7, Western United States Event, 2023
 - **[FBI]** `fbi-085-fbi-uap-pr005-digital-recreation-narrative-statement-3-1-wes` — October, 2023 — FBI-UAP-PR005, Digital Recreation, Narrative Statement 3-1, Western United States Event, 2023
 - **[FBI]** `fbi-086-fbi-uap-pr006-digital-recreation-narrative-statement-3-2-wes` — October, 2023 — FBI-UAP-PR006, Digital Recreation, Narrative Statement 3-2, Western United States Event, 2023
+- **[FBI]** `fbi-092-fbi-uap-d038-digital-rendering-1-multiple-red-lights-2026` — 2026 — FBI-UAP-D038, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-093-fbi-uap-d039-digital-rendering-2-multiple-red-lights-2026` — 2026 — FBI-UAP-D039, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-094-fbi-uap-d041-digital-rendering-1-multiple-red-lights-2026` — 2026 — FBI-UAP-D041, Digital Rendering 1, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-095-fbi-uap-d042-digital-rendering-2-multiple-red-lights-2026` — 2026 — FBI-UAP-D042, Digital Rendering 2, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-100-fbi-uap-d032-fd-302-slow-moving-objects-2026` — 2026 — FBI-UAP-D032, FD-302, “Slow-moving Objects,” 2026
+- **[FBI]** `fbi-101-fbi-uap-d033-fd-302-thermally-elevated-aerial-object-2026` — 2026 — FBI-UAP-D033, FD-302, “Thermally Elevated Aerial Object,” 2026
+- **[FBI]** `fbi-102-fbi-uap-d037-fd-302-multiple-red-lights-2026` — 2026 — FBI-UAP-D037, FD-302, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-103-fbi-uap-d040-fd-302-multiple-red-lights-2026` — 2026 — FBI-UAP-D040, FD-302, “Multiple Red Lights,” 2026
+- **[FBI]** `fbi-104-fbi-uap-pr007-slow-moving-objects-2026` — 2026 — FBI-UAP-PR007, “Slow-moving Objects,” 2026
 - **[ODNI]** `odni-001-odni-uap-d001-usper-narrative-senior-usic-official` — 2025 — ODNI-UAP-D001, USPER Narrative, Senior USIC Official
 
 ## CENTCOM  (32 records)
@@ -210,6 +229,18 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022` — N/A — DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
 - **[DoW]** `dow-086-dow-uap-d020-mission-report-iraq-2023` — 3/31/23 — DOW-UAP-D020, Mission Report, Iraq, 2023
 
+## Middle East  (9 records)
+
+- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
+- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
+- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
+- **[DoW]** `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023
+
 ## Eastern United States  (8 records)
 
 - **[DoW]** `dow-154-dow-uap-d089-range-fouler-debrief-eastern-united-states-2020` — 2020 — DOW-UAP-D089, Range Fouler Debrief, Eastern United States, 2020
@@ -253,6 +284,15 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve` — October, 2023 — DOW-UAP-D083, Narrative Statement 5, Western United States Event, 2023
 - **[FBI]** `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` — October, 2023 — FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023
 
+## Pacific Ocean  (6 records)
+
+- **[DoW]** `dow-043-dow-uap-d6-mission-report-arabian-gulf-2020` — N/A — DOW-UAP-D006, Mission Report, Arabian Gulf, 2020
+- **[DoW]** `dow-186-dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019` — 2019 — DOW-UAP-PR123, Unresolved UAP Report, Pacific Ocean, 2019
+- **[DoW]** `dow-187-dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019` — 2019 — DOW-UAP-PR124, Unresolved UAP Report, Pacific Ocean, 2019
+- **[DoW]** `dow-188-dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019` — 2019 — DOW-UAP-PR125, Unresolved UAP Report, Pacific Ocean, 2019
+- **[DoW]** `dow-189-dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019` — 2019 — DOW-UAP-PR126, Unresolved UAP Report, Pacific Ocean, 2019
+- **[DoW]** `dow-190-dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019` — 2019 — DOW-UAP-PR127, Unresolved UAP Report, Pacific Ocean, 2019
+
 ## Texas  (6 records)
 
 - **[DoE]** `doe-005-doe-uap-d005-pantex-unidentified-object-incident-report-2015` — 9/1/15 — DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015
@@ -279,14 +319,6 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024
 - **[DoW]** `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024
 
-## Middle East  (5 records)
-
-- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
-- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
-- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
-- **[DoW]** `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
-- **[DoW]** `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
-
 ## Various  (5 records)
 
 - **[DoW]** `dow-149-dow-uap-d097-project-sign-progress-report-1948` — 1948 — DOW-UAP-D097, Project Sign Progress Report, 1948
@@ -294,6 +326,13 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si` — 1955 — DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
 - **[DoW]** `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19` — 1955 — DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
 - **[FBI]** `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1` — 10/10/74 — FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
+
+## Colorado Springs, Colorado  (4 records)
+
+- **[FBI]** `fbi-089-fbi-uap-d027-digital-rendering-dark-translucent-triangle-202` — 2023 — FBI-UAP-D027, Digital Rendering, “Dark Translucent Triangle,” 2023
+- **[FBI]** `fbi-091-fbi-uap-d031-digital-rendering-large-triangle-with-red-light` — 2023 — FBI-UAP-D031, Digital Rendering, “Large Triangle with Red Lights,” 2023
+- **[FBI]** `fbi-097-fbi-uap-d026-fd-302-dark-translucent-triangle-2023` — 2023 — FBI-UAP-D026, FD-302, “Dark Translucent Triangle,” 2023
+- **[FBI]** `fbi-099-fbi-uap-d030-fd-302-large-triangle-with-red-lights-2023` — 2023 — FBI-UAP-D030, FD-302, “Large Triangle with Red Lights,” 2023
 
 ## Colorado Springs, Colorado, U.S.  (4 records)
 
@@ -328,6 +367,12 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[DoW]** `dow-156-dow-uap-d091-range-fouler-debrief-atlantic-ocean-2020` — 2020 — DOW-UAP-D091, Range Fouler Debrief, Atlantic Ocean, 2020
 - **[DoW]** `dow-174-dow-uap-pr114-unresolved-uap-report-atlantic-ocean-2016` — 2016 — DOW-UAP-PR114, Unresolved UAP Report, Atlantic Ocean, 2016
 - **[DoW]** `dow-175-dow-uap-pr116-unresolved-uap-report-atlantic-ocean-2020` — 2020 — DOW-UAP-PR116, Unresolved UAP Report, Atlantic Ocean, 2020
+
+## Bahia, Brazil  (3 records)
+
+- **[EOP]** `eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe` — 11/13/63 — EOP-UAP-D001, NASC Inquiry into Bahia, Brazil Incident, November 13, 1963
+- **[State]** `state-009-dos-uap-d001-diplomatic-cable-brazil-november-14-1963` — 11/14/63 — DOS-UAP-D001, Diplomatic Cable, Brazil, November 14, 1963
+- **[State]** `state-010-dos-uap-d002-diplomatic-cable-brazil-november-20-1963` — 11/20/63 — DOS-UAP-D002, Diplomatic Cable, Brazil, November 20, 1963
 
 ## Cape Kennedy, Florida  (3 records)
 
@@ -396,6 +441,11 @@ _Generated from `metadata/index.json` covering 339 records._
 - **[CIA]** `cia-010-cia-uap-009-unknown-flying-objects-observed-over-budapest` — 1957 — CIA-UAP-009, Unknown Flying Objects Observed Over Budapest
 - **[CIA]** `cia-014-cia-uap-013-report-of-unusual-flying-object-sightings-and-at` — 1956 — CIA-UAP-013, Report of Unusual Flying Object Sightings and Attendant Scientific Activity
 
+## Caribbean Sea  (2 records)
+
+- **[CIA]** `cia-022-cia-uap-d022-unidentified-flying-object-reported-near-puerto` — 2/1/65 — CIA-UAP-D022, Unidentified Flying Object Reported near Puerto Rico, 1965
+- **[CIA]** `cia-023-cia-uap-d023-briefing-notes-for-mr-walter-elder` — Undated — CIA-UAP-D023, Briefing Notes for Mr. Walter Elder
+
 ## Germany  (2 records)
 
 - **[DoW]** `dow-003-331-120752-numeric-files-1944-1945-37153-german-armament-equ` — 3/18/45 — 331_120752_Numeric_Files_1944–1945_37153_German_Armament_Equipment_Documents
@@ -435,6 +485,10 @@ _Generated from `metadata/index.json` covering 339 records._
 
 - **[DoW]** `dow-148-dow-uap-d094-analysis-of-flying-object-incidents-in-the-unit` — 4/28/49 — DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949
 - **[DoW]** `dow-158-dow-uap-d093-analysis-of-flying-object-incidents-in-the-unit` — 12/10/48 — DOW-UAP-D093, Analysis of Flying Object Incidents in the United States, 1948
+
+## Afghanistan  (1 records)
+
+- **[FBI]** `fbi-088-fbi-uap-d025-digital-rendering-airborne-triangle-2002` — 2002 — FBI-UAP-D025, Digital Rendering, “Airborne Triangle,” 2002
 
 ## Australia  (1 records)
 
@@ -504,6 +558,10 @@ _Generated from `metadata/index.json` covering 339 records._
 
 - **[DoW]** `dow-109-dow-uap-pr073-iir-1-655-s0053-23-several-unidentified-aerial` — 2022 — DOW-UAP-PR073, IIR 1 655 S0053 23/Several Unidentified Aerial Phenomenon Encountered In The Vicinity of Columbus OH"
 
+## Montana, Utah  (1 records)
+
+- **[DoW]** `dow-176-dow-uap-d098-film-analysis-of-unidentified-objects-1953` — 1950, 1952 — DOW-UAP-D098, Film Analysis of Unidentified Objects, 1953
+
 ## Netherlands  (1 records)
 
 - **[DoW]** `dow-004-341-110448-records-relating-to-the-collection-and-disseminat` — 11/8/48 — 341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399
@@ -516,9 +574,9 @@ _Generated from `metadata/index.json` covering 339 records._
 
 - **[DoW]** `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20` — N/A — DOW-UAP-PR049, Unresolved UAP Report, Department of the Army, 2026
 
-## Pacific Ocean  (1 records)
+## Northeastern U.S.; Afghanistan  (1 records)
 
-- **[DoW]** `dow-043-dow-uap-d6-mission-report-arabian-gulf-2020` — N/A — DOW-UAP-D006, Mission Report, Arabian Gulf, 2020
+- **[FBI]** `fbi-096-fbi-uap-d024-fd-302-airborne-lights-and-triangle-2002-2023-2` — 2002, 2023-2024 — FBI-UAP-D024, FD-302, “Airborne Lights and Triangle,” 2002, 2023-2024
 
 ## Pacific Time Zone  (1 records)
 
@@ -539,6 +597,10 @@ _Generated from `metadata/index.json` covering 339 records._
 ## Southern United States  (1 records)
 
 - **[DoW]** `dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020` — N/A — DOW-UAP-PR045, Unresolved UAP Report, Middle East, 2020
+
+## Sweden  (1 records)
+
+- **[DoW]** `dow-177-dow-uap-d099-intelligence-review-of-ghost-rocket-incidents-1` — 1/9/47 — DOW-UAP-D099, Intelligence Review of “Ghost Rocket” Incidents, 1947
 
 ## Turkmenistan  (1 records)
 

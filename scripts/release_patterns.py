@@ -1,11 +1,13 @@
-"""release_patterns.py - cross-release pattern recognition (R1 vs R2 vs R3).
+"""release_patterns.py - cross-release pattern recognition (R1..Rn).
 
 Separates the corpus by release (page_section) and produces a reproducible,
-quantitative comparison across the three war.gov UAP document drops:
+quantitative comparison across the war.gov UAP document drops:
 
   Release 01 - 2026-05-08
   Release 02 - 2026-05-22
   Release 03 - 2026-06-12
+  Release 04 - 2026-07-10
+  Release 05 - 2026-08-07
 
 For each release it profiles:
   - asset type / agency / redaction / featured counts
@@ -54,6 +56,7 @@ RELEASES = [
     ("R2", "Release 02", "2026-05-22"),
     ("R3", "Release 03", "2026-06-12"),
     ("R4", "Release 04", "2026-07-10"),
+    ("R5", "Release 05", "2026-08-07"),
 ]
 
 # Document-class signatures: a record is tagged with a class when its title
@@ -302,43 +305,54 @@ def compute_headlines(profiles):
         "title": "Authoring agency rotates each drop",
         "body": (f"DoW share {series('by_agency','DoW')}; FBI {series('by_agency','FBI')}; "
                  f"CIA {series('by_agency','CIA')}. R1 led with DoW+FBI, R2 was a near-pure "
-                 f"DoW video dump, R3 swung to FBI+CIA (adding ICA and USG), and R4 tilts "
-                 f"back toward DoW with a fresh NASA/DoE contingent.")
+                 f"DoW video dump, R3 swung to FBI+CIA (adding ICA and USG), R4 tilted "
+                 f"back toward DoW with a fresh NASA/DoE contingent, and R5 splits almost "
+                 f"evenly between DoW and FBI - the narrowest gap between the two in any "
+                 f"drop - while adding EOP (Executive Office of the President).")
     })
     H.append({
         "title": "Geography: CENTCOM → CONUS → maritime/Pacific",
         "body": (f"CENTCOM/Middle-East share {series('by_region','CENTCOM / Middle East')}; "
                  f"CONUS {series('by_region','CONUS / United States')}; "
                  f"INDOPACOM/Pacific {series('by_region','INDOPACOM / Pacific')}. R1/R2 were "
-                 f"Gulf-war-zone heavy, R3 pivoted to the US homeland, and R4 broadens again "
-                 f"toward maritime and Pacific (East/South China Sea, Yellow Sea, Atlantic).")
+                 f"Gulf-war-zone heavy, R3 pivoted to the US homeland, R4 broadened toward "
+                 f"maritime and Pacific (East/South China Sea, Yellow Sea, Atlantic), and R5 "
+                 f"splits between the Gulf of Oman / Pacific clip runs and a CONUS FBI "
+                 f"caseload, while reopening the Latin-America lane dormant since R1 "
+                 f"(Bahia, Brazil 1963).")
     })
     H.append({
         "title": "Redaction & the Featured flag",
         "body": (f"Redacted share {redact_series()}. Featured hero records: "
                  + ", ".join(f"{r} {profiles[r]['featured']}" for r in order) + ". "
-                 f"The Featured flag (debuted in R3) continues in R4; redaction rate tracks "
+                 f"The Featured flag (debuted in R3) continues in R5; redaction rate tracks "
                  f"composition (already-declassified historical files vs contemporary casework).")
     })
     H.append({
         "title": "Asset mix swings document ↔ video each drop",
         "body": (f"PDF share {series('by_type','pdf')}; video {series('by_type','video')}. "
-                 f"R2 and R4 are the video-heavy drops (raw DVIDS clips); R1 and R3 are "
-                 f"paper-heavy. R4 adds {profiles[last]['by_type'].get('video',0)} new clips.")
+                 f"R2 and R4 are the video-heavy drops (raw DVIDS clips); R1, R3 and R5 are "
+                 f"paper-heavy. R5 adds {profiles[last]['by_type'].get('video',0)} new clips "
+                 f"alongside {profiles[last]['by_type'].get('pdf',0)} documents.")
     })
     H.append({
         "title": "Historical reach: 1950s-60s and the space program",
         "body": (f"1950s incidents {series('by_decade','1950s')}; 1960s {series('by_decade','1960s')}. "
                  f"R3 opened the CIA Cold-War lane and the Mercury/Gemini NASA expansion; R4 "
-                 f"continues the NASA thread (Apollo 14, STS-80 shuttle) and adds DoE Los Alamos "
-                 f"conference material.")
+                 f"continued the NASA thread (Apollo 14, STS-80 shuttle) and added DoE Los Alamos "
+                 f"conference material; R5 reaches back to the 1947 'Ghost Rocket' intelligence "
+                 f"review and pairs 1963 State Department cables with an Executive Office "
+                 f"inquiry into the same Brazilian incident.")
     })
     H.append({
-        "title": "Object morphology across the four drops",
+        "title": "Object morphology across the five drops",
         "body": (f"sphere/orb {series('shape','sphere/orb')}; disc {series('shape','disc')}; "
-                 f"circular {series('shape','circular')}. Descriptive morphology is richest in "
-                 f"the document-heavy drops (R1, R3) and thinnest in the video-heavy ones "
-                 f"(R2, R4), whose signal lives mostly in clip titles.")
+                 f"circular {series('shape','circular')}; triangle {series('shape','triangle')}. "
+                 f"Descriptive morphology is richest in the document-heavy drops (R1, R3) "
+                 f"and thinnest in the video-heavy ones (R2, R4), whose signal lives mostly in "
+                 f"clip titles. These tags are scanned from document bodies only, so R5 reads "
+                 f"low despite an FBI batch explicitly about triangles: its renderings are "
+                 f"image-only PDFs, and the morphology sits in the titles, not the text.")
     })
     return H
 
