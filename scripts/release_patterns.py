@@ -8,6 +8,7 @@ quantitative comparison across the war.gov UAP document drops:
   Release 03 - 2026-06-12
   Release 04 - 2026-07-10
   Release 05 - 2026-08-07
+  Release 06 - 2026-09-18
 
 For each release it profiles:
   - asset type / agency / redaction / featured counts
@@ -57,6 +58,7 @@ RELEASES = [
     ("R3", "Release 03", "2026-06-12"),
     ("R4", "Release 04", "2026-07-10"),
     ("R5", "Release 05", "2026-08-07"),
+    ("R6", "Release 06", "2026-09-18"),
 ]
 
 # Document-class signatures: a record is tagged with a class when its title
@@ -93,7 +95,7 @@ REGION_RULES = [
     ("INDOPACOM / Pacific", r"japan|korea|china sea|yellow sea|sea of japan|taiwan|philippine|guam|hawaii|indopacom|pacific"),
     ("Europe / Mediterranean", r"greece|aegean|mediterranean|germany|netherlands|turkey|italy|france|spain|black sea|eucom|europe"),
     ("Africa", r"africa|africom|somalia|sudan|libya|egypt"),
-    ("CONUS / United States", r"united states|u\.s\.|conus|new mexico|texas|colorado|california|washington|nevada|northcom|sandia|pantex|los alamos|vandenberg|northeastern|western united|southeastern|midwest"),
+    ("CONUS / United States", r"united states|u\.s\.|conus|new mexico|texas|colorado|california|washington|nevada|las vegas|utah|tremonton|massachusetts|boston|northcom|sandia|pantex|los alamos|vandenberg|northeastern|western united|southeastern|midwest"),
     ("Former USSR / Central Asia", r"ussr|soviet|russia|kazakhstan|georgia|turkmenistan|azerbaijan|tbilisi|ashgabat"),
     ("Latin America", r"mexico|papua|brazil|argentina"),
     ("Space / off-Earth", r"low earth orbit|cislunar|lunar|moon|apollo|gemini|mercury|skylab"),
@@ -226,6 +228,14 @@ THREAD_RULES = [
      r"mercury|gemini|apollo|skylab|astronaut"),
     ("1947-1950 Flying Disc era",
      r"flying disc|flying saucer|1947|1948|1949|1950"),
+    # R6 additions
+    # "utah" catches R5's 1953 Navy film analysis (location "Montana, Utah").
+    ("Tremonton, Utah 1952 film (Newhouse) / Project Blue Book",
+     r"tremonton|newhouse|blue book|ruppelt|utah"),
+    ("AAWSAP / BAASS contract and DIRDs (2008-2011)",
+     r"aawsap|dird|bigelow|advanced aerospace weapon"),
+    ("Indo-Pacific maritime clips (Yellow / East / South China Sea)",
+     r"yellow sea|east china sea|south china sea"),
 ]
 
 
@@ -306,53 +316,73 @@ def compute_headlines(profiles):
         "body": (f"DoW share {series('by_agency','DoW')}; FBI {series('by_agency','FBI')}; "
                  f"CIA {series('by_agency','CIA')}. R1 led with DoW+FBI, R2 was a near-pure "
                  f"DoW video dump, R3 swung to FBI+CIA (adding ICA and USG), R4 tilted "
-                 f"back toward DoW with a fresh NASA/DoE contingent, and R5 splits almost "
-                 f"evenly between DoW and FBI - the narrowest gap between the two in any "
-                 f"drop - while adding EOP (Executive Office of the President).")
+                 f"back toward DoW with a fresh NASA/DoE contingent, R5 split almost "
+                 f"evenly between DoW and FBI while adding EOP, and R6 is the most "
+                 f"single-author drop since R2 - DoW plus the corpus's first non-federal "
+                 f"label, LLE (Local Law Enforcement, {profiles[last]['by_agency'].get('LLE',0)} "
+                 f"records from one Colorado officer).")
     })
     H.append({
-        "title": "Geography: CENTCOM → CONUS → maritime/Pacific",
+        "title": "Geography: CENTCOM → CONUS → maritime/Pacific → a contract file",
         "body": (f"CENTCOM/Middle-East share {series('by_region','CENTCOM / Middle East')}; "
                  f"CONUS {series('by_region','CONUS / United States')}; "
                  f"INDOPACOM/Pacific {series('by_region','INDOPACOM / Pacific')}. R1/R2 were "
                  f"Gulf-war-zone heavy, R3 pivoted to the US homeland, R4 broadened toward "
-                 f"maritime and Pacific (East/South China Sea, Yellow Sea, Atlantic), and R5 "
-                 f"splits between the Gulf of Oman / Pacific clip runs and a CONUS FBI "
-                 f"caseload, while reopening the Latin-America lane dormant since R1 "
-                 f"(Bahia, Brazil 1963).")
+                 f"maritime and Pacific, R5 split between Gulf of Oman / Pacific clips and a "
+                 f"CONUS FBI caseload. R6's CONUS spike is an artefact of provenance rather "
+                 f"than sightings: 44 AAWSAP contract records carry the contractor's Las "
+                 f"Vegas address or the DIA's Washington, D.C. as their 'incident location'. "
+                 f"Its genuine sighting geography is CENTCOM (Iraq / Middle East MISREPs and "
+                 f"clips), the Yellow / East China Sea run continued from R4, Tremonton, "
+                 f"Utah 1952, and Colorado.")
     })
     H.append({
         "title": "Redaction & the Featured flag",
         "body": (f"Redacted share {redact_series()}. Featured hero records: "
                  + ", ".join(f"{r} {profiles[r]['featured']}" for r in order) + ". "
-                 f"The Featured flag (debuted in R3) continues in R5; redaction rate tracks "
-                 f"composition (already-declassified historical files vs contemporary casework).")
+                 f"The Featured flag (debuted in R3) continues in R6; redaction rate tracks "
+                 f"composition (already-declassified historical files vs contemporary "
+                 f"casework and contract paperwork) - R6's 90% is the highest since R2 "
+                 f"because the CSV flags all 44 AAWSAP records as redacted. In the 37 "
+                 f"DIRDs that redaction is pseudonymisation rather than black boxes: "
+                 f"every author is 'AAP Person NN' and the program manager 'AAP Person 1'; "
+                 f"only the contract instruments carry (b)(3)/(b)(6) exemption codes.")
     })
     H.append({
         "title": "Asset mix swings document ↔ video each drop",
         "body": (f"PDF share {series('by_type','pdf')}; video {series('by_type','video')}. "
                  f"R2 and R4 are the video-heavy drops (raw DVIDS clips); R1, R3 and R5 are "
-                 f"paper-heavy. R5 adds {profiles[last]['by_type'].get('video',0)} new clips "
-                 f"alongside {profiles[last]['by_type'].get('pdf',0)} documents.")
+                 f"paper-heavy, and R6 is the most document-heavy drop yet: "
+                 f"{profiles[last]['by_type'].get('pdf',0)} PDFs against "
+                 f"{profiles[last]['by_type'].get('video',0)} clips and one audio recording, "
+                 f"with no images at all.")
     })
     H.append({
-        "title": "Historical reach: 1950s-60s and the space program",
-        "body": (f"1950s incidents {series('by_decade','1950s')}; 1960s {series('by_decade','1960s')}. "
+        "title": "Historical reach: 1950s-60s, the space program, and now 2008-2011",
+        "body": (f"1950s incidents {series('by_decade','1950s')}; 1960s {series('by_decade','1960s')}; "
+                 f"2000s {series('by_decade','2000s')}; 2010s {series('by_decade','2010s')}. "
                  f"R3 opened the CIA Cold-War lane and the Mercury/Gemini NASA expansion; R4 "
-                 f"continued the NASA thread (Apollo 14, STS-80 shuttle) and added DoE Los Alamos "
-                 f"conference material; R5 reaches back to the 1947 'Ghost Rocket' intelligence "
-                 f"review and pairs 1963 State Department cables with an Executive Office "
-                 f"inquiry into the same Brazilian incident.")
+                 f"continued the NASA thread and added DoE Los Alamos material; R5 reached "
+                 f"back to the 1947 'Ghost Rockets' and the 1963 Bahia cables. R6 does two "
+                 f"things at once: it closes the loop on R5's 1953 Navy film analysis with "
+                 f"the Tremonton, Utah 1952 source material (Blue Book file, the Newhouse "
+                 f"film itself, the Ruppelt presentation), and it opens a decade the corpus "
+                 f"had barely touched - the 2008-2011 AAWSAP era - with the DIA contract "
+                 f"instruments and 37 Defense Intelligence Reference Documents.")
     })
     H.append({
-        "title": "Object morphology across the five drops",
+        "title": "Object morphology across the six drops",
         "body": (f"sphere/orb {series('shape','sphere/orb')}; disc {series('shape','disc')}; "
                  f"circular {series('shape','circular')}; triangle {series('shape','triangle')}. "
                  f"Descriptive morphology is richest in the document-heavy drops (R1, R3) "
                  f"and thinnest in the video-heavy ones (R2, R4), whose signal lives mostly in "
                  f"clip titles. These tags are scanned from document bodies only, so R5 reads "
-                 f"low despite an FBI batch explicitly about triangles: its renderings are "
-                 f"image-only PDFs, and the morphology sits in the titles, not the text.")
+                 f"low despite an FBI batch explicitly about triangles (image-only renderings), "
+                 f"and R6 reads high for the opposite reason: the DIRDs are physics and "
+                 f"engineering papers, so 'sphere', 'cylinder', 'rotation' and 'formation' "
+                 f"are describing apparatus and equations, not witnessed objects. Read the "
+                 f"R6 shape/behaviour rows as vocabulary of the technical literature, not "
+                 f"of sightings.")
     })
     return H
 

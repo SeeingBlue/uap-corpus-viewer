@@ -267,6 +267,12 @@ def merge_record(existing: dict | None, asset: dict) -> dict:
                  "content_type", "etag", "last_modified", "extracted_text_path",
                  "status", "notes"):
             base[k] = existing.get(k, base[k])
+        # Video/audio records carry no URL in the CSV; the direct mp4 URL is
+        # resolved through DVIDS at fetch time and lives only in the index.
+        # Keep it, otherwise every re-run blanks the URL of every clip
+        # fetched in a previous release.
+        if not base["source_url"] and existing.get("source_url"):
+            base["source_url"] = existing["source_url"]
     return base
 
 
@@ -292,13 +298,26 @@ def main() -> int:
         index["first_snapshot"] = manifest["snapshot_date"]
     by_id = index_by_id(index)
 
-    fetched = skipped = failed = 0
+    fetched = skipped = failed = repaired = 0
     for asset in manifest["assets"]:
         rec = merge_record(by_id.get(asset["id"]), asset)
         by_id[asset["id"]] = rec
 
         if already_have(rec):
             skipped += 1
+            # Backfill: clips whose resolved URL was blanked by an earlier
+            # run (see merge_record). Metadata-only - the file is fine.
+            if rec["type"] in ("video", "audio") and not rec["source_url"]:
+                resolver = resolve_dvids_video if rec["type"] == "video" else resolve_dvids_audio
+                resolved = resolver(rec["dvids_video_id"])
+                if resolved:
+                    rec["source_url"] = resolved[0]
+                    if resolved[1] and not rec.get("video_title"):
+                        rec["video_title"] = resolved[1]
+                    repaired += 1
+                    write_per_file(rec)
+                    log_line(FETCH_LOG, f"02_fetch\tURL_BACKFILL\t{rec['id']}\t{rec['source_url']}")
+                time.sleep(0.5)
             continue
 
         # Videos and audio are referenced by DVIDS asset id rather than a
@@ -358,7 +377,7 @@ def main() -> int:
     write_csv(index["files"])
 
     print(f"[fetch] fetched={fetched} skipped={skipped} failed={failed} "
-          f"total={len(index['files'])}")
+          f"url_backfilled={repaired} total={len(index['files'])}")
     return 0 if failed == 0 else 1
 
 

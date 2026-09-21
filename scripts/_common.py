@@ -105,6 +105,8 @@ AGENCY_KEYWORDS = {
     "us government": "USG",
     # Release 05:
     "executive office of the president": "EOP",
+    # Release 06:
+    "local law enforcement": "LLE",
 }
 
 

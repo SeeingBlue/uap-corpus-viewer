@@ -1,11 +1,11 @@
 # Incident Date audit (v2)
 
-Records audited: **380**
+Records audited: **452**
 
 Verdict counts:
 
-- `confirmed`: 289
-- `single-source`: 58
+- `confirmed`: 360
+- `single-source`: 59
 - `confirmed-by-sequence`: 23
 - `disagree`: 6
 - `no-evidence`: 2
@@ -77,7 +77,7 @@ Verdict counts:
 - **summary:** At 32:41, the speaker makes an off-handed comment, “Could be an alien starbase or something, I don’t know” when discussing correlations between experimental data sets.
 
 
-## Single-source (no corroboration) (58)
+## Single-source (no corroboration) (59)
 
 ### `cia-005-cia-uap-004-case-17708-closed-and-dr-leon-davidson`
 - **title:** CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson
@@ -139,7 +139,7 @@ Verdict counts:
 
 ### `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013`
 - **family:** `DOW-UAP-PR38`
-- **title:** DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013
+- **title:** DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
 - **csv:** `N/A` -> `-`
 - **title dates:** 2013
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -147,7 +147,7 @@ Verdict counts:
 
 ### `dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025`
 - **family:** `DOW-UAP-PR43`
-- **title:** DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025
+- **title:** DOW-UAP-PR043, Unresolved UAP Report, Africa, 2025
 - **csv:** `N/A` -> `-`
 - **title dates:** 2025
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -155,7 +155,7 @@ Verdict counts:
 
 ### `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024`
 - **family:** `DOW-UAP-PR46`
-- **title:** DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024
+- **title:** DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -163,7 +163,7 @@ Verdict counts:
 
 ### `dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023`
 - **family:** `DOW-UAP-PR47`
-- **title:** DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023
+- **title:** DOW-UAP-PR047, Unresolved UAP Report, INDOPACOM, 2023
 - **csv:** `N/A` -> `-`
 - **title dates:** 2023
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -171,7 +171,7 @@ Verdict counts:
 
 ### `dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024`
 - **family:** `DOW-UAP-PR48`
-- **title:** DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024
+- **title:** DOW-UAP-PR048, Unresolved UAP Report, INDOPACOM, 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -179,7 +179,7 @@ Verdict counts:
 
 ### `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20`
 - **family:** `DOW-UAP-PR49`
-- **title:** DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026
+- **title:** DOW-UAP-PR049, Unresolved UAP Report, Department of the Army, 2026
 - **csv:** `N/A` -> `-`
 - **title dates:** 2026
 - **sequence:** all candidates fall outside DOW-UAP-PR36..50 range [(2020, 5, 15)..(2022, 8, 26)]
@@ -245,6 +245,14 @@ Verdict counts:
 - **body dates (filtered):** 1948-02-20; 1947-11-24; 1948-04-11; 1948-07-24; 1947-06-24; 1947-07-14; 1948-03-08; 1948-03-05; 1948-03-09; 1948-03-29; 1946-04-09; 1948-05-28; 1948-07-01; 1948-07-29; 1948-07-30; 1948-07-26; 1948-07-20; 1913-02; 1945-04
 - **sequence:** all candidates fall outside DOW-UAP-D85..89 range [(1953, 6, 15)..(2020, 6, 15)]
 - **summary:** Includes a "Check-List - Unidentified Flying Objects" that contains details about the incident. Many summaries also include witness lists or statements and other narrative reports or descriptions.
+
+### `dow-254-dow-uap-pr140-unresolved-uap-report-middle-east-2022`
+- **family:** `DOW-UAP-PR140`
+- **title:** DOW-UAP-PR140, Unresolved UAP Report, Middle East, 2022
+- **csv:** `` -> `-`
+- **title dates:** 2022
+- **sequence:** DOW-UAP-PR neighbors disagree with sequence direction (136=(2023, 6, 15), 141=(2022, 6, 15))
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 47 seconds of video footage …
 
 ### `fbi-021-fbi-photo-a1`
 - **title:** FBI Photo A1
@@ -502,7 +510,7 @@ Verdict counts:
 
 ### `dow-069-dow-uap-pr37-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR37`
-- **title:** DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR037, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -511,7 +519,7 @@ Verdict counts:
 
 ### `dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR39`
-- **title:** DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR039, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -520,7 +528,7 @@ Verdict counts:
 
 ### `dow-072-dow-uap-pr40-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR40`
-- **title:** DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR040, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -529,7 +537,7 @@ Verdict counts:
 
 ### `dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR41`
-- **title:** DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR041, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -538,7 +546,7 @@ Verdict counts:
 
 ### `dow-074-dow-uap-pr42-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR42`
-- **title:** DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR042, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -547,7 +555,7 @@ Verdict counts:
 
 ### `dow-076-dow-uap-pr44-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR44`
-- **title:** DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR044, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -556,7 +564,7 @@ Verdict counts:
 
 ### `dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR45`
-- **title:** DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR045, Unresolved UAP Report, Middle East, 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020
 - **confirmed date:** `2020` (via sequence, title)
@@ -651,7 +659,7 @@ Verdict counts:
 - **summary:** The FBI's 62-HQ-83894 case file includes investigative records, eyewitness testimonies, and public reports concerning Unidentified Flying Objects and flying discs documented between June 1947 and Jul…
 
 
-## Confirmed (>=2 sources agree) (289)
+## Confirmed (>=2 sources agree) (360)
 
 ### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
 - **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -1178,7 +1186,7 @@ Verdict counts:
 
 ### `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022`
 - **family:** `DOW-UAP-PR19`
-- **title:** DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022
+- **title:** DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
 - **csv:** `N/A` -> `-`
 - **title dates:** 2022-05
 - **body dates (filtered):** 2022-05
@@ -1187,7 +1195,7 @@ Verdict counts:
 
 ### `dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022`
 - **family:** `DOW-UAP-PR21`
-- **title:** DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022
+- **title:** DOW-UAP-PR021, Unresolved UAP Report, Iraq, May 2022
 - **csv:** `N/A` -> `-`
 - **title dates:** 2022-05
 - **body dates (filtered):** 2022-05
@@ -1196,7 +1204,7 @@ Verdict counts:
 
 ### `dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022`
 - **family:** `DOW-UAP-PR22`
-- **title:** DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022
+- **title:** DOW-UAP-PR022, Unresolved UAP Report, Syria, July 2022
 - **csv:** `N/A` -> `-`
 - **title dates:** 2022-07
 - **body dates (filtered):** 2022-07
@@ -1205,7 +1213,7 @@ Verdict counts:
 
 ### `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022`
 - **family:** `DOW-UAP-PR23`
-- **title:** DOW-UAP-PR23, Unresolved UAP Report, Iraq, December 2022
+- **title:** DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
 - **csv:** `N/A` -> `-`
 - **title dates:** 2022-12
 - **body dates (filtered):** 2022-12
@@ -1214,7 +1222,7 @@ Verdict counts:
 
 ### `dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo`
 - **family:** `DOW-UAP-PR26`
-- **title:** DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023
+- **title:** DOW-UAP-PR026, Unresolved UAP Report, United Arab Emirates, October 2023
 - **csv:** `N/A` -> `-`
 - **title dates:** 2023-10
 - **body dates (filtered):** 2023-10
@@ -1223,7 +1231,7 @@ Verdict counts:
 
 ### `dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo`
 - **family:** `DOW-UAP-PR27`
-- **title:** DOW-UAP-PR27, Unresolved UAP Report, United Arab Emirates, October 2023
+- **title:** DOW-UAP-PR027, Unresolved UAP Report, United Arab Emirates, October 2023
 - **csv:** `N/A` -> `-`
 - **title dates:** 2023-10
 - **body dates (filtered):** 2023-10
@@ -1232,7 +1240,7 @@ Verdict counts:
 
 ### `dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024`
 - **family:** `DOW-UAP-PR28`
-- **title:** DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024
+- **title:** DOW-UAP-PR028, Unresolved UAP Report, Greece, January 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024-01
 - **body dates (filtered):** 2024-01
@@ -1241,7 +1249,7 @@ Verdict counts:
 
 ### `dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june`
 - **family:** `DOW-UAP-PR29`
-- **title:** DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024
+- **title:** DOW-UAP-PR029, Unresolved UAP Report, United Arab Emirates, June 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024-06
 - **body dates (filtered):** 2024-06
@@ -1250,7 +1258,7 @@ Verdict counts:
 
 ### `dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR31`
-- **title:** DOW-UAP-PR31, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR031, Unresolved UAP Report, Syria, October 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024-10
 - **body dates (filtered):** 2024-10
@@ -1259,7 +1267,7 @@ Verdict counts:
 
 ### `dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR32`
-- **title:** DOW-UAP-PR32, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR032, Unresolved UAP Report, Syria, October 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024-10
 - **body dates (filtered):** 2024-10
@@ -1268,7 +1276,7 @@ Verdict counts:
 
 ### `dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR33`
-- **title:** DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR033, Unresolved UAP Report, Syria, October 2024
 - **csv:** `N/A` -> `-`
 - **title dates:** 2024-10
 - **body dates (filtered):** 2024-10
@@ -1277,7 +1285,7 @@ Verdict counts:
 
 ### `dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023`
 - **family:** `DOW-UAP-PR34`
-- **title:** DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023
+- **title:** DOW-UAP-PR034, Unresolved UAP Report, Greece, October 2023
 - **csv:** `N/A` -> `-`
 - **title dates:** 2023-10
 - **body dates (filtered):** 2023-10
@@ -1286,7 +1294,7 @@ Verdict counts:
 
 ### `dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023`
 - **family:** `DOW-UAP-PR35`
-- **title:** DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023
+- **title:** DOW-UAP-PR035, Unresolved UAP Report, Greece, October 2023
 - **csv:** `N/A` -> `-`
 - **title dates:** 2023-10
 - **body dates (filtered):** 2023-10
@@ -1295,7 +1303,7 @@ Verdict counts:
 
 ### `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020`
 - **family:** `DOW-UAP-PR36`
-- **title:** DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020
+- **title:** DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
 - **csv:** `N/A` -> `-`
 - **title dates:** 2020-05
 - **body dates (filtered):** 2020-05
@@ -1332,7 +1340,7 @@ Verdict counts:
 
 ### `dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct`
 - **family:** `DOW-UAP-PR53`
-- **title:** DOW-UAP-PR053, "Cigar Shaped or Fast Sherical UAP clip 15 OCT 22"
+- **title:** DOW-UAP-PR053, "Cigar Shaped or Fast Spherical UAP clip 15 OCT 22"
 - **csv:** `2022` -> `2022`
 - **summary dates:** 2026-03-06; 2022-10; 2024-06
 - **confirmed date:** `2022` (via csv, summary)
@@ -1470,7 +1478,7 @@ Verdict counts:
 - **family:** `DOW-UAP-PR72`
 - **title:** DOW-UAP-PR072, "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan - UAP in the vicinity of Karaganda International Airport"
 - **csv:** `2022` -> `2022`
-- **summary dates:** 2026-03-06; 2022-03; 2023-04
+- **summary dates:** 2026-03-06; 2022-02; 2023-04
 - **confirmed date:** `2022` (via csv, summary)
 - **summary:** On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The…
 
@@ -2196,6 +2204,599 @@ Verdict counts:
 - **confirmed date:** `2023` (via csv, title)
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 51 seconds of video footage from an infra…
 
+### `dow-195-dow-uap-d102-project-blue-book-file-on-tremonton-film-utah-1`
+- **family:** `DOW-UAP-D102`
+- **title:** DOW-UAP-D102, Project Blue Book File on Tremonton Film, Utah, 1952
+- **csv:** `7/2/52` -> `1952-07-02`
+- **title dates:** 1952
+- **summary dates:** 1952-07-02
+- **body dates (filtered):** 1953-05-04; 1956-05-09; 1956-05-16; 1952-12-05; 1952-07-02; 1952-10-05; 1945-06-15; 1952-12-31; 1953-02-26; 1954-01-27; 1954-01-07; 1954-02-03; 1953-12-29; 1952-10-27; 1952-11-24; 1953-02-16; 1952-08-11; 1952-04-29; 1952-08-28; 1952-10-24; 1946-04
+- **confirmed date:** `1952-07-02` (via body, csv, summary)
+- **summary:** This document records the Project Blue Book investigation and subsequent assessments of an incident near Tremonton, Utah, on July 2, 1952. Project Blue Book was a 1952-1969 U.S. Air Force program to …
+
+### `dow-196-dow-uap-d110-aawsap-statement-of-objectives-july-2008`
+- **family:** `DOW-UAP-D110`
+- **title:** DOW-UAP-D110, AAWSAP Statement of Objectives, July 2008
+- **csv:** `7/18/08` -> `2008-07-18`
+- **title dates:** 2008-07
+- **summary dates:** 2008-07
+- **body dates (filtered):** 2008-07-18
+- **confirmed date:** `2008-07-18` (via body, csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-197-dow-uap-d111-aawsap-solicitation-and-original-order-septembe`
+- **family:** `DOW-UAP-D111`
+- **title:** DOW-UAP-D111, AAWSAP Solicitation and Original Order, September 2008
+- **csv:** `9/22/08` -> `2008-09-22`
+- **title dates:** 2008-09
+- **summary dates:** 2008-09
+- **body dates (filtered):** 2008-09-03; 2008-09-22; 2009-09-21; 2009-09-22; 2010-12-21; 2008-09-01; 2008-09-10; 1975-05-07; 1964-08-05; 2009-09-29; 2008-03; 2007-02; 1984-04; 2003-10; 2002-07; 2007-12; 1991-12; 1991-11; 2004-12; 2008-08; 2007-04; 2003-04; 2006-09; 2005-06; 1997-01; 2007-09; 2004-01; 1995-10; 2004-05; 2008-04; 1997-02; 1996-12; 2003-06; 2001-05; 2002-05; 1996-06; 1986-01; 2001-03; 2006-02; 2006-03; 2007-03; 2006-10; 2004-09; 1995-11; 1999-09; 1998-03; 2000-03; 2008-06; 1996-08; 2004-10; 2005-07; 2004-03; 2001-10; 1999-01; 2005-09; 2000-10; 2007-06; 2008-02; 1999-02; 2002-04; 1998-06; 2007-08; 2008-05; 2007-11; 2002-02; 1999-05; 1989-05; 2006-05; 1995-07
+- **confirmed date:** `2008-09-22` (via body, csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-198-dow-uap-d117-aawsap-dird-metallic-glasses-for-aerospace-appl`
+- **family:** `DOW-UAP-D117`
+- **title:** DOW-UAP-D117, AAWSAP DIRD, Metallic Glasses for Aerospace Applications, December 2009
+- **csv:** `12/14/09` -> `2009-12-14`
+- **title dates:** 2009-12
+- **body dates (filtered):** 2009-12-14; 2009-12-01
+- **confirmed date:** `2009-12-14` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-199-dow-uap-d129-aawsap-dird-metallic-spintronics-march-2010`
+- **family:** `DOW-UAP-D129`
+- **title:** DOW-UAP-D129, AAWSAP DIRD, Metallic Spintronics, March 2010
+- **csv:** `3/23/10` -> `2010-03-23`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-23; 2009-12-01
+- **confirmed date:** `2010-03-23` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-200-dow-uap-d154-transcript-of-a-presentation-by-captain-edward`
+- **family:** `DOW-UAP-D154`
+- **title:** DOW-UAP-D154, Transcript of a Presentation by Captain Edward J. Ruppelt, 1952
+- **csv:** `3/26/52` -> `1952-03-26`
+- **title dates:** 1952
+- **summary dates:** 1952-03
+- **body dates (filtered):** 1952-03
+- **confirmed date:** `1952-03` (via body, csv, summary)
+- **summary:** This document is a transcript of a March 1952 presentation by Captain Edward J. Ruppelt outlining the U.S. Air Force’s reorganized investigation into unidentified flying objects (UFOs). The presentat…
+
+### `dow-201-dow-uap-pr159-historical-film-of-reported-ufos-utah-1952`
+- **family:** `DOW-UAP-PR159`
+- **title:** DOW-UAP-PR159, Historical Film of Reported UFOs, Utah, 1952
+- **csv:** `7/2/52` -> `1952-07-02`
+- **title dates:** 1952
+- **summary dates:** 1952-07-02
+- **confirmed date:** `1952-07-02` (via csv, summary)
+- **summary:** This archival footage is a digitization of a 16mm print of Kodachrome color motion-picture film shot on a handheld Bell & Howell Auto Master camera near Tremonton, Utah, on July 2, 1952. U.S. Navy Ch…
+
+### `dow-202-dow-uap-pr160-presentation-by-captain-edward-j-ruppelt-1952`
+- **family:** `DOW-UAP-PR160`
+- **title:** DOW-UAP-PR160, Presentation by Captain Edward J. Ruppelt, 1952
+- **csv:** `3/26/52` -> `1952-03-26`
+- **title dates:** 1952
+- **summary dates:** 1952-03
+- **confirmed date:** `1952-03` (via csv, summary)
+- **summary:** This audio file records a March 1952 presentation by Captain Edward J. Ruppelt, outlining the U.S. Air Force’s reorganized investigation into unidentified flying objects (UFOs). The presentation prev…
+
+### `dow-203-dow-uap-d103-project-blue-book-photo-file-relating-to-tremon`
+- **family:** `DOW-UAP-D103`
+- **title:** DOW-UAP-D103, Project Blue Book Photo File Relating to Tremonton Film, Utah, 1952
+- **csv:** `7/2/52` -> `1952-07-02`
+- **title dates:** 1952
+- **summary dates:** 1952-07; 1952-12
+- **body dates (filtered):** 1952-07-07; 1952-07-02
+- **confirmed date:** `1952-07-02` (via body, csv)
+- **summary:** During its investigation of a July 1952 film of an incident reported near Tremonton, Utah, Project Blue Book examined whether the objects recorded on film might have been “pillow balloons.” Project B…
+
+### `dow-204-dow-uap-d104-final-personnel-record-for-newhouse-delbert-c-u`
+- **family:** `DOW-UAP-D104`
+- **title:** DOW-UAP-D104, Final Personnel Record for Newhouse, Delbert C., U.S. Navy, 1957
+- **csv:** `5/2/57` -> `1957-05-02`
+- **title dates:** 1957
+- **summary dates:** 1952-07
+- **body dates (filtered):** 1933-01-24; 1937-01-24; 1939-01-23; 2013-05-06; 1938-06-27; 1940-03-14; 1938-06-28; 1952-02-06; 1953-09-18; 1948-12-10; 1946-07-01; 1943-08-24; 1948-07-16; 1948-07-01; 1946-09-03; 1946-09-09; 1946-08-03; 1946-08-08; 1944-09-13; 2013-06-05; 1942-10-23; 1936-08-07; 1939-01-24; 1942-06-24; 1942-06-25; 1943-06-14; 1943-06-15; 1944-09-01; 1946-03-31; 1946-04-01; 1948-12-31; 1948-09-01; 1956-03-22; 1956-04-26; 1956-02-14; 1956-03-06; 1956-04-16; 1956-04-25; 1956-08-16; 1949-09-30; 1949-10-14; 1949-12-23; 1948-07-25; 1948-12-30; 1949-01-05; 1957-06-30; 1957-06-22; 1956-12-31; 1957-06-21; 1956-06-30; 1951-07-01; 1951-11-02; 1951-05-07; 1948-07-02; 1945-02-28; 1913-06-05; 1943-03-20; 1953-09-13; 1950-12-08; 1942-10-15; 1947-07-01; 1948-08-17; 1947-10-24; 1946-09-08; 1928-05-22; 1941-03-17; 1922-06-10; 1920-06-04; 1943-04-17; 1943-05-16; 1943-04-15; 1943-03-25; 1950-04-26; 1942-06-30; 1956-04-04; 1943-11-12; 1943-10-20; 1942-09-01; 1942-06-15; 1959-03-31; 1958-11-13; 1953-08-14; 1957-05-02; 1956-12-12; 1955-03-30; 1944-12-23; 1949-09-27; 1949-09-29; 1949-10-20; 1930-05-12; 1946-12-11; 1956-03-21; 1956-01-23; 1956-02-10; 1956-02-05; 1956-01-18; 1955-10-03; 1955-05-31; 1954-03-05; 1953-08-18; 1953-06-12; 1953-03-02; 1952-08-19; 1952-07-09; 1952-02-01; 1951-12-04; 1951-11-09; 1951-12-01; 1952-02-05; 1951-11-22; 1951-12-27; 1952-02-02; 1961-11-29; 1951-11-29; 1951-11-15; 1951-11-07; 1951-11-01; 1951-10-09; 1951-10-22; 1951-04-27; 1951-05-10; 1951-04-05; 1950-11-06; 1950-11-26; 1950-10-09; 1950-10-04; 1950-09-11; 1950-01-16; 1949-12-01; 1949-10-06; 1949-09-12; 1949-09-13; 1949-09-10; 1949-09-15; 1949-06-30; 1949-07-05; 1949-09-07; 1949-08-30; 1949-09-06; 1949-08-03; 1949-06-13; 1949-06-16; 1949-05-16; 1949-04-28; 1949-04-21; 1949-03-31; 1949-04-19; 1949-04-15; 1949-03-14; 1949-03-08; 1949-03-07; 1949-01-11; 1939-07-01; 1946-08-31; 1939-09-08; 1939-09-07; 1944-09-05; 1948-12-13; 1948-10-13; 1948-08-26; 1948-08-18; 1948-07-05; 1948-07-15; 1948-07-17; 1948-08-11; 1948-08-19; 1948-01-07; 1947-10-23; 1947-10-14; 1946-11-19; 1946-09-25; 1948-06-30; 1947-04-04; 1946-11-25; 1947-02-26; 1946-08-19; 1946-09-18; 1946-08-07; 1946-09-20; 1946-09-23; 1945-11-21; 1945-12-01; 1945-02-22; 1944-08-21; 1944-07-16; 1944-07-09; 1960-04-01; 1960-03-25; 1960-03-31; 1960-03-14; 1960-03-08; 1960-02-29; 1960-03-01; 1960-02-12; 1960-02-11; 1960-01-05; 1960-01-08; 1955-12-01; 1955-06-28; 1955-06-15; 1955-07-03; 1955-06-08; 1951-06-13; 1945-10-01; 1960-01-18; 1913-05-06; 1952-09-08; 1959-03-25; 1958-01-10; 1955-05-05; 1946-04-10; 1954-04-08; 1954-03-17; 1933-01-23; 1949-12-31; 1948-08-04; 1949-12-12; 1949-11-23; 1948-08-27; 1949-08-10; 1948-08-25; 1948-05-04; 1949-10-12; 1949-10-25; 1948-02-29; 1947-03-13; 1947-05-23; 1947-10-22; 1949-01-01; 1948-11-29; 1948-09-02; 1942-06-16; 1948-01-17; 1948-01-16; 1947-10-31; 1947-10-17; 1946-04-05; 1945-08-27; 1945-12-26; 1945-11-02; 1945-09-19; 1945-08-22; 1945-09-10; 1948-12-03; 1945-03-08; 1943-09-30; 1943-10-23; 1943-11-02; 1946-04-03; 1943-07-06; 1954-04-30; 1959-04-07; 1959-03-17; 1959-04-02; 1957-11-25; 1957-11-12; 1957-11-14; 1959-08-18; 1957-11-13; 1958-01-06; 1957-12-30; 1957-11-04; 1957-10-29; 1956-08-17; 1960-09-02; 1960-09-11; 1959-03-10; 1958-11-17; 1958-06-02; 1956-12-10; 1956-12-03; 1956-10-29; 1959-07-25; 1959-08-03; 1960-03-22; 1954-07-02; 1956-01-03; 1952-08-01; 1951-01-02; 1951-07-02; 1947-03-03; 1944-09-07; 1954-04-19; 1943-03-07; 1949-01-14; 1954-06; 1947-08; 1942-08; 1939-06; 1935-06; 1933-06; 1934-11; 1931-09; 1940-11; 1936-04; 1935-12; 1946-06; 1943-02; 1931-06; 1953-05; 1964-11; 1958-08; 1958-07
+- **confirmed date:** `1957-05-02` (via body, csv)
+- **summary:** This file contains the final personnel record of U.S. Navy Chief Warrant Officer Delbert C. Newhouse, who left naval service as a Chief Warrant Officer 4, then the highest Warrant Officer grade. In J…
+
+### `dow-205-dow-uap-d105-u-s-air-force-flying-discs-file-1952`
+- **family:** `DOW-UAP-D105`
+- **title:** DOW-UAP-D105, U.S. Air Force Flying Discs File, 1952
+- **csv:** `September - December 1952` -> `1952-12`
+- **title dates:** 1952
+- **summary dates:** 1952-12; 1952-07
+- **body dates (filtered):** 1952-11-14; 1952-10-29; 1952-10-17; 1952-10-02; 1962-09-03; 1952-08-17; 1952-09-15; 1952-07-29; 1952-07-31; 1952-12-19; 1952-07-16; 1952-12-15; 1952-12-16; 1952-04-29; 1952-12-02; 1952-11-13; 1952-11-28; 1952-11-25; 1950-10-06; 1950-08-15; 1950-10-05; 1950-10-04; 1950-08-05; 1950-08-16; 1952-11-21; 1952-07-02; 1952-11-04; 1952-10-21; 1953-10-30; 1952-11-12; 1952-11-06; 1952-11-05; 1952-07-30; 1952-10-26; 1952-10-06; 1952-10-10; 1952-10-03; 1952-10-07; 1952-10-09; 1952-09-23; 1952-09-19; 1952-08-28; 1952-09-04; 1952-08-07; 1952-09-06; 1952-09-17; 1952-09-24; 1952-09-22; 1952-09-18; 1952-09-16; 1952-08-02; 1952-09-01; 1952-08-14; 1952-08-05; 1952-08-01; 1952-08-20; 1952-09-13; 1952-08-11; 1954-10-04; 1952-10-04; 1952-09-03; 1952-09-11; 1952-09-09; 1952-09-08; 1952-09-02; 1950-09-18; 1943-06; 1945-10
+- **confirmed date:** `1952-12` (via body, csv, summary)
+- **summary:** This file is an archival collection of U.S. Air Force Director of Intelligence records relating to reported “flying disc” incidents during the period from September through December 1952. Drawn from …
+
+### `dow-206-dow-uap-d106-mission-report-iraq-2022`
+- **family:** `DOW-UAP-D106`
+- **title:** DOW-UAP-D106, Mission Report, Iraq, 2022
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **confirmed date:** `2022` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-207-dow-uap-d107-mission-report-middle-east-2025`
+- **family:** `DOW-UAP-D107`
+- **title:** DOW-UAP-D107, Mission Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-208-dow-uap-d108-mission-report-middle-east-2025`
+- **family:** `DOW-UAP-D108`
+- **title:** DOW-UAP-D108, Mission Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-209-dow-uap-d109-mission-report-middle-east-2022`
+- **family:** `DOW-UAP-D109`
+- **title:** DOW-UAP-D109, Mission Report, Middle East, 2022
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **confirmed date:** `2022` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-210-dow-uap-d112-aawsap-contract-modification-p00001-september-2`
+- **family:** `DOW-UAP-D112`
+- **title:** DOW-UAP-D112, AAWSAP Contract Modification P00001, September 2009
+- **csv:** `9/2/09` -> `2009-09-02`
+- **title dates:** 2009-09
+- **summary dates:** 2009-09-30; 2009-10-01; 2010-09-30
+- **body dates (filtered):** 2010-09-21; 2009-09-22; 2010-09-29; 2009-09-30; 2010-09-30; 2000-03; 2009-10; 1984-04
+- **confirmed date:** `2009-09-30` (via body, summary)
+- **note:** csv `2009-09-02` disagrees
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-211-dow-uap-d113-aawsap-contract-modification-p00002-february-20`
+- **family:** `DOW-UAP-D113`
+- **title:** DOW-UAP-D113, AAWSAP Contract Modification P00002, February 2010
+- **csv:** `2/2/10` -> `2010-02-02`
+- **title dates:** 2010-02
+- **summary dates:** 2010-02
+- **body dates (filtered):** 2009-09-22; 2010-09-21; 2010-02-02; 2008-09-22; 2009-03
+- **confirmed date:** `2010-02-02` (via body, csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-212-dow-uap-d114-aawsap-contract-modification-p00003-may-2010`
+- **family:** `DOW-UAP-D114`
+- **title:** DOW-UAP-D114, AAWSAP Contract Modification P00003, May 2010
+- **csv:** `5/18/10` -> `2010-05-18`
+- **title dates:** 2010-05
+- **summary dates:** 2010-05
+- **body dates (filtered):** 2010-05-18; 2008-09-22
+- **confirmed date:** `2010-05-18` (via body, csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-213-dow-uap-d115-aawsap-contract-modification-p00004-may-2010`
+- **family:** `DOW-UAP-D115`
+- **title:** DOW-UAP-D115, AAWSAP Contract Modification P00004, May 2010
+- **csv:** `5/18/10` -> `2010-05-18`
+- **title dates:** 2010-05
+- **summary dates:** 2010-05
+- **body dates (filtered):** 2010-05-18
+- **confirmed date:** `2010-05-18` (via body, csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-214-dow-uap-d116-aawsap-contract-modification-p00005-september-2`
+- **family:** `DOW-UAP-D116`
+- **title:** DOW-UAP-D116, AAWSAP Contract Modification P00005, September 2010
+- **csv:** `9/28/10` -> `2010-09-28`
+- **title dates:** 2010-09
+- **summary dates:** 2010-09-22; 2010-12-21
+- **body dates (filtered):** 2010-09-22; 2010-12-21; 2009-09-22; 2010-09-21
+- **confirmed date:** `2010-09-22` (via body, summary)
+- **note:** csv `2010-09-28` disagrees
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-215-dow-uap-d118-aawsap-dird-aerospace-applications-of-programma`
+- **family:** `DOW-UAP-D118`
+- **title:** DOW-UAP-D118, AAWSAP DIRD, Aerospace Applications of Programmable Matter, December 2009
+- **csv:** `12/14/09` -> `2009-12-14`
+- **title dates:** 2009-12
+- **body dates (filtered):** 2009-12-14; 2009-12-01; 2001-04-21; 2003-03; 2003-01; 2008-08
+- **confirmed date:** `2009-12-14` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-216-dow-uap-d119-aawsap-dird-biomaterials-january-2010`
+- **family:** `DOW-UAP-D119`
+- **title:** DOW-UAP-D119, AAWSAP DIRD, Biomaterials, January 2010
+- **csv:** `1/7/10` -> `2010-01-07`
+- **title dates:** 2010-01
+- **body dates (filtered):** 2010-01-07; 2009-12-01
+- **confirmed date:** `2010-01-07` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-217-dow-uap-d120-aawsap-dird-materials-for-advanced-aerospace-pl`
+- **family:** `DOW-UAP-D120`
+- **title:** DOW-UAP-D120, AAWSAP DIRD, Materials for Advanced Aerospace Platforms, January 2010
+- **csv:** `1/12/10` -> `2010-01-12`
+- **title dates:** 2010-01
+- **body dates (filtered):** 2010-01-12; 2009-12-01
+- **confirmed date:** `2010-01-12` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-218-dow-uap-d121-aawsap-dird-pulsed-high-power-microwave-source`
+- **family:** `DOW-UAP-D121`
+- **title:** DOW-UAP-D121, AAWSAP DIRD, Pulsed High-Power Microwave Source Technology, January 2010
+- **csv:** `1/28/10` -> `2010-01-28`
+- **title dates:** 2010-01
+- **body dates (filtered):** 2010-01-28; 2009-12-01; 2001-05-28
+- **confirmed date:** `2010-01-28` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-219-dow-uap-d122-aawsap-dird-invisibility-cloaking-theory-and-ex`
+- **family:** `DOW-UAP-D122`
+- **title:** DOW-UAP-D122, AAWSAP DIRD, Invisibility Cloaking Theory and Experiments, March 2010
+- **csv:** `3/2/10` -> `2010-03-02`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-02; 2009-12-01; 2006-05-25; 2006-10
+- **confirmed date:** `2010-03-02` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-220-dow-uap-d123-aawsap-dird-positron-aerospace-propulsion-march`
+- **family:** `DOW-UAP-D123`
+- **title:** DOW-UAP-D123, AAWSAP DIRD, Positron Aerospace Propulsion, March 2010
+- **csv:** `3/2/10` -> `2010-03-02`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2005-09-01; 2006-03-31; 2009-12-01
+- **confirmed date:** `2010-03` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-221-dow-uap-d124-aawsap-dird-space-access-where-we-ve-been-and-w`
+- **family:** `DOW-UAP-D124`
+- **title:** DOW-UAP-D124, AAWSAP DIRD, Space Access: Where We’ve Been and Where We Could Go, March 2010
+- **csv:** `3/8/10` -> `2010-03-08`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-08; 2009-12-01; 1991-06-21; 1999-11-30; 1958-10; 1984-07; 1971-01; 1965-08; 1964-08; 1999-09; 1975-08; 1992-01; 1992-12; 1991-04; 1991-10; 1993-04; 1991-12; 1993-11; 1988-10; 1998-03; 1970-10; 1997-03
+- **confirmed date:** `2010-03-08` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-222-dow-uap-d125-aawsap-dird-inertial-electrostatic-confinement`
+- **family:** `DOW-UAP-D125`
+- **title:** DOW-UAP-D125, AAWSAP DIRD, Inertial Electrostatic Confinement Fusion, March 2010
+- **csv:** `3/10/10` -> `2010-03-10`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-10
+- **confirmed date:** `2010-03-10` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-223-dow-uap-d126-aawsap-dird-advanced-nuclear-propulsion-for-man`
+- **family:** `DOW-UAP-D126`
+- **title:** DOW-UAP-D126, AAWSAP DIRD, Advanced Nuclear Propulsion for Manned Deep Space Missions, March 2010
+- **csv:** `3/11/10` -> `2010-03-11`
+- **title dates:** 2010-03
+- **body dates (filtered):** 1970-01-27; 2007-07-11; 1979-07-10; 2010-03-11; 2009-12-01; 1970-11
+- **confirmed date:** `2010-03-11` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-224-dow-uap-d127-aawsap-dird-an-introduction-to-the-statistical`
+- **family:** `DOW-UAP-D127`
+- **title:** DOW-UAP-D127, AAWSAP DIRD, An Introduction to the Statistical Drake Equation, March 2010
+- **csv:** `3/11/10` -> `2010-03-11`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2009-12-01; 2007-09; 2008-08
+- **confirmed date:** `2010-03` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-225-dow-uap-d128-aawsap-dird-anomalous-acute-and-subacute-field`
+- **family:** `DOW-UAP-D128`
+- **title:** DOW-UAP-D128, AAWSAP DIRD, Anomalous Acute and Subacute Field Effects on Human Biological Tissues, March 2010
+- **csv:** `3/11/10` -> `2010-03-11`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-11; 2009-12-01; 1981-11; 2007-06
+- **confirmed date:** `2010-03-11` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-226-dow-uap-d130-aawsap-dird-technological-approaches-to-control`
+- **family:** `DOW-UAP-D130`
+- **title:** DOW-UAP-D130, AAWSAP DIRD, Technological Approaches to Controlling External Devices, March 2010
+- **csv:** `3/23/10` -> `2010-03-23`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2009-05-12; 2010-03-23; 2009-12-01
+- **confirmed date:** `2010-03-23` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-227-dow-uap-d131-aawsap-dird-the-role-of-superconductors-in-grav`
+- **family:** `DOW-UAP-D131`
+- **title:** DOW-UAP-D131, AAWSAP DIRD, The Role of Superconductors in Gravity Research, March 2010
+- **csv:** `3/23/10` -> `2010-03-23`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2009-01-20; 2009-01-25; 2010-12-01; 2001-04-21; 1997-09-16; 1999-04; 2003-05; 2008-08; 2001-07; 1998-07; 1999-09
+- **confirmed date:** `2010-03` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-228-dow-uap-d132-aawsap-dird-advanced-space-propulsion-based-on`
+- **family:** `DOW-UAP-D132`
+- **title:** DOW-UAP-D132, AAWSAP DIRD, Advanced Space Propulsion Based on Vacuum (Spacetime Metric) Engineering, March 2010
+- **csv:** `3/29/10` -> `2010-03-29`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-29; 2009-12-01; 2001-05-18
+- **confirmed date:** `2010-03-29` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-229-dow-uap-d133-aawsap-dird-the-space-communication-implication`
+- **family:** `DOW-UAP-D133`
+- **title:** DOW-UAP-D133, AAWSAP DIRD, The Space Communication Implications of Quantum Entanglement and Nonlocality, March 2010
+- **csv:** `3/30/10` -> `2010-03-30`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-30; 2009-12-01
+- **confirmed date:** `2010-03-30` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-230-dow-uap-d134-aawsap-dird-maverick-inventor-versus-corporate`
+- **family:** `DOW-UAP-D134`
+- **title:** DOW-UAP-D134, AAWSAP DIRD, Maverick Inventor Versus Corporate Inventor: Where Will the Next Major Innovations Arise, March 2010
+- **csv:** `3/30/10` -> `2010-03-30`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2009-01-12; 2009-01-13; 2009-01-14; 1980-02-14; 2009-01-15; 2009-01-11; 2009-12-01; 1997-08
+- **confirmed date:** `2010-03` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-231-dow-uap-d135-aawsap-dird-antigravity-for-aerospace-applicati`
+- **family:** `DOW-UAP-D135`
+- **title:** DOW-UAP-D135, AAWSAP DIRD, Antigravity for Aerospace Applications, March 2010
+- **csv:** `3/30/10` -> `2010-03-30`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-30; 2009-12-01; 2004-04-11
+- **confirmed date:** `2010-03-30` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-232-dow-uap-d136-aawsap-dird-biosensors-and-biomems-a-survey-of`
+- **family:** `DOW-UAP-D136`
+- **title:** DOW-UAP-D136, AAWSAP DIRD, Biosensors and BioMEMS: A Survey of the Present Field, March 2010
+- **csv:** `3/31/10` -> `2010-03-31`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2010-03-31; 2009-12-01
+- **confirmed date:** `2010-03-31` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-233-dow-uap-d137-aawsap-dird-state-of-the-art-and-evolution-of-h`
+- **family:** `DOW-UAP-D137`
+- **title:** DOW-UAP-D137, AAWSAP DIRD, State of the Art and Evolution of High-Energy Lasers, March 2010
+- **csv:** `3/31/10` -> `2010-03-31`
+- **title dates:** 2010-03
+- **body dates (filtered):** 2009-12-01; 1978-03
+- **confirmed date:** `2010-03` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-234-dow-uap-d138-aawsap-dird-warp-drive-dark-energy-and-the-mani`
+- **family:** `DOW-UAP-D138`
+- **title:** DOW-UAP-D138, AAWSAP DIRD, Warp Drive, Dark Energy, and the Manipulation of Extra Dimensions, April 2010
+- **csv:** `4/2/10` -> `2010-04-02`
+- **title dates:** 2010-04
+- **body dates (filtered):** 2010-04-02; 2009-12-01; 2008-06-27; 2009-03
+- **confirmed date:** `2010-04-02` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-235-dow-uap-d139-aawsap-dird-traversable-wormholes-stargates-and`
+- **family:** `DOW-UAP-D139`
+- **title:** DOW-UAP-D139, AAWSAP DIRD, Traversable Wormholes, Stargates, and Negative Energy, April 2010
+- **csv:** `4/6/10` -> `2010-04-06`
+- **title dates:** 2010-04
+- **body dates (filtered):** 2010-04-06; 2009-12-01; 2004-04-11; 2005-05-25; 1996-12; 2000-03
+- **confirmed date:** `2010-04-06` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-236-dow-uap-d140-aawsap-dird-high-frequency-gravitational-wave-c`
+- **family:** `DOW-UAP-D140`
+- **title:** DOW-UAP-D140, AAWSAP DIRD, High-Frequency Gravitational Wave Communications, April 2010
+- **csv:** `4/6/10` -> `2010-04-06`
+- **title dates:** 2010-04
+- **body dates (filtered):** 2008-11-06; 2010-04-06; 2009-12-01; 2009-02-09; 2006-09-12; 2006-09-03; 2009-09; 2009-10
+- **confirmed date:** `2010-04-06` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-237-dow-uap-d141-aawsap-dird-metamaterials-for-aerospace-applica`
+- **family:** `DOW-UAP-D141`
+- **title:** DOW-UAP-D141, AAWSAP DIRD, Metamaterials for Aerospace Applications, April 2010
+- **csv:** `4/6/10` -> `2010-04-06`
+- **title dates:** 2010-04
+- **body dates (filtered):** 2010-04-06; 2009-12-01
+- **confirmed date:** `2010-04-06` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-238-dow-uap-d142-aawsap-dird-concepts-for-extracting-energy-from`
+- **family:** `DOW-UAP-D142`
+- **title:** DOW-UAP-D142, AAWSAP DIRD, Concepts for Extracting Energy from the Quantum Vacuum, April 2010
+- **csv:** `4/6/10` -> `2010-04-06`
+- **title dates:** 2010-04
+- **body dates (filtered):** 2010-04-06; 2009-12-01; 2000-05-12; 2003-04-15; 2008-03-07; 2008-05
+- **confirmed date:** `2010-04-06` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-239-dow-uap-d143-aawsap-dird-laser-lightcraft-nanosatellites-nov`
+- **family:** `DOW-UAP-D143`
+- **title:** DOW-UAP-D143, AAWSAP DIRD, Laser Lightcraft Nanosatellites, November 2010
+- **csv:** `11/1/10` -> `2010-11-01`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2010-06-07; 2010-11-01; 2010-08-30; 1926-03
+- **confirmed date:** `2010-11-01` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-240-dow-uap-d144-aawsap-dird-cockpits-in-the-era-of-breakthrough`
+- **family:** `DOW-UAP-D144`
+- **title:** DOW-UAP-D144, AAWSAP DIRD, Cockpits in the Era of Breakthrough Flight, November 2010
+- **csv:** `11/1/10` -> `2010-11-01`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2010-06-02; 2010-11-01; 2007-09; 2008-11
+- **confirmed date:** `2010-11-01` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-241-dow-uap-d145-aawsap-dird-aneutronic-fusion-propulsion-i-nove`
+- **family:** `DOW-UAP-D145`
+- **title:** DOW-UAP-D145, AAWSAP DIRD, Aneutronic Fusion Propulsion I, November 2010
+- **csv:** `11/1/10` -> `2010-11-01`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2010-07-17; 2008-08-07; 2010-08-10; 2010-08-01; 2005-03-01; 2010-07-30; 2010-08-09; 2010-08-08; 1978-01-24; 2004-06; 2007-03
+- **confirmed date:** `2010-11` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-242-dow-uap-d146-aawsap-dird-aneutronic-fusion-propulsion-ii-nov`
+- **family:** `DOW-UAP-D146`
+- **title:** DOW-UAP-D146, AAWSAP DIRD, Aneutronic Fusion Propulsion II, November 2010
+- **csv:** `11/1/10` -> `2010-11-01`
+- **title dates:** 2010-11
+- **body dates (filtered):** 1966-06-28; 1956-05-05; 2010-11-01; 2010-07-20; 2007-12; 2007-06; 2006-06; 2009-07; 2001-07; 2000-06
+- **confirmed date:** `2010-11-01` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-243-dow-uap-d147-aawsap-dird-ultracapacitors-as-energy-and-power`
+- **family:** `DOW-UAP-D147`
+- **title:** DOW-UAP-D147, AAWSAP DIRD, Ultracapacitors as Energy and Power Storage Devices, November 2010
+- **csv:** `11/1/10` -> `2010-11-01`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2010-11-01; 2010-07-20; 2007-11; 2009-07
+- **confirmed date:** `2010-11-01` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-244-dow-uap-d148-aawsap-dird-detection-and-high-resolution-track`
+- **family:** `DOW-UAP-D148`
+- **title:** DOW-UAP-D148, AAWSAP DIRD, Detection and High-Resolution Tracking of Vehicles at Hypersonic Velocities, November 2010
+- **csv:** `11/20/10` -> `2010-11-20`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2010-07-15; 2010-07-10; 2010-07-14; 2010-07-20; 1961-12-01; 2007-09-01; 1992-03-24; 2001-05-24; 1961-09-09; 2008-10-07; 1996-10-04; 1993-12-09; 1992-01-30; 2007-11; 1999-11
+- **confirmed date:** `2010-11` (via csv, title)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-245-dow-uap-d149-aawsap-dird-mhd-air-breathing-propulsion-and-po`
+- **family:** `DOW-UAP-D149`
+- **title:** DOW-UAP-D149, AAWSAP DIRD, MHD Air Breathing Propulsion and Power for Aerospace Applications, November 2010
+- **csv:** `11/21/10` -> `2010-11-21`
+- **title dates:** 2010-11
+- **body dates (filtered):** 2004-12-28; 2010-11-21; 2002-06-03; 2004-07-07; 2004-11-11; 2005-06-09; 2006-06; 2004-04; 2008-12; 2002-01; 2002-05; 2007-06; 2000-07; 1995-09
+- **confirmed date:** `2010-11-21` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-246-dow-uap-d150-aawsap-dird-quantum-computing-and-utilizing-org`
+- **family:** `DOW-UAP-D150`
+- **title:** DOW-UAP-D150, AAWSAP DIRD, Quantum Computing and Utilizing Organic Molecules in Automation Technology, December 2010
+- **csv:** `12/10/10` -> `2010-12-10`
+- **title dates:** 2010-12
+- **body dates (filtered):** 2010-12-10; 2010-06-30; 2007-05; 2006-04; 2003-06
+- **confirmed date:** `2010-12-10` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-247-dow-uap-d151-aawsap-dird-cognitive-limits-on-simultaneous-co`
+- **family:** `DOW-UAP-D151`
+- **title:** DOW-UAP-D151, AAWSAP DIRD, Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft, December 2010
+- **csv:** `12/15/10` -> `2010-12-15`
+- **title dates:** 2010-12
+- **body dates (filtered):** 1981-08-03; 1981-08-05; 2010-12-15; 2010-09-08
+- **confirmed date:** `2010-12-15` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-248-dow-uap-d152-aawsap-dird-negative-mass-propulsion-january-20`
+- **family:** `DOW-UAP-D152`
+- **title:** DOW-UAP-D152, AAWSAP DIRD, Negative Mass Propulsion, January 2011
+- **csv:** `1/3/11` -> `2011-01-03`
+- **title dates:** 2011-01
+- **body dates (filtered):** 2011-01-03; 2010-08-30
+- **confirmed date:** `2011-01-03` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-249-dow-uap-d153-aawsap-dird-quantum-tomography-of-negative-ener`
+- **family:** `DOW-UAP-D153`
+- **title:** DOW-UAP-D153, AAWSAP DIRD, Quantum Tomography of Negative Energy States in the Vacuum, January 2011
+- **csv:** `1/11/11` -> `2011-01-11`
+- **title dates:** 2011-01
+- **body dates (filtered):** 2011-01-11; 2010-08-10
+- **confirmed date:** `2011-01-11` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-250-dow-uap-pr130-unresolved-uap-report-iraq-2022`
+- **family:** `DOW-UAP-PR130`
+- **title:** DOW-UAP-PR130, Unresolved UAP Report, Iraq, 2022
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **confirmed date:** `2022` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from an infrared sy…
+
+### `dow-251-dow-uap-pr131-unresolved-uap-report-iraq-2022`
+- **family:** `DOW-UAP-PR131`
+- **title:** DOW-UAP-PR131, Unresolved UAP Report, Iraq, 2022
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **confirmed date:** `2022` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from an infrared sy…
+
+### `dow-252-dow-uap-pr133-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR133`
+- **title:** DOW-UAP-PR133, Unresolved UAP Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 4 minutes and 58 seconds of video footage…
+
+### `dow-253-dow-uap-pr135-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR135`
+- **title:** DOW-UAP-PR135, Unresolved UAP Report, Middle East, 2025
+- **csv:** `2025` -> `2025`
+- **title dates:** 2025
+- **confirmed date:** `2025` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute of video footage from an infrare…
+
+### `dow-255-dow-uap-pr141-unresolved-uap-report-middle-east-2022`
+- **family:** `DOW-UAP-PR141`
+- **title:** DOW-UAP-PR141, Unresolved UAP Report, Middle East, 2022
+- **csv:** `2022` -> `2022`
+- **title dates:** 2022
+- **confirmed date:** `2022` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 2 minutes and 36 seconds of video footage…
+
+### `dow-256-dow-uap-pr143-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR143`
+- **title:** DOW-UAP-PR143, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 19 seconds of video footage from an …
+
+### `dow-257-dow-uap-pr144-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR144`
+- **title:** DOW-UAP-PR144, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 27 seconds of video footage from an …
+
+### `dow-258-dow-uap-pr148-unresolved-uap-report-east-china-sea-2023`
+- **family:** `DOW-UAP-PR148`
+- **title:** DOW-UAP-PR148, Unresolved UAP Report, East China Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 59 seconds of video footage from an …
+
+### `dow-259-dow-uap-pr150-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR150`
+- **title:** DOW-UAP-PR150, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 57 seconds of video footage from an …
+
+### `dow-260-dow-uap-pr151-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR151`
+- **title:** DOW-UAP-PR151, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 49 seconds of video footage from an …
+
+### `dow-261-dow-uap-pr152-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR152`
+- **title:** DOW-UAP-PR152, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `2023` -> `2023`
+- **title dates:** 2023
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 38 seconds of video foo…
+
 ### `eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe`
 - **title:** EOP-UAP-D001, NASC Inquiry into Bahia, Brazil Incident, November 13, 1963
 - **csv:** `11/13/63` -> `1963-11-13`
@@ -2718,6 +3319,49 @@ Verdict counts:
 - **body dates (filtered):** 2022-02-15
 - **confirmed date:** `2022` (via body, csv, title)
 - **summary:** This document contains analysis by an All-domain Anomaly Resolution Office (AARO) Intelligence Community (IC) partner to account for a 2022 incident involving an airborne object near Colorado Springs…
+
+### `lle-001-lle-uap-pr001-unresolved-uap-report-colorado-2023`
+- **title:** LLE-UAP-PR001, Unresolved UAP Report, Colorado, 2023
+- **csv:** `October, 2023` -> `2023`
+- **title dates:** 2023
+- **summary dates:** 2023-10
+- **confirmed date:** `2023` (via csv, summary, title)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 1 minute and 19 seconds of video footage from a co…
+
+### `lle-002-lle-uap-pr002-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR002, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `October, 2023` -> `2023`
+- **title dates:** 2023-10
+- **summary dates:** 2023-10
+- **confirmed date:** `2023-10` (via summary, title)
+- **note:** csv `2023` disagrees
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 15 minutes of video footage from a commercially av…
+
+### `lle-003-lle-uap-d001-transcript-of-an-unresolved-uap-report-colorado`
+- **title:** LLE-UAP-D001, Transcript of an Unresolved UAP Report, Colorado, October 2023
+- **csv:** `October, 2023` -> `2023`
+- **title dates:** 2023-10
+- **body dates (filtered):** 2023-10
+- **confirmed date:** `2023-10` (via body, title)
+- **note:** csv `2023` disagrees
+- **summary:** This document is a transcript from a UAP sighting by local law enforcement in Colorado. The law enforcement officer narrates what is seen as the UAP is recorded on video. To protect the identity of t…
+
+### `lle-004-lle-uap-pr003-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR003, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `October, 2023` -> `2023`
+- **title dates:** 2023-10
+- **summary dates:** 2023-10
+- **confirmed date:** `2023-10` (via summary, title)
+- **note:** csv `2023` disagrees
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 27 seconds of video footage from a commercially av…
+
+### `lle-005-lle-uap-pr004-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR004, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `October, 2023` -> `2023`
+- **title dates:** 2023-10
+- **summary dates:** 2024-01
+- **confirmed date:** `2023` (via csv, title)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 1 minute and 42 seconds of video footage from a co…
 
 ### `nasa-002-nasa-uap-d3-gemini-7-transcript-1965`
 - **family:** `NASA-UAP-D3`

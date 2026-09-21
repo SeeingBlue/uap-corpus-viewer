@@ -1,21 +1,22 @@
 # Incident Location audit
 
-Records audited: **380**
+Records audited: **452**
 
 Verdict counts:
 
-- `confirmed`: 209
-- `single-source`: 73
-- `disagree`: 70
+- `confirmed`: 240
+- `disagree`: 101
+- `single-source`: 82
 - `no-evidence`: 22
 - `csv-vs-title`: 6
+- `confirmed-by-sequence`: 1
 
-**CSV disagreements flagged:** 13
+**CSV disagreements flagged:** 14
 
 **Confirmation rules.** A location is `confirmed` when 2+ of {csv, title, summary, body} agree on a place — either by exact match or via containment (a CSV value of `Middle East` agrees with a title of `Iraq`). A location is `confirmed-by-sequence` when the record sits in a numbered family (e.g. DOW-UAP-D{N}) where prev/next neighbors agree on a location AND the current record's title or body matches them, with the CSV disagreeing.
 
 
-## Disagreements (multiple sources, none corroborate) (70)
+## Disagreements (multiple sources, none corroborate) (101)
 
 ### `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973`
 - **title:** CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -99,7 +100,7 @@ Verdict counts:
 
 ### `dow-088-dow-uap-pr053-cigar-shaped-or-fast-sherical-uap-clip-15-oct`
 - **family:** `DOW-UAP-PR53`
-- **title:** DOW-UAP-PR053, "Cigar Shaped or Fast Sherical UAP clip 15 OCT 22"
+- **title:** DOW-UAP-PR053, "Cigar Shaped or Fast Spherical UAP clip 15 OCT 22"
 - **csv:** `CENTCOM` -> `CENTCOM`
 - **summary locations:** United States
 - **note:** csv=CENTCOM; summary=United States
@@ -495,6 +496,254 @@ Verdict counts:
 - **note:** summary=United States; title=Gulf of Oman; title=Oman
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 26 seconds of video footage. This footage…
 
+### `dow-195-dow-uap-d102-project-blue-book-file-on-tremonton-film-utah-1`
+- **family:** `DOW-UAP-D102`
+- **title:** DOW-UAP-D102, Project Blue Book File on Tremonton Film, Utah, 1952
+- **csv:** `Tremonton, Utah` -> `Tremonton, Utah`
+- **body locations (top 8):** Wright-Patterson AFB; California; Washington (state); New Mexico; United States; Florida; Moon; Pacific Ocean
+- **note:** body=Arizona; body=California; body=Florida; body=Moon; body=New Mexico; body=Pacific Ocean; body=United States; body=Washington (state); body=Wright-Patterson AFB; csv=Tremonton, Utah
+- **summary:** This document records the Project Blue Book investigation and subsequent assessments of an incident near Tremonton, Utah, on July 2, 1952. Project Blue Book was a 1952-1969 U.S. Air Force program to …
+
+### `dow-197-dow-uap-d111-aawsap-solicitation-and-original-order-septembe`
+- **family:** `DOW-UAP-D111`
+- **title:** DOW-UAP-D111, AAWSAP Solicitation and Original Order, September 2008
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Nevada; United States; Vietnam; Florida; California; Texas; China; Netherlands
+- **note:** body=Afghanistan; body=Australia; body=Bahrain; body=Belgium; body=California; body=Canada; body=China; body=Cyprus; body=Djibouti; body=Florida; body=France; body=Germany; body=Greece; body=Iceland; body=Ireland; body=Israel; body=Italy; body=Japan; body=Korea; body=Netherlands; body=Nevada; body=Norway; body=Poland; body=Somalia; body=Spain; body=Sweden; body=Texas; body=United Kingdom; body=United States; body=Vietnam; body=Yemen; csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-199-dow-uap-d129-aawsap-dird-metallic-spintronics-march-2010`
+- **family:** `DOW-UAP-D129`
+- **title:** DOW-UAP-D129, AAWSAP DIRD, Metallic Spintronics, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Florida; New Mexico; California; United Kingdom; New York
+- **note:** body=California; body=Florida; body=New Mexico; body=New York; body=United Kingdom; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-202-dow-uap-pr160-presentation-by-captain-edward-j-ruppelt-1952`
+- **family:** `DOW-UAP-PR160`
+- **title:** DOW-UAP-PR160, Presentation by Captain Edward J. Ruppelt, 1952
+- **csv:** `Boston, Massachusetts` -> `Boston, Massachusetts`
+- **summary locations:** Oak Ridge, TN
+- **note:** csv=Boston, Massachusetts; summary=Oak Ridge, TN
+- **summary:** This audio file records a March 1952 presentation by Captain Edward J. Ruppelt, outlining the U.S. Air Force’s reorganized investigation into unidentified flying objects (UFOs). The presentation prev…
+
+### `dow-205-dow-uap-d105-u-s-air-force-flying-discs-file-1952`
+- **family:** `DOW-UAP-D105`
+- **title:** DOW-UAP-D105, U.S. Air Force Flying Discs File, 1952
+- **csv:** `Various` -> `Various`
+- **body locations (top 8):** United States; Washington (state); New York; Wright-Patterson AFB; California; Florida; Arizona; Greece
+- **note:** body=Arizona; body=California; body=Canada; body=Detroit, MI; body=Florida; body=Georgia (country); body=Greece; body=Nevada; body=New Mexico; body=New York; body=Pacific Ocean; body=Tennessee; body=Texas; body=United Arab Emirates; body=United States; body=Vandenberg AFB; body=Washington (state); body=Wright-Patterson AFB; csv=Various
+- **summary:** This file is an archival collection of U.S. Air Force Director of Intelligence records relating to reported “flying disc” incidents during the period from September through December 1952. Drawn from …
+
+### `dow-210-dow-uap-d112-aawsap-contract-modification-p00001-september-2`
+- **family:** `DOW-UAP-D112`
+- **title:** DOW-UAP-D112, AAWSAP Contract Modification P00001, September 2009
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Nevada; Florida
+- **note:** body=Florida; body=Nevada; csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-211-dow-uap-d113-aawsap-contract-modification-p00002-february-20`
+- **family:** `DOW-UAP-D113`
+- **title:** DOW-UAP-D113, AAWSAP Contract Modification P00002, February 2010
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Nevada; United States
+- **note:** body=Nevada; body=United States; csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-212-dow-uap-d114-aawsap-contract-modification-p00003-may-2010`
+- **family:** `DOW-UAP-D114`
+- **title:** DOW-UAP-D114, AAWSAP Contract Modification P00003, May 2010
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Nevada
+- **note:** body=Nevada; csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-213-dow-uap-d115-aawsap-contract-modification-p00004-may-2010`
+- **family:** `DOW-UAP-D115`
+- **title:** DOW-UAP-D115, AAWSAP Contract Modification P00004, May 2010
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Washington (state)
+- **note:** body=Washington (state); csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-214-dow-uap-d116-aawsap-contract-modification-p00005-september-2`
+- **family:** `DOW-UAP-D116`
+- **title:** DOW-UAP-D116, AAWSAP Contract Modification P00005, September 2010
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **body locations (top 8):** Nevada
+- **note:** body=Nevada; csv=Washington, D.C.
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-219-dow-uap-d122-aawsap-dird-invisibility-cloaking-theory-and-ex`
+- **family:** `DOW-UAP-D122`
+- **title:** DOW-UAP-D122, AAWSAP DIRD, Invisibility Cloaking Theory and Experiments, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; New Mexico; Low Earth Orbit
+- **note:** body=California; body=Low Earth Orbit; body=New Mexico; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-226-dow-uap-d130-aawsap-dird-technological-approaches-to-control`
+- **family:** `DOW-UAP-D130`
+- **title:** DOW-UAP-D130, AAWSAP DIRD, Technological Approaches to Controlling External Devices, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Japan; New York; California; Florida
+- **note:** body=California; body=Florida; body=Japan; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-227-dow-uap-d131-aawsap-dird-the-role-of-superconductors-in-grav`
+- **family:** `DOW-UAP-D131`
+- **title:** DOW-UAP-D131, AAWSAP DIRD, The Role of Superconductors in Gravity Research, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Japan; China; Moon; Finland; Russia; Germany; California; New York
+- **note:** body=California; body=China; body=Finland; body=Germany; body=Italy; body=Japan; body=Moon; body=New York; body=Russia; body=Texas; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-228-dow-uap-d132-aawsap-dird-advanced-space-propulsion-based-on`
+- **family:** `DOW-UAP-D132`
+- **title:** DOW-UAP-D132, AAWSAP DIRD, Advanced Space Propulsion Based on Vacuum (Spacetime Metric) Engineering, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; Florida; New York
+- **note:** body=California; body=Florida; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-229-dow-uap-d133-aawsap-dird-the-space-communication-implication`
+- **family:** `DOW-UAP-D133`
+- **title:** DOW-UAP-D133, AAWSAP DIRD, The Space Communication Implications of Quantum Entanglement and Nonlocality, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Moon; California; New Mexico
+- **note:** body=California; body=Moon; body=New Mexico; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-230-dow-uap-d134-aawsap-dird-maverick-inventor-versus-corporate`
+- **family:** `DOW-UAP-D134`
+- **title:** DOW-UAP-D134, AAWSAP DIRD, Maverick Inventor Versus Corporate Inventor: Where Will the Next Major Innovations Arise, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Canada; New Mexico; California; Texas
+- **note:** body=California; body=Canada; body=New Mexico; body=Texas; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-231-dow-uap-d135-aawsap-dird-antigravity-for-aerospace-applicati`
+- **family:** `DOW-UAP-D135`
+- **title:** DOW-UAP-D135, AAWSAP DIRD, Antigravity for Aerospace Applications, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Florida; New Mexico; Low Earth Orbit; California; New York; Edwards AFB; Israel
+- **note:** body=California; body=Edwards AFB; body=Florida; body=Israel; body=Low Earth Orbit; body=New Mexico; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-232-dow-uap-d136-aawsap-dird-biosensors-and-biomems-a-survey-of`
+- **family:** `DOW-UAP-D136`
+- **title:** DOW-UAP-D136, AAWSAP DIRD, Biosensors and BioMEMS: A Survey of the Present Field, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Arizona; California
+- **note:** body=Arizona; body=California; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-234-dow-uap-d138-aawsap-dird-warp-drive-dark-energy-and-the-mani`
+- **family:** `DOW-UAP-D138`
+- **title:** DOW-UAP-D138, AAWSAP DIRD, Warp Drive, Dark Energy, and the Manipulation of Extra Dimensions, April 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; Washington (state); New Mexico; Brazil; Texas
+- **note:** body=Brazil; body=California; body=New Mexico; body=Texas; body=Washington (state); csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-235-dow-uap-d139-aawsap-dird-traversable-wormholes-stargates-and`
+- **family:** `DOW-UAP-D139`
+- **title:** DOW-UAP-D139, AAWSAP DIRD, Traversable Wormholes, Stargates, and Negative Energy, April 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** New Mexico; Florida; Low Earth Orbit; Mexico; New York; Edwards AFB; California; Israel
+- **note:** body=California; body=Edwards AFB; body=Florida; body=Israel; body=Low Earth Orbit; body=Mexico; body=New Mexico; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-236-dow-uap-d140-aawsap-dird-high-frequency-gravitational-wave-c`
+- **family:** `DOW-UAP-D140`
+- **title:** DOW-UAP-D140, AAWSAP DIRD, High-Frequency Gravitational Wave Communications, April 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Japan; Moon; Russia; Texas; New Mexico; Italy; California; China
+- **note:** body=Australia; body=California; body=China; body=Florida; body=Israel; body=Italy; body=Japan; body=Mexico; body=Moon; body=New Mexico; body=New York; body=Russia; body=Texas; body=Washington (state); csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-237-dow-uap-d141-aawsap-dird-metamaterials-for-aerospace-applica`
+- **family:** `DOW-UAP-D141`
+- **title:** DOW-UAP-D141, AAWSAP DIRD, Metamaterials for Aerospace Applications, April 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** New Mexico; California; France
+- **note:** body=California; body=France; body=New Mexico; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-240-dow-uap-d144-aawsap-dird-cockpits-in-the-era-of-breakthrough`
+- **family:** `DOW-UAP-D144`
+- **title:** DOW-UAP-D144, AAWSAP DIRD, Cockpits in the Era of Breakthrough Flight, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Low Earth Orbit; Florida; California; New York; Wright-Patterson AFB; Texas; Netherlands
+- **note:** body=California; body=Florida; body=Low Earth Orbit; body=Netherlands; body=New York; body=Texas; body=Wright-Patterson AFB; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-243-dow-uap-d147-aawsap-dird-ultracapacitors-as-energy-and-power`
+- **family:** `DOW-UAP-D147`
+- **title:** DOW-UAP-D147, AAWSAP DIRD, Ultracapacitors as Energy and Power Storage Devices, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; Florida; New Mexico; New York
+- **note:** body=California; body=Florida; body=New Mexico; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-246-dow-uap-d150-aawsap-dird-quantum-computing-and-utilizing-org`
+- **family:** `DOW-UAP-D150`
+- **title:** DOW-UAP-D150, AAWSAP DIRD, Quantum Computing and Utilizing Organic Molecules in Automation Technology, December 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Florida; New Mexico; Moon; California; New York; Arizona; Jordan
+- **note:** body=Arizona; body=California; body=Florida; body=Jordan; body=Moon; body=New Mexico; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-249-dow-uap-d153-aawsap-dird-quantum-tomography-of-negative-ener`
+- **family:** `DOW-UAP-D153`
+- **title:** DOW-UAP-D153, AAWSAP DIRD, Quantum Tomography of Negative Energy States in the Vacuum, January 2011
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Florida; California; New Mexico; Germany; New York; Israel
+- **note:** body=California; body=Florida; body=Germany; body=Israel; body=New Mexico; body=New York; csv=Nevada
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-256-dow-uap-pr143-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR143`
+- **title:** DOW-UAP-PR143, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `Yellow Sea` -> `Yellow Sea`
+- **summary locations:** Pacific Ocean; United States
+- **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 19 seconds of video footage from an …
+
+### `dow-257-dow-uap-pr144-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR144`
+- **title:** DOW-UAP-PR144, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `Yellow Sea` -> `Yellow Sea`
+- **summary locations:** Pacific Ocean; United States
+- **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 27 seconds of video footage from an …
+
+### `dow-259-dow-uap-pr150-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR150`
+- **title:** DOW-UAP-PR150, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `Yellow Sea` -> `Yellow Sea`
+- **summary locations:** Pacific Ocean; United States
+- **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 57 seconds of video footage from an …
+
+### `dow-260-dow-uap-pr151-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR151`
+- **title:** DOW-UAP-PR151, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `Yellow Sea` -> `Yellow Sea`
+- **summary locations:** Pacific Ocean; United States
+- **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 49 seconds of video footage from an …
+
+### `dow-261-dow-uap-pr152-unresolved-uap-report-yellow-sea-2023`
+- **family:** `DOW-UAP-PR152`
+- **title:** DOW-UAP-PR152, Unresolved UAP Report, Yellow Sea, 2023
+- **csv:** `Yellow Sea` -> `Yellow Sea`
+- **summary locations:** Pacific Ocean; United States
+- **note:** csv=Yellow Sea; summary=Pacific Ocean; summary=United States
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 38 seconds of video foo…
+
 ### `fbi-013-65-hs1-834228961-62-hq-83894-serial-403`
 - **family:** `FBI-Serial403`
 - **title:** 65_HS1-834228961_62-HQ-83894_Serial_403
@@ -576,7 +825,7 @@ Verdict counts:
 - **summary:** Gemini IX (renamed Gemini IX-A) was the seventh crewed flight of the Gemini series, launched on June 3, 1966. The mission’s primary objectives included a spacewalk and multiple scientific and medical…
 
 
-## Single-source (no corroboration) (73)
+## Single-source (no corroboration) (82)
 
 ### `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec`
 - **title:** CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
@@ -706,7 +955,7 @@ Verdict counts:
 
 ### `dow-081-dow-uap-pr49-unresolved-uap-report-department-of-the-army-20`
 - **family:** `DOW-UAP-PR49`
-- **title:** DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026
+- **title:** DOW-UAP-PR049, Unresolved UAP Report, Department of the Army, 2026
 - **csv:** `North America` -> `North America`
 - **confirmed location:** `North America` (via csv)
 - **summary:** The Department of the Army submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 49 seconds of video from an infra…
@@ -734,6 +983,35 @@ Verdict counts:
 - **body locations (top 8):** United States; Washington (state); Florida; Wright-Patterson AFB; New York; Georgia (country); California; New Mexico
 - **confirmed location:** `Washington (state)` (via body)
 - **summary:** This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The do…
+
+### `dow-196-dow-uap-d110-aawsap-statement-of-objectives-july-2008`
+- **family:** `DOW-UAP-D110`
+- **title:** DOW-UAP-D110, AAWSAP Statement of Objectives, July 2008
+- **csv:** `Washington, D.C.` -> `Washington, D.C.`
+- **confirmed location:** `Washington, D.C.` (via csv)
+- **summary:** This document is an administrative or programmatic record related to the Advanced Aerospace Weapon System Applications Program (AAWSAP), a Defense Intelligence Agency (DIA)-administered program activ…
+
+### `dow-201-dow-uap-pr159-historical-film-of-reported-ufos-utah-1952`
+- **family:** `DOW-UAP-PR159`
+- **title:** DOW-UAP-PR159, Historical Film of Reported UFOs, Utah, 1952
+- **csv:** `Tremonton, Utah` -> `Tremonton, Utah`
+- **confirmed location:** `Tremonton, Utah` (via csv)
+- **summary:** This archival footage is a digitization of a 16mm print of Kodachrome color motion-picture film shot on a handheld Bell & Howell Auto Master camera near Tremonton, Utah, on July 2, 1952. U.S. Navy Ch…
+
+### `dow-203-dow-uap-d103-project-blue-book-photo-file-relating-to-tremon`
+- **family:** `DOW-UAP-D103`
+- **title:** DOW-UAP-D103, Project Blue Book Photo File Relating to Tremonton Film, Utah, 1952
+- **csv:** `Tremonton, Utah` -> `Tremonton, Utah`
+- **confirmed location:** `Tremonton, Utah` (via csv)
+- **summary:** During its investigation of a July 1952 film of an incident reported near Tremonton, Utah, Project Blue Book examined whether the objects recorded on film might have been “pillow balloons.” Project B…
+
+### `dow-204-dow-uap-d104-final-personnel-record-for-newhouse-delbert-c-u`
+- **family:** `DOW-UAP-D104`
+- **title:** DOW-UAP-D104, Final Personnel Record for Newhouse, Delbert C., U.S. Navy, 1957
+- **csv:** `N/A` -> `-`
+- **body locations (top 8):** California; Washington (state); Florida; Nevada; United States; Wright-Patterson AFB; Atlantic Ocean; Pacific Ocean
+- **confirmed location:** `California` (via body)
+- **summary:** This file contains the final personnel record of U.S. Navy Chief Warrant Officer Delbert C. Newhouse, who left naval service as a Chief Warrant Officer 4, then the highest Warrant Officer grade. In J…
 
 ### `fbi-029-fbi-photo-b1`
 - **title:** FBI Photo B1
@@ -945,6 +1223,36 @@ Verdict counts:
 - **csv:** `Colorado Springs, Colorado, U.S.` -> `Colorado Springs, Colorado, U.S.`
 - **confirmed location:** `Colorado Springs, Colorado, U.S.` (via csv)
 - **summary:** This document contains analysis by an All-domain Anomaly Resolution Office (AARO) Intelligence Community (IC) partner to account for a 2022 incident involving an airborne object near Colorado Springs…
+
+### `lle-001-lle-uap-pr001-unresolved-uap-report-colorado-2023`
+- **title:** LLE-UAP-PR001, Unresolved UAP Report, Colorado, 2023
+- **csv:** `Colorado` -> `Colorado`
+- **confirmed location:** `Colorado` (via csv)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 1 minute and 19 seconds of video footage from a co…
+
+### `lle-002-lle-uap-pr002-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR002, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `Colorado` -> `Colorado`
+- **confirmed location:** `Colorado` (via csv)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 15 minutes of video footage from a commercially av…
+
+### `lle-003-lle-uap-d001-transcript-of-an-unresolved-uap-report-colorado`
+- **title:** LLE-UAP-D001, Transcript of an Unresolved UAP Report, Colorado, October 2023
+- **csv:** `Colorado` -> `Colorado`
+- **confirmed location:** `Colorado` (via csv)
+- **summary:** This document is a transcript from a UAP sighting by local law enforcement in Colorado. The law enforcement officer narrates what is seen as the UAP is recorded on video. To protect the identity of t…
+
+### `lle-004-lle-uap-pr003-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR003, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `Colorado` -> `Colorado`
+- **confirmed location:** `Colorado` (via csv)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 27 seconds of video footage from a commercially av…
+
+### `lle-005-lle-uap-pr004-unresolved-uap-report-colorado-october-2023`
+- **title:** LLE-UAP-PR004, Unresolved UAP Report, Colorado, October 2023
+- **csv:** `Colorado` -> `Colorado`
+- **confirmed location:** `Colorado` (via csv)
+- **summary:** A local law enforcement officer submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office consisting of 1 minute and 42 seconds of video footage from a co…
 
 ### `nasa-001-255-413270-ufo-s-and-defense-what-should-we-prepare-for`
 - **title:** 255_413270_UFO's_and_Defense_What_Should_we_Prepare_For
@@ -1179,7 +1487,21 @@ Verdict counts:
 - **summary:** This two page memorandum, dated July 28, 1952, relates to increased reports of unidentified flying objects (UFOs). Included in the record are possible explanations of increased sightings, such as tec…
 
 
-## Confirmed (>=2 sources agree) (209)
+## Confirmed by sequence (neighbors and title/body agree, csv disagrees) (1)
+
+### `dow-254-dow-uap-pr140-unresolved-uap-report-middle-east-2022`
+- **family:** `DOW-UAP-PR140`
+- **title:** DOW-UAP-PR140, Unresolved UAP Report, Middle East, 2022
+- **csv:** `N/A` -> `-`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via sequence, title)
+- **note:** summary=United States; title=Middle East
+- **sequence:** prev=DOW-UAP-PR136@Middle East; next=DOW-UAP-PR141@Middle East
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute and 47 seconds of video footage …
+
+
+## Confirmed (>=2 sources agree) (240)
 
 ### `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying`
 - **title:** CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
@@ -1562,7 +1884,7 @@ Verdict counts:
 
 ### `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022`
 - **family:** `DOW-UAP-PR19`
-- **title:** DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022
+- **title:** DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
 - **csv:** `Middle East` -> `Middle East`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1572,7 +1894,7 @@ Verdict counts:
 
 ### `dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022`
 - **family:** `DOW-UAP-PR21`
-- **title:** DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022
+- **title:** DOW-UAP-PR021, Unresolved UAP Report, Iraq, May 2022
 - **csv:** `Iraq` -> `Iraq`
 - **title locations:** Iraq
 - **summary locations:** United States
@@ -1582,7 +1904,7 @@ Verdict counts:
 
 ### `dow-057-dow-uap-pr22-unresolved-uap-report-syria-july-2022`
 - **family:** `DOW-UAP-PR22`
-- **title:** DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022
+- **title:** DOW-UAP-PR022, Unresolved UAP Report, Syria, July 2022
 - **csv:** `Syria` -> `Syria`
 - **title locations:** Syria
 - **summary locations:** United States
@@ -1592,7 +1914,7 @@ Verdict counts:
 
 ### `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022`
 - **family:** `DOW-UAP-PR23`
-- **title:** DOW-UAP-PR23, Unresolved UAP Report, Iraq, December 2022
+- **title:** DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
 - **csv:** `Iraq` -> `Iraq`
 - **title locations:** Iraq
 - **summary locations:** United States
@@ -1602,7 +1924,7 @@ Verdict counts:
 
 ### `dow-059-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-octo`
 - **family:** `DOW-UAP-PR26`
-- **title:** DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023
+- **title:** DOW-UAP-PR026, Unresolved UAP Report, United Arab Emirates, October 2023
 - **csv:** `United Arab Emirates` -> `United Arab Emirates`
 - **title locations:** United Arab Emirates
 - **summary locations:** United States
@@ -1612,7 +1934,7 @@ Verdict counts:
 
 ### `dow-060-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-octo`
 - **family:** `DOW-UAP-PR27`
-- **title:** DOW-UAP-PR27, Unresolved UAP Report, United Arab Emirates, October 2023
+- **title:** DOW-UAP-PR027, Unresolved UAP Report, United Arab Emirates, October 2023
 - **csv:** `United Arab Emirates` -> `United Arab Emirates`
 - **title locations:** United Arab Emirates
 - **summary locations:** United States
@@ -1622,7 +1944,7 @@ Verdict counts:
 
 ### `dow-061-dow-uap-pr28-unresolved-uap-report-greece-january-2024`
 - **family:** `DOW-UAP-PR28`
-- **title:** DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024
+- **title:** DOW-UAP-PR028, Unresolved UAP Report, Greece, January 2024
 - **csv:** `Greece` -> `Greece`
 - **title locations:** Greece
 - **summary locations:** United States
@@ -1632,7 +1954,7 @@ Verdict counts:
 
 ### `dow-062-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june`
 - **family:** `DOW-UAP-PR29`
-- **title:** DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024
+- **title:** DOW-UAP-PR029, Unresolved UAP Report, United Arab Emirates, June 2024
 - **csv:** `Gulf of Oman` -> `Oman`
 - **title locations:** United Arab Emirates
 - **summary locations:** United States
@@ -1643,7 +1965,7 @@ Verdict counts:
 
 ### `dow-063-dow-uap-pr31-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR31`
-- **title:** DOW-UAP-PR31, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR031, Unresolved UAP Report, Syria, October 2024
 - **csv:** `Syria` -> `Syria`
 - **title locations:** Syria
 - **summary locations:** United States
@@ -1653,7 +1975,7 @@ Verdict counts:
 
 ### `dow-064-dow-uap-pr32-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR32`
-- **title:** DOW-UAP-PR32, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR032, Unresolved UAP Report, Syria, October 2024
 - **csv:** `Syria` -> `Syria`
 - **title locations:** Syria
 - **summary locations:** United States
@@ -1663,7 +1985,7 @@ Verdict counts:
 
 ### `dow-065-dow-uap-pr33-unresolved-uap-report-syria-october-2024`
 - **family:** `DOW-UAP-PR33`
-- **title:** DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024
+- **title:** DOW-UAP-PR033, Unresolved UAP Report, Syria, October 2024
 - **csv:** `Syria` -> `Syria`
 - **title locations:** Syria
 - **summary locations:** United States
@@ -1673,7 +1995,7 @@ Verdict counts:
 
 ### `dow-066-dow-uap-pr34-unresolved-uap-report-greece-october-2023`
 - **family:** `DOW-UAP-PR34`
-- **title:** DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023
+- **title:** DOW-UAP-PR034, Unresolved UAP Report, Greece, October 2023
 - **csv:** `Greece` -> `Greece`
 - **title locations:** Greece
 - **summary locations:** United States
@@ -1683,7 +2005,7 @@ Verdict counts:
 
 ### `dow-067-dow-uap-pr35-unresolved-uap-report-greece-october-2023`
 - **family:** `DOW-UAP-PR35`
-- **title:** DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023
+- **title:** DOW-UAP-PR035, Unresolved UAP Report, Greece, October 2023
 - **csv:** `Greece` -> `Greece`
 - **title locations:** Greece
 - **summary locations:** United States
@@ -1693,7 +2015,7 @@ Verdict counts:
 
 ### `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020`
 - **family:** `DOW-UAP-PR36`
-- **title:** DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020
+- **title:** DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
 - **csv:** `Middle East` -> `Middle East`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1703,7 +2025,7 @@ Verdict counts:
 
 ### `dow-069-dow-uap-pr37-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR37`
-- **title:** DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR037, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1713,7 +2035,7 @@ Verdict counts:
 
 ### `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013`
 - **family:** `DOW-UAP-PR38`
-- **title:** DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013
+- **title:** DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
 - **csv:** `Middle East` -> `Middle East`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1723,7 +2045,7 @@ Verdict counts:
 
 ### `dow-071-dow-uap-pr39-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR39`
-- **title:** DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR039, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1733,7 +2055,7 @@ Verdict counts:
 
 ### `dow-072-dow-uap-pr40-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR40`
-- **title:** DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR040, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1743,7 +2065,7 @@ Verdict counts:
 
 ### `dow-073-dow-uap-pr41-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR41`
-- **title:** DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR041, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1753,7 +2075,7 @@ Verdict counts:
 
 ### `dow-074-dow-uap-pr42-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR42`
-- **title:** DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR042, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1763,7 +2085,7 @@ Verdict counts:
 
 ### `dow-075-dow-uap-pr43-unresolved-uap-report-africa-2025`
 - **family:** `DOW-UAP-PR43`
-- **title:** DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025
+- **title:** DOW-UAP-PR043, Unresolved UAP Report, Africa, 2025
 - **csv:** `Djibouti` -> `Djibouti`
 - **summary locations:** United States
 - **body locations (top 8):** United States
@@ -1773,7 +2095,7 @@ Verdict counts:
 
 ### `dow-076-dow-uap-pr44-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR44`
-- **title:** DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR044, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Arabian Gulf` -> `Persian Gulf`
 - **title locations:** Middle East
 - **summary locations:** United States
@@ -1783,7 +2105,7 @@ Verdict counts:
 
 ### `dow-077-dow-uap-pr45-unresolved-uap-report-middle-east-2020`
 - **family:** `DOW-UAP-PR45`
-- **title:** DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020
+- **title:** DOW-UAP-PR045, Unresolved UAP Report, Middle East, 2020
 - **csv:** `Southern United States` -> `Southern United States`
 - **title locations:** Middle East
 - **body locations (top 8):** Middle East
@@ -1793,7 +2115,7 @@ Verdict counts:
 
 ### `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024`
 - **family:** `DOW-UAP-PR46`
-- **title:** DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024
+- **title:** DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
 - **csv:** `East China Sea` -> `East China Sea`
 - **title locations:** Indo-PACOM
 - **summary locations:** Pacific Ocean; United States
@@ -1803,7 +2125,7 @@ Verdict counts:
 
 ### `dow-079-dow-uap-pr47-unresolved-uap-report-indopacom-2023`
 - **family:** `DOW-UAP-PR47`
-- **title:** DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023
+- **title:** DOW-UAP-PR047, Unresolved UAP Report, INDOPACOM, 2023
 - **csv:** `Japan` -> `Japan`
 - **title locations:** Indo-PACOM
 - **summary locations:** Pacific Ocean; United States
@@ -1813,7 +2135,7 @@ Verdict counts:
 
 ### `dow-080-dow-uap-pr48-unresolved-uap-report-indopacom-2024`
 - **family:** `DOW-UAP-PR48`
-- **title:** DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024
+- **title:** DOW-UAP-PR048, Unresolved UAP Report, INDOPACOM, 2024
 - **csv:** `Indo-PACOM` -> `Indo-PACOM`
 - **title locations:** Indo-PACOM
 - **summary locations:** Pacific Ocean; United States
@@ -2309,6 +2631,270 @@ Verdict counts:
 - **summary locations:** United States
 - **confirmed location:** `Middle East` (via csv, title)
 - **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 51 seconds of video footage from an infra…
+
+### `dow-198-dow-uap-d117-aawsap-dird-metallic-glasses-for-aerospace-appl`
+- **family:** `DOW-UAP-D117`
+- **title:** DOW-UAP-D117, AAWSAP DIRD, Metallic Glasses for Aerospace Applications, December 2009
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; Florida; United States; Japan; China
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-200-dow-uap-d154-transcript-of-a-presentation-by-captain-edward`
+- **family:** `DOW-UAP-D154`
+- **title:** DOW-UAP-D154, Transcript of a Presentation by Captain Edward J. Ruppelt, 1952
+- **csv:** `Boston, Massachusetts` -> `Boston, Massachusetts`
+- **summary locations:** Oak Ridge, TN
+- **body locations (top 8):** Oak Ridge, TN; United States; New York; Texas; Washington (state); Iran; Middle East; Egypt
+- **confirmed location:** `Oak Ridge, TN` (via body, summary)
+- **note:** csv `Boston, Massachusetts` disagrees
+- **summary:** This document is a transcript of a March 1952 presentation by Captain Edward J. Ruppelt outlining the U.S. Air Force’s reorganized investigation into unidentified flying objects (UFOs). The presentat…
+
+### `dow-206-dow-uap-d106-mission-report-iraq-2022`
+- **family:** `DOW-UAP-D106`
+- **title:** DOW-UAP-D106, Mission Report, Iraq, 2022
+- **csv:** `Iraq` -> `Iraq`
+- **title locations:** Iraq
+- **body locations (top 8):** United States
+- **confirmed location:** `Iraq` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-207-dow-uap-d107-mission-report-middle-east-2025`
+- **family:** `DOW-UAP-D107`
+- **title:** DOW-UAP-D107, Mission Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **body locations (top 8):** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-208-dow-uap-d108-mission-report-middle-east-2025`
+- **family:** `DOW-UAP-D108`
+- **title:** DOW-UAP-D108, Mission Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **body locations (top 8):** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-209-dow-uap-d109-mission-report-middle-east-2022`
+- **family:** `DOW-UAP-D109`
+- **title:** DOW-UAP-D109, Mission Report, Middle East, 2022
+- **csv:** `Iraq` -> `Iraq`
+- **title locations:** Middle East
+- **body locations (top 8):** United States
+- **confirmed location:** `Iraq` (via csv, title)
+- **summary:** This document is a Mission Report (MISREP), a standardized reporting form the U.S. military uses to record the circumstances surrounding its operations. U.S. military services often use MISREPs to re…
+
+### `dow-215-dow-uap-d118-aawsap-dird-aerospace-applications-of-programma`
+- **family:** `DOW-UAP-D118`
+- **title:** DOW-UAP-D118, AAWSAP DIRD, Aerospace Applications of Programmable Matter, December 2009
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** United States; California; Moon
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-216-dow-uap-d119-aawsap-dird-biomaterials-january-2010`
+- **family:** `DOW-UAP-D119`
+- **title:** DOW-UAP-D119, AAWSAP DIRD, Biomaterials, January 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** United States; California; Florida
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-217-dow-uap-d120-aawsap-dird-materials-for-advanced-aerospace-pl`
+- **family:** `DOW-UAP-D120`
+- **title:** DOW-UAP-D120, AAWSAP DIRD, Materials for Advanced Aerospace Platforms, January 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Japan; United Kingdom; United States
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-218-dow-uap-d121-aawsap-dird-pulsed-high-power-microwave-source`
+- **family:** `DOW-UAP-D121`
+- **title:** DOW-UAP-D121, AAWSAP DIRD, Pulsed High-Power Microwave Source Technology, January 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Pacific Ocean; United States; New York; Florida; New Mexico; Mexico; Texas; Germany
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-220-dow-uap-d123-aawsap-dird-positron-aerospace-propulsion-march`
+- **family:** `DOW-UAP-D123`
+- **title:** DOW-UAP-D123, AAWSAP DIRD, Positron Aerospace Propulsion, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Florida; Georgia (country); Nevada; Low Earth Orbit; United States; United Kingdom; Japan; New Mexico
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-221-dow-uap-d124-aawsap-dird-space-access-where-we-ve-been-and-w`
+- **family:** `DOW-UAP-D124`
+- **title:** DOW-UAP-D124, AAWSAP DIRD, Space Access: Where We’ve Been and Where We Could Go, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **summary locations:** Low Earth Orbit
+- **body locations (top 8):** Low Earth Orbit; Moon; Wright-Patterson AFB; United States; Russia; Florida; Tennessee; Japan
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-222-dow-uap-d125-aawsap-dird-inertial-electrostatic-confinement`
+- **family:** `DOW-UAP-D125`
+- **title:** DOW-UAP-D125, AAWSAP DIRD, Inertial Electrostatic Confinement Fusion, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Germany; Japan; New Mexico; Australia; California; France; Mexico; Nevada
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-223-dow-uap-d126-aawsap-dird-advanced-nuclear-propulsion-for-man`
+- **family:** `DOW-UAP-D126`
+- **title:** DOW-UAP-D126, AAWSAP DIRD, Advanced Nuclear Propulsion for Manned Deep Space Missions, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **summary locations:** Moon
+- **body locations (top 8):** Moon; Germany; United States; Nevada; New York
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-224-dow-uap-d127-aawsap-dird-an-introduction-to-the-statistical`
+- **family:** `DOW-UAP-D127`
+- **title:** DOW-UAP-D127, AAWSAP DIRD, An Introduction to the Statistical Drake Equation, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; Florida; France; New Mexico; Italy; United States; New York; Arizona
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-225-dow-uap-d128-aawsap-dird-anomalous-acute-and-subacute-field`
+- **family:** `DOW-UAP-D128`
+- **title:** DOW-UAP-D128, AAWSAP DIRD, Anomalous Acute and Subacute Field Effects on Human Biological Tissues, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** United States; Oak Ridge, TN; Russia; California; New Mexico; Texas; New York; Australia
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-233-dow-uap-d137-aawsap-dird-state-of-the-art-and-evolution-of-h`
+- **family:** `DOW-UAP-D137`
+- **title:** DOW-UAP-D137, AAWSAP DIRD, State of the Art and Evolution of High-Energy Lasers, March 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** United States; California; Russia; China; New Mexico; Moon
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-238-dow-uap-d142-aawsap-dird-concepts-for-extracting-energy-from`
+- **family:** `DOW-UAP-D142`
+- **title:** DOW-UAP-D142, AAWSAP DIRD, Concepts for Extracting Energy from the Quantum Vacuum, April 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Edwards AFB; California; New Mexico; Arizona; Israel; New York; United States; Texas
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-239-dow-uap-d143-aawsap-dird-laser-lightcraft-nanosatellites-nov`
+- **family:** `DOW-UAP-D143`
+- **title:** DOW-UAP-D143, AAWSAP DIRD, Laser Lightcraft Nanosatellites, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **summary locations:** Low Earth Orbit
+- **body locations (top 8):** Florida; Edwards AFB; California; Low Earth Orbit; New Mexico; United States; New York; Nevada
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-241-dow-uap-d145-aawsap-dird-aneutronic-fusion-propulsion-i-nove`
+- **family:** `DOW-UAP-D145`
+- **title:** DOW-UAP-D145, AAWSAP DIRD, Aneutronic Fusion Propulsion I, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** Low Earth Orbit; Moon; Nevada; Texas; United States; Canada; California; New Mexico
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-242-dow-uap-d146-aawsap-dird-aneutronic-fusion-propulsion-ii-nov`
+- **family:** `DOW-UAP-D146`
+- **title:** DOW-UAP-D146, AAWSAP DIRD, Aneutronic Fusion Propulsion II, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** United States; Florida; China; India; Japan; Korea; Russia; California
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-244-dow-uap-d148-aawsap-dird-detection-and-high-resolution-track`
+- **family:** `DOW-UAP-D148`
+- **title:** DOW-UAP-D148, AAWSAP DIRD, Detection and High-Resolution Tracking of Vehicles at Hypersonic Velocities, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; United Kingdom; Florida; Pacific Ocean; Canada; United States; Australia; Moon
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-245-dow-uap-d149-aawsap-dird-mhd-air-breathing-propulsion-and-po`
+- **family:** `DOW-UAP-D149`
+- **title:** DOW-UAP-D149, AAWSAP DIRD, MHD Air Breathing Propulsion and Power for Aerospace Applications, November 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** China; Japan; Russia; California; Florida; United States; Low Earth Orbit; Nevada
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-247-dow-uap-d151-aawsap-dird-cognitive-limits-on-simultaneous-co`
+- **family:** `DOW-UAP-D151`
+- **title:** DOW-UAP-D151, AAWSAP DIRD, Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft, December 2010
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **body locations (top 8):** California; New Mexico; France; Iraq; United States
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-248-dow-uap-d152-aawsap-dird-negative-mass-propulsion-january-20`
+- **family:** `DOW-UAP-D152`
+- **title:** DOW-UAP-D152, AAWSAP DIRD, Negative Mass Propulsion, January 2011
+- **csv:** `Las Vegas, Nevada` -> `Nevada`
+- **summary locations:** Moon
+- **body locations (top 8):** Moon; Arizona; California; Nevada; New York; Spain
+- **confirmed location:** `Nevada` (via body, csv)
+- **summary:** This document is a Defense Intelligence Reference Document (DIRD), a technical reference format used by the Defense Intelligence Agency (DIA) to capture baseline knowledge on a specific topic for lat…
+
+### `dow-250-dow-uap-pr130-unresolved-uap-report-iraq-2022`
+- **family:** `DOW-UAP-PR130`
+- **title:** DOW-UAP-PR130, Unresolved UAP Report, Iraq, 2022
+- **csv:** `Iraq` -> `Iraq`
+- **title locations:** Iraq
+- **summary locations:** United States
+- **confirmed location:** `Iraq` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from an infrared sy…
+
+### `dow-251-dow-uap-pr131-unresolved-uap-report-iraq-2022`
+- **family:** `DOW-UAP-PR131`
+- **title:** DOW-UAP-PR131, Unresolved UAP Report, Iraq, 2022
+- **csv:** `Iraq` -> `Iraq`
+- **title locations:** Iraq
+- **summary locations:** United States
+- **confirmed location:** `Iraq` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from an infrared sy…
+
+### `dow-252-dow-uap-pr133-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR133`
+- **title:** DOW-UAP-PR133, Unresolved UAP Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 4 minutes and 58 seconds of video footage…
+
+### `dow-253-dow-uap-pr135-unresolved-uap-report-middle-east-2025`
+- **family:** `DOW-UAP-PR135`
+- **title:** DOW-UAP-PR135, Unresolved UAP Report, Middle East, 2025
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 1 minute of video footage from an infrare…
+
+### `dow-255-dow-uap-pr141-unresolved-uap-report-middle-east-2022`
+- **family:** `DOW-UAP-PR141`
+- **title:** DOW-UAP-PR141, Unresolved UAP Report, Middle East, 2022
+- **csv:** `Middle East` -> `Middle East`
+- **title locations:** Middle East
+- **summary locations:** United States
+- **confirmed location:** `Middle East` (via csv, title)
+- **summary:** The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 2 minutes and 36 seconds of video footage…
+
+### `dow-258-dow-uap-pr148-unresolved-uap-report-east-china-sea-2023`
+- **family:** `DOW-UAP-PR148`
+- **title:** DOW-UAP-PR148, Unresolved UAP Report, East China Sea, 2023
+- **csv:** `East China Sea` -> `East China Sea`
+- **title locations:** East China Sea; China
+- **summary locations:** Pacific Ocean; United States
+- **confirmed location:** `East China Sea` (via csv, title)
+- **summary:** The United States Indo-Pacific Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of 59 seconds of video footage from an …
 
 ### `eop-001-eop-uap-d001-nasc-inquiry-into-bahia-brazil-incident-novembe`
 - **title:** EOP-UAP-D001, NASC Inquiry into Bahia, Brazil Incident, November 13, 1963

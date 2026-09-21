@@ -1,8 +1,8 @@
 # Records by incident location
 
-_Generated from `metadata/index.json` covering 380 records._
+_Generated from `metadata/index.json` covering 452 records._
 
-## N/A  (81 records)
+## N/A  (83 records)
 
 - **[CIA]** `cia-003-cia-uap-002-scientific-advisory-panel-on-unidentified-flying` — 1952-1953 — CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953
 - **[CIA]** `cia-004-cia-uap-003-the-central-intelligence-agency-and-overhead-rec` — 1954-1974 — CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974
@@ -45,6 +45,8 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[DoW]** `dow-183-dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR120, Unresolved UAP Report, Gulf of Oman, 2021
 - **[DoW]** `dow-184-dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR121, Unresolved UAP Report, Gulf of Oman, 2021
 - **[DoW]** `dow-185-dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021` — 9/8/21 — DOW-UAP-PR122, Unresolved UAP Report, Gulf of Oman, 2021
+- **[DoW]** `dow-204-dow-uap-d104-final-personnel-record-for-newhouse-delbert-c-u` — 5/2/57 — DOW-UAP-D104, Final Personnel Record for Newhouse, Delbert C., U.S. Navy, 1957
+- **[DoW]** `dow-254-dow-uap-pr140-unresolved-uap-report-middle-east-2022` — — — DOW-UAP-PR140, Unresolved UAP Report, Middle East, 2022
 - **[FBI]** `fbi-001-65-hs1-834228961-62-hq-83894-section-10` — N/A — 65_HS1-834228961_62-HQ-83894_Section_010
 - **[FBI]** `fbi-002-65-hs1-834228961-62-hq-83894-section-2` — N/A — 65_HS1-834228961_62-HQ-83894_Section_002
 - **[FBI]** `fbi-003-65-hs1-834228961-62-hq-83894-section-3` — N/A — 65_HS1-834228961_62-HQ-83894_Section_003
@@ -138,6 +140,46 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[FBI]** `fbi-104-fbi-uap-pr007-slow-moving-objects-2026` — 2026 — FBI-UAP-PR007, “Slow-moving Objects,” 2026
 - **[ODNI]** `odni-001-odni-uap-d001-usper-narrative-senior-usic-official` — 2025 — ODNI-UAP-D001, USPER Narrative, Senior USIC Official
 
+## Las Vegas, Nevada  (37 records)
+
+- **[DoW]** `dow-198-dow-uap-d117-aawsap-dird-metallic-glasses-for-aerospace-appl` — 12/14/09 — DOW-UAP-D117, AAWSAP DIRD, Metallic Glasses for Aerospace Applications, December 2009
+- **[DoW]** `dow-199-dow-uap-d129-aawsap-dird-metallic-spintronics-march-2010` — 3/23/10 — DOW-UAP-D129, AAWSAP DIRD, Metallic Spintronics, March 2010
+- **[DoW]** `dow-215-dow-uap-d118-aawsap-dird-aerospace-applications-of-programma` — 12/14/09 — DOW-UAP-D118, AAWSAP DIRD, Aerospace Applications of Programmable Matter, December 2009
+- **[DoW]** `dow-216-dow-uap-d119-aawsap-dird-biomaterials-january-2010` — 1/7/10 — DOW-UAP-D119, AAWSAP DIRD, Biomaterials, January 2010
+- **[DoW]** `dow-217-dow-uap-d120-aawsap-dird-materials-for-advanced-aerospace-pl` — 1/12/10 — DOW-UAP-D120, AAWSAP DIRD, Materials for Advanced Aerospace Platforms, January 2010
+- **[DoW]** `dow-218-dow-uap-d121-aawsap-dird-pulsed-high-power-microwave-source` — 1/28/10 — DOW-UAP-D121, AAWSAP DIRD, Pulsed High-Power Microwave Source Technology, January 2010
+- **[DoW]** `dow-219-dow-uap-d122-aawsap-dird-invisibility-cloaking-theory-and-ex` — 3/2/10 — DOW-UAP-D122, AAWSAP DIRD, Invisibility Cloaking Theory and Experiments, March 2010
+- **[DoW]** `dow-220-dow-uap-d123-aawsap-dird-positron-aerospace-propulsion-march` — 3/2/10 — DOW-UAP-D123, AAWSAP DIRD, Positron Aerospace Propulsion, March 2010
+- **[DoW]** `dow-221-dow-uap-d124-aawsap-dird-space-access-where-we-ve-been-and-w` — 3/8/10 — DOW-UAP-D124, AAWSAP DIRD, Space Access: Where We’ve Been and Where We Could Go, March 2010
+- **[DoW]** `dow-222-dow-uap-d125-aawsap-dird-inertial-electrostatic-confinement` — 3/10/10 — DOW-UAP-D125, AAWSAP DIRD, Inertial Electrostatic Confinement Fusion, March 2010
+- **[DoW]** `dow-223-dow-uap-d126-aawsap-dird-advanced-nuclear-propulsion-for-man` — 3/11/10 — DOW-UAP-D126, AAWSAP DIRD, Advanced Nuclear Propulsion for Manned Deep Space Missions, March 2010
+- **[DoW]** `dow-224-dow-uap-d127-aawsap-dird-an-introduction-to-the-statistical` — 3/11/10 — DOW-UAP-D127, AAWSAP DIRD, An Introduction to the Statistical Drake Equation, March 2010
+- **[DoW]** `dow-225-dow-uap-d128-aawsap-dird-anomalous-acute-and-subacute-field` — 3/11/10 — DOW-UAP-D128, AAWSAP DIRD, Anomalous Acute and Subacute Field Effects on Human Biological Tissues, March 2010
+- **[DoW]** `dow-226-dow-uap-d130-aawsap-dird-technological-approaches-to-control` — 3/23/10 — DOW-UAP-D130, AAWSAP DIRD, Technological Approaches to Controlling External Devices, March 2010
+- **[DoW]** `dow-227-dow-uap-d131-aawsap-dird-the-role-of-superconductors-in-grav` — 3/23/10 — DOW-UAP-D131, AAWSAP DIRD, The Role of Superconductors in Gravity Research, March 2010
+- **[DoW]** `dow-228-dow-uap-d132-aawsap-dird-advanced-space-propulsion-based-on` — 3/29/10 — DOW-UAP-D132, AAWSAP DIRD, Advanced Space Propulsion Based on Vacuum (Spacetime Metric) Engineering, March 2010
+- **[DoW]** `dow-229-dow-uap-d133-aawsap-dird-the-space-communication-implication` — 3/30/10 — DOW-UAP-D133, AAWSAP DIRD, The Space Communication Implications of Quantum Entanglement and Nonlocality, March 2010
+- **[DoW]** `dow-230-dow-uap-d134-aawsap-dird-maverick-inventor-versus-corporate` — 3/30/10 — DOW-UAP-D134, AAWSAP DIRD, Maverick Inventor Versus Corporate Inventor: Where Will the Next Major Innovations Arise, March 2010
+- **[DoW]** `dow-231-dow-uap-d135-aawsap-dird-antigravity-for-aerospace-applicati` — 3/30/10 — DOW-UAP-D135, AAWSAP DIRD, Antigravity for Aerospace Applications, March 2010
+- **[DoW]** `dow-232-dow-uap-d136-aawsap-dird-biosensors-and-biomems-a-survey-of` — 3/31/10 — DOW-UAP-D136, AAWSAP DIRD, Biosensors and BioMEMS: A Survey of the Present Field, March 2010
+- **[DoW]** `dow-233-dow-uap-d137-aawsap-dird-state-of-the-art-and-evolution-of-h` — 3/31/10 — DOW-UAP-D137, AAWSAP DIRD, State of the Art and Evolution of High-Energy Lasers, March 2010
+- **[DoW]** `dow-234-dow-uap-d138-aawsap-dird-warp-drive-dark-energy-and-the-mani` — 4/2/10 — DOW-UAP-D138, AAWSAP DIRD, Warp Drive, Dark Energy, and the Manipulation of Extra Dimensions, April 2010
+- **[DoW]** `dow-235-dow-uap-d139-aawsap-dird-traversable-wormholes-stargates-and` — 4/6/10 — DOW-UAP-D139, AAWSAP DIRD, Traversable Wormholes, Stargates, and Negative Energy, April 2010
+- **[DoW]** `dow-236-dow-uap-d140-aawsap-dird-high-frequency-gravitational-wave-c` — 4/6/10 — DOW-UAP-D140, AAWSAP DIRD, High-Frequency Gravitational Wave Communications, April 2010
+- **[DoW]** `dow-237-dow-uap-d141-aawsap-dird-metamaterials-for-aerospace-applica` — 4/6/10 — DOW-UAP-D141, AAWSAP DIRD, Metamaterials for Aerospace Applications, April 2010
+- **[DoW]** `dow-238-dow-uap-d142-aawsap-dird-concepts-for-extracting-energy-from` — 4/6/10 — DOW-UAP-D142, AAWSAP DIRD, Concepts for Extracting Energy from the Quantum Vacuum, April 2010
+- **[DoW]** `dow-239-dow-uap-d143-aawsap-dird-laser-lightcraft-nanosatellites-nov` — 11/1/10 — DOW-UAP-D143, AAWSAP DIRD, Laser Lightcraft Nanosatellites, November 2010
+- **[DoW]** `dow-240-dow-uap-d144-aawsap-dird-cockpits-in-the-era-of-breakthrough` — 11/1/10 — DOW-UAP-D144, AAWSAP DIRD, Cockpits in the Era of Breakthrough Flight, November 2010
+- **[DoW]** `dow-241-dow-uap-d145-aawsap-dird-aneutronic-fusion-propulsion-i-nove` — 11/1/10 — DOW-UAP-D145, AAWSAP DIRD, Aneutronic Fusion Propulsion I, November 2010
+- **[DoW]** `dow-242-dow-uap-d146-aawsap-dird-aneutronic-fusion-propulsion-ii-nov` — 11/1/10 — DOW-UAP-D146, AAWSAP DIRD, Aneutronic Fusion Propulsion II, November 2010
+- **[DoW]** `dow-243-dow-uap-d147-aawsap-dird-ultracapacitors-as-energy-and-power` — 11/1/10 — DOW-UAP-D147, AAWSAP DIRD, Ultracapacitors as Energy and Power Storage Devices, November 2010
+- **[DoW]** `dow-244-dow-uap-d148-aawsap-dird-detection-and-high-resolution-track` — 11/20/10 — DOW-UAP-D148, AAWSAP DIRD, Detection and High-Resolution Tracking of Vehicles at Hypersonic Velocities, November 2010
+- **[DoW]** `dow-245-dow-uap-d149-aawsap-dird-mhd-air-breathing-propulsion-and-po` — 11/21/10 — DOW-UAP-D149, AAWSAP DIRD, MHD Air Breathing Propulsion and Power for Aerospace Applications, November 2010
+- **[DoW]** `dow-246-dow-uap-d150-aawsap-dird-quantum-computing-and-utilizing-org` — 12/10/10 — DOW-UAP-D150, AAWSAP DIRD, Quantum Computing and Utilizing Organic Molecules in Automation Technology, December 2010
+- **[DoW]** `dow-247-dow-uap-d151-aawsap-dird-cognitive-limits-on-simultaneous-co` — 12/15/10 — DOW-UAP-D151, AAWSAP DIRD, Cognitive Limits on Simultaneous Control of Multiple Unmanned Spacecraft, December 2010
+- **[DoW]** `dow-248-dow-uap-d152-aawsap-dird-negative-mass-propulsion-january-20` — 1/3/11 — DOW-UAP-D152, AAWSAP DIRD, Negative Mass Propulsion, January 2011
+- **[DoW]** `dow-249-dow-uap-d153-aawsap-dird-quantum-tomography-of-negative-ener` — 1/11/11 — DOW-UAP-D153, AAWSAP DIRD, Quantum Tomography of Negative Energy States in the Vacuum, January 2011
+
 ## CENTCOM  (32 records)
 
 - **[DoW]** `dow-083-dow-uap-pr050-4-uap-formation-iran-26-aug-2022-over-water-ca` — 2022 — DOW-UAP-PR050, "4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]"
@@ -172,6 +214,39 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[DoW]** `dow-133-dow-uap-pr097-hi-res-callsign-observes-uap-on-25sep19-at-213` — 2019 — DOW-UAP-PR097, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z"
 - **[DoW]** `dow-134-dow-uap-pr098-ufos-in-formation-over-persian-gulf` — — — DOW-UAP-PR098, "UFOs in formation over Persian Gulf?"
 - **[DoW]** `dow-135-dow-uap-pr099-hi-res-callsign-observes-uap-on-25sep19-at-171` — 2023 — DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"
+
+## Middle East  (14 records)
+
+- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
+- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
+- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
+- **[DoW]** `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-207-dow-uap-d107-mission-report-middle-east-2025` — 2025 — DOW-UAP-D107, Mission Report, Middle East, 2025
+- **[DoW]** `dow-208-dow-uap-d108-mission-report-middle-east-2025` — 2025 — DOW-UAP-D108, Mission Report, Middle East, 2025
+- **[DoW]** `dow-252-dow-uap-pr133-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR133, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-253-dow-uap-pr135-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR135, Unresolved UAP Report, Middle East, 2025
+- **[DoW]** `dow-255-dow-uap-pr141-unresolved-uap-report-middle-east-2022` — 2022 — DOW-UAP-PR141, Unresolved UAP Report, Middle East, 2022
+
+## Iraq  (13 records)
+
+- **[DoW]** `dow-010-dow-uap-d10-mission-report-middle-east-may-2022` — 5/6/22 — DOW-UAP-D010, Mission Report, Middle East, May 2022
+- **[DoW]** `dow-011-dow-uap-d12-mission-report-iraq-may-2022` — 5/20/22 — DOW-UAP-D012, Mission Report, Iraq, May 2022
+- **[DoW]** `dow-014-dow-uap-d18-mission-report-iraq-december-2022` — 12/1/22 — DOW-UAP-D018, Mission Report, Iraq, December 2022
+- **[DoW]** `dow-016-dow-uap-d20-mission-report-iraq-2023` — 2023 — DOW-UAP-D20, Mission Report, Iraq, 2023
+- **[DoW]** `dow-021-dow-uap-d28-mission-report-iraq-september-2024` — 9/20/24 — DOW-UAP-D028, Mission Report, Iraq, September 2024
+- **[DoW]** `dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022` — N/A — DOW-UAP-PR020, Unresolved UAP Report, Kuwait, May 2022
+- **[DoW]** `dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022` — N/A — DOW-UAP-PR021, Unresolved UAP Report, Iraq, May 2022
+- **[DoW]** `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022` — N/A — DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
+- **[DoW]** `dow-086-dow-uap-d020-mission-report-iraq-2023` — 3/31/23 — DOW-UAP-D020, Mission Report, Iraq, 2023
+- **[DoW]** `dow-206-dow-uap-d106-mission-report-iraq-2022` — 2022 — DOW-UAP-D106, Mission Report, Iraq, 2022
+- **[DoW]** `dow-209-dow-uap-d109-mission-report-middle-east-2022` — 2022 — DOW-UAP-D109, Mission Report, Middle East, 2022
+- **[DoW]** `dow-250-dow-uap-pr130-unresolved-uap-report-iraq-2022` — 2022 — DOW-UAP-PR130, Unresolved UAP Report, Iraq, 2022
+- **[DoW]** `dow-251-dow-uap-pr131-unresolved-uap-report-iraq-2022` — 2022 — DOW-UAP-PR131, Unresolved UAP Report, Iraq, 2022
 
 ## Arabian Gulf  (12 records)
 
@@ -217,29 +292,17 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[FBI]** `fbi-083-fbi-uap-pr001-triangle-orbs-northeastern-united-states-2021` — November, 2021 — FBI-UAP-PR001, “Triangle Orbs,” Northeastern United States, 2021
 - **[FBI]** `fbi-084-fbi-uap-pr002-red-orb-rotation-northeastern-united-states-20` — March, 2022 — FBI-UAP-PR002, “Red Orb Rotation,” Northeastern United States, 2022
 
-## Iraq  (9 records)
+## Yellow Sea  (9 records)
 
-- **[DoW]** `dow-010-dow-uap-d10-mission-report-middle-east-may-2022` — 5/6/22 — DOW-UAP-D010, Mission Report, Middle East, May 2022
-- **[DoW]** `dow-011-dow-uap-d12-mission-report-iraq-may-2022` — 5/20/22 — DOW-UAP-D012, Mission Report, Iraq, May 2022
-- **[DoW]** `dow-014-dow-uap-d18-mission-report-iraq-december-2022` — 12/1/22 — DOW-UAP-D018, Mission Report, Iraq, December 2022
-- **[DoW]** `dow-016-dow-uap-d20-mission-report-iraq-2023` — 2023 — DOW-UAP-D20, Mission Report, Iraq, 2023
-- **[DoW]** `dow-021-dow-uap-d28-mission-report-iraq-september-2024` — 9/20/24 — DOW-UAP-D028, Mission Report, Iraq, September 2024
-- **[DoW]** `dow-055-dow-uap-pr20-unresolved-uap-report-kuwait-may-2022` — N/A — DOW-UAP-PR020, Unresolved UAP Report, Kuwait, May 2022
-- **[DoW]** `dow-056-dow-uap-pr21-unresolved-uap-report-iraq-may-2022` — N/A — DOW-UAP-PR021, Unresolved UAP Report, Iraq, May 2022
-- **[DoW]** `dow-058-dow-uap-pr23-unresolved-uap-report-iraq-december-2022` — N/A — DOW-UAP-PR023, Unresolved UAP Report, Iraq, December 2022
-- **[DoW]** `dow-086-dow-uap-d020-mission-report-iraq-2023` — 3/31/23 — DOW-UAP-D020, Mission Report, Iraq, 2023
-
-## Middle East  (9 records)
-
-- **[DoW]** `dow-054-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022` — N/A — DOW-UAP-PR019, Unresolved UAP Report, Middle East, May 2022
-- **[DoW]** `dow-068-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020` — N/A — DOW-UAP-PR036, Unresolved UAP Report, Middle East, May 2020
-- **[DoW]** `dow-070-dow-uap-pr38-unresolved-uap-report-middle-east-2013` — N/A — DOW-UAP-PR038, Unresolved UAP Report, Middle East, 2013
-- **[DoW]** `dow-161-dow-uap-pr024-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023
-- **[DoW]** `dow-162-dow-uap-pr030-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR030, Unresolved UAP Report, Middle East, 2023
-- **[DoW]** `dow-191-dow-uap-pr134-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR134, Unresolved UAP Report, Middle East, 2025
-- **[DoW]** `dow-192-dow-uap-pr136-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR136, Unresolved UAP Report, Middle East, 2023
-- **[DoW]** `dow-193-dow-uap-pr142-unresolved-uap-report-middle-east-2025` — 2025 — DOW-UAP-PR142, Unresolved UAP Report, Middle East, 2025
-- **[DoW]** `dow-194-dow-uap-pr149-unresolved-uap-report-middle-east-2023` — 2023 — DOW-UAP-PR149, Unresolved UAP Report, Middle East, 2023
+- **[DoW]** `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` — 2023 — DOW-UAP-PR057a, "Spherical UAP in clouds"
+- **[DoW]** `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` — 2023 — DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
+- **[DoW]** `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025` — 2025 — DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025
+- **[DoW]** `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023
+- **[DoW]** `dow-256-dow-uap-pr143-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR143, Unresolved UAP Report, Yellow Sea, 2023
+- **[DoW]** `dow-257-dow-uap-pr144-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR144, Unresolved UAP Report, Yellow Sea, 2023
+- **[DoW]** `dow-259-dow-uap-pr150-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR150, Unresolved UAP Report, Yellow Sea, 2023
+- **[DoW]** `dow-260-dow-uap-pr151-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR151, Unresolved UAP Report, Yellow Sea, 2023
+- **[DoW]** `dow-261-dow-uap-pr152-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR152, Unresolved UAP Report, Yellow Sea, 2023
 
 ## Eastern United States  (8 records)
 
@@ -274,6 +337,16 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[NASA]** `nasa-014-nasa-uap-vm5-apollo-12-1969` — 1969 — NASA-UAP-VM005, Apollo 12, 1969
 - **[NASA]** `nasa-015-nasa-uap-vm6-apollo-17-1972` — 1972 — NASA-UAP-VM006, Apollo 17, 1972
 
+## Washington, D.C.  (7 records)
+
+- **[DoW]** `dow-196-dow-uap-d110-aawsap-statement-of-objectives-july-2008` — 7/18/08 — DOW-UAP-D110, AAWSAP Statement of Objectives, July 2008
+- **[DoW]** `dow-197-dow-uap-d111-aawsap-solicitation-and-original-order-septembe` — 9/22/08 — DOW-UAP-D111, AAWSAP Solicitation and Original Order, September 2008
+- **[DoW]** `dow-210-dow-uap-d112-aawsap-contract-modification-p00001-september-2` — 9/2/09 — DOW-UAP-D112, AAWSAP Contract Modification P00001, September 2009
+- **[DoW]** `dow-211-dow-uap-d113-aawsap-contract-modification-p00002-february-20` — 2/2/10 — DOW-UAP-D113, AAWSAP Contract Modification P00002, February 2010
+- **[DoW]** `dow-212-dow-uap-d114-aawsap-contract-modification-p00003-may-2010` — 5/18/10 — DOW-UAP-D114, AAWSAP Contract Modification P00003, May 2010
+- **[DoW]** `dow-213-dow-uap-d115-aawsap-contract-modification-p00004-may-2010` — 5/18/10 — DOW-UAP-D115, AAWSAP Contract Modification P00004, May 2010
+- **[DoW]** `dow-214-dow-uap-d116-aawsap-contract-modification-p00005-september-2` — 9/28/10 — DOW-UAP-D116, AAWSAP Contract Modification P00005, September 2010
+
 ## Westen United States  (7 records)
 
 - **[DoW]** `dow-138-dow-uap-d078-notional-map-western-united-states-event` — October, 2023 — DOW-UAP-D078, Notional Map: Western United States Event
@@ -283,6 +356,15 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[DoW]** `dow-142-dow-uap-d082-narrative-statement-4-western-united-states-eve` — October, 2023 — DOW-UAP-D082, Narrative Statement 4, Western United States Event, 2023
 - **[DoW]** `dow-143-dow-uap-d083-narrative-statement-5-western-united-states-eve` — October, 2023 — DOW-UAP-D083, Narrative Statement 5, Western United States Event, 2023
 - **[FBI]** `fbi-073-fbi-uap-d014-digital-rendering-narrative-statement-1-1-weste` — October, 2023 — FBI-UAP-D014, Digital Rendering, Narrative Statement 1-1, Western United States Event, 2023
+
+## East China Sea  (6 records)
+
+- **[DoW]** `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024` — N/A — DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
+- **[DoW]** `dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs` — 2021 — DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
+- **[DoW]** `dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025` — 2025 — DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025
+- **[DoW]** `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024
+- **[DoW]** `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024
+- **[DoW]** `dow-258-dow-uap-pr148-unresolved-uap-report-east-china-sea-2023` — 2023 — DOW-UAP-PR148, Unresolved UAP Report, East China Sea, 2023
 
 ## Pacific Ocean  (6 records)
 
@@ -311,21 +393,22 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[FBI]** `fbi-056-fbi-september-2023-sighting-serial-4` — 9/1/23 — FBI September 2023 Sighting - Serial 004
 - **[FBI]** `fbi-057-fbi-september-2023-sighting-serial-5` — 9/1/23 — FBI September 2023 Sighting - Serial 005
 
-## East China Sea  (5 records)
-
-- **[DoW]** `dow-078-dow-uap-pr46-unresolved-uap-report-indopacom-2024` — N/A — DOW-UAP-PR046, Unresolved UAP Report, INDOPACOM, 2024
-- **[DoW]** `dow-111-dow-uap-pr075-09jun2021-platform-observed-uap-in-the-ecs` — 2021 — DOW-UAP-PR075, "09JUN2021 [Platform] observed UAP in the ECS"
-- **[DoW]** `dow-151-dow-uap-pr105-unresolved-uap-report-east-china-sea-2025` — 2025 — DOW-UAP-PR105, Unresolved UAP Report, East China Sea, 2025
-- **[DoW]** `dow-165-dow-uap-pr102-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR102, Unresolved UAP Report, East China Sea, 2024
-- **[DoW]** `dow-166-dow-uap-pr103-unresolved-uap-report-east-china-sea-2024` — 2024 — DOW-UAP-PR103, Unresolved UAP Report, East China Sea, 2024
-
-## Various  (5 records)
+## Various  (6 records)
 
 - **[DoW]** `dow-149-dow-uap-d097-project-sign-progress-report-1948` — 1948 — DOW-UAP-D097, Project Sign Progress Report, 1948
 - **[DoW]** `dow-157-dow-uap-d092-department-of-the-air-force-committee-to-review` — 4/17/67 — DOW-UAP-D092, Department of the Air Force Committee to Review Project Bluebook, 1966-1967
 - **[DoW]** `dow-159-dow-uap-d095-joint-u-s-canadian-aviation-projects-and-ufo-si` — 1955 — DOW-UAP-D095, Joint U.S.-Canadian Aviation Projects and UFO Sighting Reports, 1954-1955
 - **[DoW]** `dow-160-dow-uap-d096-correspondence-relating-to-project-blue-book-19` — 1955 — DOW-UAP-D096, Correspondence Relating to Project Blue Book, 1955
+- **[DoW]** `dow-205-dow-uap-d105-u-s-air-force-flying-discs-file-1952` — September - December 1952 — DOW-UAP-D105, U.S. Air Force Flying Discs File, 1952
 - **[FBI]** `fbi-087-fbi-uap-d014-correspondence-relating-to-ufo-sightings-1967-1` — 10/10/74 — FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974
+
+## Colorado  (5 records)
+
+- **[LLE]** `lle-001-lle-uap-pr001-unresolved-uap-report-colorado-2023` — October, 2023 — LLE-UAP-PR001, Unresolved UAP Report, Colorado, 2023
+- **[LLE]** `lle-002-lle-uap-pr002-unresolved-uap-report-colorado-october-2023` — October, 2023 — LLE-UAP-PR002, Unresolved UAP Report, Colorado, October 2023
+- **[LLE]** `lle-003-lle-uap-d001-transcript-of-an-unresolved-uap-report-colorado` — October, 2023 — LLE-UAP-D001, Transcript of an Unresolved UAP Report, Colorado, October 2023
+- **[LLE]** `lle-004-lle-uap-pr003-unresolved-uap-report-colorado-october-2023` — October, 2023 — LLE-UAP-PR003, Unresolved UAP Report, Colorado, October 2023
+- **[LLE]** `lle-005-lle-uap-pr004-unresolved-uap-report-colorado-october-2023` — October, 2023 — LLE-UAP-PR004, Unresolved UAP Report, Colorado, October 2023
 
 ## Colorado Springs, Colorado  (4 records)
 
@@ -354,13 +437,6 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[DoW]** `dow-105-dow-uap-pr069-f-a-18-flir-uap` — — — DOW-UAP-PR069, "F/A-18 FLIR UAP"
 - **[DoW]** `dow-107-dow-uap-pr071-usaf-ang-f-16c-callsign-callsign-shoots-down-u` — 2023 — DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"
 - **[DoW]** `dow-122-dow-uap-pr086-uap-from-dec-2019-east-coast` — 2019 — DOW-UAP-PR086, "UAP from Dec 2019 (East Coast)"
-
-## Yellow Sea  (4 records)
-
-- **[DoW]** `dow-092-dow-uap-pr057a-spherical-uap-in-clouds` — 2023 — DOW-UAP-PR057a, "Spherical UAP in clouds"
-- **[DoW]** `dow-093-dow-uap-pr057b-platform-observes-uap-in-east-china-sea-05-ja` — 2023 — DOW-UAP-PR057b, "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM"
-- **[DoW]** `dow-150-dow-uap-pr104-unresolved-uap-report-yellow-sea-2025` — 2025 — DOW-UAP-PR104, Unresolved UAP Report, Yellow Sea, 2025
-- **[DoW]** `dow-163-dow-uap-pr100-unresolved-uap-report-yellow-sea-2023` — 2023 — DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023
 
 ## Atlantic Ocean  (3 records)
 
@@ -410,6 +486,12 @@ _Generated from `metadata/index.json` covering 380 records._
 - **[DoW]** `dow-102-dow-uap-pr066-uscg-c-144-tyndall-uap-1-tic-tac-ir-hot-24-apr` — 2024 — DOW-UAP-PR066, "USCG C-144 Tyndall UAP 1 TIC TAC IR hot 24 April 2024"
 - **[DoW]** `dow-106-dow-uap-pr070-iir-1-655-s0301-23-eglin-afb-aircrew-observed` — 2023 — DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"
 
+## Tremonton, Utah  (3 records)
+
+- **[DoW]** `dow-195-dow-uap-d102-project-blue-book-file-on-tremonton-film-utah-1` — 7/2/52 — DOW-UAP-D102, Project Blue Book File on Tremonton Film, Utah, 1952
+- **[DoW]** `dow-201-dow-uap-pr159-historical-film-of-reported-ufos-utah-1952` — 7/2/52 — DOW-UAP-PR159, Historical Film of Reported UFOs, Utah, 1952
+- **[DoW]** `dow-203-dow-uap-d103-project-blue-book-photo-file-relating-to-tremon` — 7/2/52 — DOW-UAP-D103, Project Blue Book Photo File Relating to Tremonton Film, Utah, 1952
+
 ## USSR  (3 records)
 
 - **[CIA]** `cia-001-cia-uap-d001-intelligence-information-report-ussr-1973` — 12/20/73 — CIA-UAP-D001, Intelligence Information Report, USSR, 1973
@@ -435,6 +517,11 @@ _Generated from `metadata/index.json` covering 380 records._
 
 - **[CIA]** `cia-020-cia-uap-d020-memorandum-on-unconventional-aircraft-sightings` — 1955 — CIA-UAP-D020, Memorandum on Unconventional Aircraft Sightings, 1955
 - **[DoW]** `dow-005-341-110677-numerical-file-5-2500` — 10/14/55 — 341_110677_Numerical_File,_5-2500
+
+## Boston, Massachusetts  (2 records)
+
+- **[DoW]** `dow-200-dow-uap-d154-transcript-of-a-presentation-by-captain-edward` — 3/26/52 — DOW-UAP-D154, Transcript of a Presentation by Captain Edward J. Ruppelt, 1952
+- **[DoW]** `dow-202-dow-uap-pr160-presentation-by-captain-edward-j-ruppelt-1952` — 3/26/52 — DOW-UAP-PR160, Presentation by Captain Edward J. Ruppelt, 1952
 
 ## Budapest, Hungary  (2 records)
 

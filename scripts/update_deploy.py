@@ -135,6 +135,23 @@ NEW_LOCATION_COORDS = {
     "Montana":               [-110.0, 47.0],  # "Montana, Utah" hits this first
     "Utah":                  [-111.7, 39.3],
 
+    # Release 06 additions. The "City, State" forms are listed verbatim so
+    # they hit the exact-match path in geocode() and never depend on the
+    # substring order of the bare state keys above/below.
+    "Las Vegas, Nevada":     [-115.14, 36.17],  # AAWSAP / DIRD contract file
+    "Las Vegas":             [-115.14, 36.17],
+    "Nevada":                [-116.4, 38.8],
+    "Tremonton, Utah":       [-112.17, 41.71],  # 1952 Newhouse film
+    "Tremonton":             [-112.17, 41.71],
+    "Boston, Massachusetts": [-71.06, 42.36],
+    "Boston":                [-71.06, 42.36],
+    "Massachusetts":         [-71.8, 42.3],
+    "Washington, D.C.":      [-77.04, 38.9],
+    "Washington, DC":        [-77.04, 38.9],
+    "District of Columbia":  [-77.04, 38.9],
+    "Iraq":                  [43.7, 33.2],
+    "Oak Ridge":             [-84.27, 36.01],  # audit-inferred for the Ruppelt transcript
+
     # Generic fallback - MUST stay after every more-specific "* United
     # States" key above so substring matching prefers the specific region.
     "United States": [-98.5, 39.5],
@@ -200,7 +217,10 @@ SHAPE_PATS = {
     "triangle":     [r"\btriangular?\b", r"\bv-shape\b"],
     "diamond":      [r"\bdiamond(?:-shape)?\b"],
     "egg":          [r"\begg-?shape\b"],
-    "tic-tac":      [r"\btic[-\s]?tac\b"],
+    # (?!...) keeps "tic-tac-toe" - which an R6 DIRD on DNA computing
+    # mentions, hyphenated across a line break with a soft hyphen - from
+    # registering as a UAP shape.
+    "tic-tac":      [r"\btic[-\s]?tac\b(?![-\s­]*toe)"],  # class also holds U+00AD
     "elongated":    [r"\belongated\b", r"\boblong\b"],
     "line/streak":  [r"\bstreak\b", r"\bbright\s+line\b"],
     "irregular":    [r"\birregular\b"],
@@ -324,8 +344,9 @@ def build_data(index, entities, cross_refs, audit):
                extract_year(normalize_year_from_csv(r.get("incident_date") or "")) or \
                extract_year(r.get("release_date") or "")
 
-        release = {"Release 05": "R5", "Release 04": "R4", "Release 03": "R3",
-                   "Release 02": "R2"}.get(r.get("page_section"), "R1")
+        release = {"Release 06": "R6", "Release 05": "R5", "Release 04": "R4",
+                   "Release 03": "R3", "Release 02": "R2"}.get(
+                       r.get("page_section"), "R1")
 
         records.append({
             "id": rid,
@@ -384,9 +405,14 @@ def build_coords(records, existing_coords):
         rid = r["id"]
         if rid in coords:
             continue
-        loc = (r.get("incident_location_inferred") or
-               r.get("incident_location") or "").strip()
-        c = geocode(loc, rid)
+        # Prefer the audit's body-confirmed location, but fall back to the
+        # CSV value when the inferred one isn't in the dictionary.
+        c = None
+        for loc in (r.get("incident_location_inferred"),
+                    r.get("incident_location")):
+            c = geocode((loc or "").strip(), rid)
+            if c is not None:
+                break
         if c is not None:
             coords[rid] = c
     return coords
@@ -453,15 +479,15 @@ def replace_const_line(text, const_name, new_json):
 
 def update_header(text, total, counts):
     text = re.sub(r"<title>[^<]+</title>",
-                  "<title>war.gov UAP Release 01–05 — corpus viewer</title>",
+                  "<title>war.gov UAP Release 01–06 — corpus viewer</title>",
                   text, count=1)
     text = re.sub(r"<h1>[^<]+</h1>",
-                  "<h1>war.gov / UFO — Release 01–05</h1>",
+                  "<h1>war.gov / UFO — Release 01–06</h1>",
                   text, count=1)
-    meta = (f'PURSUE · snapshot 2026-08-07 · {total} records · '
+    meta = (f'PURSUE · snapshot 2026-09-18 · {total} records · '
             f'R1={counts.get("R1",0)} R2={counts.get("R2",0)} '
             f'R3={counts.get("R3",0)} R4={counts.get("R4",0)} '
-            f'R5={counts.get("R5",0)}')
+            f'R5={counts.get("R5",0)} R6={counts.get("R6",0)}')
     text = re.sub(r'<span class="meta mono">[^<]+</span>',
                   f'<span class="meta mono">{meta}</span>',
                   text, count=1)

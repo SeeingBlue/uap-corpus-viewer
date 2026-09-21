@@ -45,6 +45,7 @@ RELEASE_SECTIONS = {
     "6/12/26": "Release 03",
     "7/10/26": "Release 04",
     "8/7/26":  "Release 05",
+    "9/18/26": "Release 06",
 }
 
 
@@ -70,6 +71,10 @@ def normalize_agency(agency):
         # label falls through to the raw string and slugifies to the
         # truncated, ugly agency prefix "executive-office-of".
         ("executive office of the president", "EOP"),
+        # R6: "Local Law Enforcement" (upstream ids are LLE-UAP-*). Matches
+        # none of the keywords below, so without this it would fall through
+        # to the raw string and slugify to "local-law-enforcemen-NNN".
+        ("local law enforcement", "LLE"),
         ("intelligence community", "ICA"),
         ("director of national intelligence", "ODNI"),
         ("national intelligence", "ODNI"),
@@ -114,6 +119,10 @@ def fld(row, name):
     # displayed text and break naive whitespace handling, so fold them to
     # regular spaces and collapse runs.
     v = (row.get(name) or "").replace(" ", " ")
+    # R6 summaries carry typographic ligatures (U+FB01 "ﬁ", U+FB02 "ﬂ"),
+    # pasted in from PDF text. They render fine but defeat plain-text
+    # search ("file" != "ﬁle"), so expand them to their letter pairs.
+    v = v.replace("ﬁ", "fi").replace("ﬂ", "fl")
     return " ".join(v.split())
 
 

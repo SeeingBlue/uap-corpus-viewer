@@ -3,7 +3,11 @@
      verification -> synthesis). 43 agents, 34 striking claims checked,
      30 kept (4 refuted/softened). Snapshot 2026-06-12 (R1+R2+R3 = 294
      records). The deterministic quantitative profile is in
-     audits/release_patterns.md. -->
+     audits/release_patterns.md.
+     NOTE: this qualitative read has not been re-run for R4 (2026-07-10),
+     R5 (2026-08-07) or R6 (2026-09-18). Those drops are covered by the
+     deterministic profile and by the Patterns-tab cards in
+     deploy/index.html (PATTERN_FINDINGS). -->
 
 # Cross-release pattern recognition (qualitative) — R1 vs R2 vs R3
 
